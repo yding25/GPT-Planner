@@ -1,0 +1,8 @@
+possible --> weak
+
+acceptable --> medium
+
+reasonable --> strong
+suitable --> strong
+
+recommended --> strong

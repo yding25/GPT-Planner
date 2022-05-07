@@ -1,0 +1,25 @@
+blender
+dishwasher
+fax_machine
+freezer
+fridge
+microwave
+mini-fridge
+oven
+printer
+stove
+washing_machine
+kettle
+blow_dryer
+conditioner
+vacuum_cleaner
+toaster
+air fryer
+dehumidifier
+water boiler
+heater
+fan
+ice cream maker
+juicer
+water filter
+coffee maker

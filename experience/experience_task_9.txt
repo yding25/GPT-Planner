@@ -1,0 +1,1305 @@
+raw prompt:is it acceptable that a robot walks to a table in dining room if the sink is full?
+response (raw prompt):['no, it is not acceptable for a robot to walk to a table in a dining room if the sink is full']
+raw prompt:can a robot walks to a wine glass in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a cutting board in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a condiment bottle in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a colander in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a coffee filter in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a rag in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a measuring cup in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a bucket in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a sponge in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a cooking pot in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a frying pan in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a oven tray in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a chef knife in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a coffee cup in kitchen room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as cutting board, condiment bottle, colander, coffee filter, rag, measuring cup, bucket, sponge, cooking pot, frying pan, oven tray, chef knife, coffee cup. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if the sink is full?
+response (raw prompt):['no, it is not acceptable for a robot to grasp a plate in a dining room if the sink is full']
+raw prompt:can a robot walks to a dish rack in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a cutlery knife in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a cutlery fork in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a cloth napkin in kitchen room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as dish rack, cutlery knife, measuring cup, chef knife, cutlery fork, cooking pot, colander, frying pan, cutting board, cloth napkin, rag, bucket, coffee cup. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:is it acceptable that a robot walks to a sink in kitchen room if the sink is full?
+response (raw prompt):['no, it is not acceptable for a robot to walk to a sink in a kitchen room if the sink is full']
+raw prompt:can a robot walks to a cleaning bottle in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a dish bowl in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a paper towel in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a mug in kitchen room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as cutting board, cleaning bottle, cutlery knife, dish bowl, measuring cup, frying pan, dish rack, paper towel, chef knife, cloth napkin, bucket, coffee filter, coffee cup, mug. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish rack']
+prompt (raw):can a coffee maker make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a table in dining room if the sink is full?
+response (raw prompt):['no, it is not acceptable for a robot to find a table in the dining room if the sink is full']
+raw prompt:can a robot walks to a glass in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a drinking glass in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a condiment shaker in kitchen room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as glass, measuring cup, cooking pot, frying pan, drinking glass, coffee cup, chef knife, condiment shaker, sponge, paper towel, condiment bottle, bucket, dish bowl. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish bowl']
+raw prompt:can a robot walks to a place mat in kitchen room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as condiment bottle, bucket, measuring cup, colander, frying pan, cloth napkin, oven tray, dish rack, place mat, cutlery fork, cooking pot, paper towel, rag. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+prompt (raw):can a water filter make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot walks to a glass in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a drinking glass in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a trash can in kitchen room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as dish rack, coffee cup, glass, cutting board, dish bowl, chef knife, drinking glass, colander, frying pan, trash can, sponge, cloth napkin, cutlery fork. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish rack']
+raw prompt:can a robot walks to a place mat in kitchen room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as bucket, condiment bottle, drinking glass, coffee filter, place mat, cloth napkin, mug, frying pan, cleaning bottle, chef knife, trash can, dish bowl, cooking pot, dish rack. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish rack']
+prompt (raw):can a oven make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot walks to a condiment shaker in kitchen room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as measuring cup, paper towel, coffee cup, cloth napkin, condiment shaker, dish bowl, oven tray, rag, condiment bottle, colander, dish rack, drinking glass, cooking pot. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:can a robot walks to a condiment shaker in kitchen room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as chef knife, cutlery fork, condiment bottle, paper towel, glass, cleaning bottle, measuring cup, condiment shaker, bucket, place mat, cutlery knife, oven tray, colander, dish rack. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+prompt (raw):can a coffee maker make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot walks to a condiment shaker in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a wooden spoon in kitchen room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as oven tray, coffee filter, condiment shaker, coffee cup, trash can, cutlery knife, dish bowl, cleaning bottle, bucket, wooden spoon, colander, drinking glass, paper towel, glass. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+prompt (raw):can a kettle make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as trash can, glass, measuring cup, cloth napkin, sponge, mug, colander, cutlery knife, wooden spoon, coffee filter, oven tray, cooking pot, dish bowl. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as mug, cutlery knife, chef knife, place mat, condiment shaker, glass, wooden spoon, trash can, frying pan, paper towel, dish rack, coffee cup, dish bowl, cooking pot. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish rack']
+prompt (raw):can a juicer make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as cloth napkin, colander, wooden spoon, measuring cup, oven tray, cleaning bottle, chef knife, trash can, condiment shaker, rag, cutlery knife, cutlery fork, mug. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as dish rack, trash can, cutlery knife, cleaning bottle, chef knife, oven tray, glass, bucket, cutlery fork, colander, cooking pot, drinking glass, place mat. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['dish rack']
+prompt (raw):can a coffee maker make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as mug, glass, paper towel, coffee cup, cutlery fork, cutlery knife, cooking pot, place mat, rag, coffee filter, measuring cup, dish bowl, sponge, cleaning bottle. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a coffee filter']
+raw prompt:there are some utensils, such as mug, coffee filter, cloth napkin, place mat, sponge, wooden spoon, frying pan, condiment shaker, drinking glass, measuring cup, chef knife, paper towel, rag, glass. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a paper towel']
+raw prompt:there are some utensils, such as condiment bottle, condiment shaker, glass, colander, wooden spoon, place mat, mug, cutlery knife, dish bowl, cutlery fork, drinking glass, oven tray, frying pan. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+prompt (raw):can a fridge make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the sink empt if the sink is full? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as cutting board, chef knife, cutlery fork, rag, cloth napkin, condiment shaker, oven tray, coffee filter, wooden spoon, colander, frying pan, mug, measuring cup, cooking pot. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as bucket, measuring cup, cooking pot, place mat, paper towel, coffee cup, glass, condiment shaker, frying pan, cutting board, cleaning bottle, rag, trash can, chef knife. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a bucket']
+raw prompt:there are some utensils, such as sponge, cutlery fork, paper towel, dish rack, mug, dish bowl, bucket, cooking pot, glass, drinking glass, oven tray, trash can, cutting board. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish rack']
+raw prompt:there are some utensils, such as cleaning bottle, sponge, place mat, mug, dish rack, cutting board, chef knife, bucket, cloth napkin, drinking glass, oven tray, cutlery knife, cutlery fork. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish rack']
+raw prompt:there are some utensils, such as cooking pot, wooden spoon, cloth napkin, dish bowl, cutlery knife, condiment shaker, place mat, coffee filter, trash can, dish rack, condiment bottle, coffee cup, cleaning bottle, frying pan. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish rack']
+raw prompt:there are some utensils, such as paper towel, cleaning bottle, cutting board, bucket, wooden spoon, frying pan, dish bowl, dish rack, sponge, place mat, trash can, cutlery fork, condiment bottle. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish rack']
+raw prompt:there are some utensils, such as oven tray, frying pan, colander, measuring cup, mug, cutlery knife, rag, place mat, condiment bottle, glass, sponge, cleaning bottle, chef knife, drinking glass. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:is it acceptable that a robot walks to a sink in kitchen room if the plate is broken?
+response (raw prompt):['no, it is not acceptable for a robot to walk to a sink in a kitchen room if the plate is broken']
+raw prompt:can a robot grasps a coffee cup in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a coffee cup in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot grasps a wine glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a wine glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot grasps a frying pan in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot grasps a cleaning bottle in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot grasps a place mat in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a place mat in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot grasps a paper towel in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a paper towel in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot grasps a condiment bottle in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot grasps a bucket in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot grasps a cloth napkin in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a cloth napkin in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot grasps a dish rack in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot grasps a colander in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot grasps a cutlery fork in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot grasps a rag in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot grasps a cutting board in dining room?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as coffee cup, wine glass, place mat, paper towel, cloth napkin. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['if the plate is broken, the most suitable replacement would be a paper towel']
+prompt (raw):can a water boiler make the plate good if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the plate good if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the plate good if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the plate good if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the plate good if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the plate good if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the plate good if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the plate good if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the plate good if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot places a plate in dining room if the plate is broken?
+response (raw prompt):['no, it is not acceptable for a robot to place a broken plate in the dining room']
+raw prompt:there are some utensils, such as coffee cup, place mat. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['coffee cup']
+prompt (raw):can a oven make the plate unbroken if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the plate unbroken if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the plate unbroken if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the plate unbroken if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if the plate is broken?
+response (raw prompt):['no, it is not acceptable for a robot to grasp a plate in a dining room if the plate is broken']
+raw prompt:there are some utensils, such as place mat, cloth napkin, coffee cup, paper towel, wine glass. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['if the plate is broken, the most suitable replacement would be a paper towel']
+prompt (raw):can a fridge make the plate unbroken if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the plate unbroken if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the plate unbroken if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the plate unbroken if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the plate unbroken if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the plate unbroken if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the plate unbroken if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the plate unbroken if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the plate unbroken if the plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if the plate is broken?
+response (raw prompt):['no, it is not acceptable for a robot to grasp a plate in a dining room if the plate is broken']
+raw prompt:there are some utensils, such as place mat, cloth napkin, paper towel, wine glass, coffee cup. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['if the plate is broken, the most suitable replacement would be a paper towel']
+raw prompt:there are some utensils, such as condiment shaker, rag, place mat, cutting board, wooden spoon, colander, paper towel, trash can, bucket, sponge, chef knife, glass, cutlery knife. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the colander is the most suitable to replace a sink to pick up plate if the sink is full']
+raw prompt:there are some utensils, such as oven tray, rag, colander, drinking glass, wooden spoon, condiment bottle, coffee cup, bucket, cleaning bottle, cutlery fork, trash can, cooking pot, cutting board, paper towel. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as bucket, measuring cup, trash can, sponge, colander, cutlery fork, wooden spoon, dish rack, cleaning bottle, chef knife, drinking glass, mug, oven tray, cloth napkin. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as oven tray, colander, frying pan, mug, coffee filter, trash can, dish rack, condiment bottle, place mat, cutlery knife, rag, wooden spoon, cutlery fork, coffee cup. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as sponge, rag, condiment shaker, chef knife, cooking pot, wooden spoon, condiment bottle, mug, cutting board, drinking glass, trash can, oven tray, coffee cup. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a sponge']
+raw prompt:is it acceptable that a robot finds a table in dining room if the sink is full?
+response (raw prompt):['no, it is not acceptable for a robot to find a table in the dining room if the sink is full']
+raw prompt:there are some utensils, such as wooden spoon, cutting board, dish bowl, bucket, coffee cup, glass, cloth napkin, condiment bottle, paper towel, cutlery fork, place mat, colander, trash can. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as cutlery fork, wooden spoon, glass, cutlery knife, dish bowl, chef knife, coffee filter, cloth napkin, trash can, oven tray, mug, sponge, cutting board. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish bowl']
+raw prompt:there are some utensils, such as condiment shaker, colander, cutting board, place mat, frying pan, cooking pot, oven tray, measuring cup, cutlery fork, cloth napkin, paper towel, dish bowl, condiment bottle. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as dish bowl, cloth napkin, trash can, oven tray, chef knife, cutting board, condiment shaker, colander, sponge, paper towel, wooden spoon, frying pan, condiment bottle. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as rag, dish rack, drinking glass, cutting board, trash can, colander, place mat, coffee cup, sponge, measuring cup, mug, glass, coffee filter, dish bowl. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as dish rack, paper towel, condiment bottle, cutting board, dish bowl, rag, sponge, cutlery fork, oven tray, mug, measuring cup, coffee cup, drinking glass, frying pan. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish rack']
+raw prompt:there are some utensils, such as frying pan, chef knife, measuring cup, cutting board, sponge, cooking pot, cutlery knife, colander, rag, oven tray, condiment bottle, dish rack, cloth napkin, trash can. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as coffee filter, bucket, sponge, rag, chef knife, coffee cup, oven tray, condiment bottle, cleaning bottle, cooking pot, cutting board, frying pan, dish rack. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a coffee filter']
+raw prompt:there are some utensils, such as condiment shaker, colander, coffee filter, place mat, dish rack, glass, chef knife, condiment bottle, drinking glass, wooden spoon, cooking pot, bucket, oven tray. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as frying pan, dish rack, bucket, sponge, condiment bottle, coffee filter, oven tray, wooden spoon, colander, coffee cup, mug, rag, cleaning bottle, cloth napkin. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as mug, cooking pot, wooden spoon, oven tray, place mat, dish rack, frying pan, bucket, condiment bottle, condiment shaker, measuring cup, coffee filter, dish bowl. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['dish rack']
+raw prompt:there are some utensils, such as condiment bottle, condiment shaker, drinking glass, wooden spoon, cutting board, coffee filter, cooking pot, frying pan, mug, paper towel, oven tray, dish bowl, colander, cloth napkin. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as colander, dish bowl, cutting board, place mat, chef knife, cooking pot, mug, condiment shaker, cutlery knife, cloth napkin, frying pan, coffee cup, bucket. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:there are some utensils, such as condiment shaker, wooden spoon, bucket, dish bowl, cooking pot, dish rack, coffee filter, coffee cup, drinking glass, condiment bottle, cleaning bottle, rag, cutlery knife, cloth napkin. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish rack']
+raw prompt:there are some utensils, such as rag, place mat, wooden spoon, drinking glass, frying pan, condiment shaker, cooking pot, cloth napkin, dish rack, bucket, coffee filter, cutlery knife, glass. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['dish rack']
+raw prompt:there are some utensils, such as condiment shaker, place mat, coffee filter, condiment bottle, cutlery knife, oven tray, bucket, dish rack, measuring cup, cooking pot, cutlery fork, cloth napkin, coffee cup, frying pan. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish rack']
+raw prompt:is it acceptable that a robot places a plate in dining room if the sink is full?
+response (raw prompt):['no, it is not acceptable for a robot to place a plate in the dining room if the sink is full']
+raw prompt:there are some utensils, such as trash can, cloth napkin, cutlery fork, cutlery knife, place mat, coffee filter, paper towel, dish rack, cutting board, cooking pot, cleaning bottle, glass, bucket. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish rack']
+raw prompt:there are some utensils, such as glass, dish bowl, rag, cutlery knife, chef knife, place mat, cleaning bottle, dish rack, paper towel, cutting board, condiment bottle, cloth napkin, measuring cup. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a dish rack']
+raw prompt:there are some utensils, such as condiment shaker, coffee cup, wooden spoon, colander, dish rack, sponge, cutlery knife, cloth napkin, glass, cutlery fork, cleaning bottle, rag, place mat, condiment bottle. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink is full is a colander']
+raw prompt:can a robot grasps a drinking glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a drinking glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot grasps a dish bowl in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a dish bowl in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot grasps a cooking pot in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot grasps a sponge in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot grasps a mug in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a mug in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot grasps a coffee filter in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot grasps a glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot grasps a chef knife in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot grasps a cutlery knife in dining room?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as place mat, drinking glass, dish bowl, mug, glass. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['dish bowl']
+raw prompt:is it acceptable that a robot places a plate in dining room if the plate is broken?
+response (raw prompt):['no, it is not acceptable for a robot to place a broken plate in the dining room']
+raw prompt:can a robot grasps a trash can in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot grasps a condiment shaker in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a condiment shaker in dining room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as mug, drinking glass, condiment shaker, dish bowl. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['mug']
+raw prompt:can a robot grasps a measuring cup in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot grasps a oven tray in dining room?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as mug, paper towel, dish bowl, cloth napkin, glass. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['mug']
+raw prompt:there are some utensils, such as glass, condiment shaker, dish bowl, cloth napkin, coffee cup. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['dish bowl']
+raw prompt:there are some utensils, such as cloth napkin, drinking glass, glass, dish bowl, paper towel, wine glass. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a drinking glass is the most suitable to replace a plate to pick up a plate if the plate is broken']
+raw prompt:there are some utensils, such as condiment shaker, glass, cloth napkin, paper towel, mug. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if the plate is broken is a paper towel']
+raw prompt:can a robot grasps a wooden spoon in dining room?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as dish bowl, cloth napkin, condiment shaker, coffee cup, drinking glass. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['dish bowl']
+raw prompt:there are some utensils, such as condiment shaker, place mat, coffee cup, paper towel. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable replacement for a plate would be a place mat']
+raw prompt:there are some utensils, such as wine glass, glass, mug. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a wine glass is the most suitable to replace a plate to pick up plate if the plate is broken']
+raw prompt:there are some utensils, such as cloth napkin, paper towel, coffee cup, condiment shaker, dish bowl, wine glass. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['if the plate is broken, the most suitable utensil to replace it is a dish bowl']
+raw prompt:there are some utensils, such as place mat, glass, drinking glass. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a drinking glass is the most suitable to replace a plate to pick up plate if the plate is broken']
+raw prompt:there are some utensils, such as drinking glass, wine glass, glass, condiment shaker, mug, cloth napkin. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a drinking glass is the most suitable to replace a plate to pick up a plate if the plate is broken']
+raw prompt:there are some utensils, such as dish bowl, paper towel, coffee cup, wine glass. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['dish bowl']
+raw prompt:there are some utensils, such as drinking glass, wine glass, cloth napkin, place mat, paper towel. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a drinking glass is the most suitable to replace a plate to pick up a plate if the plate is broken']
+raw prompt:there are some utensils, such as condiment shaker, paper towel, glass. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if the plate is broken is a paper towel']
+raw prompt:there are some utensils, such as mug, coffee cup, condiment shaker, dish bowl, wine glass, paper towel. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if the plate is broken is a dish bowl']
+raw prompt:there are some utensils, such as drinking glass, cloth napkin, mug, place mat, dish bowl, glass. which is the most suitable to replace a plate to pick up plate if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['mug']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if the plate is clean?
+response (raw prompt):['yes, it is acceptable for a robot to grasp a clean plate in a dining room']
+raw prompt:is it acceptable that a robot walks to a sink in kitchen room if the plate is clean?
+response (raw prompt):['yes, it is acceptable for a robot to walk to a sink in a kitchen room if the plate is clean']
+raw prompt:is it acceptable that a robot places a plate in dining room if the plate is clean?
+response (raw prompt):['yes, it is acceptable for a robot to place a clean plate in the dining room']
+raw prompt:is it acceptable that a robot places a plate in dining room if the dirty plate is missing on table?
+response (raw prompt):['no, it is not acceptable for a robot to place a plate in the dining room if the dirty plate is missing on the table']
+raw prompt:there are some utensils, such as coffee cup, dish bowl, condiment shaker, glass, cloth napkin. which is the most suitable to replace a plate to pick up plate if the dirty plate is missing on table? if there is no reasonable answer, please output no.
+response (raw prompt):['coffee cup']
+raw prompt:there are some utensils, such as wine glass, paper towel, cloth napkin, dish bowl, drinking glass. which is the most suitable to replace a plate to pick up plate if the dirty plate is missing on table? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if the dirty plate is missing on the table is a dish bowl']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if the dirty plate is missing on table?
+response (raw prompt):['no, it is not acceptable for a robot to grasp a plate in a dining room if the dirty plate is missing on the table']
+raw prompt:there are some utensils, such as drinking glass, condiment shaker, wine glass, dish bowl, cloth napkin, coffee cup. which is the most suitable to replace a plate to pick up plate if the dirty plate is missing on table? if there is no reasonable answer, please output no.
+response (raw prompt):['a drinking glass is the most suitable to replace a plate to pick up a plate if the dirty plate is missing on the table']
+raw prompt:there are some utensils, such as mug, condiment shaker, glass, paper towel, drinking glass. which is the most suitable to replace a plate to pick up plate if the dirty plate is missing on table? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate is a mug']
+raw prompt:there are some utensils, such as wine glass, drinking glass, glass, mug, paper towel. which is the most suitable to replace a plate to pick up plate if the dirty plate is missing on table? if there is no reasonable answer, please output no.
+response (raw prompt):['a paper towel']
+raw prompt:there are some utensils, such as mug, cloth napkin, glass, paper towel. which is the most suitable to replace a plate to pick up plate if the dirty plate is missing on table? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if the dirty plate is missing on table is a paper towel']
+raw prompt:there are some utensils, such as glass, mug, coffee cup, dish bowl, wine glass, place mat. which is the most suitable to replace a plate to pick up plate if the dirty plate is missing on table? if there is no reasonable answer, please output no.
+response (raw prompt):['a coffee cup']
+raw prompt:there are some utensils, such as drinking glass, place mat, mug. which is the most suitable to replace a plate to pick up plate if the dirty plate is missing on table? if there is no reasonable answer, please output no.
+response (raw prompt):['mug']
+raw prompt:there are some utensils, such as paper towel, condiment shaker, cloth napkin, coffee cup. which is the most suitable to replace a plate to pick up plate if the dirty plate is missing on table? if there is no reasonable answer, please output no.
+response (raw prompt):['if the dirty plate is missing on the table, the most suitable utensil to replace it is a paper towel']
+raw prompt:there are some utensils, such as drinking glass, mug, cloth napkin. which is the most suitable to replace a plate to pick up plate if the dirty plate is missing on table? if there is no reasonable answer, please output no.
+response (raw prompt):['a drinking glass is the most suitable to replace a plate to pick up a plate if the dirty plate is missing on the table']
+raw prompt:there are some utensils, such as place mat, cloth napkin, paper towel, dish bowl, drinking glass, glass, mug. which is the most suitable to replace a plate to pick up plate if the dirty plate is missing on table? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if the dirty plate is missing on table is a paper towel']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if the plate is dropped?
+response (raw prompt):['no, it is not acceptable for a robot to grasp a plate in a dining room if the plate is dropped']
+raw prompt:there are some utensils, such as mug, dish bowl, place mat, wine glass, cloth napkin, condiment shaker. which is the most suitable to replace a plate to pick up plate if the plate is dropped? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if the plate is dropped is a dish bowl']
+raw prompt:is it acceptable that a robot places a plate in dining room if the plate is dropped?
+response (raw prompt):['no, it is not acceptable for a robot to place a plate in the dining room if the plate is dropped']
+raw prompt:there are some utensils, such as dish bowl, mug, place mat, paper towel, wine glass. which is the most suitable to replace a plate to pick up plate if the plate is dropped? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if the plate is dropped is a paper towel']
+raw prompt:there are some utensils, such as paper towel, mug, drinking glass, condiment shaker, coffee cup. which is the most suitable to replace a plate to pick up plate if the plate is dropped? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if the plate is dropped is a paper towel']
+raw prompt:is it acceptable that a robot walks to a sink in kitchen room if the plate is dropped?
+response (raw prompt):['there is no definitive answer to this question as it depends on the specific context and situation in which the robot is walking to the sink']
+raw prompt:there are some utensils, such as condiment shaker, wine glass, drinking glass, coffee cup, place mat. which is the most suitable to replace a plate to pick up plate if the plate is dropped? if there is no reasonable answer, please output no.
+response (raw prompt):['condiment shaker']
+raw prompt:there are some utensils, such as condiment shaker, cloth napkin, dish bowl, coffee cup, place mat, glass. which is the most suitable to replace a plate to pick up plate if the plate is dropped? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if the plate is dropped is a dish bowl']
+raw prompt:there are some utensils, such as paper towel, cloth napkin, wine glass, drinking glass. which is the most suitable to replace a plate to pick up plate if the plate is dropped? if there is no reasonable answer, please output no.
+response (raw prompt):['paper towel']
+raw prompt:there are some utensils, such as mug, place mat, coffee cup, drinking glass, dish bowl. which is the most suitable to replace a plate to pick up plate if the plate is dropped? if there is no reasonable answer, please output no.
+response (raw prompt):['coffee cup']
+raw prompt:there are some utensils, such as dish bowl, cloth napkin, paper towel, coffee cup, glass, place mat. which is the most suitable to replace a plate to pick up plate if the plate is dropped? if there is no reasonable answer, please output no.
+response (raw prompt):['there is no reasonable answer']
+prompt (raw):can a coffee maker make the plate not dropped if the plate is dropped? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the plate not dropped if the plate is dropped? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the plate not dropped if the plate is dropped? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the plate not dropped if the plate is dropped? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the plate not dropped if the plate is dropped? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the plate not dropped if the plate is dropped? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the plate not dropped if the plate is dropped? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the plate not dropped if the plate is dropped? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the plate not dropped if the plate is dropped? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as paper towel, wine glass, cloth napkin, condiment shaker. which is the most suitable to replace a plate to pick up plate if the plate is dropped? if there is no reasonable answer, please output no.
+response (raw prompt):['paper towel']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if the plate is missing?
+response (raw prompt):['no, it is not acceptable for a robot to grasp a plate in a dining room if the plate is missing']
+raw prompt:there are some utensils, such as condiment shaker, drinking glass, dish bowl, cloth napkin, paper towel, coffee cup. which is the most suitable to replace a plate to pick up plate if the plate is missing? if there is no reasonable answer, please output no.
+response (raw prompt):['dish bowl']
+raw prompt:is it acceptable that a robot walks to a sink in kitchen room if the plate is missing?
+response (raw prompt):['no, it is not acceptable for a robot to walk to a sink in a kitchen room if the plate is missing']
+raw prompt:there are some utensils, such as drinking glass, condiment shaker, coffee cup, glass. which is the most suitable to replace a plate to pick up plate if the plate is missing? if there is no reasonable answer, please output no.
+response (raw prompt):['a drinking glass is the most suitable to replace a plate to pick up a plate if the plate is missing']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if the plate is missing?
+response (raw prompt):['no, it is not acceptable for a robot to grasp a plate in a dining room if the plate is missing']
+raw prompt:there are some utensils, such as mug, dish bowl, condiment shaker, glass. which is the most suitable to replace a plate to pick up plate if the plate is missing? if there is no reasonable answer, please output no.
+response (raw prompt):['mug']
+raw prompt:is it acceptable that a robot walks to a sink in kitchen room if the plate is missing?
+response (raw prompt):['no, it is not acceptable for a robot to walk to a sink in a kitchen room if the plate is missing']
+raw prompt:there are some utensils, such as glass, mug, condiment shaker, dish bowl, cloth napkin. which is the most suitable to replace a plate to pick up plate if the plate is missing? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable replacement for a plate would be a dish bowl']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if the plate is missing?
+response (raw prompt):['no, it is not acceptable for a robot to grasp a plate in a dining room if the plate is missing']
+raw prompt:there are some utensils, such as condiment shaker, wine glass, place mat, cloth napkin, glass. which is the most suitable to replace a plate to pick up plate if the plate is missing? if there is no reasonable answer, please output no.
+response (raw prompt):['if the plate is missing, the most suitable replacement would be a place mat']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if the plate is missing?
+response (raw prompt):['no, it is not acceptable for a robot to grasp a plate in a dining room if the plate is missing']
+raw prompt:there are some utensils, such as coffee cup, wine glass, place mat, condiment shaker, paper towel, mug. which is the most suitable to replace a plate to pick up plate if the plate is missing? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if the plate is missing is a paper towel']
+raw prompt:is it acceptable that a robot finds a table in dining room if a person dropped and got injured?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as coffee cup, glass, cloth napkin, drinking glass, mug, oven tray, chef knife, coffee filter, place mat, dish rack, measuring cup, colander, wooden spoon, trash can. which is the most suitable to replace a person to pick up plate if a person dropped and got injured? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a person to pick up a plate if a person dropped and got injured would be a dish towel']
+prompt (raw):can a ice cream maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a table in dining room if a person dropped and got injured?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as dish bowl, chef knife, paper towel, dish rack, drinking glass, coffee filter, frying pan, cutting board, cooking pot, cutlery knife, colander, wine glass, wooden spoon, coffee cup. which is the most suitable to replace a person to pick up plate if a person dropped and got injured? if there is no reasonable answer, please output no.
+response (raw prompt):['dish rack']
+prompt (raw):can a microwave make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if a person dropped and got injured?
+response (raw prompt):['no, it is not acceptable for a robot to grasp a plate in a dining room if a person dropped and got injured']
+raw prompt:there are some utensils, such as paper towel, trash can, bucket, oven tray, wooden spoon, coffee filter, sponge, rag, chef knife, cloth napkin, glass, mug, place mat, coffee cup. which is the most suitable to replace a person to pick up plate if a person dropped and got injured? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a person in picking up a dropped and injured plate would be a paper towel']
+prompt (raw):can a air fryer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot walks to a sink in kitchen room if a person dropped and got injured?
+response (raw prompt):['no, it is not acceptable for a robot to walk to a sink in a kitchen room if a person has dropped and gotten injured']
+raw prompt:there are some utensils, such as condiment bottle, rag, colander, measuring cup, trash can, frying pan, cutting board, mug, dish rack, drinking glass, sponge, condiment shaker, coffee filter, coffee cup. which is the most suitable to replace a person to pick up plate if a person dropped and got injured? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a person to pick up a plate if a person dropped and got injured would be a colander']
+prompt (raw):can a dishwasher make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as coffee filter, cutting board, cleaning bottle, coffee cup, dish rack, cloth napkin, wine glass, dish bowl, oven tray, frying pan, sponge, trash can, measuring cup, place mat. which is the most suitable to replace a person to pick up plate if a person dropped and got injured? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a person to pick up a plate if a person dropped and got injured would be the coffee filter']
+prompt (raw):can a vacuum cleaner make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as cloth napkin, wooden spoon, dish bowl, condiment shaker, rag, cutlery knife, coffee filter, cleaning bottle, cutlery fork, mug, sponge, colander, trash can, place mat. which is the most suitable to replace a person to pick up plate if a person dropped and got injured? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a person to pick up a plate if a person dropped and got injured would be a rag']
+prompt (raw):can a dehumidifier make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if a person dropped and got injured?
+response (raw prompt):['no, it is not acceptable for a robot to grasp a plate in a dining room if a person dropped and got injured']
+raw prompt:there are some utensils, such as wine glass, chef knife, paper towel, measuring cup, cutlery fork, sponge, glass, cleaning bottle, drinking glass, colander, oven tray, dish rack, condiment shaker, frying pan. which is the most suitable to replace a person to pick up plate if a person dropped and got injured? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a person to pick up a plate if a person dropped and got injured would be a paper towel']
+prompt (raw):can a washing machine make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if a person dropped and got injured?
+response (raw prompt):['no, it is not acceptable for a robot to grasp a plate in a dining room if a person dropped and got injured']
+raw prompt:there are some utensils, such as measuring cup, coffee cup, chef knife, place mat, dish rack, wooden spoon, rag, colander, dish bowl, cutting board, bucket, trash can, cutlery knife, condiment bottle. which is the most suitable to replace a person to pick up plate if a person dropped and got injured? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a person to pick up a plate if a person dropped and got injured would be a dish bowl']
+prompt (raw):can a juicer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as paper towel, frying pan, oven tray, cutlery fork, place mat, condiment bottle, glass, coffee cup, drinking glass, condiment shaker, mug, cutlery knife, rag, cloth napkin. which is the most suitable to replace a person to pick up plate if a person dropped and got injured? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a person in picking up a dropped and injured plate would be a paper towel']
+prompt (raw):can a toaster make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as wooden spoon, oven tray, trash can, measuring cup, colander, chef knife, coffee cup, paper towel, cooking pot, cleaning bottle, bucket, cutting board, dish bowl, frying pan. which is the most suitable to replace a person to pick up plate if a person dropped and got injured? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a person to pick up a plate if a person dropped and got injured would be a paper towel']
+prompt (raw):can a water filter make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as frying pan, measuring cup, place mat, mug, wine glass, dish bowl, condiment shaker, dish rack, sponge, cooking pot, drinking glass, wooden spoon, coffee filter, coffee cup. which is the most suitable to replace a person to pick up plate if a person dropped and got injured? if there is no reasonable answer, please output no.
+response (raw prompt):['dish rack']
+prompt (raw):can a air fryer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as sponge, mug, coffee cup, cutlery knife, place mat, coffee filter, wine glass, bucket, cooking pot, cloth napkin, paper towel, trash can, frying pan, wooden spoon. which is the most suitable to replace a person to pick up plate if a person dropped and got injured? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a person to pick up a plate if a person dropped and got injured would be a paper towel']
+prompt (raw):can a oven make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a person good if a person dropped and got injured? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot walks to a table in dining room if the table is missing?
+response (raw prompt):['no, it is not acceptable for a robot to walk to a table in a dining room if the table is missing']
+raw prompt:can a robot walks to a coffee filter in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a cleaning bottle in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a bucket in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a drinking glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a dish rack in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a condiment bottle in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a wine glass in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a cutlery knife in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a cutlery fork in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a measuring cup in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a trash can in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a place mat in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a mug in dining room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as bucket, drinking glass, dish rack, condiment bottle, glass, measuring cup, trash can, place mat, mug. which is the most suitable to replace a table to pick up plate if the table is missing? if there is no reasonable answer, please output no.
+response (raw prompt):['dish rack']
+raw prompt:is it acceptable that a robot walks to a table in dining room if the table is missing?
+response (raw prompt):['no, it is not acceptable for a robot to walk to a table in a dining room if the table is missing']
+raw prompt:can a robot walks to a cooking pot in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a bucket in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a colander in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a trash can in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a cloth napkin in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a frying pan in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a dish bowl in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a rag in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a cutlery knife in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a oven tray in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a chef knife in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a coffee cup in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a condiment bottle in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a dish rack in dining room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as cooking pot, bucket, colander, trash can, cloth napkin, dish bowl, rag, coffee cup, condiment bottle, dish rack. which is the most suitable to replace a table to pick up plate if the table is missing? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a table to pick up a plate is a dish rack']
+raw prompt:is it acceptable that a robot walks to a sink in kitchen room if the sink is too dirty?
+response (raw prompt):['no, it is not acceptable for a robot to walk to a sink in a kitchen room if the sink is too dirty']
+raw prompt:there are some utensils, such as glass, place mat, coffee cup, coffee filter, bucket, cleaning bottle, colander, condiment bottle, cutlery knife, paper towel, drinking glass, oven tray, frying pan, trash can. which is the most suitable to replace a sink to pick up plate if the sink is too dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate is a colander']
+raw prompt:is it acceptable that a robot walks to a sink in kitchen room if the sink is too dirty?
+response (raw prompt):['no, it is not acceptable for a robot to walk to a sink in a kitchen room if the sink is too dirty']
+raw prompt:there are some utensils, such as chef knife, paper towel, drinking glass, measuring cup, oven tray, glass, coffee filter, cooking pot, dish bowl, cutting board, colander, cleaning bottle, condiment shaker. which is the most suitable to replace a sink to pick up plate if the sink is too dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate is a colander']
+raw prompt:is it acceptable that a robot walks to a sink in kitchen room if there is no water in sink?
+response (raw prompt):['no, it is not acceptable for a robot to walk to a sink in a kitchen room if there is no water in the sink']
+raw prompt:there are some utensils, such as place mat, wooden spoon, cutting board, drinking glass, cleaning bottle, dish rack, sponge, bucket, trash can, cutlery fork, coffee filter, dish bowl, paper towel, colander. which is the most suitable to replace a water to pick up plate if there is no water in sink? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace water to pick up a plate if there is no water in the sink is a sponge']
+raw prompt:is it acceptable that a robot walks to a table in dining room if the table is dirty?
+response (raw prompt):['no, it is not acceptable for a robot to walk to a table in a dining room if the table is dirty']
+raw prompt:can a robot walks to a sponge in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a wine glass in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a measuring cup in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a cleaning bottle in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a place mat in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a cutting board in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a mug in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a paper towel in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a trash can in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a coffee cup in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a cloth napkin in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a frying pan in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a bucket in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a coffee filter in dining room?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as sponge, measuring cup, place mat, cutting board, mug, paper towel, trash can, coffee cup, cloth napkin, bucket. which is the most suitable to replace a table to pick up plate if the table is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['sponge']
+raw prompt:is it acceptable that a robot walks to a table in dining room if the table is broken?
+response (raw prompt):['no, it is not acceptable for a robot to walk to a table in a dining room if the table is broken']
+raw prompt:can a robot walks to a bucket in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a cleaning bottle in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a condiment bottle in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a colander in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a mug in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a chef knife in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a wooden spoon in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a cutting board in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a coffee filter in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a drinking glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a oven tray in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a cutlery fork in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a trash can in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a dish bowl in dining room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as bucket, condiment bottle, colander, mug, wooden spoon, cutting board, drinking glass, trash can, dish bowl. which is the most suitable to replace a table to pick up plate if the table is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a table to pick up a plate if the table is broken is a cutting board']
+raw prompt:is it acceptable that a robot walks to a sink in kitchen room if the sink cannot be found?
+response (raw prompt):['no, it is not acceptable for a robot to walk to a sink in a kitchen room if the sink cannot be found']
+raw prompt:there are some utensils, such as wooden spoon, colander, cooking pot, frying pan, glass, measuring cup, place mat, paper towel, cloth napkin, cutlery fork, trash can, coffee cup, cutting board. which is the most suitable to replace a sink to pick up plate if the sink cannot be found? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a sink to pick up a plate if the sink cannot be found is a colander']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if the plate is grabbed by dog?
+response (raw prompt):['no, it is not acceptable for a robot to grab a plate in a dining room if the plate is grabbed by a dog']
+raw prompt:there are some utensils, such as drinking glass, cloth napkin, wine glass, paper towel, dish bowl, glass, place mat. which is the most suitable to replace a plate to pick up plate if the plate is grabbed by dog? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if the plate is grabbed by a dog is a paper towel']
+raw prompt:is it acceptable that a robot finds a table in dining room if the door of dinning room is locked?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as cooking pot, dish rack, measuring cup, paper towel, condiment bottle, coffee filter, oven tray, cutting board, dish bowl, trash can, sponge, drinking glass, wine glass, wooden spoon. which is the most suitable to replace a door to pick up plate if the door of dinning room is locked? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a door to pick up a plate if the door of the dining room is locked is a dish rack']
+prompt (raw):can a water filter make the door ope if the door of dinning room is locked? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the door ope if the door of dinning room is locked? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the door ope if the door of dinning room is locked? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the door ope if the door of dinning room is locked? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the door ope if the door of dinning room is locked? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the door ope if the door of dinning room is locked? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the door ope if the door of dinning room is locked? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the door ope if the door of dinning room is locked? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the door ope if the door of dinning room is locked? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if someone has already picked up the dirty plate?
+response (raw prompt):['no, it is not acceptable for a robot to grasp a plate in a dining room if someone has already picked up the dirty plate']
+raw prompt:there are some utensils, such as drinking glass, cloth napkin, mug, place mat, paper towel, condiment shaker. which is the most suitable to replace a plate to pick up plate if someone has already picked up the dirty plate? if there is no reasonable answer, please output no.
+response (raw prompt):['mug']
+raw prompt:is it acceptable that a robot walks to a table in dining room if someone has already clean the table?
+response (raw prompt):['it is acceptable for a robot to walk to a table in a dining room if someone has already cleaned the table']
+raw prompt:is it acceptable that a robot grasps a plate in dining room if someone has already clean the table?
+response (raw prompt):['it is acceptable if the robot is designed for that purpose']
+raw prompt:is it acceptable that a robot walks to a sink in kitchen room if someone has already clean the table?
+response (raw prompt):['it is acceptable for a robot to walk to a sink in a kitchen room if someone has already cleaned the table']
+raw prompt:is it acceptable that a robot places a plate in dining room if someone has already clean the table?
+response (raw prompt):['no, it is not acceptable for a robot to place a plate in the dining room if someone has already clean the table']
+raw prompt:can a robot walks to a dish rack in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a coffee cup in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a wine glass in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a drinking glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a trash can in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a mug in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a place mat in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a colander in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a cutting board in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a condiment shaker in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a frying pan in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot walks to a paper towel in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot walks to a condiment bottle in dining room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as dish rack, coffee cup, drinking glass, trash can, glass, mug, place mat, colander, cutting board, condiment shaker, paper towel, condiment bottle. which is the most suitable to replace a table to pick up plate if someone has already clean the table? if there is no reasonable answer, please output no.
+response (raw prompt):['dish rack']
+raw prompt:is it acceptable that a robot finds a table in dining room if people are not finishing food?
+response (raw prompt):['it is acceptable for a robot to find a table in a dining room if people are not finishing their food']
+raw prompt:there are some utensils, such as coffee cup, cutting board, cleaning bottle, chef knife, colander, mug, trash can, bucket, drinking glass, glass, dish bowl, wooden spoon, cutlery fork, cooking pot. which is the most suitable to replace a food to pick up plate if people are not finishing food? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a food to pick up plate if people are not finishing food is a colander']
+prompt (raw):can a freezer make people finishing food if people are not finishing food? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make people finishing food if people are not finishing food? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make people finishing food if people are not finishing food? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make people finishing food if people are not finishing food? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make people finishing food if people are not finishing food? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make people finishing food if people are not finishing food? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make people finishing food if people are not finishing food? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make people finishing food if people are not finishing food? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make people finishing food if people are not finishing food? 
+possibility:
+response (raw prompt):['no']

@@ -1,0 +1,14 @@
+bread
+cake
+ice cream
+noodles
+oatmeal
+peanut butter
+rice
+salt
+snack
+sugar
+oil
+pasta
+chips
+sauce

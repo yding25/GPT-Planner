@@ -1,0 +1,2751 @@
+raw prompt:is it acceptable that a robot takes out a plate from a cupboard if a plate is broken?
+response (raw prompt):['no, it is not acceptable for a robot to take out a plate from a cupboard if a plate is broken']
+raw prompt:is it acceptable that a robot opens a cupboard in kitchen room if a plate is broken?
+response (raw prompt):['no, it is not acceptable for a robot to open a cupboard in the kitchen if a plate is broken']
+raw prompt:can a robot takes out a place mat from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a place mat from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a place mat on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a cutlery knife from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a cutlery knife from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a cutlery knife on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a coffee cup from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a coffee cup from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a coffee cup on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a paper towel from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a paper towel from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a paper towel on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a colander from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a colander from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a colander on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a drinking glass from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a drinking glass from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a drinking glass on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a bucket from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a bucket from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a bucket on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a coffee filter from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a coffee filter from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a coffee filter on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a cooking pot from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a cooking pot from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a cooking pot on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a wine glass from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a wine glass from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a wine glass on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a mug from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a mug from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a mug on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a glass from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a glass from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a glass on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a sponge from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a sponge from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a sponge on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a cutlery fork from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a cutlery fork from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a cutlery fork on table in dining room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as place mat, cutlery knife, coffee cup, paper towel, colander, drinking glass, bucket, coffee filter, cooking pot, wine glass, mug, glass, sponge, cutlery fork. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a place mat is the most suitable to replace a plate to set up a table if a plate is broken']
+raw prompt:is it acceptable that a robot finds a cupboard in kitchen room if a plate is broken?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:can a robot takes out a chef knife from a cupboard?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a condiment bottle from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a condiment bottle from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a condiment bottle on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a cleaning bottle from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a cleaning bottle from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a cleaning bottle on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a dish bowl from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a dish bowl from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a dish bowl on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a trash can from a cupboard?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a frying pan from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a frying pan from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a frying pan on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a rag from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a rag from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a rag on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a dish rack from a cupboard?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as cutlery fork, paper towel, condiment bottle, cleaning bottle, dish bowl, glass, mug, frying pan, rag, cutlery knife, coffee cup. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a dish bowl is the most suitable replacement for a plate if a plate is broken']
+raw prompt:can a robot takes out a wooden spoon from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a wooden spoon from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a wooden spoon on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a measuring cup from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a measuring cup from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a measuring cup on table in dining room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as paper towel, wooden spoon, measuring cup, glass, cleaning bottle, wine glass, cooking pot, cutlery fork, mug, coffee filter, colander, frying pan. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a paper towel can be used as a replacement for a plate if a plate is broken']
+raw prompt:can a robot takes out a oven tray from a cupboard?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as place mat, cooking pot, glass, drinking glass, wine glass, cutlery fork, condiment bottle, coffee cup, measuring cup, sponge, wooden spoon, colander. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a place mat is the most suitable to replace a plate to set up a table if a plate is broken']
+prompt (raw):can a washing machine make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot takes out a cutting board from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a cutting board from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a cutting board on table in dining room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as drinking glass, bucket, measuring cup, paper towel, colander, rag, mug, cutting board, dish bowl, cooking pot. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a drinking glass is the most suitable to replace a plate to set up a table if a plate is broken']
+raw prompt:can a robot takes out a cloth napkin from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a cloth napkin from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a cloth napkin on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a condiment shaker from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a condiment shaker from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a condiment shaker on table in dining room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as bucket, drinking glass, frying pan, cloth napkin, condiment shaker, paper towel, wine glass, measuring cup, mug, coffee filter, dish bowl. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a dish bowl is the most suitable replacement for a plate if a plate is broken']
+prompt (raw):can a juicer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a table in dining room if a plate is broken?
+response (raw prompt):['no, it is not acceptable for a robot to find a table in the dining room if a plate is broken']
+raw prompt:can a robot takes out a cloth napkin from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a cloth napkin from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a cloth napkin on table in dining room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as cloth napkin, rag, drinking glass, measuring cup, frying pan, condiment bottle, cutlery fork, coffee filter, bucket, mug, cleaning bottle, sponge. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a cloth napkin can be used as a replacement for a plate if a plate is broken']
+raw prompt:is it acceptable that a robot places a plate on table in dining room if a plate is broken?
+response (raw prompt):['no, it is not acceptable for a robot to place a plate on a table in a dining room if a plate is broken']
+raw prompt:can a robot takes out a condiment shaker from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a condiment shaker from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a condiment shaker on table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a cutting board from a cupboard?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a cutting board from kitchen room to dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a cutting board on table in dining room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as colander, condiment shaker, wooden spoon, drinking glass, cutting board, rag, cutlery knife, cleaning bottle, frying pan, coffee cup, cloth napkin, cutlery fork, condiment bottle. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if a plate is broken is a cutting board']
+prompt (raw):can a kettle make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as coffee cup, colander, place mat, cutting board, paper towel, mug, frying pan, cutlery knife, cutlery fork, drinking glass, coffee filter, wooden spoon. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['coffee cup']
+prompt (raw):can a dishwasher make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as cutting board, paper towel, drinking glass, wooden spoon, sponge, glass, colander, bucket, cloth napkin, mug, measuring cup, rag. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a cutting board']
+prompt (raw):can a kettle make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a plate in cupboard room if a plate is broken?
+response (raw prompt):['no, it is not acceptable for a robot to find a plate in a cupboard room if a plate is broken']
+raw prompt:there are some utensils, such as paper towel, cutlery fork, frying pan, coffee filter, wooden spoon, measuring cup, dish bowl, cloth napkin, rag, wine glass, colander, glass. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a paper towel can be used as a replacement for a plate if a plate is broken']
+prompt (raw):can a air fryer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as sponge, mug, cutlery knife, bucket, cloth napkin, condiment bottle, frying pan, measuring cup, condiment shaker, dish bowl. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a dish bowl is the most suitable replacement for a plate if a plate is broken']
+prompt (raw):can a microwave make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as frying pan, coffee filter, cutlery knife, cleaning bottle, colander, condiment shaker, condiment bottle, wooden spoon, mug, bucket, drinking glass, cutting board. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a cutting board can be used as a replacement for a plate']
+prompt (raw):can a water filter make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as dish bowl, sponge, rag, place mat, condiment bottle, cutting board, drinking glass, coffee cup, paper towel, colander, cutlery knife, glass. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['dish bowl']
+prompt (raw):can a juicer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as mug, dish bowl, condiment shaker, coffee cup, colander, cutlery fork, glass, drinking glass, cutting board, cutlery knife, cooking pot, sponge. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a mug, dish bowl, condiment shaker, coffee cup, colander, cutlery fork, glass, drinking glass, cutting board,']
+prompt (raw):can a toaster make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as frying pan, wooden spoon, measuring cup, cloth napkin, wine glass, dish bowl, sponge, mug, cutlery knife, cutlery fork, rag, condiment shaker, bucket. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['dish bowl']
+raw prompt:there are some utensils, such as drinking glass, cutlery knife, cooking pot, mug, wooden spoon, condiment bottle, sponge, coffee cup, cloth napkin, condiment shaker, measuring cup, cutting board. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a drinking glass is the most suitable to replace a plate to set up a table if a plate is broken']
+prompt (raw):can a coffee maker make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as cutting board, frying pan, condiment shaker, wine glass, cooking pot, condiment bottle, coffee cup, cutlery knife, place mat, colander, cloth napkin, paper towel, rag. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable replacement for a plate would be a cutting board']
+prompt (raw):can a dehumidifier make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as rag, place mat, cutlery knife, cooking pot, wine glass, cutting board, cutlery fork, cloth napkin, coffee filter, bucket, colander, paper towel, glass. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a glass']
+prompt (raw):can a washing machine make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as colander, coffee filter, mug, condiment bottle, paper towel, drinking glass, sponge, wine glass, place mat, cutlery fork, rag, cutting board, condiment shaker. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a colander can be used as a replacement for a plate if a plate is broken']
+prompt (raw):can a fridge make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as mug, cooking pot, coffee filter, coffee cup, cutlery fork, place mat, dish bowl, colander, cleaning bottle, cloth napkin, wooden spoon, paper towel. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a mug is the most suitable to replace a plate to set up a table if a plate is broken']
+prompt (raw):can a water filter make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate not broken if a plate is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a plate in cupboard room if a plate is not found?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as coffee cup, cooking pot, condiment bottle, frying pan, rag, drinking glass, condiment shaker, paper towel, bucket, place mat, mug. which is the most suitable to replace a plate to set up a table if a plate is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a coffee cup is the most suitable to replace a plate to set up a table if a plate is not found']
+prompt (raw):can a air fryer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot places a fork on table in dining room if a plate is not found?
+response (raw prompt):['no, it is not acceptable for a robot to place a fork on the table in the dining room if a plate is not found']
+raw prompt:there are some utensils, such as coffee filter, rag, wooden spoon, place mat, bucket, cutlery knife, cutlery fork, sponge, condiment shaker, cleaning bottle, frying pan, paper towel. which is the most suitable to replace a plate to set up a table if a plate is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['coffee filter']
+raw prompt:is it acceptable that a robot finds a plate in cupboard room if a plate is not found?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as sponge, condiment shaker, place mat, bucket, wooden spoon, cleaning bottle, measuring cup, colander, cutlery knife, dish bowl, paper towel, coffee cup, cutting board, coffee filter. which is the most suitable to replace a plate to set up a table if a plate is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a cutting board can be used as a replacement for a plate']
+prompt (raw):can a blender make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as place mat, mug, glass, cloth napkin, cutting board, wooden spoon, coffee cup, wine glass, measuring cup, bucket, frying pan, cutlery knife. which is the most suitable to replace a plate to set up a table if a plate is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a place mat']
+prompt (raw):can a dishwasher make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as cloth napkin, bucket, frying pan, coffee filter, drinking glass, measuring cup, cutlery fork, place mat, wooden spoon, rag, coffee cup, cutting board. which is the most suitable to replace a plate to set up a table if a plate is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a cloth napkin']
+prompt (raw):can a dehumidifier make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as measuring cup, colander, cooking pot, place mat, glass, cloth napkin, cutting board, paper towel, condiment shaker, cutlery fork, coffee cup, coffee filter. which is the most suitable to replace a plate to set up a table if a plate is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a glass is the most suitable to replace a plate to set up a table if a plate is not found']
+prompt (raw):can a water boiler make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as place mat, dish bowl, colander, bucket, sponge, coffee cup, frying pan, cutting board, condiment bottle, drinking glass, wine glass, wooden spoon. which is the most suitable to replace a plate to set up a table if a plate is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a place mat']
+prompt (raw):can a dehumidifier make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a cupboard in kitchen room if a plate is not found?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as frying pan, measuring cup, cooking pot, condiment bottle, rag, wooden spoon, cutlery knife, coffee cup, paper towel, coffee filter, dish bowl, drinking glass. which is the most suitable to replace a plate to set up a table if a plate is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a dish bowl is the most suitable to replace a plate to set up a table if a plate is not found']
+raw prompt:is it acceptable that a robot takes out a plate from a cupboard if a plate is not found?
+response (raw prompt):['no, it is not acceptable for a robot to take out a plate from a cupboard if a plate is not found']
+raw prompt:there are some utensils, such as cutting board, colander, wooden spoon, condiment shaker, sponge, measuring cup, drinking glass, rag, condiment bottle, mug, coffee filter, cutlery fork. which is the most suitable to replace a plate to set up a table if a plate is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a cutting board']
+prompt (raw):can a dehumidifier make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as colander, cutlery knife, cutlery fork, coffee filter, sponge, cooking pot, wine glass, place mat, paper towel, condiment shaker, cutting board. which is the most suitable to replace a plate to set up a table if a plate is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a colander can be used as a replacement for a plate if necessary']
+prompt (raw):can a air fryer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a cupboard in kitchen room if a plate is not found?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as paper towel, sponge, condiment shaker, cloth napkin, place mat, condiment bottle, drinking glass, colander, cutlery knife, wooden spoon, cutting board, dish bowl. which is the most suitable to replace a plate to set up a table if a plate is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['if a plate is not found, the most suitable utensil to replace it is a paper towel']
+raw prompt:there are some utensils, such as cooking pot, cutlery knife, cutting board, drinking glass, mug, dish bowl, condiment shaker, paper towel, condiment bottle, wooden spoon, wine glass, bucket, rag. which is the most suitable to replace a plate to set up a table if a plate is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a drinking glass is the most suitable to replace a plate to set up a table if a plate is not found']
+prompt (raw):can a kettle make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as wooden spoon, drinking glass, measuring cup, condiment shaker, bucket, cutting board, cutlery fork, mug, paper towel, sponge, cutlery knife. which is the most suitable to replace a plate to set up a table if a plate is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a drinking glass is the most suitable to replace a plate to set up a table if a plate is not found']
+prompt (raw):can a vacuum cleaner make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a plate found if a plate is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a plate in cupboard room if a plate is dirty?
+response (raw prompt):['no, it is not acceptable for a robot to find a plate in a cupboard room if the plate is dirty']
+raw prompt:there are some utensils, such as cutting board, condiment bottle, paper towel, cooking pot, colander, place mat, measuring cup, glass, drinking glass, cleaning bottle, cutlery knife, frying pan. which is the most suitable to replace a plate to set up a table if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if a plate is dirty is a cutting board']
+prompt (raw):can a kettle make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a microwave make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a juicer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a dehumidifier make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some appliances, such as vacuum cleaner, microwave, washing machine. which is the most possible to make a plate clean if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most possible way to make a plate clean if it is dirty is to wash it in a washing machine']
+raw prompt:is it acceptable that a robot finds a plate in cupboard room if a plate is dirty?
+response (raw prompt):['no, it is not acceptable for a robot to find a plate in a cupboard room if the plate is dirty']
+raw prompt:there are some utensils, such as glass, coffee filter, cloth napkin, colander, drinking glass, mug, frying pan, cutting board, place mat, cooking pot, condiment bottle. which is the most suitable to replace a plate to set up a table if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['a colander can be used as a replacement for a dirty plate']
+prompt (raw):can a air fryer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a ice cream maker make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a toaster make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a oven make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+raw prompt:there are some appliances, such as dishwasher, washing machine, vacuum cleaner, oven. which is the most possible to make a plate clean if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['dishwasher']
+raw prompt:is it acceptable that a robot places a plate on table in dining room if a plate is dirty?
+response (raw prompt):['no, it is not acceptable for a robot to place a plate on a table in a dining room if the plate is dirty']
+raw prompt:there are some utensils, such as wine glass, rag, cooking pot, cutting board, frying pan, colander, measuring cup, cutlery knife, coffee cup, dish bowl, glass, condiment bottle. which is the most suitable to replace a plate to set up a table if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['a dish bowl is the most suitable to replace a plate to set up a table if a plate is dirty']
+prompt (raw):can a kettle make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a dehumidifier make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a ice cream maker make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a juicer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some appliances, such as washing machine, stove, vacuum cleaner. which is the most possible to make a plate clean if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most possible way to make a plate clean if it is dirty is to wash it in a dishwasher']
+raw prompt:is it acceptable that a robot places a plate on table in dining room if a plate is dirty?
+response (raw prompt):['no, it is not acceptable for a robot to place a plate on a table in a dining room if the plate is dirty']
+raw prompt:there are some utensils, such as wine glass, coffee cup, paper towel, sponge, colander, coffee filter, cooking pot, rag, cleaning bottle, cloth napkin, wooden spoon. which is the most suitable to replace a plate to set up a table if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if a plate is dirty is a paper towel']
+prompt (raw):can a water filter make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a dishwasher make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a kettle make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+raw prompt:there are some appliances, such as oven, dishwasher, vacuum cleaner. which is the most possible to make a plate clean if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['dishwasher']
+raw prompt:there are some utensils, such as bucket, cleaning bottle, cloth napkin, rag, measuring cup, wine glass, glass, coffee filter, condiment bottle, cutting board, cutlery knife, mug, paper towel, dish bowl. which is the most suitable to replace a plate to set up a table if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if a plate is dirty is a cutting board']
+prompt (raw):can a ice cream maker make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a air fryer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a freezer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a water filter make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some appliances, such as vacuum cleaner, oven, washing machine. which is the most possible to make a plate clean if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most possible way to make a plate clean if it is dirty is to wash it in a washing machine']
+raw prompt:is it acceptable that a robot takes out a plate from a cupboard if a plate is dirty?
+response (raw prompt):['no, it is not acceptable for a robot to take out a plate from a cupboard if a plate is dirty']
+raw prompt:there are some utensils, such as cleaning bottle, mug, glass, dish bowl, coffee cup, drinking glass, condiment shaker, coffee filter, sponge, cutting board, colander. which is the most suitable to replace a plate to set up a table if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['a cutting board is the most suitable to replace a plate to set up a table if a plate is dirty']
+prompt (raw):can a water boiler make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a stove make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a air fryer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+raw prompt:there are some appliances, such as dishwasher, stove, oven. which is the most possible to make a plate clean if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['dishwasher']
+raw prompt:there are some utensils, such as condiment shaker, dish bowl, cooking pot, bucket, colander, condiment bottle, sponge, coffee filter, cloth napkin, mug, paper towel, cutlery knife. which is the most suitable to replace a plate to set up a table if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if a plate is dirty is a dish bowl']
+prompt (raw):can a freezer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a coffee maker make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a water boiler make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some appliances, such as washing machine, vacuum cleaner. which is the most possible to make a plate clean if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most possible way to make a plate clean if it is dirty is to wash it with soap and water']
+raw prompt:there are some utensils, such as wine glass, place mat, wooden spoon, bucket, cleaning bottle, drinking glass, coffee filter, sponge, cutlery fork, cooking pot, coffee cup. which is the most suitable to replace a plate to set up a table if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['a wine glass is the most suitable to replace a plate to set up a table if a plate is dirty']
+prompt (raw):can a oven make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a washing machine make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a toaster make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a water boiler make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some appliances, such as oven, washing machine, dishwasher. which is the most possible to make a plate clean if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most possible way to make a plate clean if it is dirty is to wash it in the dishwasher']
+raw prompt:there are some utensils, such as mug, paper towel, rag, cutlery fork, sponge, bucket, coffee cup, cloth napkin, frying pan, drinking glass, condiment bottle. which is the most suitable to replace a plate to set up a table if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['a cloth napkin']
+prompt (raw):can a dishwasher make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a water filter make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a microwave make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a kettle make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a ice cream maker make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some appliances, such as dishwasher, oven, microwave, washing machine. which is the most possible to make a plate clean if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['dishwasher']
+raw prompt:there are some utensils, such as bucket, cutting board, cloth napkin, place mat, colander, frying pan, condiment bottle, cooking pot, wooden spoon, dish bowl, condiment shaker, mug, drinking glass, glass. which is the most suitable to replace a plate to set up a table if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['a colander can be used as a replacement for a dirty plate']
+prompt (raw):can a water filter make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a fridge make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a coffee maker make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+raw prompt:there are some appliances, such as vacuum cleaner, oven, microwave. which is the most possible to make a plate clean if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most possible way to make a plate clean if it is dirty is to wash it with soap and water']
+raw prompt:there are some utensils, such as paper towel, glass, cloth napkin, drinking glass, cutlery fork, colander, sponge, cooking pot, dish bowl, wooden spoon, cutlery knife, condiment shaker. which is the most suitable to replace a plate to set up a table if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a plate if a plate is dirty is a paper towel']
+prompt (raw):can a air fryer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a toaster make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as rag, wine glass, coffee filter, colander, place mat, wooden spoon, glass, frying pan, cutlery fork, drinking glass, cloth napkin, sponge, cutting board. which is the most suitable to replace a plate to set up a table if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['a colander can be used as a replacement for a dirty plate']
+prompt (raw):can a ice cream maker make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a water filter make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a air fryer make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a toaster make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a plate clean if a plate is dirty? 
+possibility:
+response (raw prompt):['yes']
+raw prompt:there are some appliances, such as microwave, dishwasher, oven, vacuum cleaner. which is the most possible to make a plate clean if a plate is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['dishwasher']
+raw prompt:is it acceptable that a robot finds a fork in cupboard room if a fork is dirty?
+response (raw prompt):['no, it is not acceptable for a robot to find a fork in a cupboard room if the fork is dirty']
+raw prompt:there are some utensils, such as wooden spoon, coffee filter, condiment bottle, glass, condiment shaker, bucket, sponge, colander, frying pan, dish bowl, cleaning bottle, paper towel. which is the most suitable to replace a fork to set up a table if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a fork if a fork is dirty is a wooden spoon']
+prompt (raw):can a blender make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a juicer make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a toaster make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a washing machine make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a ice cream maker make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+raw prompt:there are some appliances, such as blender, dishwasher, microwave, washing machine, stove. which is the most possible to make a fork dirty if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['there is no reasonable answer']
+raw prompt:is it acceptable that a robot takes out a fork from a cupboard if a fork is dirty?
+response (raw prompt):['no, it is not acceptable for a robot to take out a fork from a cupboard if a fork is dirty']
+raw prompt:there are some utensils, such as dish bowl, place mat, cooking pot, coffee filter, coffee cup, paper towel, frying pan, glass, condiment shaker, bucket, colander, sponge. which is the most suitable to replace a fork to set up a table if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a fork if a fork is dirty is a spoon']
+prompt (raw):can a washing machine make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a water filter make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a fridge make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a blender make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a juicer make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a dehumidifier make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some appliances, such as washing machine, kettle, fridge, blender, oven. which is the most possible to make a fork dirty if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most possible appliance to make a fork dirty if a fork is dirty is the washing machine']
+raw prompt:is it acceptable that a robot finds a fork in cupboard room if a fork is dirty?
+response (raw prompt):['no, it is not acceptable for a robot to find a fork in a cupboard room if the fork is dirty']
+raw prompt:there are some utensils, such as sponge, drinking glass, measuring cup, coffee cup, cutlery fork, paper towel, condiment shaker, cutting board, cooking pot, bucket, wooden spoon, frying pan. which is the most suitable to replace a fork to set up a table if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a fork if a fork is dirty is a paper towel']
+prompt (raw):can a vacuum cleaner make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a dishwasher make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a air fryer make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a toaster make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a water boiler make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a washing machine make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a water filter make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some appliances, such as vacuum cleaner, dishwasher, air fryer, blender, water boiler, washing machine. which is the most possible to make a fork dirty if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most possible appliance to make a fork dirty is the dishwasher']
+raw prompt:is it acceptable that a robot finds a fork in cupboard room if a fork is dirty?
+response (raw prompt):['no, it is not acceptable for a robot to find a fork in a cupboard room if the fork is dirty']
+raw prompt:there are some utensils, such as place mat, rag, glass, mug, cooking pot, condiment shaker, cutlery fork, coffee filter, condiment bottle, drinking glass, coffee cup. which is the most suitable to replace a fork to set up a table if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['a cutlery fork']
+prompt (raw):can a water filter make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a dehumidifier make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a toaster make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a dishwasher make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a vacuum cleaner make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+raw prompt:there are some appliances, such as kettle, stove, oven, dishwasher, vacuum cleaner. which is the most possible to make a fork dirty if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['dishwasher']
+raw prompt:there are some utensils, such as colander, wooden spoon, condiment shaker, frying pan, glass, bucket, coffee cup, mug, measuring cup, cutlery fork, cooking pot, cutting board, drinking glass. which is the most suitable to replace a fork to set up a table if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a fork if a fork is dirty is a cutlery fork']
+prompt (raw):can a water boiler make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a oven make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a juicer make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a kettle make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a washing machine make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a fridge make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a ice cream maker make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+raw prompt:there are some appliances, such as water boiler, oven, vacuum cleaner, kettle, washing machine, fridge, microwave. which is the most possible to make a fork dirty if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most possible appliance to make a fork dirty is the oven']
+raw prompt:there are some utensils, such as cleaning bottle, cooking pot, coffee cup, cutting board, wooden spoon, colander, dish bowl, measuring cup, glass, condiment bottle, frying pan. which is the most suitable to replace a fork to set up a table if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a fork if it is dirty is a spoon']
+prompt (raw):can a juicer make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a water filter make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a coffee maker make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a dishwasher make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a stove make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a washing machine make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a dehumidifier make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some appliances, such as blender, oven, coffee maker, dishwasher, stove, washing machine. which is the most possible to make a fork dirty if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['there is no reasonable answer']
+raw prompt:is it acceptable that a robot places a fork on table in dining room if a fork is dirty?
+response (raw prompt):['no, it is not acceptable for a robot to place a dirty fork on a table in a dining room']
+raw prompt:there are some utensils, such as place mat, coffee cup, condiment shaker, cutlery fork, measuring cup, mug, bucket, cleaning bottle, sponge, wooden spoon, paper towel, coffee filter. which is the most suitable to replace a fork to set up a table if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a fork if a fork is dirty is a cutlery fork']
+prompt (raw):can a kettle make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a dehumidifier make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a water filter make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a washing machine make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a stove make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a dishwasher make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+raw prompt:there are some appliances, such as kettle, water boiler, microwave, washing machine, stove, dishwasher. which is the most possible to make a fork dirty if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most possible appliance to make a fork dirty is the dishwasher']
+raw prompt:there are some utensils, such as condiment shaker, cloth napkin, sponge, colander, cooking pot, cutlery knife, place mat, wooden spoon, paper towel, rag, frying pan, cutting board. which is the most suitable to replace a fork to set up a table if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['if a fork is dirty, the most suitable replacement would be a clean fork']
+prompt (raw):can a dehumidifier make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a microwave make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a blender make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a dishwasher make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a fridge make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a coffee maker make a fork dirty if a fork is dirty? 
+possibility:
+response (raw prompt):['yes']
+raw prompt:there are some appliances, such as water boiler, microwave, blender, dishwasher, fridge, coffee maker. which is the most possible to make a fork dirty if a fork is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['there is no reasonable answer']
+raw prompt:is it acceptable that a robot finds a fork in cupboard room if a fork is not found?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as rag, cloth napkin, cutlery knife, coffee filter, condiment bottle, colander, glass, wine glass, place mat, cutlery fork, mug, sponge. which is the most suitable to replace a fork to set up a table if a fork is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a cutlery knife']
+prompt (raw):can a dishwasher make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot takes out a fork from a cupboard if a fork is not found?
+response (raw prompt):['no, it is not acceptable for a robot to take out a fork from a cupboard if a fork is not found']
+raw prompt:there are some utensils, such as mug, glass, cleaning bottle, cutlery fork, frying pan, sponge, condiment shaker, bucket, drinking glass, place mat, rag. which is the most suitable to replace a fork to set up a table if a fork is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a cutlery fork']
+prompt (raw):can a oven make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a fork in cupboard room if a fork is not found?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as cleaning bottle, cutlery fork, drinking glass, frying pan, glass, measuring cup, colander, place mat, condiment bottle, cutlery knife, coffee cup, condiment shaker, coffee filter. which is the most suitable to replace a fork to set up a table if a fork is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a place mat']
+prompt (raw):can a fridge make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a fork in cupboard room if a fork is not found?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as condiment bottle, glass, cleaning bottle, cutlery fork, sponge, wine glass, cloth napkin, bucket, cooking pot, colander, condiment shaker. which is the most suitable to replace a fork to set up a table if a fork is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a colander can be used as a replacement for a fork if one is not available']
+prompt (raw):can a juicer make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as condiment shaker, mug, bucket, cutlery knife, dish bowl, colander, cutting board, frying pan, cleaning bottle, cooking pot, coffee cup. which is the most suitable to replace a fork to set up a table if a fork is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a condiment shaker is the most suitable replacement for a fork if one is not available']
+prompt (raw):can a juicer make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as place mat, coffee cup, coffee filter, sponge, cloth napkin, cleaning bottle, condiment bottle, cutlery fork, wine glass, bucket, cutlery knife, rag. which is the most suitable to replace a fork to set up a table if a fork is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a cutlery knife']
+prompt (raw):can a freezer make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as mug, coffee cup, condiment bottle, coffee filter, wine glass, colander, sponge, condiment shaker, dish bowl, paper towel, cutting board, rag, drinking glass. which is the most suitable to replace a fork to set up a table if a fork is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a colander can be used as a replacement for a fork']
+prompt (raw):can a water filter make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make fork found if a fork is not found? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot places a plate on table in dining room if a table is dirty?
+response (raw prompt):['no, it is not acceptable for a robot to place a plate on a dirty table in the dining room']
+raw prompt:can a robot places a fork on colander in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on paper towel in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on bucket in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on cloth napkin in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a plate on cloth napkin in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on condiment shaker in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on coffee cup in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on rag in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on cutlery knife in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on measuring cup in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on dish rack in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a plate on dish rack in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on wine glass in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on coffee filter in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on dish bowl in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a plate on dish bowl in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on cooking pot in dining room?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as cloth napkin, dish rack, dish bowl. which is the most suitable to replace a table to set up a table if a table is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['dish rack']
+prompt (raw):can a air fryer make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a stove make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on chef knife in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on cutting board in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a plate on cutting board in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on wooden spoon in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on condiment bottle in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on glass in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on cleaning bottle in dining room?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as cutting board, cloth napkin, dish bowl. which is the most suitable to replace a table to set up a table if a table is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['a cutting board']
+prompt (raw):can a microwave make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['yes']
+raw prompt:is it acceptable that a robot finds a table in dining room if a table is dirty?
+response (raw prompt):['no, it is not acceptable for a robot to find a table in the dining room if the table is dirty']
+raw prompt:can a robot places a fork on sponge in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on trash can in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a plate on trash can in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on chef knife in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on mug in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on drinking glass in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on cleaning bottle in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on wooden spoon in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on cutting board in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a plate on cutting board in dining room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as trash can, cloth napkin, cutting board. which is the most suitable to replace a table to set up a table if a table is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['trash can']
+prompt (raw):can a kettle make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on frying pan in dining room?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as cloth napkin, trash can, dish rack. which is the most suitable to replace a table to set up a table if a table is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['if a table is dirty, the most suitable replacement would be a cloth napkin']
+prompt (raw):can a juicer make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a air fryer make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['yes']
+raw prompt:there are some appliances, such as dishwasher, vacuum cleaner. which is the most possible to make a table clean if a table is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most possible way to make a table clean is to use a dishwasher']
+raw prompt:can a robot places a fork on cutlery fork in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on condiment bottle in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on place mat in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a plate on place mat in dining room?
+response (raw prompt):['yes']
+raw prompt:there are some utensils, such as trash can, dish rack, dish bowl, cutting board, place mat. which is the most suitable to replace a table to set up a table if a table is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['dish rack']
+prompt (raw):can a microwave make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a kettle make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on glass in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on oven tray in dining room?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as cutting board, place mat, cloth napkin. which is the most suitable to replace a table to set up a table if a table is dirty? if there is no reasonable answer, please output no.
+response (raw prompt):['if a table is dirty, the most suitable replacement would be a cutting board']
+prompt (raw):can a freezer make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a table clean if a table is dirty? 
+possibility:
+response (raw prompt):['yes']
+raw prompt:is it acceptable that a robot takes out a plate from a cupboard if a table is not found?
+response (raw prompt):['no, it is not acceptable for a robot to take out a plate from a cupboard if a table is not found']
+raw prompt:can a robot places a fork on frying pan in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a fork on oven tray in dining room?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as cutting board, dish bowl. which is the most suitable to replace a table to set up a table if a table is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a cutting board can be used as a makeshift table in a pinch']
+raw prompt:is it acceptable that a robot finds a plate in cupboard room if a table is not found?
+response (raw prompt):['no, it is not acceptable for a robot to find a plate in a cupboard room if a table is not found']
+raw prompt:can a robot places a fork on glass in dining room?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as cutting board, cloth napkin, trash can, place mat. which is the most suitable to replace a table to set up a table if a table is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a cutting board can be used as a makeshift table in a pinch']
+raw prompt:there are some utensils, such as place mat, dish rack, trash can, cloth napkin. which is the most suitable to replace a table to set up a table if a table is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['if a table is not found, the most suitable replacement would be a place mat']
+raw prompt:there are some utensils, such as trash can, place mat. which is the most suitable to replace a table to set up a table if a table is not found? if there is no reasonable answer, please output no.
+response (raw prompt):['a place mat']
+raw prompt:is it acceptable that a robot opens a cupboard in kitchen room if a cupboard cannot open?
+response (raw prompt):['no, it is not acceptable for a robot to open a cupboard in a kitchen room if a cupboard cannot open']
+raw prompt:can a robot opens a paper towel in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a dish rack in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a frying pan in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a cutlery fork in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a place mat in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a dish bowl in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a drinking glass in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a rag in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a coffee cup in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a coffee filter in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a bucket in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a condiment shaker in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a fork from a condiment shaker?
+response (raw prompt):['no']
+raw prompt:can a robot opens a cutlery knife in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a trash can in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a fork from a trash can?
+response (raw prompt):['no']
+prompt (raw):can a toaster make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot opens a condiment bottle in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a fork from a condiment bottle?
+response (raw prompt):['no']
+raw prompt:can a robot opens a oven tray in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a cutting board in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a wooden spoon in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a colander in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a chef knife in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a mug in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a sponge in kitchen room?
+response (raw prompt):['no']
+prompt (raw):can a microwave make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot opens a glass in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a sponge in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a cutting board in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a wine glass in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a condiment bottle in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a fork from a condiment bottle?
+response (raw prompt):['no']
+raw prompt:can a robot opens a cleaning bottle in kitchen room?
+response (raw prompt):['no']
+prompt (raw):can a stove make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot opens a oven tray in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a colander in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a cooking pot in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a fork from a cooking pot?
+response (raw prompt):['no']
+raw prompt:can a robot opens a mug in kitchen room?
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a cupboard open if a cupboard cannot open? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a table in dining room if a plate falls on the ground?
+response (raw prompt):['no, it is not acceptable for a robot to find a table in the dining room if a plate falls on the ground']
+raw prompt:there are some utensils, such as frying pan, dish bowl, cleaning bottle, sponge, drinking glass, cutlery fork, wooden spoon, wine glass, cooking pot, glass, measuring cup, place mat. which is the most suitable to replace a plate to set up a table if a plate falls on the ground? if there is no reasonable answer, please output no.
+response (raw prompt):['a frying pan, dish bowl, cleaning bottle, sponge, drinking glass, cutlery fork, wooden spoon, wine glass, cooking pot, glass']
+raw prompt:is it acceptable that a robot takes out a plate from a cupboard if a plate falls on the ground?
+response (raw prompt):['no, it is not acceptable for a robot to take out a plate from a cupboard if a plate falls on the ground']
+raw prompt:there are some utensils, such as cutlery knife, mug, glass, cooking pot, rag, paper towel, place mat, drinking glass, measuring cup, cleaning bottle, cloth napkin, wine glass, dish bowl. which is the most suitable to replace a plate to set up a table if a plate falls on the ground? if there is no reasonable answer, please output no.
+response (raw prompt):['a place mat']
+prompt (raw):can a dehumidifier make a plate not fell on the ground if a plate falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a plate not fell on the ground if a plate falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a plate not fell on the ground if a plate falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a plate not fell on the ground if a plate falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a plate not fell on the ground if a plate falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a plate not fell on the ground if a plate falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a plate not fell on the ground if a plate falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a plate not fell on the ground if a plate falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a plate not fell on the ground if a plate falls on the ground? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as cloth napkin, frying pan, coffee cup, cutting board, glass, dish bowl, condiment bottle, rag, cutlery knife, wooden spoon, cutlery fork, drinking glass. which is the most suitable to replace a plate to set up a table if a plate falls on the ground? if there is no reasonable answer, please output no.
+response (raw prompt):['a cloth napkin can be used as a replacement for a plate if a plate falls on the ground']
+raw prompt:there are some utensils, such as measuring cup, drinking glass, mug, condiment bottle, glass, frying pan, condiment shaker, cutlery knife, cooking pot, colander, coffee cup, coffee filter, cleaning bottle, wooden spoon. which is the most suitable to replace a plate to set up a table if a plate falls on the ground? if there is no reasonable answer, please output no.
+response (raw prompt):['a drinking glass is the most suitable to replace a plate to set up a table if a plate falls on the ground']
+raw prompt:is it acceptable that a robot places a plate on table in dining room if a table does not have enough space?
+response (raw prompt):['no, it is not acceptable for a robot to place a plate on a table in a dining room if the table does not have enough space']
+raw prompt:there are some utensils, such as trash can, cloth napkin, cutting board, dish rack. which is the most suitable to replace a table to set up a table if a table does not have enough space? if there is no reasonable answer, please output no.
+response (raw prompt):['if a table does not have enough space, the most suitable replacement is a cutting board']
+prompt (raw):can a blender make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot places a fork on table in dining room if a table does not have enough space?
+response (raw prompt):['no, it is not acceptable for a robot to place a fork on a table in a dining room if the table does not have enough space']
+raw prompt:there are some utensils, such as cloth napkin, dish rack. which is the most suitable to replace a table to set up a table if a table does not have enough space? if there is no reasonable answer, please output no.
+response (raw prompt):['a dish rack can be used to replace a table if there is not enough space']
+prompt (raw):can a blender make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot places a plate on table in dining room if a table does not have enough space?
+response (raw prompt):['no, it is not acceptable for a robot to place a plate on a table in a dining room if the table does not have enough space']
+raw prompt:there are some utensils, such as dish bowl, cloth napkin, place mat, trash can. which is the most suitable to replace a table to set up a table if a table does not have enough space? if there is no reasonable answer, please output no.
+response (raw prompt):['dish bowl']
+prompt (raw):can a dishwasher make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot places a plate on table in dining room if a table does not have enough space?
+response (raw prompt):['no, it is not acceptable for a robot to place a plate on a table in a dining room if the table does not have enough space']
+raw prompt:there are some utensils, such as cutting board, place mat, dish rack. which is the most suitable to replace a table to set up a table if a table does not have enough space? if there is no reasonable answer, please output no.
+response (raw prompt):['a cutting board can be used as a makeshift table in a pinch']
+prompt (raw):can a juicer make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a table is big enough if a table does not have enough space? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a fork in cupboard room if a fork falls on the ground?
+response (raw prompt):['no, it is not acceptable for a robot to find a fork in a cupboard room if a fork falls on the ground']
+raw prompt:there are some utensils, such as bucket, cloth napkin, condiment shaker, sponge, measuring cup, condiment bottle, dish bowl, paper towel, mug, place mat, cutlery knife, frying pan. which is the most suitable to replace a fork to set up a table if a fork falls on the ground? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a fork if one falls on the ground would be a spoon']
+prompt (raw):can a water boiler make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot places a fork on table in dining room if a fork falls on the ground?
+response (raw prompt):['it is acceptable if the robot is designed to do so']
+raw prompt:is it acceptable that a robot takes out a plate from a cupboard if a fork falls on the ground?
+response (raw prompt):['no, it is not acceptable for a robot to take out a plate from a cupboard if a fork falls on the ground']
+raw prompt:there are some utensils, such as cleaning bottle, condiment bottle, sponge, mug, cutlery fork, drinking glass, wine glass, place mat, coffee cup, frying pan, paper towel, condiment shaker. which is the most suitable to replace a fork to set up a table if a fork falls on the ground? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a fork if one falls on the ground would be a spoon']
+prompt (raw):can a oven make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot takes out a fork from a cupboard if a fork falls on the ground?
+response (raw prompt):['no, it is not acceptable for a robot to take a fork out of a cupboard if a fork falls on the ground']
+raw prompt:there are some utensils, such as cutting board, wooden spoon, coffee cup, glass, wine glass, cutlery fork, bucket, colander, measuring cup, paper towel, dish bowl, cooking pot. which is the most suitable to replace a fork to set up a table if a fork falls on the ground? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a fork if one falls on the ground would be a knife']
+prompt (raw):can a coffee maker make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a fork not fell on the ground if a fork falls on the ground? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot opens a cupboard in kitchen room if a cupboard has some mites?
+response (raw prompt):['there is no right or wrong answer to this question since it depends on personal preferences']
+raw prompt:can a robot opens a mug in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a cooking pot in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a fork from a cooking pot?
+response (raw prompt):['no']
+raw prompt:can a robot opens a colander in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a cloth napkin in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a fork from a cloth napkin?
+response (raw prompt):['no']
+raw prompt:can a robot opens a chef knife in kitchen room?
+response (raw prompt):['no']
+prompt (raw):can a water filter make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a blender make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot opens a measuring cup in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a fork from a measuring cup?
+response (raw prompt):['no']
+raw prompt:can a robot opens a oven tray in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot opens a wooden spoon in kitchen room?
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot opens a oven tray in kitchen room?
+response (raw prompt):['no']
+prompt (raw):can a stove make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['yes']
+prompt (raw):can a juicer make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a cupboard not have mites if a cupboard has some mites? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot opens a cupboard in kitchen room if a cupboard is broken?
+response (raw prompt):['there is no definitive answer to this question as it depends on the specific context and situation']
+raw prompt:can a robot opens a measuring cup in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot takes out a fork from a measuring cup?
+response (raw prompt):['no']
+raw prompt:can a robot opens a wooden spoon in kitchen room?
+response (raw prompt):['no']
+prompt (raw):can a blender make a cupboard not broken if a cupboard is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a cupboard not broken if a cupboard is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a cupboard not broken if a cupboard is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make a cupboard not broken if a cupboard is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make a cupboard not broken if a cupboard is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a cupboard not broken if a cupboard is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a cupboard not broken if a cupboard is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a cupboard not broken if a cupboard is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a cupboard not broken if a cupboard is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a fork in cupboard room if a fork is already on the table?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as cleaning bottle, coffee filter, dish bowl, cutlery knife, condiment shaker, drinking glass, wooden spoon, frying pan, condiment bottle, rag, glass. which is the most suitable to replace a fork to set up a table if a fork is already on the table? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a fork on a table is a spoon']
+prompt (raw):can a washing machine make a fork not on the table if a fork is already on the table? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a fork not on the table if a fork is already on the table? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a fork not on the table if a fork is already on the table? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a fork not on the table if a fork is already on the table? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make a fork not on the table if a fork is already on the table? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make a fork not on the table if a fork is already on the table? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a fork not on the table if a fork is already on the table? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a fork not on the table if a fork is already on the table? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a fork not on the table if a fork is already on the table? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a fork in cupboard room if a fork is broken?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as mug, paper towel, coffee filter, cutting board, sponge, condiment bottle, coffee cup, drinking glass, rag, bucket, frying pan, wooden spoon. which is the most suitable to replace a fork to set up a table if a fork is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['sponge']
+prompt (raw):can a oven make a fork broken if a fork is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a fork broken if a fork is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a fork broken if a fork is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make a fork broken if a fork is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a fork broken if a fork is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a fork broken if a fork is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make a fork broken if a fork is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make a fork broken if a fork is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a fork broken if a fork is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a table in dining room if a table is broken?
+response (raw prompt):['no, it is not acceptable for a robot to find a table in the dining room if a table is broken']
+raw prompt:there are some utensils, such as trash can, dish bowl, cutting board, dish rack. which is the most suitable to replace a table to set up a table if a table is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['dish bowl']
+prompt (raw):can a water filter make a table broken if a table is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make a table broken if a table is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make a table broken if a table is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make a table broken if a table is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make a table broken if a table is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make a table broken if a table is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make a table broken if a table is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make a table broken if a table is broken? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make a table broken if a table is broken? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot finds a cupboard in kitchen room if there are some obstacles and robot cannot move to the target area?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as dish rack, cloth napkin, chef knife, rag, frying pan, measuring cup, condiment shaker, sponge, colander, drinking glass, cutlery knife, coffee cup, bucket, cooking pot. which is the most suitable to replace a obstacle to set up a table if there are some obstacles and robot cannot move to the target area? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace an obstacle in order to set up a table is a dish rack']
+raw prompt:is it acceptable that a robot finds a cupboard in kitchen room if there are some obstacles and robot cannot move to the target area?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as wine glass, frying pan, condiment bottle, place mat, drinking glass, cutlery knife, mug, dish bowl, trash can, coffee cup, coffee filter, oven tray, colander, cleaning bottle. which is the most suitable to replace a obstacle to set up a table if there are some obstacles and robot cannot move to the target area? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace an obstacle in order to set up a table is a dish bowl']

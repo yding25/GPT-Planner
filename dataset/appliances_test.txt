@@ -1,0 +1,9 @@
+water boiler
+fridge
+water filter
+washing machine
+blender
+oven
+stove
+dishwasher
+freezer

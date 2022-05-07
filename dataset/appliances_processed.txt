@@ -1,0 +1,18 @@
+blender
+dishwasher
+freezer
+microwave
+fridge
+oven
+stove
+washing machine
+kettle
+vacuum cleaner
+toaster
+air fryer
+dehumidifier
+water boiler
+ice cream maker
+juicer
+water filter
+coffee maker

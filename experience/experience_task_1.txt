@@ -1,0 +1,2325 @@
+raw prompt:is it acceptable that a robot find a table in dining room if there is no power?
+response (raw prompt):['no, it is not acceptable for a robot to find a table in a dining room if there is no power']
+raw prompt:there are some utensils, such as cooking pot, wine glass, glass, colander, oven tray, chef knife, coffee cup, bucket, cloth napkin, condiment shaker, frying pan, paper towel, cutlery fork, measuring cup. which is the most suitable to replace a power to clean floor if there is no power? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is no power is a bucket']
+raw prompt:is it acceptable that a robot plugs a vacuum in dining room if there is a power outage?
+response (raw prompt):['it is acceptable for a robot to plug a vacuum in the dining room if there is a power outage']
+raw prompt:is it acceptable that a robot turns on a vacuum in dining room if there is a power outage?
+response (raw prompt):['there is no definitive answer to this question as it depends on the specific circumstances and preferences of the people involved']
+raw prompt:there are some utensils, such as coffee cup, cutting board, sponge, cutlery knife, chef knife, drinking glass, bucket, cutlery fork, oven tray, frying pan, trash can, cloth napkin, coffee filter, cleaning bottle. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a broom']
+prompt (raw):can a washing machine make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as rag, bucket, colander, measuring cup, trash can, cutlery fork, place mat, cleaning bottle, condiment shaker, glass, cutlery knife, condiment bottle, chef knife, sponge. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a rag']
+prompt (raw):can a stove make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make power availabl if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as trash can, coffee filter, frying pan, mug, condiment bottle, place mat, cooking pot, condiment shaker, cutlery fork, oven tray, rag, cutlery knife, bucket, dish rack. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a rag']
+prompt (raw):can a water filter make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot clean a table using vacuum in dining room if there is a power outage?
+response (raw prompt):['no, it is not acceptable for a robot to clean a table using a vacuum in a dining room if there is a power outage']
+raw prompt:there are some utensils, such as rag, cleaning bottle, oven tray, bucket, coffee filter, place mat, mug, measuring cup, cutlery fork, condiment bottle, cooking pot, paper towel, chef knife, wooden spoon. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a rag']
+raw prompt:there are some utensils, such as wooden spoon, cutlery fork, condiment shaker, cutlery knife, chef knife, rag, oven tray, dish bowl, trash can, colander, glass, wine glass, coffee cup, bucket. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a rag']
+raw prompt:there are some utensils, such as cutting board, coffee filter, wooden spoon, cleaning bottle, chef knife, cooking pot, dish rack, mug, coffee cup, cutlery fork, wine glass, rag, frying pan, dish bowl. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a dish bowl']
+raw prompt:there are some utensils, such as cloth napkin, cutlery knife, condiment bottle, coffee cup, wooden spoon, sponge, chef knife, oven tray, colander, condiment shaker, mug, dish rack, frying pan, paper towel. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a sponge']
+prompt (raw):can a stove make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as wooden spoon, cutting board, condiment shaker, frying pan, chef knife, mug, cutlery fork, drinking glass, cutlery knife, condiment bottle, sponge, paper towel, dish rack, cleaning bottle. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a sponge']
+prompt (raw):can a toaster make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as bucket, paper towel, frying pan, glass, dish rack, coffee filter, cloth napkin, cutlery fork, cutting board, cutlery knife, chef knife, cleaning bottle, condiment shaker, dish bowl. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a bucket']
+raw prompt:is it acceptable that a robot find a table in dining room if there is a power outage?
+response (raw prompt):['there is no definitive answer to this question as it depends on the specific robot and its capabilities']
+raw prompt:there are some utensils, such as cleaning bottle, cooking pot, coffee cup, sponge, cloth napkin, oven tray, chef knife, cutlery fork, dish bowl, mug, colander, rag, cutting board, coffee filter. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a cleaning bottle']
+raw prompt:there are some utensils, such as wooden spoon, sponge, rag, cloth napkin, chef knife, coffee cup, colander, condiment bottle, dish bowl, oven tray, mug, cutlery knife, frying pan, cooking pot. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a dish bowl']
+prompt (raw):can a water boiler make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as colander, coffee cup, cutlery knife, glass, place mat, mug, cloth napkin, oven tray, measuring cup, wine glass, condiment bottle, bucket, chef knife, paper towel. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a bucket']
+raw prompt:there are some utensils, such as paper towel, bucket, dish rack, drinking glass, cutlery knife, trash can, cloth napkin, colander, cooking pot, cleaning bottle, frying pan, glass, place mat, coffee filter. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a paper towel']
+raw prompt:there are some utensils, such as cutlery knife, place mat, paper towel, cleaning bottle, mug, wooden spoon, cutting board, condiment bottle, colander, coffee filter, sponge, cutlery fork, measuring cup, frying pan. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['sponge']
+prompt (raw):can a blender make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as coffee cup, cleaning bottle, place mat, coffee filter, oven tray, mug, condiment shaker, chef knife, paper towel, cutlery knife, measuring cup, frying pan, condiment bottle, rag. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['cleaning bottle']
+raw prompt:there are some utensils, such as drinking glass, frying pan, sponge, condiment shaker, measuring cup, paper towel, oven tray, dish bowl, colander, cutlery fork, condiment bottle, bucket, cloth napkin, cutlery knife. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a sponge']
+raw prompt:there are some utensils, such as frying pan, dish rack, sponge, paper towel, coffee filter, rag, place mat, wine glass, cutlery knife, cutting board, chef knife, wooden spoon, cleaning bottle, drinking glass. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a rag']
+prompt (raw):can a water filter make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as glass, paper towel, coffee cup, wine glass, chef knife, measuring cup, condiment bottle, oven tray, condiment shaker, mug, wooden spoon, cutlery fork, bucket, dish bowl. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a dish bowl']
+raw prompt:there are some utensils, such as drinking glass, frying pan, coffee filter, measuring cup, cutlery fork, cutlery knife, dish rack, rag, condiment shaker, bucket, sponge, oven tray, place mat, coffee cup. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a rag']
+raw prompt:there are some utensils, such as sponge, condiment bottle, measuring cup, cleaning bottle, drinking glass, cutlery fork, chef knife, colander, paper towel, trash can, mug, coffee filter, coffee cup, cloth napkin. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['sponge']
+raw prompt:there are some utensils, such as cutlery fork, condiment shaker, drinking glass, mug, condiment bottle, trash can, oven tray, cloth napkin, cutlery knife, coffee filter, dish rack, paper towel, wooden spoon, coffee cup. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a broom']
+prompt (raw):can a toaster make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as colander, place mat, mug, glass, cutlery fork, wooden spoon, dish bowl, coffee cup, cutlery knife, condiment shaker, measuring cup, drinking glass, paper towel, chef knife. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a colander']
+prompt (raw):can a washing machine make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as dish rack, oven tray, cleaning bottle, cloth napkin, cutlery knife, cutting board, condiment shaker, mug, chef knife, coffee cup, paper towel, colander, dish bowl, frying pan. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['dish rack']
+raw prompt:there are some utensils, such as dish rack, cutting board, cloth napkin, wooden spoon, rag, cleaning bottle, cutlery knife, coffee filter, oven tray, colander, place mat, cutlery fork, paper towel, drinking glass. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['dish rack']
+raw prompt:there are some utensils, such as dish bowl, coffee cup, mug, trash can, measuring cup, condiment shaker, place mat, cutting board, bucket, cutlery fork, sponge, cloth napkin, cooking pot, cutlery knife. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a dish bowl']
+prompt (raw):can a dehumidifier make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as wooden spoon, cutting board, dish bowl, drinking glass, frying pan, trash can, oven tray, rag, wine glass, measuring cup, condiment bottle, cleaning bottle, dish rack, coffee filter. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a rag']
+raw prompt:is it acceptable that a robot clean a table using vacuum in dining room if there is a power outage?
+response (raw prompt):['no, it is not acceptable for a robot to clean a table using a vacuum in a dining room if there is a power outage']
+raw prompt:there are some utensils, such as cutting board, measuring cup, condiment bottle, cleaning bottle, paper towel, bucket, glass, cutlery knife, mug, coffee cup, oven tray, sponge, condiment shaker, wine glass. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a sponge']
+raw prompt:there are some utensils, such as trash can, colander, cutting board, coffee cup, bucket, sponge, glass, wooden spoon, cloth napkin, condiment shaker, cutlery knife, place mat, cooking pot, paper towel. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a power to clean floor if there is a power outage is a broom']
+prompt (raw):can a ice cream maker make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make power available if there is a power outage? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot turns on a vacuum in dining room if the vacuum is not working?
+response (raw prompt):['no, it is not acceptable for a robot to turn on a vacuum in the dining room if the vacuum is not working']
+raw prompt:can a robot takes out a drinking glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot plugs a drinking glass in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a sponge in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a condiment shaker in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a cutlery fork in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a dish bowl in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a rag in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a cutting board in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a colander in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a chef knife in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a cloth napkin in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a measuring cup in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a frying pan in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a wine glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot plugs a wine glass in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a dish rack in dining room?
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot takes out a oven tray in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a wooden spoon in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a bucket in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a trash can in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a cutlery knife in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a coffee cup in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot plugs a coffee cup in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot plugs a glass in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a place mat in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a cooking pot in dining room?
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot takes out a place mat in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a mug in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot plugs a mug in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a glass in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot plugs a glass in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a cutlery knife in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a coffee cup in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot plugs a coffee cup in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a oven tray in dining room?
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot clean a table using vacuum in dining room if the vacuum is not working?
+response (raw prompt):['no, it is not acceptable for a robot to clean a table using a vacuum in a dining room if the vacuum is not working']
+raw prompt:can a robot takes out a paper towel in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a coffee filter in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a bucket in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a trash can in dining room?
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot takes out a condiment bottle in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a wooden spoon in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a bucket in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a paper towel in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a trash can in dining room?
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot takes out a cooking pot in dining room?
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot takes out a cleaning bottle in dining room?
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot clean a table using vacuum in dining room if the vacuum is not working?
+response (raw prompt):['no, it is not acceptable for a robot to clean a table using a vacuum in a dining room if the vacuum is not working']
+prompt (raw):can a coffee maker make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot takes out a coffee filter in dining room?
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot takes out a vacuum in dining room if the vacuum is not working?
+response (raw prompt):['no, it is not acceptable for a robot to take out a vacuum in the dining room if the vacuum is not working']
+raw prompt:can a robot takes out a cooking pot in dining room?
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot takes out a vacuum in dining room if the vacuum is missing?
+response (raw prompt):['no, it is not acceptable for a robot to take out a vacuum in the dining room if the vacuum is missing']
+prompt (raw):can a vacuum cleaner make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot takes out a cooking pot in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot takes out a coffee filter in dining room?
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot takes out a coffee filter in dining room?
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum found if the vacuum is missing? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot takes out a vacuum in dining room if the vacuum cannot turn on?
+response (raw prompt):['no, it is not acceptable for a robot to take out a vacuum in the dining room if the vacuum cannot turn on']
+raw prompt:can a robot takes out a cooking pot in dining room?
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum turning on if the vacuum cannot turn on? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot find a table in dining room if the vacuum plug is damaged?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:can a robot oven trays a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot colanders a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot cloth napkins a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot sponges a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot mugs a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot condiment bottles a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot wine glasss a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot dish bowls a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot chef knifes a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot condiment shakers a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot rags a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot measuring cups a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot drinking glasss a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot cutlery knifes a vacuum in dining room?
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot cutlery forks a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot trash cans a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot frying pans a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot dish racks a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot coffee cups a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot paper towels a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot wooden spoons a vacuum in dining room?
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot plugs a vacuum in dining room if the vacuum plug is damaged?
+response (raw prompt):['no, it is not acceptable for a robot to plug a vacuum in the dining room if the vacuum plug is damaged']
+raw prompt:can a robot paper towels a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot wooden spoons a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot cutting boards a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot cleaning bottles a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot frying pans a vacuum in dining room?
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot coffee cups a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot coffee filters a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot glasss a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot trash cans a vacuum in dining room?
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot cooking pots a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot coffee cups a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot coffee filters a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot dish racks a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot buckets a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot place mats a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot trash cans a vacuum in dining room?
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot cutlery forks a vacuum in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot glasss a vacuum in dining room?
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot plugs a vacuum in dining room if the outlet is missing?
+response (raw prompt):['no, it is not acceptable for a robot to plug a vacuum in the dining room if the outlet is missing']
+raw prompt:there are some utensils, such as mug, coffee cup, bucket, cloth napkin, place mat, measuring cup, condiment bottle, frying pan, dish rack, wine glass, glass, cleaning bottle, coffee filter, condiment shaker. which is the most suitable to replace a outlet to clean floor if the outlet is missing? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a outlet to clean floor if the outlet is missing is a cleaning bottle']
+prompt (raw):can a stove make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot plugs a vacuum in dining room if the outlet is missing?
+response (raw prompt):['no, it is not acceptable for a robot to plug a vacuum in the dining room if the outlet is missing']
+raw prompt:there are some utensils, such as drinking glass, glass, wooden spoon, dish bowl, cleaning bottle, sponge, cloth napkin, cooking pot, coffee cup, wine glass, coffee filter, oven tray, cutlery knife, bucket. which is the most suitable to replace a outlet to clean floor if the outlet is missing? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace an outlet for cleaning the floor would be a cleaning bottle']
+prompt (raw):can a oven make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as bucket, cutlery fork, sponge, coffee cup, paper towel, condiment shaker, colander, wine glass, cleaning bottle, coffee filter, cutting board, cutlery knife, frying pan, dish rack. which is the most suitable to replace a outlet to clean floor if the outlet is missing? if there is no reasonable answer, please output no.
+response (raw prompt):['bucket']
+prompt (raw):can a washing machine make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as wooden spoon, cutting board, measuring cup, cooking pot, rag, paper towel, cleaning bottle, cutlery fork, glass, bucket, dish bowl, cutlery knife, sponge, drinking glass. which is the most suitable to replace a outlet to clean floor if the outlet is missing? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace an outlet to clean a floor would be a rag']
+prompt (raw):can a microwave make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make outlet found if the outlet is missing? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot plugs a vacuum in dining room if the vacuum is not plugged?
+response (raw prompt):['no, it is not acceptable for a robot to plug a vacuum in the dining room if the vacuum is not plugged in']
+prompt (raw):can a washing machine make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot plugs a vacuum in dining room if the vacuum is not plugged?
+response (raw prompt):['no, it is not acceptable for a robot to plug a vacuum in the dining room if the vacuum is not plugged in']
+prompt (raw):can a toaster make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum plugged if the vacuum is not plugged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot cutlery forks a vacuum in dining room?
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a robot glasss a vacuum in dining room?
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot clean a table using vacuum in dining room if the vacuum plug is damaged?
+response (raw prompt):['no, it is not acceptable for a robot to clean a table using a vacuum if the vacuum plug is damaged']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot takes out a vacuum in dining room if the vacuum is not working?
+response (raw prompt):['no, it is not acceptable for a robot to take out a vacuum in the dining room if the vacuum is not working']
+prompt (raw):can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
