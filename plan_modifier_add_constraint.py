@@ -227,6 +227,11 @@ def plan_modifier_add_constraint(action, predicate, situation_object, manipulate
     target_init_part_after.append(')')
 
     target_init_part_new = '\t' + target_init_part[:-1] + ' (' + target_predicate + ' ' + target_object + '_1' + '))\n'
+    
+    # a special case --- rob 1
+    if 'robot' in target_object:
+        target_init_part_new = '\t' + target_init_part[:-1] + ' (' + target_predicate + ' rob_1' + '))\n'
+        
     # print('updated init in new problem.pddl:')
     # print(target_init_part_new)
     problem_new = target_init_part_before + [target_init_part_new] + target_init_part_after
