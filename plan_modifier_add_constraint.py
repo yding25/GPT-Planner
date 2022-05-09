@@ -36,7 +36,7 @@ def plan_modifier_add_constraint(action, predicate, situation_object, manipulate
     for line in fidin.readlines():
         domain.append(line)
         line = line.strip()
-        if target_action in line or signal > 0:  # read the following 4 lines
+        if (target_action in line or signal > 0) and len(target_action_part) <= 3:  # read the following 4 lines
             if target_action in line:
                 signal = 4
             target_action_part.append(line)
@@ -85,7 +85,7 @@ def plan_modifier_add_constraint(action, predicate, situation_object, manipulate
     for line in fidin.readlines():
         domain.append(line)
         line = line.strip()
-        if target_action in line or signal > 0:  # read the following 4 lines
+        if (target_action in line or signal > 0) and len(target_action_part) <= 3:  # read the following 4 lines
             if target_action in line:
                 signal = 4
             target_action_part.append(line)
