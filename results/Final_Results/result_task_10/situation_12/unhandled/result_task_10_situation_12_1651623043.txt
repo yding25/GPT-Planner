@@ -1,0 +1,260 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 dining kitchen)
+(find_coke rob_1 coke_1 kitchen)
+(grasp_coke rob_1 coke_1 kitchen)
+(find_glass rob_1 glass_1 kitchen)
+(pour_coke rob_1 coke_1 glass_1 kitchen)
+(move_glass rob_1 glass_1 kitchen table_1 dining)
+(place_glass rob_1 glass_1 table_1 dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation: the robot cannot recognize the bottle.
+corresponding predicate: bottle_can_not_be_recognized
+object in situation: robot
+action that has situation: find_coke
+object manipulated by robot: coke
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['find_coke', 'rob_1', 'coke_1', 'kitchen']
+next action (decoded): a robot finds a coke in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['find_coke', 'rob_1', 'coke_1', 'kitchen']
+['grasp_coke', 'rob_1', 'coke_1', 'kitchen']
+['find_glass', 'rob_1', 'glass_1', 'kitchen']
+['pour_coke', 'rob_1', 'coke_1', 'glass_1', 'kitchen']
+['move_glass', 'rob_1', 'glass_1', 'kitchen', 'table_1', 'dining']
+['place_glass', 'rob_1', 'glass_1', 'table_1', 'dining']
+
+unexecuted action: ['find_coke', 'rob_1', 'coke_1', 'kitchen']
+unexecuted action (decoded): a robot finds a coke in kitchen room.
+! prompt design
+raw prompt: is it acceptable that a robot finds a coke in kitchen room if the robot cannot recognize the bottle?
+! experience found
+! response from LLM
+response (raw prompt): ["'no, it is not acceptable'"]
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['tea bag', 'mug', 'rag', 'milk', 'ground coffee', 'oven tray', 'colander', 'trash can', 'coffee filter', 'dish bowl', 'frying pan', 'cutting board', 'place mat', 'condiment shaker', 'sponge', 'watermelon', 'cooking pot', 'drinking glass', 'beer', 'water']
+
+! prompt design
+raw prompt: can a tea bag walks from dining room to kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a mug walks from dining room to kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a rag walks from dining room to kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a milk walks from dining room to kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a ground coffee walks from dining room to kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a oven tray walks from dining room to kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a colander walks from dining room to kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a trash can walks from dining room to kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a coffee filter walks from dining room to kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a dish bowl walks from dining room to kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a frying pan walks from dining room to kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a cutting board walks from dining room to kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a place mat walks from dining room to kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a condiment shaker walks from dining room to kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a sponge walks from dining room to kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a watermelon walks from dining room to kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a cooking pot walks from dining room to kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a drinking glass walks from dining room to kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a beer walks from dining room to kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a water walks from dining room to kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+#---------- capable_utensils_actionknowledge: ----------
+None
+
+#---------- capable utensils: ---------- 
+None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['toaster', 'coffee maker', 'fridge', 'stove', 'microwave', 'vacuum cleaner', 'freezer', 'ice cream maker', 'kettle']
+
+! prompt design
+prompt (raw): can a toaster make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a coffee maker make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a fridge make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a stove make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a microwave make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a vacuum cleaner make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a freezer make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a ice cream maker make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a kettle make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+no capable appliance found!
+
+no modified_plan_3 found!

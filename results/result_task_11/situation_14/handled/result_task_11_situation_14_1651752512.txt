@@ -1,0 +1,502 @@
+/home/yan/githubBase/GPT-Planner/task_11_basic_plan.txt
+#---------- generating basic_plan! -----------
+(find_table rob_1 table_1 dining)
+(walk_table rob_1 table_1 dining)
+(find_chair rob_1 chair_1 dining)
+(pull_chair rob_1 chair_1 dining)
+(walk rob_1 dining kitchen)
+(find_burger rob_1 burger_1 kitchen)
+(grasp_burger rob_1 burger_1 kitchen)
+(find_fork rob_1 fork_1 kitchen)
+(find_plate rob_1 plate_2 kitchen)
+(place_burger rob_1 burger_1 plate_2 kitchen)
+(place_fork rob_1 fork_1 plate_2 kitchen)
+(move_plate rob_1 fork_1 burger_1 plate_1 kitchen table_1 dining)
+(place_plate rob_1 plate_1 table_1 dining)
+; cost = 13 (unit cost)
+
+#---------- generating situation! -----------
+situation: the table is dirty.
+corresponding predicate: table_is_dirty
+object in situation: table
+action that has situation: find_table
+object manipulated by robot: table
+
+#---------- executing plan! -----------
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot finds a table in dining room.
+
+#---------- checking unexecuted actions! -----------
+['find_table', 'rob_1', 'table_1', 'dining']
+['walk_table', 'rob_1', 'table_1', 'dining']
+['find_chair', 'rob_1', 'chair_1', 'dining']
+['pull_chair', 'rob_1', 'chair_1', 'dining']
+['walk', 'rob_1', 'dining', 'kitchen']
+['find_burger', 'rob_1', 'burger_1', 'kitchen']
+['grasp_burger', 'rob_1', 'burger_1', 'kitchen']
+['find_fork', 'rob_1', 'fork_1', 'kitchen']
+['find_plate', 'rob_1', 'plate_2', 'kitchen']
+['place_burger', 'rob_1', 'burger_1', 'plate_2', 'kitchen']
+['place_fork', 'rob_1', 'fork_1', 'plate_2', 'kitchen']
+['move_plate', 'rob_1', 'fork_1', 'burger_1', 'plate_1', 'kitchen', 'table_1', 'dining']
+['place_plate', 'rob_1', 'plate_1', 'table_1', 'dining']
+
+unexecuted action: ['find_table', 'rob_1', 'table_1', 'dining']
+unexecuted action (decoded): a robot finds a table in dining room.
+! prompt design
+raw prompt: is it acceptable that a robot finds a table in dining room if the table is dirty?
+! response from LLM
+response (raw prompt): ['no, it is not acceptable for a robot to find a table in the dining room if the table is dirty']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['condiment bottle', 'coffee filter', 'peanut butter', 'condiment shaker', 'sugar', 'oatmeal', 'wooden spoon', 'couch', 'rag', 'steak', 'kitchen cabinet', 'closet', 'dining table', 'table cloth', 'cloth napkin', 'cpu table', 'bread', 'cake', 'bucket', 'snack', 'measuring cup', 'kitchen table', 'oven tray', 'drinking glass', 'pantry', 'coffee cup', 'filing cabinet', 'salt', 'dish rack', 'dish bowl']
+
+! prompt design
+raw prompt: can a robot walks to a condiment bottle in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a condiment bottle  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a coffee filter in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a coffee filter  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a peanut butter in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a condiment shaker in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a condiment shaker  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a sugar in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a sugar  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a oatmeal in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a oatmeal  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a wooden spoon in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a wooden spoon  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a couch in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a couch  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a rag in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a rag  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a steak in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a kitchen cabinet in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a kitchen cabinet  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a closet in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a closet  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot places a plate on a closet  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a dining table in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a dining table  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot places a plate on a dining table  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a table cloth in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a table cloth  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a cloth napkin in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a cloth napkin  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a cpu table in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a cpu table  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot places a plate on a cpu table  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a bread in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a bread  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a cake in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a cake  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a bucket in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a bucket  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a snack in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a snack  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot places a plate on a snack  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a measuring cup in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a measuring cup  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a kitchen table in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a kitchen table  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot places a plate on a kitchen table  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a oven tray in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a oven tray  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a drinking glass in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a drinking glass  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a pantry in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a pantry  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot places a plate on a pantry  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a coffee cup in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a coffee cup  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a filing cabinet in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a filing cabinet  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a salt in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a salt  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a dish rack in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a dish rack  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot places a plate on a dish rack  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a dish bowl in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a plate in kitchen room on a dish bowl  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot places a plate on a dish bowl  in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+#---------- capable_utensils_actionknowledge: ----------
+ ['dining table', 'cpu table', 'snack', 'kitchen table', 'pantry', 'dish rack', 'dish bowl']
+
+! prompt design
+raw prompt: there are some utensils, such as dining table, cpu table, snack, kitchen table, pantry, dish rack, dish bowl. which is the most suitable to replace a table to eat dinner if the table is dirty? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['dining table']
+
+#---------- most possible utensil: ---------- 
+ dining table
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+(find_table rob_1 cupboard_1 dining)
+(walk_table rob_1 cupboard_1 dining)
+(find_chair rob_1 chair_1 dining)
+(pull_chair rob_1 chair_1 dining)
+(walk rob_1 dining kitchen)
+(find_burger rob_1 burger_1 kitchen)
+(grasp_burger rob_1 burger_1 kitchen)
+(find_fork rob_1 fork_1 kitchen)
+(find_plate rob_1 plate_1 kitchen)
+(place_burger rob_1 burger_1 plate_1 kitchen)
+(place_fork rob_1 fork_1 plate_1 kitchen)
+(move_plate rob_1 fork_1 burger_1 plate_1 kitchen cupboard_1 dining)
+(place_plate rob_1 plate_1 cupboard_1 dining)
+; cost = 13 (unit cost)

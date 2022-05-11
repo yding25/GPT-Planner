@@ -1,0 +1,232 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 dining kitchen)
+(find_coke rob_1 coke_1 kitchen)
+(grasp_coke rob_1 coke_1 kitchen)
+(find_glass rob_1 glass_1 kitchen)
+(pour_coke rob_1 coke_1 glass_1 kitchen)
+(move_glass rob_1 glass_1 kitchen table_1 dining)
+(place_glass rob_1 glass_1 table_1 dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation: the glass is broken.
+corresponding predicate: glass_is_broken
+object in situation: glass
+action that has situation: pour_coke
+object manipulated by robot: coke
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['find_coke', 'rob_1', 'coke_1', 'kitchen']
+next action (decoded): a robot finds a coke in kitchen room.
+this action is executed!
+
+next action: ['grasp_coke', 'rob_1', 'coke_1', 'kitchen']
+next action (decoded): a robot grasps a coke in kitchen room.
+this action is executed!
+
+next action: ['find_glass', 'rob_1', 'glass_1', 'kitchen']
+next action (decoded): a robot finds a glass in kitchen room.
+this action is executed!
+
+next action: ['pour_coke', 'rob_1', 'coke_1', 'glass_1', 'kitchen']
+next action (decoded): a robot pours coke into glass in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['pour_coke', 'rob_1', 'coke_1', 'glass_1', 'kitchen']
+['move_glass', 'rob_1', 'glass_1', 'kitchen', 'table_1', 'dining']
+['place_glass', 'rob_1', 'glass_1', 'table_1', 'dining']
+
+unexecuted action: ['pour_coke', 'rob_1', 'coke_1', 'glass_1', 'kitchen']
+unexecuted action (decoded): a robot pours coke into glass in kitchen room.
+! prompt design
+raw prompt: is it acceptable that a robot pours coke into glass in kitchen room if the glass is broken?
+! experience found
+! response from LLM
+response (raw prompt): ["'no, it is not acceptable for a robot to pour coke into a glass in a kitchen room if the glass is broken'"]
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['frying pan', 'chef knife', 'bucket', 'glass', 'cleaning bottle', 'cutlery knife', 'condiment bottle', 'drinking glass', 'coffee filter', 'trash can', 'coffee cup', 'cooking pot', 'mug', 'rag']
+
+! prompt design
+raw prompt: can a robot pours coke into frying pan in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pours coke into chef knife in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into bucket in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into glass in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a glass in kitchen room near a table in table room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a glass on a table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot pours coke into cleaning bottle in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into cutlery knife in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into condiment bottle in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into drinking glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a drinking glass in kitchen room near a table in table room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot places a drinking glass on a table in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours coke into coffee filter in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into trash can in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a trash can in kitchen room near a table in table room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot places a trash can on a table in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pours coke into coffee cup in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into cooking pot in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into mug in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pours coke into rag in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+#---------- capable_utensils_actionknowledge: ----------
+ ['glass', 'drinking glass']
+
+! prompt design
+raw prompt: there are some utensils, such as glass, drinking glass. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['a drinking glass']
+
+#---------- most possible utensil: ---------- 
+ glass
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+(walk rob_1 dining kitchen)
+(find_coke rob_1 coke_1 kitchen)
+(grasp_coke rob_1 coke_1 kitchen)
+(find_glass rob_1 drinking_glass_1 kitchen)
+(pour_coke rob_1 coke_1 drinking_glass_1 kitchen)
+(move_glass rob_1 drinking_glass_1 kitchen table_1 dining)
+(place_glass rob_1 drinking_glass_1 table_1 dining)
+; cost = 7 (unit cost)

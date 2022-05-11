@@ -2,7 +2,6 @@ import random
 from os.path import exists
 import getpass
 from random import sample
-import time
 import numpy as np
 
 # ------------------------------------------
@@ -20,14 +19,16 @@ from llm_appliance import llm_appliance, llm_appliance_most_possible, plan_modif
 # ------------------------------------------
 # task_id = 1
 # task_name = 'clean floor'
-task_id = 4
-task_name = 'drink water'
+# task_id = 4
+# task_name = 'drink water'
 # task_id = 6
 # task_name = 'set up a table'
 # task_id = 9
 # task_name = 'pick up plate'
 # task_id = 10
 # task_name = 'drink coke'
+task_id = 11
+task_name = 'eat dinner'
 # ------------------------------------------
 # some options of open world planner; different versions
 # ------------------------------------------
@@ -52,11 +53,12 @@ option3 = 'possible'
 
 ratio1 = 2  # 1/ratio objects will be tested
 ratio2 = 2  # 1/ratio objects will be tested
+
 # ------------------------------------------
 # call task planner
 # ------------------------------------------
 user = getpass.getuser()
-p_file = np.array([0.8, 0.2])
+p_file = np.array([0.7, 0.3])
 index_file = np.random.choice(list(range(0, 2)), p=p_file)
 path_domain = '/home/' + user + '/githubBase/GPT-Planner/pddl/task' + str(task_id) + '/domain_basic.pddl'
 if index_file == 0:
@@ -64,12 +66,11 @@ if index_file == 0:
 else:
     path_problem = '/home/' + user + '/githubBase/GPT-Planner/pddl/task' + str(task_id) + '/problem_basic_2.pddl'
 # test
-path_problem = '/home/' + user + '/githubBase/GPT-Planner/pddl/task' + str(task_id) + '/problem_basic_2.pddl'
-
+# path_problem = '/home/' + user + '/githubBase/GPT-Planner/pddl/task' + str(task_id) + '/problem_basic_2.pddl'
 try:
     file_name = 'task_' + str(task_id) + '_basic_plan.txt'
     path_plan = task_planner(path_domain, path_problem, file_name)
-    # print(path_plan)
+    print(path_plan)
     print('#---------- generating basic_plan! -----------')
     print_plan(path_plan)
     plan = read_plan(path_plan)
@@ -158,8 +159,10 @@ if result_plan_monitor:  # plan cannot be executed
     # ------------------------------------------
     if not exists(path_plan_modified_1):
         print('\n#---------- call llm_utensils -----------')
-        if task_id == 1 or task_id == 4 or task_id == 6 or task_id == 9:
+        if task_id == 1 or task_id == 4 or task_id == 6:
             filein = open('dataset/utensils_processed.txt')  # read utensil
+        if task_id == 9:
+            filein = open('dataset/furniture_utensils.txt')  # read utensil + beverage
         if task_id == 10:
             filein = open('dataset/beverage_utensils.txt')  # read utensil + beverage
         if task_id == 11:

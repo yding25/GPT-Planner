@@ -1,0 +1,278 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 dining kitchen)
+(find_coke rob_1 coke_1 kitchen)
+(grasp_coke rob_1 coke_1 kitchen)
+(find_glass rob_1 glass_1 kitchen)
+(pour_coke rob_1 coke_1 glass_1 kitchen)
+(move_glass rob_1 glass_1 kitchen table_1 dining)
+(place_glass rob_1 glass_1 table_1 dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation: the glass is dirty.
+corresponding predicate: glass_is_dirty
+object in situation: glass
+action that has situation: pour_coke
+object manipulated by robot: coke
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['find_coke', 'rob_1', 'coke_1', 'kitchen']
+next action (decoded): a robot finds a coke in kitchen room.
+this action is executed!
+
+next action: ['grasp_coke', 'rob_1', 'coke_1', 'kitchen']
+next action (decoded): a robot grasps a coke in kitchen room.
+this action is executed!
+
+next action: ['find_glass', 'rob_1', 'glass_1', 'kitchen']
+next action (decoded): a robot finds a glass in kitchen room.
+this action is executed!
+
+next action: ['pour_coke', 'rob_1', 'coke_1', 'glass_1', 'kitchen']
+next action (decoded): a robot pours coke into glass in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['pour_coke', 'rob_1', 'coke_1', 'glass_1', 'kitchen']
+['move_glass', 'rob_1', 'glass_1', 'kitchen', 'table_1', 'dining']
+['place_glass', 'rob_1', 'glass_1', 'table_1', 'dining']
+
+unexecuted action: ['pour_coke', 'rob_1', 'coke_1', 'glass_1', 'kitchen']
+unexecuted action (decoded): a robot pours coke into glass in kitchen room.
+! prompt design
+raw prompt: is it acceptable that a robot pours coke into glass in kitchen room if the glass is dirty?
+! response from LLM
+response (raw prompt): ['no, it is not acceptable for a robot to pour coke into a dirty glass in the kitchen']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['dish rack', 'dish bowl', 'bucket', 'cutlery fork', 'sponge', 'wooden spoon', 'cleaning bottle', 'place mat', 'trash can', 'condiment shaker', 'oven tray', 'coffee filter', 'cutting board', 'cutlery knife']
+
+! prompt design
+raw prompt: can a robot pours coke into dish rack in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into dish bowl in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into bucket in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into cutlery fork in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into sponge in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into wooden spoon in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into cleaning bottle in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into place mat in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into trash can in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a trash can in kitchen room near a table in table room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a trash can on a table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into condiment shaker in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into oven tray in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into coffee filter in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into cutting board in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pours coke into cutlery knife in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+#---------- capable_utensils_actionknowledge: ----------
+None
+
+#---------- capable utensils: ---------- 
+None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['blender', 'washing machine', 'oven', 'freezer', 'fridge', 'air fryer', 'water filter', 'vacuum cleaner', 'water boiler']
+
+! prompt design
+prompt (raw): can a blender make the glass clean if the glass is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+prompt (raw): can a washing machine make the glass clean if the glass is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+prompt (raw): can a oven make the glass clean if the glass is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+prompt (raw): can a freezer make the glass clean if the glass is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a fridge make the glass clean if the glass is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a air fryer make the glass clean if the glass is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a water filter make the glass clean if the glass is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+prompt (raw): can a vacuum cleaner make the glass clean if the glass is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+prompt (raw): can a water boiler make the glass clean if the glass is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+capable appliances: ['blender', 'washing machine', 'oven', 'water filter', 'vacuum cleaner']
+
+! prompt design
+raw prompt: there are some appliances, such as blender, washing machine, oven, water filter, vacuum cleaner. which is the most possible to make the glass clean if the glass is dirty? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['blender']
+
+#---------- most possible appliance:
+ blender
+
+#---------- add effect -----------
+! step 1: add effect
+step 1 is done.
+! step 2: add parameter
+step 2 is done.
+! step 3: supplement init
+step 3 is done.
+! step 4: supplement object
+step 4 is done.
+
+#---------- generating modified_plan_3! -----------
+(walk rob_1 dining kitchen)
+(find_coke rob_1 coke_1 kitchen)
+(grasp_coke rob_1 coke_1 kitchen)
+(find_glass rob_1 glass_1 kitchen)
+(operate rob_1 blender kitchen dining glass_1)
+(pour_coke rob_1 coke_1 glass_1 kitchen)
+(move_glass rob_1 glass_1 kitchen table_1 dining)
+(place_glass rob_1 glass_1 table_1 dining)
+; cost = 8 (unit cost)

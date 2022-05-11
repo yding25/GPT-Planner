@@ -1,0 +1,104 @@
+/home/yan/githubBase/GPT-Planner/task_11_basic_plan.txt
+#---------- generating basic_plan! -----------
+(find_table rob_1 table_1 dining)
+(walk_table rob_1 table_1 dining)
+(find_chair rob_1 chair_1 dining)
+(pull_chair rob_1 chair_1 dining)
+(walk rob_1 dining kitchen)
+(find_burger rob_1 burger_1 kitchen)
+(grasp_burger rob_1 burger_1 kitchen)
+(find_fork rob_1 fork_1 kitchen)
+(find_plate rob_1 plate_2 kitchen)
+(place_burger rob_1 burger_1 plate_2 kitchen)
+(place_fork rob_1 fork_1 plate_2 kitchen)
+(move_plate rob_1 fork_1 burger_1 plate_1 kitchen table_1 dining)
+(place_plate rob_1 plate_1 table_1 dining)
+; cost = 13 (unit cost)
+
+#---------- generating situation! -----------
+situation: the plate is broken.
+corresponding predicate: plate_is_broken
+object in situation: plate
+action that has situation: find_plate
+object manipulated by robot: plate
+
+#---------- executing plan! -----------
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+next action: ['walk_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+next action: ['find_chair', 'rob_1', 'chair_1', 'dining']
+next action (decoded): a robot finds a chair in dining room.
+this action is executed!
+
+next action: ['pull_chair', 'rob_1', 'chair_1', 'dining']
+next action (decoded): a robot pulls up a chair in dining room.
+this action is executed!
+
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['find_burger', 'rob_1', 'burger_1', 'kitchen']
+next action (decoded): a robot finds a burger in kitchen room.
+this action is executed!
+
+next action: ['grasp_burger', 'rob_1', 'burger_1', 'kitchen']
+next action (decoded): a robot grasps a burger in kitchen room.
+this action is executed!
+
+next action: ['find_fork', 'rob_1', 'fork_1', 'kitchen']
+next action (decoded): a robot finds a fork in kitchen room.
+this action is executed!
+
+next action: ['find_plate', 'rob_1', 'plate_2', 'kitchen']
+next action (decoded): a robot finds a plate in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['find_plate', 'rob_1', 'plate_2', 'kitchen']
+['place_burger', 'rob_1', 'burger_1', 'plate_2', 'kitchen']
+['place_fork', 'rob_1', 'fork_1', 'plate_2', 'kitchen']
+['move_plate', 'rob_1', 'fork_1', 'burger_1', 'plate_1', 'kitchen', 'table_1', 'dining']
+['place_plate', 'rob_1', 'plate_1', 'table_1', 'dining']
+
+unexecuted action: ['find_plate', 'rob_1', 'plate_2', 'kitchen']
+unexecuted action (decoded): a robot finds a plate in kitchen room.
+! prompt design
+raw prompt: is it acceptable that a robot finds a plate in kitchen room if the plate is broken?
+! response from LLM
+response (raw prompt): ['no, it is not acceptable for a robot to find a broken plate in the kitchen room']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+(find_table rob_1 table_1 dining)
+(walk_table rob_1 table_1 dining)
+(find_chair rob_1 chair_1 dining)
+(pull_chair rob_1 chair_1 dining)
+(walk rob_1 dining kitchen)
+(find_burger rob_1 burger_1 kitchen)
+(grasp_burger rob_1 burger_1 kitchen)
+(find_fork rob_1 fork_1 kitchen)
+(find_plate rob_1 plate_2 kitchen)
+(place_burger rob_1 burger_1 plate_2 kitchen)
+(place_fork rob_1 fork_1 plate_2 kitchen)
+(move_plate rob_1 fork_1 burger_1 plate_1 kitchen table_1 dining)
+(place_plate rob_1 plate_1 table_1 dining)
+; cost = 13 (unit cost)

@@ -1,0 +1,154 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 dining kitchen)
+(find_coke rob_1 coke_1 kitchen)
+(grasp_coke rob_1 coke_1 kitchen)
+(find_glass rob_1 glass_1 kitchen)
+(pour_coke rob_1 coke_1 glass_1 kitchen)
+(move_glass rob_1 glass_1 kitchen table_1 dining)
+(place_glass rob_1 glass_1 table_1 dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation: the coke is not available.
+corresponding predicate: coke_not_available
+object in situation: coke
+action that has situation: find_coke
+object manipulated by robot: coke
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['find_coke', 'rob_1', 'coke_1', 'kitchen']
+next action (decoded): a robot finds a coke in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['find_coke', 'rob_1', 'coke_1', 'kitchen']
+['grasp_coke', 'rob_1', 'coke_1', 'kitchen']
+['find_glass', 'rob_1', 'glass_1', 'kitchen']
+['pour_coke', 'rob_1', 'coke_1', 'glass_1', 'kitchen']
+['move_glass', 'rob_1', 'glass_1', 'kitchen', 'table_1', 'dining']
+['place_glass', 'rob_1', 'glass_1', 'table_1', 'dining']
+
+unexecuted action: ['find_coke', 'rob_1', 'coke_1', 'kitchen']
+unexecuted action (decoded): a robot finds a coke in kitchen room.
+! prompt design
+raw prompt: is it acceptable that a robot finds a coke in kitchen room if the coke is not available?
+! experience found
+! response from LLM
+response (raw prompt): ["'no, it is not acceptable'"]
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['wine', 'coffee', 'water', 'beer', 'watermelon', 'milk']
+
+! prompt design
+raw prompt: can a robot grasps a wine in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot grasps a coffee in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot grasps a water in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot pours water into glass in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot grasps a beer in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot grasps a watermelon in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot pours watermelon into glass in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot grasps a milk in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot pours milk into glass in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+#---------- capable_utensils_actionknowledge: ----------
+ ['water', 'milk']
+
+! prompt design
+raw prompt: there are some utensils, such as water, milk. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['water']
+
+#---------- most possible utensil: ---------- 
+ water
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+(walk rob_1 dining kitchen)
+(find_coke rob_1 water_1 kitchen)
+(grasp_coke rob_1 water_1 kitchen)
+(find_glass rob_1 glass_1 kitchen)
+(pour_coke rob_1 water_1 glass_1 kitchen)
+(move_glass rob_1 glass_1 kitchen table_1 dining)
+(place_glass rob_1 glass_1 table_1 dining)
+; cost = 7 (unit cost)

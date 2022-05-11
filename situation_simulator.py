@@ -177,7 +177,7 @@ def situation_simulator(task_id):
 
         # ------------------------------------------
         # test
-        # group_index = 4
+        group_index = 9
         # ------------------------------------------
 
         group = groups[group_index]
@@ -339,7 +339,7 @@ def situation_simulator(task_id):
         group_index = np.random.choice(list(range(0, 17)), p=group_probs)
 
         # test
-        # group_index = 8
+        # group_index = 3
 
         group = groups[group_index]
         opp_group = opp_groups[group_index]
@@ -494,7 +494,7 @@ def situation_simulator(task_id):
 
         # ------------------------------------------
         # test
-        # group_index = 16
+        # group_index = 0
         # ------------------------------------------
 
         group = groups[group_index]
@@ -654,7 +654,7 @@ def situation_simulator(task_id):
 
         # ------------------------------------------
         # test
-        # group_index = 17
+        group_index = 1
         # ------------------------------------------
 
         group = groups[group_index]
@@ -824,7 +824,7 @@ def situation_simulator(task_id):
 
         # ------------------------------------------
         # test
-        # group_index = 5
+        group_index = 1
         # ------------------------------------------
 
         group = groups[group_index]
@@ -836,15 +836,15 @@ def situation_simulator(task_id):
 
     if task_id == 11:
         group1 = 'the chair is broken.'
-        opp_group1 = 'the chair good'
+        opp_group1 = 'the chair unbroken.'
         group1_object = 'chair'
         group1_prob = 23 / 93.
         group1_actions = ['find_chair', 'pull_chair']
         group1_action_prob = [12 / 23., 11 / 23.]
 
-        group2 = 'the food is missing.'
-        opp_group2 = 'the food found.'
-        group2_object = 'food'
+        group2 = 'the burger is missing.'
+        opp_group2 = 'the burger found.'
+        group2_object = 'burger'
         group2_prob = 15 / 93.
         group2_actions = ['find_burger', 'grasp_burger', 'find_plate']
         group2_action_prob = [10 / 15., 2 / 15., 3 / 15.]
@@ -891,23 +891,23 @@ def situation_simulator(task_id):
         group8_actions = ['find_fork']
         group8_action_prob = [3 / 3.]
 
-        group9 = 'the person has to take out of the food.'
+        group9 = 'the person has to take out of the burger.'
         opp_group9 = 'the person......'
         group9_object = 'person'
         group9_prob = 2 / 93.
         group9_actions = ['place_plate']
         group9_action_prob = [2 / 2.]
 
-        group10 = 'the food spills.'
-        opp_group10 = 'the food good.'
-        group10_object = 'food'
+        group10 = 'the burger spills.'
+        opp_group10 = 'the burger good.'
+        group10_object = 'burger'
         group10_prob = 2 / 93.
         group10_actions = ['place_plate']
         group10_action_prob = [2 / 2.]
 
-        group11 = 'the food is overcooked.'
-        opp_group11 = 'the food well.'
-        group11_object = 'food'
+        group11 = 'the burger is overcooked.'
+        opp_group11 = 'the burger well.'
+        group11_object = 'burger'
         group11_prob = 2 / 93.
         group11_actions = ['find_burger']
         group11_action_prob = [2 / 2.]
@@ -989,30 +989,30 @@ def situation_simulator(task_id):
         group22_actions = ['']
         group22_action_prob = [1 / 1.]
 
-        group23 = 'the food smells bad.'
+        group23 = 'the burger smells bad.'
         opp_group23 = '.'
-        group23_object = 'food'
+        group23_object = 'burger'
         group23_prob = 1 / 93.
         group23_actions = ['']
         group23_action_prob = [1 / 1.]
 
-        group24 = 'the food is not enough.'
-        opp_group24 = 'the food enough.'
-        group24_object = 'food'
+        group24 = 'the burger is not enough.'
+        opp_group24 = 'the burger enough.'
+        group24_object = 'burger'
         group24_prob = 1 / 93.
         group24_actions = ['']
         group24_action_prob = [1 / 1.]
 
-        group25 = 'the food is expired.'
-        opp_group25 = 'the food in good condition.'
-        group25_object = 'food'
+        group25 = 'the burger is expired.'
+        opp_group25 = 'the burger in good condition.'
+        group25_object = 'burger'
         group25_prob = 1 / 93.
         group25_actions = ['']
         group25_action_prob = [1 / 1.]
 
-        group26 = 'the food is dirty.'
-        opp_group26 = 'the food clean.'
-        group26_object = 'food'
+        group26 = 'the burger is dirty.'
+        opp_group26 = 'the burger clean.'
+        group26_object = 'burger'
         group26_prob = 1 / 93.
         group26_actions = ['']
         group26_action_prob = [1 / 1.]
@@ -1072,7 +1072,7 @@ def situation_simulator(task_id):
 
         # ------------------------------------------
         # test
-        # group_index = 4
+        group_index = 17
         # ------------------------------------------
 
         group = groups[group_index]

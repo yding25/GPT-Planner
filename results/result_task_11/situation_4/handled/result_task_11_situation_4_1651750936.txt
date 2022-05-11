@@ -1,0 +1,457 @@
+/home/yan/githubBase/GPT-Planner/task_11_basic_plan.txt
+#---------- generating basic_plan! -----------
+(find_table rob_1 table_1 dining)
+(walk_table rob_1 table_1 dining)
+(find_chair rob_1 chair_1 dining)
+(pull_chair rob_1 chair_1 dining)
+(walk rob_1 dining kitchen)
+(find_burger rob_1 burger_1 kitchen)
+(grasp_burger rob_1 burger_1 kitchen)
+(find_fork rob_1 fork_1 kitchen)
+(find_plate rob_1 plate_1 kitchen)
+(place_burger rob_1 burger_1 plate_1 kitchen)
+(place_fork rob_1 fork_1 plate_1 kitchen)
+(move_plate rob_1 fork_1 burger_1 plate_1 kitchen table_1 dining)
+(place_plate rob_1 plate_1 table_1 dining)
+; cost = 13 (unit cost)
+
+#---------- generating situation! -----------
+situation: the plate is missing.
+corresponding predicate: plate_is_missing
+object in situation: plate
+action that has situation: find_plate
+object manipulated by robot: plate
+
+#---------- executing plan! -----------
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+next action: ['walk_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+next action: ['find_chair', 'rob_1', 'chair_1', 'dining']
+next action (decoded): a robot finds a chair in dining room.
+this action is executed!
+
+next action: ['pull_chair', 'rob_1', 'chair_1', 'dining']
+next action (decoded): a robot pulls up a chair in dining room.
+this action is executed!
+
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['find_burger', 'rob_1', 'burger_1', 'kitchen']
+next action (decoded): a robot finds a burger in kitchen room.
+this action is executed!
+
+next action: ['grasp_burger', 'rob_1', 'burger_1', 'kitchen']
+next action (decoded): a robot grasps a burger in kitchen room.
+this action is executed!
+
+next action: ['find_fork', 'rob_1', 'fork_1', 'kitchen']
+next action (decoded): a robot finds a fork in kitchen room.
+this action is executed!
+
+next action: ['find_plate', 'rob_1', 'plate_1', 'kitchen']
+next action (decoded): a robot finds a plate in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['find_plate', 'rob_1', 'plate_1', 'kitchen']
+['place_burger', 'rob_1', 'burger_1', 'plate_1', 'kitchen']
+['place_fork', 'rob_1', 'fork_1', 'plate_1', 'kitchen']
+['move_plate', 'rob_1', 'fork_1', 'burger_1', 'plate_1', 'kitchen', 'table_1', 'dining']
+['place_plate', 'rob_1', 'plate_1', 'table_1', 'dining']
+
+unexecuted action: ['find_plate', 'rob_1', 'plate_1', 'kitchen']
+unexecuted action (decoded): a robot finds a plate in kitchen room.
+! prompt design
+raw prompt: is it acceptable that a robot finds a plate in kitchen room if the plate is missing?
+! experience found
+! response from LLM
+response (raw prompt): ["'no, it is not acceptable'"]
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['place mat', 'salt', 'oil', 'bucket', 'cloth napkin', 'drinking glass', 'dining table', 'cleaning bottle', 'dish bowl', 'bread', 'rag', 'noodles', 'piano bench', 'cake', 'filing cabinet', 'glass', 'measuring cup', 'cutlery knife', 'chef knife', 'ice cream', 'pantry', 'nightstand', 'sugar', 'kitchen cabinet', 'trash can', 'peanut butter', 'condiment shaker', 'rice', 'chips', 'kitchen table']
+
+! prompt design
+raw prompt: can a robot places a burger on a place mat in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a fork on a place mat in place mat room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a place mat in kitchen room on a table  in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a place mat on a table  in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a salt in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a oil in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a fork on a oil in oil room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a bucket in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a cloth napkin in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a fork on a cloth napkin in cloth napkin room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a cloth napkin in kitchen room on a table  in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a cloth napkin on a table  in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a drinking glass in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a dining table in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a fork on a dining table in dining table room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a dining table in kitchen room on a table  in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a dining table on a table  in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a cleaning bottle in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a dish bowl in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a fork on a dish bowl in dish bowl room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a dish bowl in kitchen room on a table  in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a dish bowl on a table  in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a bread in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a fork on a bread in bread room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a rag in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a noodles in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a piano bench in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a cake in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot places a burger on a filing cabinet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a glass in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a measuring cup in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a cutlery knife in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a chef knife in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a ice cream in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a pantry in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a nightstand in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a sugar in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot places a burger on a kitchen cabinet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a trash can in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a peanut butter in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a condiment shaker in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot places a burger on a rice in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a chips in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot places a burger on a kitchen table in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a fork on a kitchen table in kitchen table room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a kitchen table in kitchen room on a table  in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a kitchen table on a table  in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+#---------- capable_utensils_actionknowledge: ----------
+ ['place mat', 'cloth napkin', 'dining table', 'dish bowl', 'kitchen table']
+
+! prompt design
+raw prompt: there are some utensils, such as place mat, cloth napkin, dining table, dish bowl, kitchen table. which is the most suitable to replace a plate to eat dinner if the plate is missing? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['if the plate is missing, the most suitable utensil to replace it is a dish bowl']
+
+#---------- most possible utensil: ---------- 
+ dish bowl
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+(find_table rob_1 table_1 dining)
+(walk_table rob_1 table_1 dining)
+(find_chair rob_1 chair_1 dining)
+(pull_chair rob_1 chair_1 dining)
+(walk rob_1 dining kitchen)
+(find_burger rob_1 burger_1 kitchen)
+(grasp_burger rob_1 burger_1 kitchen)
+(find_fork rob_1 fork_1 kitchen)
+(find_plate rob_1 dish_bowl_1 kitchen)
+(place_burger rob_1 burger_1 dish_bowl_1 kitchen)
+(place_fork rob_1 fork_1 dish_bowl_1 kitchen)
+(move_plate rob_1 fork_1 burger_1 dish_bowl_1 kitchen table_1 dining)
+(place_plate rob_1 dish_bowl_1 table_1 dining)
+; cost = 13 (unit cost)

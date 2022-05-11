@@ -1,0 +1,233 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 kitchen dining)
+(find_table rob_1 table_1 dining)
+(walk_table rob_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(grasp_plate rob_1 plate_1 dining)
+(walk_sink rob_1 sink_1 plate_1 kitchen)
+(place_plate rob_1 plate_1 dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation: the plate is dropped.
+corresponding predicate: plate_is_dropped
+object in situation: plate
+action that has situation: grasp_plate
+object manipulated by robot: plate
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'kitchen', 'dining']
+next action (decoded): a robot walks from kitchen room to dining room.
+this action is executed!
+
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+next action: ['walk_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['grasp_plate', 'rob_1', 'plate_1', 'dining']
+next action (decoded): a robot grasps a plate in dining room.
+
+#---------- checking unexecuted actions! -----------
+['grasp_plate', 'rob_1', 'plate_1', 'dining']
+['walk_sink', 'rob_1', 'sink_1', 'plate_1', 'kitchen']
+['place_plate', 'rob_1', 'plate_1', 'dining']
+
+unexecuted action: ['grasp_plate', 'rob_1', 'plate_1', 'dining']
+unexecuted action (decoded): a robot grasps a plate in dining room.
+! prompt design
+raw prompt: is it acceptable that a robot grasps a plate in dining room if the plate is dropped?
+! experience found
+! response from LLM
+response (raw prompt): ["'no, it is not acceptable for a robot to grasp a plate in a dining room if the plate is dropped'"]
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['chef knife', 'mug', 'wooden spoon', 'place mat', 'rag', 'oven tray', 'coffee cup', 'cutting board', 'cooking pot', 'cutlery fork', 'drinking glass', 'colander', 'dish bowl', 'measuring cup']
+
+! prompt design
+raw prompt: can a robot grasps a chef knife in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot grasps a mug in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a mug in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot grasps a wooden spoon in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot grasps a place mat in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a place mat in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot grasps a rag in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot grasps a oven tray in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot grasps a coffee cup in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a coffee cup in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot grasps a cutting board in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot grasps a cooking pot in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot grasps a cutlery fork in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot grasps a drinking glass in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a drinking glass in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot grasps a colander in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot grasps a dish bowl in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a dish bowl in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot grasps a measuring cup in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+#---------- capable_utensils_actionknowledge: ----------
+ ['mug', 'place mat', 'coffee cup', 'drinking glass', 'dish bowl']
+
+! prompt design
+raw prompt: there are some utensils, such as mug, place mat, coffee cup, drinking glass, dish bowl. which is the most suitable to replace a plate to pick up plate if the plate is dropped? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['coffee cup']
+
+#---------- most possible utensil: ---------- 
+ coffee cup
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+(walk rob_1 kitchen dining)
+(find_table rob_1 table_1 dining)
+(walk_table rob_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(grasp_plate rob_1 coffee_cup_1 dining)
+(walk_sink rob_1 sink_1 coffee_cup_1 kitchen)
+(place_plate rob_1 plate_1 dining)
+; cost = 7 (unit cost)

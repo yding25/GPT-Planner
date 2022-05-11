@@ -131,9 +131,10 @@ def llm_utensil_actionknowledge(path_plan, plan, task_id, situation, target_obje
         if (target_object in sentence) and ('find' not in sentence):
             new_sentence = sentence.replace(target_object, candidate_utensil)
             new_sentence = new_sentence[:-1]
-            prompt = 'can a robot fill a cup with a cooking pot from a faucet in the kitchen room.\npossibility: no\n\ncan a robot fill a cup with water from a faucet in the kitchen room?\npossibility: yes\n\n' + 'can ' + new_sentence + ' ?' + '\npossibility:'
+            prompt = 'can a robot fill a cup with a cooking pot from a faucet?\npossibility: no\n\ncan a robot fill a cup with water from a faucet?\npossibility: yes\n\ncan a robot pull up a chair?\npossibility: yes\n\ncan a robot grasp an apple?\npossibility: yes\n\n' + 'can ' + new_sentence + ' ?' + '\npossibility:'
             print('\n! prompt design')
             print('raw prompt:', 'can ' + new_sentence + ' ?' + '\npossibility:')
+            # print('prompt:', prompt)
             # ------------------------------------------
             # search experience pool
             # ------------------------------------------
@@ -300,7 +301,6 @@ def plan_modifier_add_effect_utensils(target_predicate, target_object, utensil, 
     print('! step 3: change goal')
     rule1 = re.compile(r'[(](and.*)[)]', re.S)
     problem_goal_1 = re.findall(rule1, problem_goal)
-    # print('problem_goal_1:', problem_goal_1)
     problem_goal_2 = problem_goal_1[0].replace(target_object + '_1', utensil + '_1')
     # print('problem_goal_2:', problem_goal_2)
     problem_goal_new = '\t(:goal (or ' + '(' + problem_goal_1[0] + ' ' + '(' + problem_goal_2 + '))' + '\n)'

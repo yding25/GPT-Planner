@@ -1,0 +1,100 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 kitchen dining)
+(find_table rob_1 table_1 dining)
+(takeout_vacuum rob_1 vacuum_1 dining)
+(plug_vacuum rob_1 vacuum_1 dining)
+(turnon_vacuum rob_1 vacuum_1 dining)
+(clean_table rob_1 vacuum_1 table_1 dining)
+(turnoff_vacuum rob_1 vacuum_1 table_1 dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation: there is a power outage.
+corresponding predicate: there_is_a_power_outage
+object in situation: power
+action that has situation: turnon_vacuum
+object manipulated by robot: vacuum
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'kitchen', 'dining']
+next action (decoded): a robot walks from kitchen room to dining room.
+this action is executed!
+
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot find a table in dining room.
+this action is executed!
+
+next action: ['takeout_vacuum', 'rob_1', 'vacuum_1', 'dining']
+next action (decoded): a robot takes out a vacuum in dining room.
+this action is executed!
+
+next action: ['plug_vacuum', 'rob_1', 'vacuum_1', 'dining']
+next action (decoded): a robot plugs a vacuum in dining room.
+this action is executed!
+
+next action: ['turnon_vacuum', 'rob_1', 'vacuum_1', 'dining']
+next action (decoded): a robot turns on a vacuum in dining room.
+
+#---------- checking unexecuted actions! -----------
+['turnon_vacuum', 'rob_1', 'vacuum_1', 'dining']
+['clean_table', 'rob_1', 'vacuum_1', 'table_1', 'dining']
+['turnoff_vacuum', 'rob_1', 'vacuum_1', 'table_1', 'dining']
+
+unexecuted action: ['turnon_vacuum', 'rob_1', 'vacuum_1', 'dining']
+unexecuted action (decoded): a robot turns on a vacuum in dining room.
+! prompt design
+raw prompt: is it acceptable that a robot turns on a vacuum in dining room if there is a power outage?
+! experience found
+! response from LLM
+response (raw prompt): ["'there is no definitive answer to this question as it depends on the specific circumstances and preferences of the people involved'"]
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is done!
+! step 3: supplement type
+step 3 is done!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is done!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['bucket', 'paper towel', 'frying pan', 'glass', 'dish rack', 'coffee filter', 'cloth napkin', 'cutlery fork', 'cutting board', 'cutlery knife', 'chef knife', 'cleaning bottle', 'condiment shaker', 'dish bowl']
+#---------- capable_utensils_actionknowledge: ----------
+ ['bucket', 'paper towel', 'frying pan', 'glass', 'dish rack', 'coffee filter', 'cloth napkin', 'cutlery fork', 'cutting board', 'cutlery knife', 'chef knife', 'cleaning bottle', 'condiment shaker', 'dish bowl']
+
+! prompt design
+raw prompt: there are some utensils, such as bucket, paper towel, frying pan, glass, dish rack, coffee filter, cloth napkin, cutlery fork, cutting board, cutlery knife, chef knife, cleaning bottle, condiment shaker, dish bowl. which is the most suitable to replace a power to clean floor if there is a power outage? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['the most suitable utensil to replace a power to clean floor if there is a power outage is a bucket']
+
+#---------- most possible utensil: ---------- 
+ bucket
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+(walk rob_1 kitchen dining)
+(find_table rob_1 table_1 dining)
+(takeout_vacuum rob_1 vacuum_1 dining)
+(plug_vacuum rob_1 vacuum_1 dining)
+(turnon_vacuum rob_1 vacuum_1 dining bucket_1)
+(clean_table rob_1 vacuum_1 table_1 dining)
+(turnoff_vacuum rob_1 vacuum_1 table_1 dining)
+; cost = 7 (unit cost)

@@ -1,0 +1,114 @@
+raw prompt:is it acceptable that a robot finds a plate in kitchen room if the plate is broken?
+response (raw prompt):['no, it is not acceptable for a robot to find a broken plate in the kitchen room']
+raw prompt:can a robot places a burger on a cooking pot in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a trash can in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a wooden spoon in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a couch in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a cutlery knife in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a oatmeal in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a kitchen counter in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on a kitchen counter in kitchen counter room?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a kitchen counter in kitchen room on a table  in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a wine glass in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a cupboard in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a filing cabinet in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a piano bench in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a cutlery fork in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a kitchen cabinet in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a table cloth in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on a table cloth in table cloth room?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a table cloth in kitchen room on a table  in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a dish bowl in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on a dish bowl in dish bowl room?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a dish bowl in kitchen room on a table  in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a dish bowl on a table  in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a burger on a coffee filter in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a chef knife in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a sponge in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a bucket in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a oil in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on a oil in oil room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a salt in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a cleaning bottle in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a snack in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on a snack in snack room?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a snack in kitchen room on a table  in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a snack on a table  in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a burger on a colander in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on a colander in colander room?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a colander in kitchen room on a table  in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a colander on a table  in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a burger on a oven tray in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on a oven tray in oven tray room?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a oven tray in kitchen room on a table  in dining room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a coffee table in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on a coffee table in coffee table room?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a coffee table in kitchen room on a table  in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a coffee table on a table  in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a burger on a drinking glass in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a chips in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on a chips in chips room?
+response (raw prompt):['no']
+raw prompt:can a robot places a burger on a frying pan in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on a frying pan in frying pan room?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a frying pan in kitchen room on a table  in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a frying pan on a table  in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a burger on a cloth napkin in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a fork on a cloth napkin in cloth napkin room?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a cloth napkin in kitchen room on a table  in dining room?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as dish bowl, snack, colander, coffee table, frying pan. which is the most suitable to replace a plate to eat dinner if the plate is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['dish bowl']

@@ -1,0 +1,457 @@
+#---------- generating basic_plan! -----------
+(find_table rob_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(find_cupboard rob_1 cupboard_1 kitchen)
+(open_cupboard rob_1 cupboard_1 kitchen)
+(find_fork rob_1 fork_1 cupboard_1 kitchen plate_1)
+(takeout_fork rob_1 fork_1 cupboard_1 kitchen)
+(find_plate rob_1 plate_1 cupboard_1 kitchen)
+(move_fork rob_1 fork_1 kitchen dining)
+(place_fork rob_1 fork_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(takeout_plate rob_1 plate_1 cupboard_1 kitchen)
+(move_plate rob_1 plate_1 kitchen dining)
+(place_plate rob_1 plate_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(close_cupboard rob_1 cupboard_1 kitchen)
+; cost = 15 (unit cost)
+
+#---------- generating situation! -----------
+situation: a fork is dirty.
+corresponding predicate: fork_is_dirty
+object in situation: fork
+action that has situation: find_fork
+object manipulated by robot: fork
+
+#---------- executing plan! -----------
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['find_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+next action (decoded): a robot finds a cupboard in kitchen room.
+this action is executed!
+
+next action: ['open_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+next action (decoded): a robot opens a cupboard in kitchen room.
+this action is executed!
+
+next action: ['find_fork', 'rob_1', 'fork_1', 'cupboard_1', 'kitchen', 'plate_1']
+next action (decoded): a robot finds a fork in cupboard room.
+
+#---------- checking unexecuted actions! -----------
+['find_fork', 'rob_1', 'fork_1', 'cupboard_1', 'kitchen', 'plate_1']
+['takeout_fork', 'rob_1', 'fork_1', 'cupboard_1', 'kitchen']
+['find_plate', 'rob_1', 'plate_1', 'cupboard_1', 'kitchen']
+['move_fork', 'rob_1', 'fork_1', 'kitchen', 'dining']
+['place_fork', 'rob_1', 'fork_1', 'table_1', 'dining']
+['walk', 'rob_1', 'dining', 'kitchen']
+['takeout_plate', 'rob_1', 'plate_1', 'cupboard_1', 'kitchen']
+['move_plate', 'rob_1', 'plate_1', 'kitchen', 'dining']
+['place_plate', 'rob_1', 'plate_1', 'table_1', 'dining']
+['walk', 'rob_1', 'dining', 'kitchen']
+['close_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+
+unexecuted action: ['find_fork', 'rob_1', 'fork_1', 'cupboard_1', 'kitchen', 'plate_1']
+unexecuted action (decoded): a robot finds a fork in cupboard room.
+! prompt design
+raw prompt: is it acceptable that a robot finds a fork in cupboard room if a fork is dirty?
+! response from LLM
+response (raw prompt): ['no, it is not acceptable for a robot to find a fork in a cupboard room if the fork is dirty']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['place mat', 'rag', 'oven tray', 'glass', 'mug', 'cooking pot', 'trash can', 'condiment shaker', 'cutlery fork', 'dish rack', 'coffee filter', 'condiment bottle', 'drinking glass', 'coffee cup']
+
+! prompt design
+raw prompt: can a robot takes out a place mat from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a place mat from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a place mat on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a rag from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a rag from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a rag on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a oven tray from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot takes out a glass from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a glass from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a glass on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a mug from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a mug from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a mug on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a cooking pot from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a cooking pot from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a cooking pot on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a trash can from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot takes out a condiment shaker from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a condiment shaker from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a condiment shaker on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a cutlery fork from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a cutlery fork from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a cutlery fork on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a dish rack from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot takes out a coffee filter from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a coffee filter from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a coffee filter on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a condiment bottle from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a condiment bottle from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a condiment bottle on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a drinking glass from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a drinking glass from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a drinking glass on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a coffee cup from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a coffee cup from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a coffee cup on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+#---------- capable_utensils_actionknowledge: ----------
+ ['place mat', 'rag', 'glass', 'mug', 'cooking pot', 'condiment shaker', 'cutlery fork', 'coffee filter', 'condiment bottle', 'drinking glass', 'coffee cup']
+
+! prompt design
+raw prompt: there are some utensils, such as place mat, rag, glass, mug, cooking pot, condiment shaker, cutlery fork, coffee filter, condiment bottle, drinking glass, coffee cup. which is the most suitable to replace a fork to set up a table if a fork is dirty? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['a cutlery fork']
+
+#---------- most possible utensil: ---------- 
+ cutlery fork
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['water filter', 'kettle', 'dehumidifier', 'stove', 'toaster', 'ice cream maker', 'oven', 'dishwasher', 'vacuum cleaner']
+
+! prompt design
+prompt (raw): can a water filter make a fork dirty if a fork is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a kettle make a fork dirty if a fork is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+prompt (raw): can a dehumidifier make a fork dirty if a fork is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a stove make a fork dirty if a fork is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+prompt (raw): can a toaster make a fork dirty if a fork is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a ice cream maker make a fork dirty if a fork is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a oven make a fork dirty if a fork is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+prompt (raw): can a dishwasher make a fork dirty if a fork is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+prompt (raw): can a vacuum cleaner make a fork dirty if a fork is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+capable appliances: ['kettle', 'stove', 'oven', 'dishwasher', 'vacuum cleaner']
+
+! prompt design
+raw prompt: there are some appliances, such as kettle, stove, oven, dishwasher, vacuum cleaner. which is the most possible to make a fork dirty if a fork is dirty? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['dishwasher']
+
+#---------- most possible appliance:
+ dishwasher
+
+#---------- add effect -----------
+! step 1: add effect
+step 1 is done.
+! step 2: add parameter
+step 2 is done.
+! step 3: supplement init
+step 3 is done.
+! step 4: supplement object
+step 4 is done.
+
+#---------- generating modified_plan_3! -----------
+(find_table rob_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(find_cupboard rob_1 cupboard_1 kitchen)
+(operate rob_1 dishwasher kitchen dining fork_1)
+(open_cupboard rob_1 cupboard_1 kitchen)
+(find_fork rob_1 fork_1 cupboard_1 kitchen plate_1)
+(takeout_fork rob_1 fork_1 cupboard_1 kitchen)
+(find_plate rob_1 plate_1 cupboard_1 kitchen)
+(move_fork rob_1 fork_1 kitchen dining)
+(place_fork rob_1 fork_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(takeout_plate rob_1 plate_1 cupboard_1 kitchen)
+(move_plate rob_1 plate_1 kitchen dining)
+(place_plate rob_1 plate_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(close_cupboard rob_1 cupboard_1 kitchen)
+; cost = 16 (unit cost)

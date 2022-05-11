@@ -2,7 +2,7 @@
 	(domain dining_pickup_plate)
 	(:requirements :strips :typing)
 	(:types robot table plate sink location food utensil beverage furniture other appliance)
-	(:predicates (robot_at ?r - robot ?l - location) (table_at ?t - table ?l - location) (plate_at ?p - plate ?l - location) (sink_at ?s - sink ?l - location) (robot_near_table ?r - robot) (robot_near_sink ?r - robot) (table_is_found ?t - table) (plate_is_grasped ?p - plate) (plate_is_placed ?p - plate) (appliance_at ?a - appliance ?l) (food_not_finished ?f - food))
+	(:predicates (robot_at ?r - robot ?l - location) (table_at ?t - table ?l - location) (plate_at ?p - plate ?l - location) (sink_at ?s - sink ?l - location) (robot_near_table ?r - robot) (robot_near_sink ?r - robot) (table_is_found ?t - table) (plate_is_grasped ?p - plate) (plate_is_placed ?p - plate) (appliance_at ?a - appliance ?l) (sink_is_full ?s - sink))
 
 	(:action walk
 		:parameters (?r - robot ?l1 - location ?l2 - location)
@@ -28,10 +28,10 @@
 		:effect (and (plate_is_grasped ?p))
 	)
 
-	(:action walk
-		:parameters (?r - robot ?l1 - location ?l2 - location ?f - food)
-		:precondition (and (robot_at ?r ?l1))
-		:effect (and (robot_at ?r ?l2) (not (robot_at ?r ?l1)))
+	(:action walk_sink
+		:parameters (?r - robot ?s - sink ?p - plate ?l - location)
+		:precondition (and (plate_is_grasped ?p) (robot_at ?r ?l) (sink_at ?s ?l) (not (sink_is_full ?s)))
+		:effect (and (robot_near_sink ?r) (plate_is_grasped ?p))
 	)
 
 	(:action place_plate

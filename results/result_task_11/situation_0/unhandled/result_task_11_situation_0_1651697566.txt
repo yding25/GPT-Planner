@@ -1,0 +1,300 @@
+#---------- generating basic_plan! -----------
+(find_table rob_1 table_1 dining)
+(walk_table rob_1 table_1 dining)
+(find_chair rob_1 chair_1 dining)
+(pull_chair rob_1 chair_1 dining)
+(walk rob_1 dining kitchen)
+(find_burger rob_1 burger_1 kitchen)
+(grasp_burger rob_1 burger_1 kitchen)
+(find_fork rob_1 fork_1 kitchen)
+(find_plate rob_1 plate_1 kitchen)
+(place_burger rob_1 burger_1 plate_1 kitchen)
+(place_fork rob_1 fork_1 plate_1 kitchen)
+(move_plate rob_1 fork_1 burger_1 plate_1 kitchen table_1 dining)
+(place_plate rob_1 plate_1 table_1 dining)
+; cost = 13 (unit cost)
+
+#---------- generating situation! -----------
+situation: the chair is broken.
+corresponding predicate: chair_is_broken
+object in situation: chair
+action that has situation: pull_chair
+object manipulated by robot: chair
+
+#---------- executing plan! -----------
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+next action: ['walk_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+next action: ['find_chair', 'rob_1', 'chair_1', 'dining']
+next action (decoded): a robot finds a chair in dining room.
+this action is executed!
+
+next action: ['pull_chair', 'rob_1', 'chair_1', 'dining']
+next action (decoded): a robot pulls out a chair in dining room.
+
+#---------- checking unexecuted actions! -----------
+['pull_chair', 'rob_1', 'chair_1', 'dining']
+['walk', 'rob_1', 'dining', 'kitchen']
+['find_burger', 'rob_1', 'burger_1', 'kitchen']
+['grasp_burger', 'rob_1', 'burger_1', 'kitchen']
+['find_fork', 'rob_1', 'fork_1', 'kitchen']
+['find_plate', 'rob_1', 'plate_1', 'kitchen']
+['place_burger', 'rob_1', 'burger_1', 'plate_1', 'kitchen']
+['place_fork', 'rob_1', 'fork_1', 'plate_1', 'kitchen']
+['move_plate', 'rob_1', 'fork_1', 'burger_1', 'plate_1', 'kitchen', 'table_1', 'dining']
+['place_plate', 'rob_1', 'plate_1', 'table_1', 'dining']
+
+unexecuted action: ['pull_chair', 'rob_1', 'chair_1', 'dining']
+unexecuted action (decoded): a robot pulls out a chair in dining room.
+! prompt design
+raw prompt: is it acceptable that a robot pulls out a chair in dining room if the chair is broken?
+! response from LLM
+response (raw prompt): ['no, it is not acceptable for a robot to pull out a chair in a dining room if the chair is broken']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['oven tray', 'sponge', 'drinking glass', 'coffee cup', 'coffee filter', 'dish bowl', 'noodles', 'sauce', 'kitchen cabinet', 'colander', 'table cloth', 'measuring cup', 'snack', 'chair', 'ice cream', 'rag', 'cpu table', 'table', 'sugar', 'dining table', 'wooden spoon', 'condiment bottle', 'salt', 'cleaning bottle', 'bucket', 'pantry', 'paper towel', 'wine glass', 'cake', 'oatmeal', 'glass']
+
+! prompt design
+raw prompt: can a robot pulls out a oven tray in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a sponge in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a drinking glass in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pulls out a coffee cup in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a coffee filter in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a dish bowl in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a noodles in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a sauce in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a kitchen cabinet in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a colander in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a table cloth in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a measuring cup in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a snack in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a chair in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pulls out a ice cream in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a rag in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a cpu table in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a table in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a sugar in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a dining table in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a wooden spoon in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a condiment bottle in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a salt in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a cleaning bottle in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a bucket in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a pantry in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a paper towel in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a wine glass in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a cake in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a oatmeal in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls out a glass in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+#---------- capable_utensils_actionknowledge: ----------
+ ['drinking glass', 'chair']
+
+! prompt design
+raw prompt: there are some utensils, such as drinking glass, chair. which is the most suitable to replace a chair to eat dinner if the chair is broken? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['a drinking glass is not the most suitable replacement for a chair to eat dinner']
+
+#---------- most possible utensil: ---------- 
+ drinking glass
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+(find_table rob_1 table_1 dining)
+(walk_table rob_1 table_1 dining)
+(find_chair rob_1 drinking_glass_1 dining)
+(pull_chair rob_1 drinking_glass_1 dining)
+(walk rob_1 dining kitchen)
+(find_burger rob_1 burger_1 kitchen)
+(grasp_burger rob_1 burger_1 kitchen)
+(find_fork rob_1 fork_1 kitchen)
+(find_plate rob_1 plate_1 kitchen)
+(place_burger rob_1 burger_1 plate_1 kitchen)
+(place_fork rob_1 fork_1 plate_1 kitchen)
+(move_plate rob_1 fork_1 burger_1 plate_1 kitchen table_1 dining)
+(place_plate rob_1 plate_1 table_1 dining)
+; cost = 13 (unit cost)

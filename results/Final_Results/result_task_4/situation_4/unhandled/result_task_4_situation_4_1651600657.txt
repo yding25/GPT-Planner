@@ -1,0 +1,263 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 dining kitchen)
+(find_cup rob_1 cup_1 kitchen)
+(find_faucet rob_1 faucet_1 kitchen)
+(turnon_faucet rob_1 faucet_1 kitchen)
+(hold_cup rob_1 cup_1 kitchen)
+(fill_cup rob_1 cup_1 faucet_1 kitchen)
+(move_cup rob_1 cup_1 kitchen dining)
+(place_cup rob_1 cup_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(turnoff_faucet rob_1 faucet_1 kitchen)
+; cost = 10 (unit cost)
+
+#---------- generating a situation! -----------
+situation: water is dirty.
+corresponding predicate: water_is_dirty
+object in the situation: water
+action that has a situation: place_cup
+object manipulated by robot: cup
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['find_cup', 'rob_1', 'cup_1', 'kitchen']
+next action (decoded): a robot finds a cup in kitchen room.
+this action is executed!
+
+next action: ['find_faucet', 'rob_1', 'faucet_1', 'kitchen']
+next action (decoded): a robot finds a faucet in kitchen room.
+this action is executed!
+
+next action: ['turnon_faucet', 'rob_1', 'faucet_1', 'kitchen']
+next action (decoded): a robot turns on a faucet in kitchen room.
+this action is executed!
+
+next action: ['hold_cup', 'rob_1', 'cup_1', 'kitchen']
+next action (decoded): a robot holds a cup in kitchen room.
+this action is executed!
+
+next action: ['fill_cup', 'rob_1', 'cup_1', 'faucet_1', 'kitchen']
+next action (decoded): a robot fills a cup with water from faucet in kitchen room.
+this action is executed!
+
+next action: ['move_cup', 'rob_1', 'cup_1', 'kitchen', 'dining']
+next action (decoded): a robot moves a cup from kitchen room to dining room.
+this action is executed!
+
+next action: ['place_cup', 'rob_1', 'cup_1', 'table_1', 'dining']
+next action (decoded): a robot places a cup on table in dining room.
+
+#---------- checking unexecuted actions! -----------
+['place_cup', 'rob_1', 'cup_1', 'table_1', 'dining']
+['walk', 'rob_1', 'dining', 'kitchen']
+['turnoff_faucet', 'rob_1', 'faucet_1', 'kitchen']
+
+unexecuted action: ['place_cup', 'rob_1', 'cup_1', 'table_1', 'dining']
+unexecuted action (decoded): a robot places a cup on table in dining room.
+! prompt design
+prompt (raw): Is it acceptable that a robot places a cup on table in dining room if water is dirty?
+! response from LLM
+response (raw prompt): ['no, it is not acceptable for a robot to place a cup on a table in a dining room if the water is dirty']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is done!
+! step 3: supplement type
+step 3 is done!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is done!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ---------- 
+ ['wine glass', 'cleaning bottle', 'cutlery fork', 'paper towel', 'condiment bottle', 'cooking pot', 'place mat', 'glass', 'frying pan', 'bucket', 'measuring cup', 'cutting board', 'cloth napkin', 'cutlery knife']
+
+! prompt design
+raw prompt: can a robot fills a cup with wine glass from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with cleaning bottle from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with cutlery fork from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with paper towel from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with condiment bottle from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with cooking pot from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with place mat from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with glass from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with frying pan from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with bucket from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with measuring cup from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with cutting board from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with cloth napkin from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with cutlery knife from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+#---------- capable_utensils_actionknowledge: ----------
+ None
+
+#---------- capable utensils: ---------- 
+ None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['dehumidifier', 'blender', 'fridge', 'microwave', 'coffee maker', 'kettle', 'air fryer', 'dishwasher', 'freezer']
+
+! prompt design
+prompt (raw): can a dehumidifier make water clean if water is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a blender make water clean if water is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a fridge make water clean if water is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a microwave make water clean if water is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a coffee maker make water clean if water is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a kettle make water clean if water is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a air fryer make water clean if water is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a dishwasher make water clean if water is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+prompt (raw): can a freezer make water clean if water is dirty? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+capable appliances: ['dishwasher']
+
+#---------- most possible appliance:
+ dishwasher
+
+#---------- add effect -----------
+! step 1: add effect
+step 1 is done.
+! step 2: add parameter
+step 2 is done.
+! step 3: supplement init
+step 3 is done.
+! step 4: supplement object
+step 4 is done.
+
+#---------- generating modified_plan_3! -----------
+(walk rob_1 dining kitchen)
+(find_cup rob_1 cup_1 kitchen)
+(find_faucet rob_1 faucet_1 kitchen)
+(operate rob_1 dishwasher kitchen dining water_1)
+(turnon_faucet rob_1 faucet_1 kitchen)
+(hold_cup rob_1 cup_1 kitchen)
+(fill_cup rob_1 cup_1 faucet_1 kitchen)
+(move_cup rob_1 cup_1 kitchen dining)
+(place_cup rob_1 cup_1 table_1 dining water_1)
+(walk rob_1 dining kitchen)
+(turnoff_faucet rob_1 faucet_1 kitchen)
+; cost = 11 (unit cost)

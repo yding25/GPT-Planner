@@ -1,0 +1,305 @@
+/home/yan/githubBase/GPT-Planner/task_11_basic_plan.txt
+#---------- generating basic_plan! -----------
+(find_table rob_1 table_1 dining)
+(walk_table rob_1 table_1 dining)
+(find_chair rob_1 chair_1 dining)
+(pull_chair rob_1 chair_1 dining)
+(walk rob_1 dining kitchen)
+(find_burger rob_1 burger_1 kitchen)
+(grasp_burger rob_1 burger_1 kitchen)
+(find_fork rob_1 fork_1 kitchen)
+(find_plate rob_1 plate_1 kitchen)
+(place_burger rob_1 burger_1 plate_1 kitchen)
+(place_fork rob_1 fork_1 plate_1 kitchen)
+(move_plate rob_1 fork_1 burger_1 plate_1 kitchen table_1 dining)
+(place_plate rob_1 plate_1 table_1 dining)
+; cost = 13 (unit cost)
+
+#---------- generating situation! -----------
+situation: the chair is dirty.
+corresponding predicate: chair_is_dirty
+object in situation: chair
+action that has situation: find_chair
+object manipulated by robot: chair
+
+#---------- executing plan! -----------
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+next action: ['walk_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+next action: ['find_chair', 'rob_1', 'chair_1', 'dining']
+next action (decoded): a robot finds a chair in dining room.
+
+#---------- checking unexecuted actions! -----------
+['find_chair', 'rob_1', 'chair_1', 'dining']
+['pull_chair', 'rob_1', 'chair_1', 'dining']
+['walk', 'rob_1', 'dining', 'kitchen']
+['find_burger', 'rob_1', 'burger_1', 'kitchen']
+['grasp_burger', 'rob_1', 'burger_1', 'kitchen']
+['find_fork', 'rob_1', 'fork_1', 'kitchen']
+['find_plate', 'rob_1', 'plate_1', 'kitchen']
+['place_burger', 'rob_1', 'burger_1', 'plate_1', 'kitchen']
+['place_fork', 'rob_1', 'fork_1', 'plate_1', 'kitchen']
+['move_plate', 'rob_1', 'fork_1', 'burger_1', 'plate_1', 'kitchen', 'table_1', 'dining']
+['place_plate', 'rob_1', 'plate_1', 'table_1', 'dining']
+
+unexecuted action: ['find_chair', 'rob_1', 'chair_1', 'dining']
+unexecuted action (decoded): a robot finds a chair in dining room.
+! prompt design
+raw prompt: is it acceptable that a robot finds a chair in dining room if the chair is dirty?
+! response from LLM
+response (raw prompt): ['no, it is not acceptable for a robot to find a chair in the dining room if the chair is dirty']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['dish bowl', 'coffee cup', 'wooden spoon', 'table cloth', 'cooking pot', 'rice', 'wine glass', 'filing cabinet', 'snack', 'piano bench', 'trash can', 'couch', 'paper towel', 'kitchen counter', 'oil', 'cloth napkin', 'cabinet', 'cupboard', 'pasta', 'condiment bottle', 'noodles', 'pantry', 'cpu table', 'peanut butter', 'salt', 'drinking glass', 'cutlery knife', 'cutlery fork', 'kitchen table', 'nightstand']
+
+! prompt design
+raw prompt: can a robot pulls up a dish bowl in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pulls up a coffee cup in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pulls up a wooden spoon in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls up a table cloth in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls up a cooking pot in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pulls up a rice in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pulls up a wine glass in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pulls up a filing cabinet in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pulls up a snack in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pulls up a piano bench in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pulls up a trash can in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot pulls up a couch in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pulls up a paper towel in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pulls up a kitchen counter in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls up a oil in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls up a cloth napkin in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pulls up a cabinet in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls up a cupboard in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pulls up a pasta in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls up a condiment bottle in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pulls up a noodles in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pulls up a pantry in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls up a cpu table in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls up a peanut butter in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pulls up a salt in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pulls up a drinking glass in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot pulls up a cutlery knife in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot pulls up a cutlery fork in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot pulls up a kitchen table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot pulls up a nightstand in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+#---------- capable_utensils_actionknowledge: ----------
+ ['dish bowl', 'coffee cup', 'wine glass', 'snack', 'piano bench', 'trash can', 'paper towel', 'cloth napkin', 'drinking glass', 'kitchen table', 'nightstand']
+
+! prompt design
+raw prompt: there are some utensils, such as dish bowl, coffee cup, wine glass, snack, piano bench, trash can, paper towel, cloth napkin, drinking glass, kitchen table, nightstand. which is the most suitable to replace a chair to eat dinner if the chair is dirty? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['the most suitable utensil to replace a chair to eat dinner if the chair is dirty is a dish bowl']
+
+#---------- most possible utensil: ---------- 
+ dish bowl
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+(find_table rob_1 table_1 dining)
+(walk_table rob_1 table_1 dining)
+(find_chair rob_1 dish_bowl_1 dining)
+(pull_chair rob_1 dish_bowl_1 dining)
+(walk rob_1 dining kitchen)
+(find_burger rob_1 burger_1 kitchen)
+(grasp_burger rob_1 burger_1 kitchen)
+(find_fork rob_1 fork_1 kitchen)
+(find_plate rob_1 plate_1 kitchen)
+(place_burger rob_1 burger_1 plate_1 kitchen)
+(place_fork rob_1 fork_1 plate_1 kitchen)
+(move_plate rob_1 fork_1 burger_1 plate_1 kitchen table_1 dining)
+(place_plate rob_1 plate_1 table_1 dining)
+; cost = 13 (unit cost)

@@ -1,0 +1,256 @@
+#---------- generating basic_plan! -----------
+(find_table rob_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(find_cupboard rob_1 cupboard_1 kitchen)
+(open_cupboard rob_1 cupboard_1 kitchen)
+(find_fork rob_1 fork_1 cupboard_1 kitchen plate_1)
+(takeout_fork rob_1 fork_1 cupboard_1 kitchen)
+(find_plate rob_1 plate_1 cupboard_1 kitchen)
+(move_fork rob_1 fork_1 kitchen dining)
+(place_fork rob_1 fork_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(takeout_plate rob_1 plate_1 cupboard_1 kitchen)
+(move_plate rob_1 plate_1 kitchen dining)
+(place_plate rob_1 plate_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(close_cupboard rob_1 cupboard_1 kitchen)
+; cost = 15 (unit cost)
+
+#---------- generating situation! -----------
+situation: a cupboard cannot open.
+corresponding predicate: cupboard_cannot_open
+object in situation: cupboard
+action that has situation: open_cupboard
+object manipulated by robot: cupboard
+
+#---------- executing plan! -----------
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['find_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+next action (decoded): a robot finds a cupboard in kitchen room.
+this action is executed!
+
+next action: ['open_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+next action (decoded): a robot opens a cupboard in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['open_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+['find_fork', 'rob_1', 'fork_1', 'cupboard_1', 'kitchen', 'plate_1']
+['takeout_fork', 'rob_1', 'fork_1', 'cupboard_1', 'kitchen']
+['find_plate', 'rob_1', 'plate_1', 'cupboard_1', 'kitchen']
+['move_fork', 'rob_1', 'fork_1', 'kitchen', 'dining']
+['place_fork', 'rob_1', 'fork_1', 'table_1', 'dining']
+['walk', 'rob_1', 'dining', 'kitchen']
+['takeout_plate', 'rob_1', 'plate_1', 'cupboard_1', 'kitchen']
+['move_plate', 'rob_1', 'plate_1', 'kitchen', 'dining']
+['place_plate', 'rob_1', 'plate_1', 'table_1', 'dining']
+['walk', 'rob_1', 'dining', 'kitchen']
+['close_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+
+unexecuted action: ['open_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+unexecuted action (decoded): a robot opens a cupboard in kitchen room.
+! prompt design
+raw prompt: is it acceptable that a robot opens a cupboard in kitchen room if a cupboard cannot open?
+! experience found
+! response from LLM
+response (raw prompt): ["'no, it is not acceptable for a robot to open a cupboard in a kitchen room if a cupboard cannot open'"]
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['rag', 'trash can', 'condiment bottle', 'place mat', 'frying pan', 'paper towel', 'oven tray', 'cutting board', 'wooden spoon', 'dish bowl', 'colander', 'chef knife', 'mug', 'sponge']
+
+! prompt design
+raw prompt: can a robot opens a rag in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot opens a trash can in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a fork from a trash can ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot opens a condiment bottle in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot takes out a fork from a condiment bottle ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot opens a place mat in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot opens a frying pan in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot opens a paper towel in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot opens a oven tray in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot opens a cutting board in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot opens a wooden spoon in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot opens a dish bowl in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot opens a colander in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot opens a chef knife in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot opens a mug in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot opens a sponge in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+#---------- capable_utensils_actionknowledge: ----------
+None
+
+#---------- capable utensils: ---------- 
+None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['microwave', 'fridge', 'air fryer', 'water boiler', 'ice cream maker', 'vacuum cleaner', 'stove', 'coffee maker', 'water filter']
+
+! prompt design
+prompt (raw): can a microwave make a cupboard open if a cupboard cannot open? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a fridge make a cupboard open if a cupboard cannot open? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a air fryer make a cupboard open if a cupboard cannot open? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a water boiler make a cupboard open if a cupboard cannot open? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a ice cream maker make a cupboard open if a cupboard cannot open? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a vacuum cleaner make a cupboard open if a cupboard cannot open? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a stove make a cupboard open if a cupboard cannot open? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a coffee maker make a cupboard open if a cupboard cannot open? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a water filter make a cupboard open if a cupboard cannot open? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+no capable appliance found!
+
+no modified_plan_3 found!

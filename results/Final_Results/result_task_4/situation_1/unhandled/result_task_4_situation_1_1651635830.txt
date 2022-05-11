@@ -1,0 +1,248 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 dining kitchen)
+(find_cup rob_1 cup_1 kitchen)
+(find_faucet rob_1 faucet_1 kitchen)
+(turnon_faucet rob_1 faucet_1 kitchen)
+(hold_cup rob_1 cup_1 kitchen)
+(fill_cup rob_1 cup_1 faucet_1 kitchen)
+(move_cup rob_1 cup_1 kitchen dining)
+(place_cup rob_1 cup_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(turnoff_faucet rob_1 faucet_1 kitchen)
+; cost = 10 (unit cost)
+
+#---------- generating situation! -----------
+situation: a faucet has no water.
+corresponding predicate: faucet_has_no_water
+object in situation: faucet
+action that has situation: turnon_faucet
+object manipulated by robot: faucet
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['find_cup', 'rob_1', 'cup_1', 'kitchen']
+next action (decoded): a robot finds a cup in kitchen room.
+this action is executed!
+
+next action: ['find_faucet', 'rob_1', 'faucet_1', 'kitchen']
+next action (decoded): a robot finds a faucet in kitchen room.
+this action is executed!
+
+next action: ['turnon_faucet', 'rob_1', 'faucet_1', 'kitchen']
+next action (decoded): a robot turns on a faucet in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['turnon_faucet', 'rob_1', 'faucet_1', 'kitchen']
+['hold_cup', 'rob_1', 'cup_1', 'kitchen']
+['fill_cup', 'rob_1', 'cup_1', 'faucet_1', 'kitchen']
+['move_cup', 'rob_1', 'cup_1', 'kitchen', 'dining']
+['place_cup', 'rob_1', 'cup_1', 'table_1', 'dining']
+['walk', 'rob_1', 'dining', 'kitchen']
+['turnoff_faucet', 'rob_1', 'faucet_1', 'kitchen']
+
+unexecuted action: ['turnon_faucet', 'rob_1', 'faucet_1', 'kitchen']
+unexecuted action (decoded): a robot turns on a faucet in kitchen room.
+! prompt design
+raw prompt: is it acceptable that a robot turns on a faucet in kitchen room if a faucet has no water?
+! experience found
+! response from LLM
+response (raw prompt): ["'no, it is not acceptable for a robot to turn on a faucet in a kitchen room if a faucet has no water'"]
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['mug', 'coffee filter', 'cloth napkin', 'dish bowl', 'frying pan', 'cleaning bottle', 'condiment bottle', 'dish rack', 'rag', 'trash can', 'colander', 'place mat', 'sponge', 'glass']
+
+! prompt design
+raw prompt: can a robot turns on a mug in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot turns on a coffee filter in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot turns on a cloth napkin in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot turns on a dish bowl in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot turns on a frying pan in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a cup with water from frying pan in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot turns on a cleaning bottle in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot turns on a condiment bottle in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot turns on a dish rack in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot turns on a rag in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot turns on a trash can in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot turns on a colander in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot turns on a place mat in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot turns on a sponge in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot turns on a glass in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+#---------- capable_utensils_actionknowledge: ----------
+None
+
+#---------- capable utensils: ---------- 
+None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['freezer', 'fridge', 'dishwasher', 'coffee maker', 'toaster', 'kettle', 'ice cream maker', 'juicer', 'air fryer']
+
+! prompt design
+prompt (raw): can a freezer make a faucet have water if a faucet has no water? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a fridge make a faucet have water if a faucet has no water? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a dishwasher make a faucet have water if a faucet has no water? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a coffee maker make a faucet have water if a faucet has no water? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a toaster make a faucet have water if a faucet has no water? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a kettle make a faucet have water if a faucet has no water? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a ice cream maker make a faucet have water if a faucet has no water? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a juicer make a faucet have water if a faucet has no water? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a air fryer make a faucet have water if a faucet has no water? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+no capable appliance found!
+
+no modified_plan_3 found!

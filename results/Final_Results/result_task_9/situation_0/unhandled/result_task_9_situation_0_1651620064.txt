@@ -1,0 +1,262 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 kitchen dining)
+(find_table rob_1 table_1 dining)
+(walk_table rob_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(grasp_plate rob_1 plate_1 dining)
+(walk_sink rob_1 sink_1 plate_1 kitchen)
+(place_plate rob_1 plate_1 dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation: the sink is full.
+corresponding predicate: sink_is_full
+object in situation: sink
+action that has situation: walk_sink
+object manipulated by robot: sink
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'kitchen', 'dining']
+next action (decoded): a robot walks from kitchen room to dining room.
+this action is executed!
+
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+next action: ['walk_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['grasp_plate', 'rob_1', 'plate_1', 'dining']
+next action (decoded): a robot grasps a plate in dining room.
+this action is executed!
+
+next action: ['walk_sink', 'rob_1', 'sink_1', 'plate_1', 'kitchen']
+next action (decoded): a robot walks to a sink in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['walk_sink', 'rob_1', 'sink_1', 'plate_1', 'kitchen']
+['place_plate', 'rob_1', 'plate_1', 'dining']
+
+unexecuted action: ['walk_sink', 'rob_1', 'sink_1', 'plate_1', 'kitchen']
+unexecuted action (decoded): a robot walks to a sink in kitchen room.
+! prompt design
+raw prompt: is it acceptable that a robot walks to a sink in kitchen room if the sink is full?
+! experience found
+! response from LLM
+response (raw prompt): ["'no, it is not acceptable for a robot to walk to a sink in a kitchen room if the sink is full'"]
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['dish bowl', 'rag', 'mug', 'filing cabinet', 'condiment shaker', 'couch', 'drinking glass', 'cpu table', 'piano bench', 'glass', 'frying pan', 'coffee cup', 'chef knife', 'dish rack', 'coffee table', 'nightstand', 'wine glass', 'bucket', 'pantry', 'place mat', 'chair', 'trash can', 'desk', 'coffee filter']
+
+! prompt design
+raw prompt: can a robot walks to a dish bowl in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot walks to a rag in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a mug in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a filing cabinet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot walks to a condiment shaker in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a couch in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a drinking glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a cpu table in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot walks to a piano bench in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot walks to a glass in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot walks to a frying pan in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a coffee cup in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a chef knife in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a dish rack in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a coffee table in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a nightstand in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot walks to a wine glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot walks to a bucket in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot walks to a pantry in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot walks to a place mat in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot walks to a chair in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot walks to a trash can in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot walks to a desk in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot walks to a coffee filter in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+#---------- capable_utensils_actionknowledge: ----------
+ ['dish bowl', 'rag', 'mug', 'filing cabinet', 'condiment shaker', 'couch', 'drinking glass', 'cpu table', 'piano bench', 'glass', 'frying pan', 'coffee cup', 'chef knife', 'dish rack', 'coffee table', 'nightstand', 'bucket', 'pantry', 'place mat', 'chair', 'trash can', 'desk', 'coffee filter']
+
+! prompt design
+raw prompt: there are some utensils, such as dish bowl, rag, mug, filing cabinet, condiment shaker, couch, drinking glass, cpu table, piano bench, glass, frying pan, coffee cup, chef knife, dish rack, coffee table, nightstand, bucket, pantry, place mat, chair, trash can, desk, coffee filter. which is the most suitable to replace a sink to pick up plate if the sink is full? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['dish rack']
+
+#---------- most possible utensil: ---------- 
+ dish rack
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+problem_goal_1: ['and (plate_is_placed plate_1))']
+target_object: sink
+utensil: dish_rack
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+(walk rob_1 kitchen dining)
+(find_table rob_1 table_1 dining)
+(walk_table rob_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(grasp_plate rob_1 plate_1 dining)
+(walk_sink rob_1 dish_rack_1 plate_1 kitchen)
+(place_plate rob_1 plate_1 dining)
+; cost = 7 (unit cost)

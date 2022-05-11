@@ -1,0 +1,85 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 dining kitchen)
+(find_cupboard rob_1 cupboard_1 kitchen)
+(open_cupboard rob_1 cupboard_1 kitchen)
+(find_fork rob_1 fork_1 cupboard_1 kitchen plate_1)
+(takeout_fork rob_1 fork_1 cupboard_1 kitchen)
+(move_fork rob_1 fork_1 kitchen dining)
+(find_table rob_1 table_1 dining)
+(place_fork rob_1 fork_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(find_plate rob_1 plate_1 cupboard_1 kitchen)
+(takeout_plate rob_1 plate_1 cupboard_1 kitchen)
+(move_plate rob_1 plate_1 kitchen dining)
+(place_plate rob_1 plate_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(close_cupboard rob_1 cupboard_1 kitchen)
+; cost = 15 (unit cost)
+
+#---------- generating situation! -----------
+situation: a plate is broken.
+corresponding predicate: plate_is_broken
+object in situation: plate
+action that has situation: walk
+object manipulated by robot: None
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['walk', 'rob_1', 'dining', 'kitchen']
+['find_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+['open_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+['find_fork', 'rob_1', 'fork_1', 'cupboard_1', 'kitchen', 'plate_1']
+['takeout_fork', 'rob_1', 'fork_1', 'cupboard_1', 'kitchen']
+['move_fork', 'rob_1', 'fork_1', 'kitchen', 'dining']
+['find_table', 'rob_1', 'table_1', 'dining']
+['place_fork', 'rob_1', 'fork_1', 'table_1', 'dining']
+['walk', 'rob_1', 'dining', 'kitchen']
+['find_plate', 'rob_1', 'plate_1', 'cupboard_1', 'kitchen']
+['takeout_plate', 'rob_1', 'plate_1', 'cupboard_1', 'kitchen']
+['move_plate', 'rob_1', 'plate_1', 'kitchen', 'dining']
+['place_plate', 'rob_1', 'plate_1', 'table_1', 'dining']
+['walk', 'rob_1', 'dining', 'kitchen']
+['close_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+
+unexecuted action: ['find_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+unexecuted action (decoded): a robot finds a cupboard in kitchen room.
+! prompt design
+raw prompt: is it acceptable that a robot finds a cupboard in kitchen room if a plate is broken?
+! response from LLM
+response (raw prompt): ['no, it is not acceptable']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is done!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+(walk rob_1 dining kitchen plate_2)
+(find_cupboard rob_1 cupboard_1 kitchen)
+(open_cupboard rob_1 cupboard_1 kitchen)
+(find_fork rob_1 fork_1 cupboard_1 kitchen plate_1)
+(takeout_fork rob_1 fork_1 cupboard_1 kitchen)
+(move_fork rob_1 fork_1 kitchen dining)
+(find_table rob_1 table_1 dining)
+(place_fork rob_1 fork_1 table_1 dining)
+(walk rob_1 dining kitchen plate_2)
+(find_plate rob_1 plate_1 cupboard_1 kitchen)
+(takeout_plate rob_1 plate_1 cupboard_1 kitchen)
+(move_plate rob_1 plate_1 kitchen dining)
+(place_plate rob_1 plate_1 table_1 dining)
+(walk rob_1 dining kitchen plate_2)
+(close_cupboard rob_1 cupboard_1 kitchen)
+; cost = 15 (unit cost)

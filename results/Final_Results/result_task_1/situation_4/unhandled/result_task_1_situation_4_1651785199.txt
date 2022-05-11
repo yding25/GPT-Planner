@@ -1,0 +1,214 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 kitchen dining)
+(find_table rob_1 table_1 dining)
+(takeout_vacuum rob_1 vacuum_1 dining)
+(plug_vacuum rob_1 vacuum_1 dining)
+(turnon_vacuum rob_1 vacuum_1 dining)
+(clean_table rob_1 vacuum_1 table_1 dining)
+(turnoff_vacuum rob_1 vacuum_1 table_1 dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation: the vacuum plug is damaged.
+corresponding predicate: vacuum_plug_is_damaged
+object in situation: plug
+action that has situation: find_table
+object manipulated by robot: table
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'kitchen', 'dining']
+next action (decoded): a robot walks from kitchen room to dining room.
+this action is executed!
+
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot find a table in dining room.
+
+#---------- checking unexecuted actions! -----------
+['find_table', 'rob_1', 'table_1', 'dining']
+['takeout_vacuum', 'rob_1', 'vacuum_1', 'dining']
+['plug_vacuum', 'rob_1', 'vacuum_1', 'dining']
+['turnon_vacuum', 'rob_1', 'vacuum_1', 'dining']
+['clean_table', 'rob_1', 'vacuum_1', 'table_1', 'dining']
+['turnoff_vacuum', 'rob_1', 'vacuum_1', 'table_1', 'dining']
+
+unexecuted action: ['find_table', 'rob_1', 'table_1', 'dining']
+unexecuted action (decoded): a robot find a table in dining room.
+! prompt design
+raw prompt: is it acceptable that a robot find a table in dining room if the vacuum plug is damaged?
+! response from LLM
+response (raw prompt): ['no, it is not acceptable']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is done!
+! step 3: supplement type
+step 3 is done!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is done!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['oven tray', 'colander', 'cloth napkin', 'sponge', 'mug', 'condiment bottle', 'wine glass', 'dish bowl', 'chef knife', 'condiment shaker', 'rag', 'measuring cup', 'drinking glass', 'cutlery knife']
+
+! prompt design
+raw prompt: can a robot oven trays a vacuum in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot colanders a vacuum in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot cloth napkins a vacuum in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot sponges a vacuum in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot mugs a vacuum in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot condiment bottles a vacuum in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot wine glasss a vacuum in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot dish bowls a vacuum in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot chef knifes a vacuum in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot condiment shakers a vacuum in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot rags a vacuum in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot measuring cups a vacuum in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot drinking glasss a vacuum in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot cutlery knifes a vacuum in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+#---------- capable_utensils_actionknowledge: ----------
+None
+
+#---------- capable utensils: ---------- 
+None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['coffee maker', 'dehumidifier', 'dishwasher', 'microwave', 'kettle', 'freezer', 'oven', 'fridge', 'washing machine']
+
+! prompt design
+prompt (raw): can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a dishwasher make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+no capable appliance found!
+
+no modified_plan_3 found!

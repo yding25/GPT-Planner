@@ -4,11 +4,10 @@ closet
 cpu table
 cupboard
 desk
-door
 filing cabinet
 kitchen cabinet
 nightstand
-chair
+wooden chair
 piano bench
 table cloth
 coffee table
@@ -17,7 +16,6 @@ dining table
 kitchen table
 kitchen counter
 pantry
-table
 cleaning bottle
 cooking pot
 frying pan
@@ -60,3 +58,4 @@ oil
 pasta
 chips
 sauce
+steak

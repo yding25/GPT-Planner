@@ -262,7 +262,7 @@ def action_translator(action, task_id):
             sentence = 'a robot finds a ' + action[2] + ' in ' + action[3] + ' room.'
 
         if 'pull_chair' in action[0]:
-            sentence = 'a robot pulls out a ' + action[2] + ' in ' + action[3] + ' room.'
+            sentence = 'a robot pulls up a ' + action[2] + ' in ' + action[3] + ' room.'
 
         if 'find_burger' in action[0]:
             sentence = 'a robot finds a ' + action[2] + ' in ' + action[3] + ' room.'

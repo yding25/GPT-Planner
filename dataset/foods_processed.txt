@@ -12,3 +12,4 @@ oil
 pasta
 chips
 sauce
+steak

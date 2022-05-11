@@ -1,601 +1,38 @@
-raw prompt:is it acceptable that a robot finds a coke in kitchen room if the coke bottle is not available?
-response (raw prompt):['no, it is not acceptable']
-raw prompt:there are some utensils, such as tea, juice, watermelon, alcohol, ground coffee, beer. which is the most suitable to replace a bottle to drink coke if the coke bottle is not available? if there is no reasonable answer, please output no.
-response (raw prompt):['tea']
-raw prompt:is it acceptable that a robot finds a coke in kitchen room if the coke is not available?
-response (raw prompt):['no, it is not acceptable']
-raw prompt:can a robot grasps a watermelon in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours watermelon into glass in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot grasps a milk in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours milk into glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot grasps a tea bag in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours tea bag into glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot grasps a alcohol in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot grasps a ground coffee in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours ground coffee into glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot grasps a water in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours water into glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:there are some utensils, such as milk, tea bag, ground coffee, water. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
-response (raw prompt):['water']
-raw prompt:is it acceptable that a robot grasps a coke in kitchen room if the coke is not available?
-response (raw prompt):['no, it is not acceptable for a robot to grasp a coke in a kitchen room if the coke is not available']
-raw prompt:can a robot grasps a tea in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot grasps a coffee in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot grasps a beer in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as milk, ground coffee. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
-response (raw prompt):['there is no reasonable answer']
-prompt (raw):can a dehumidifier make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a stove make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a air fryer make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a ice cream maker make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a kettle make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a washing machine make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a dishwasher make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a water filter make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a blender make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-raw prompt:can a robot grasps a juice in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as water, milk, ground coffee. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
-response (raw prompt):['water']
-raw prompt:can a robot grasps a wine in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot grasps a juice in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot grasps a wine in kitchen room?
-response (raw prompt):['no']
-prompt (raw):can a toaster make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a blender make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a freezer make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a water filter make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a ice cream maker make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a dehumidifier make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a air fryer make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a vacuum cleaner make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a water boiler make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-raw prompt:can a robot grasps a bottle water in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours bottle water into glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot grasps a wine in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as bottle water, ground coffee, milk. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
-response (raw prompt):['bottle water']
-raw prompt:can a robot grasps a juice in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as milk, tea bag, water. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
-response (raw prompt):['water']
-raw prompt:there are some utensils, such as milk, bottle water, ground coffee. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
-response (raw prompt):['milk, bottle water, and ground coffee are all suitable replacements for coke if coke is not available']
-raw prompt:there are some utensils, such as water, milk. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
-response (raw prompt):['water']
-raw prompt:there are some utensils, such as milk, bottle water, ground coffee, tea bag. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
-response (raw prompt):['milk, bottle water, ground coffee, and tea bag are all suitable to replace a coke to drink coke if the coke is not']
-raw prompt:there are some utensils, such as water, tea bag. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
-response (raw prompt):['water']
-raw prompt:there are some utensils, such as ground coffee, milk. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
-response (raw prompt):['there is no reasonable answer']
-prompt (raw):can a washing machine make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a juicer make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a coffee maker make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a water filter make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a dehumidifier make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a ice cream maker make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a water boiler make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a oven make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a stove make the coke availabl if the coke is not available? 
-possibility:
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as tea bag, water. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
-response (raw prompt):['water']
-raw prompt:there are some utensils, such as bottle water, milk. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
-response (raw prompt):['milk is the most suitable drink to replace coke if coke is not available']
-raw prompt:there are some utensils, such as tea bag, water, ground coffee. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
-response (raw prompt):['water']
-raw prompt:is it acceptable that a robot pours coke into glass in kitchen room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to pour coke into a glass in a kitchen room if the glass is broken']
-raw prompt:can a robot pours coke into glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into coffee filter in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into wine glass in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into oven tray in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into coffee cup in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cleaning bottle in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into trash can in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a trash can in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a trash can on a table in dining room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cutlery fork in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into measuring cup in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a measuring cup in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a measuring cup on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into dish rack in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into bucket in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into sponge in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into paper towel in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cooking pot in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as glass, measuring cup. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
-response (raw prompt):['a measuring cup']
-raw prompt:is it acceptable that a robot moves a glass in kitchen room near a table in table room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to move a glass in a kitchen room near a table in a table room if the glass is broken']
-raw prompt:can a robot pours coke into place mat in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into trash can in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a trash can in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a trash can on a table in dining room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into dish bowl in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into sponge in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into oven tray in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cutlery fork in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into frying pan in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into measuring cup in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a measuring cup in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a measuring cup on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into coffee filter in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into wine glass in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into condiment bottle in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into condiment shaker in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cutting board in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cooking pot in kitchen room?
-response (raw prompt):['no']
-raw prompt:is it acceptable that a robot moves a glass in kitchen room near a table in table room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to move a glass in a kitchen room near a table in a table room if the glass is broken']
-raw prompt:can a robot pours coke into oven tray in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into condiment bottle in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into place mat in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into wine glass in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into measuring cup in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a measuring cup in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a measuring cup on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into frying pan in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into coffee cup in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into bucket in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into dish bowl in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cooking pot in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into drinking glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a drinking glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a drinking glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into condiment shaker in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into paper towel in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as glass, measuring cup, drinking glass. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
-response (raw prompt):['a drinking glass']
-raw prompt:is it acceptable that a robot moves a glass in kitchen room near a table in table room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to move a glass in a kitchen room near a table in a table room if the glass is broken']
-raw prompt:can a robot pours coke into dish rack in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into condiment shaker in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into wooden spoon in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into place mat in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into wine glass in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into sponge in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into condiment bottle in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cooking pot in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into cutting board in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cleaning bottle in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into paper towel in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into measuring cup in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a measuring cup in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a measuring cup on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into cloth napkin in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as glass, measuring cup. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
-response (raw prompt):['a measuring cup']
-raw prompt:is it acceptable that a robot pours coke into glass in kitchen room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to pour coke into a glass in a kitchen room if the glass is broken']
-raw prompt:can a robot pours coke into coffee filter in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into condiment bottle in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cooking pot in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into bucket in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into dish bowl in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into wine glass in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cleaning bottle in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into drinking glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a drinking glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a drinking glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into rag in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into coffee cup in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into frying pan in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into paper towel in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into oven tray in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cutting board in kitchen room?
-response (raw prompt):['no']
 raw prompt:is it acceptable that a robot finds a glass in kitchen room if the glass is broken?
 response (raw prompt):['no, it is not acceptable for a robot to find a glass in the kitchen room if the glass is broken']
-raw prompt:can a robot pours coke into place mat in kitchen room?
+raw prompt:can a robot pours coke into condiment shaker in kitchen room?
 response (raw prompt):['no']
-raw prompt:can a robot pours coke into coffee filter in kitchen room?
+raw prompt:can a robot pours coke into tea in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot pours coke into watermelon in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot pours coke into drinking glass in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a drinking glass in kitchen room near a table in table room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a drinking glass on a table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot pours coke into frying pan in kitchen room?
 response (raw prompt):['no']
 raw prompt:can a robot pours coke into sponge in kitchen room?
 response (raw prompt):['no']
+raw prompt:can a robot pours coke into beer in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot pours coke into tea bag in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot pours coke into paper towel in kitchen room?
+response (raw prompt):['no']
 raw prompt:can a robot pours coke into dish rack in kitchen room?
 response (raw prompt):['no']
+raw prompt:can a robot pours coke into coffee in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot pours coke into milk in kitchen room?
+response (raw prompt):['no']
 raw prompt:can a robot pours coke into wine glass in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into chef knife in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cooking pot in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into condiment shaker in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cutlery fork in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cloth napkin in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into condiment bottle in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into measuring cup in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a measuring cup in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a measuring cup on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into oven tray in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into drinking glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a drinking glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a drinking glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:there are some utensils, such as measuring cup, drinking glass. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
-response (raw prompt):['a drinking glass']
-raw prompt:is it acceptable that a robot finds a glass in kitchen room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to find a glass in the kitchen room if the glass is broken']
-raw prompt:can a robot pours coke into drinking glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a drinking glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a drinking glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into condiment shaker in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cutlery fork in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into wooden spoon in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into bucket in kitchen room?
 response (raw prompt):['no']
 raw prompt:can a robot pours coke into cutlery knife in kitchen room?
 response (raw prompt):['no']
-raw prompt:can a robot pours coke into wine glass in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into dish rack in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into coffee cup in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into dish bowl in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into trash can in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a trash can in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a trash can on a table in dining room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cutting board in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into chef knife in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into condiment bottle in kitchen room?
-response (raw prompt):['no']
-raw prompt:is it acceptable that a robot finds a glass in kitchen room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to find a glass in the kitchen room if the glass is broken']
-raw prompt:is it acceptable that a robot pours coke into glass in kitchen room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to pour coke into a glass in a kitchen room if the glass is broken']
-raw prompt:can a robot pours coke into mug in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cutting board in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into wine glass in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into colander in kitchen room?
-response (raw prompt):['no']
-raw prompt:is it acceptable that a robot moves a glass in kitchen room near a table in table room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to move a glass in a kitchen room near a table in a table room if the glass is broken']
-raw prompt:can a robot pours coke into coffee filter in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cleaning bottle in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into place mat in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cooking pot in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into sponge in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into dish rack in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cutting board in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into oven tray in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into coffee cup in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into condiment shaker in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into drinking glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a drinking glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a drinking glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into frying pan in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into bucket in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:there are some utensils, such as drinking glass, glass. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
-response (raw prompt):['a drinking cup']
-prompt (raw):can a ice cream maker make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a blender make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a juicer make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a dishwasher make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a toaster make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a dehumidifier make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a fridge make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a kettle make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a oven make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-raw prompt:is it acceptable that a robot pours coke into glass in kitchen room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to pour coke into a glass in a kitchen room if the glass is broken']
-raw prompt:can a robot pours coke into glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into cutlery fork in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into paper towel in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into dish bowl in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into dish rack in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cleaning bottle in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into wine glass in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into coffee cup in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into condiment bottle in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into rag in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into oven tray in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cutlery knife in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into coffee filter in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into place mat in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into condiment shaker in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into bucket in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cooking pot in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into chef knife in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cutting board in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into cloth napkin in kitchen room?
-response (raw prompt):['no']
-prompt (raw):can a ice cream maker make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a air fryer make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a dehumidifier make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a freezer make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a juicer make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a coffee maker make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a water boiler make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a kettle make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a vacuum cleaner make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-raw prompt:is it acceptable that a robot moves a glass in kitchen room near a table in table room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to move a glass in a kitchen room near a table in a table room if the glass is broken']
-raw prompt:can a robot pours coke into colander in kitchen room?
+raw prompt:can a robot pours coke into ground coffee in kitchen room?
 response (raw prompt):['no']
 raw prompt:can a robot pours coke into mug in kitchen room?
 response (raw prompt):['yes']
@@ -609,510 +46,211 @@ raw prompt:can a robot moves a trash can in kitchen room near a table in table r
 response (raw prompt):['yes']
 raw prompt:can a robot places a trash can on a table in dining room?
 response (raw prompt):['no']
-raw prompt:can a robot pours coke into wooden spoon in kitchen room?
+raw prompt:can a robot pours coke into coffee cup in kitchen room?
 response (raw prompt):['no']
-raw prompt:can a robot pours coke into wooden spoon in kitchen room?
+raw prompt:can a robot pours coke into wine in kitchen room?
 response (raw prompt):['no']
-raw prompt:can a robot pours coke into trash can in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a trash can in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a trash can on a table in dining room?
+raw prompt:can a robot pours coke into place mat in kitchen room?
 response (raw prompt):['no']
-raw prompt:can a robot pours coke into drinking glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a drinking glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a drinking glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into sponge in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into colander in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as glass, drinking glass. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
-response (raw prompt):['a drinking glass']
-raw prompt:can a robot pours coke into colander in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into drinking glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a drinking glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a drinking glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into sponge in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into wooden spoon in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as glass, drinking glass. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
-response (raw prompt):['a drinking glass']
-raw prompt:can a robot pours coke into frying pan in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into mug in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into measuring cup in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a measuring cup in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a measuring cup on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into sponge in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into colander in kitchen room?
-response (raw prompt):['no']
-raw prompt:is it acceptable that a robot moves a glass in kitchen room near a table in table room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to move a glass in a kitchen room near a table in a table room if the glass is broken']
-raw prompt:can a robot pours coke into trash can in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a trash can in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a trash can on a table in dining room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into drinking glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a drinking glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a drinking glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into measuring cup in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a measuring cup in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a measuring cup on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into frying pan in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into mug in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as drinking glass, measuring cup. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
-response (raw prompt):['a drinking glass']
-raw prompt:is it acceptable that a robot finds a glass in kitchen room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to find a glass in the kitchen room if the glass is broken']
-raw prompt:can a robot pours coke into drinking glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a drinking glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a drinking glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into mug in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as drinking glass, glass. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
-response (raw prompt):['a drinking cup']
-prompt (raw):can a dehumidifier make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a blender make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a juicer make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a water filter make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a microwave make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a stove make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a vacuum cleaner make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a kettle make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a washing machine make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into frying pan in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into drinking glass in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a drinking glass in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a drinking glass on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot pours coke into trash can in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a trash can in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a trash can on a table in dining room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into mug in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as glass, drinking glass. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
-response (raw prompt):['a drinking glass']
-raw prompt:is it acceptable that a robot finds a glass in kitchen room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to find a glass in the kitchen room if the glass is broken']
-raw prompt:can a robot pours coke into measuring cup in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a measuring cup in kitchen room near a table in table room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a measuring cup on a table in dining room?
-response (raw prompt):['yes']
-raw prompt:there are some utensils, such as glass, measuring cup, drinking glass. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
-response (raw prompt):['a drinking glass']
-raw prompt:is it acceptable that a robot moves a glass in kitchen room near a table in table room if the glass is broken?
-response (raw prompt):['no, it is not acceptable for a robot to move a glass in a kitchen room near a table in a table room if the glass is broken']
-raw prompt:can a robot pours coke into colander in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into wooden spoon in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as glass, measuring cup. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
-response (raw prompt):['a measuring cup']
-prompt (raw):can a ice cream maker make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a kettle make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a oven make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a dishwasher make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a juicer make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a coffee maker make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a dehumidifier make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a washing machine make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a toaster make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-raw prompt:can a robot pours coke into sponge in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as drinking glass, glass. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
-response (raw prompt):['a drinking cup']
-prompt (raw):can a ice cream maker make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a microwave make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a dehumidifier make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a stove make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a dishwasher make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a coffee maker make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a water filter make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a oven make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a vacuum cleaner make the glass good if the glass is broken? 
-possibility:
-response (raw prompt):['no']
-raw prompt:is it acceptable that a robot finds a coke in kitchen room if the coke bottle is missing?
+raw prompt:there are some utensils, such as drinking glass, mug. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
+response (raw prompt):['a drinking glass is the most suitable replacement for a broken glass']
+raw prompt:is it acceptable that a robot finds a glass in kitchen room if the glass is missing?
 response (raw prompt):['no, it is not acceptable']
-raw prompt:there are some utensils, such as wine, ground coffee, tea bag, watermelon, juice, water. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['wine']
-raw prompt:there are some utensils, such as coffee, milk, wine, bottle water, water, alcohol. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['water']
-raw prompt:there are some utensils, such as milk, beer, juice, wine, tea, coffee. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['a milk bottle would be the most suitable replacement for a coke bottle']
-raw prompt:there are some utensils, such as coffee, tea, juice, tea bag, beer, milk. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['juice']
-raw prompt:there are some utensils, such as juice, ground coffee, watermelon, tea bag, tea, milk. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['juice']
-raw prompt:there are some utensils, such as milk, alcohol, coffee, watermelon, bottle water, beer. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['watermelon']
-raw prompt:there are some utensils, such as juice, tea, tea bag, wine, watermelon, milk. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['juice']
-raw prompt:there are some utensils, such as alcohol, tea, water, bottle water, milk, tea bag. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['water']
-raw prompt:there are some utensils, such as beer, milk, wine, bottle water, tea, tea bag. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['a can of coke']
-prompt (raw):can a dehumidifier make the coke bottle found if the coke bottle is missing? 
-possibility:
+raw prompt:can a robot pours coke into water in kitchen room?
 response (raw prompt):['no']
-prompt (raw):can a fridge make the coke bottle found if the coke bottle is missing? 
-possibility:
+raw prompt:can a robot pours coke into colander in kitchen room?
 response (raw prompt):['no']
-prompt (raw):can a stove make the coke bottle found if the coke bottle is missing? 
-possibility:
+raw prompt:can a robot pours coke into cutlery fork in kitchen room?
 response (raw prompt):['no']
-prompt (raw):can a air fryer make the coke bottle found if the coke bottle is missing? 
-possibility:
+raw prompt:can a robot pours coke into cooking pot in kitchen room?
 response (raw prompt):['no']
-prompt (raw):can a microwave make the coke bottle found if the coke bottle is missing? 
-possibility:
+raw prompt:can a robot pours coke into bottle water in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a bottle water in kitchen room near a table in table room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a bottle water on a table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot pours coke into chef knife in kitchen room?
 response (raw prompt):['no']
-prompt (raw):can a kettle make the coke bottle found if the coke bottle is missing? 
-possibility:
+raw prompt:can a robot pours coke into cloth napkin in kitchen room?
 response (raw prompt):['no']
-prompt (raw):can a coffee maker make the coke bottle found if the coke bottle is missing? 
-possibility:
+raw prompt:can a robot pours coke into bucket in kitchen room?
 response (raw prompt):['no']
-prompt (raw):can a ice cream maker make the coke bottle found if the coke bottle is missing? 
-possibility:
+raw prompt:can a robot pours coke into oven tray in kitchen room?
 response (raw prompt):['no']
-prompt (raw):can a oven make the coke bottle found if the coke bottle is missing? 
-possibility:
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as watermelon, tea bag, bottle water, coffee, ground coffee, water. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['water']
-raw prompt:there are some utensils, such as bottle water, alcohol, ground coffee, juice, water, coffee. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['juice']
-raw prompt:there are some utensils, such as milk, juice, bottle water, beer, ground coffee, tea bag. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['a milk jug would be the most suitable replacement for a coke bottle']
-raw prompt:there are some utensils, such as coffee, water, wine, bottle water, ground coffee, alcohol. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['water']
-raw prompt:there are some utensils, such as bottle water, tea, beer, wine, juice, watermelon. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['a can of coke']
-prompt (raw):can a air fryer make the coke bottle found if the coke bottle is missing? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a freezer make the coke bottle found if the coke bottle is missing? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a water filter make the coke bottle found if the coke bottle is missing? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a microwave make the coke bottle found if the coke bottle is missing? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a dishwasher make the coke bottle found if the coke bottle is missing? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a fridge make the coke bottle found if the coke bottle is missing? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a toaster make the coke bottle found if the coke bottle is missing? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a stove make the coke bottle found if the coke bottle is missing? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a kettle make the coke bottle found if the coke bottle is missing? 
-possibility:
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as coffee, wine, ground coffee, water, beer, watermelon. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['wine']
-raw prompt:there are some utensils, such as watermelon, tea, alcohol, bottle water, wine, beer. which is the most suitable to replace a bottle to drink coke if the coke bottle is missing? if there is no reasonable answer, please output no.
-response (raw prompt):['watermelon']
-raw prompt:is it acceptable that a robot finds a glass in kitchen room if the glass is dirty?
-response (raw prompt):['no, it is not acceptable for a robot to find a glass in the kitchen room if the glass is dirty']
-raw prompt:can a robot pours coke into sponge in kitchen room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as measuring cup, drinking glass. which is the most suitable to replace a glass to drink coke if the glass is dirty? if there is no reasonable answer, please output no.
+raw prompt:there are some utensils, such as bottle water, mug, drinking glass. which is the most suitable to replace a glass to drink coke if the glass is missing? if there is no reasonable answer, please output no.
 response (raw prompt):['a drinking glass']
-raw prompt:is it acceptable that a robot pours coke into glass in kitchen room if the glass is dirty?
-response (raw prompt):['no, it is not acceptable for a robot to pour coke into a dirty glass in the kitchen']
-prompt (raw):can a blender make the glass clean if the glass is dirty? 
-possibility:
+raw prompt:can a robot pours coke into cleaning bottle in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot pours coke into glass in kitchen room?
 response (raw prompt):['yes']
-prompt (raw):can a washing machine make the glass clean if the glass is dirty? 
-possibility:
+raw prompt:can a robot moves a glass in kitchen room near a table in table room?
 response (raw prompt):['yes']
-prompt (raw):can a oven make the glass clean if the glass is dirty? 
-possibility:
+raw prompt:can a robot places a glass on a table in dining room?
 response (raw prompt):['yes']
-prompt (raw):can a freezer make the glass clean if the glass is dirty? 
-possibility:
+raw prompt:can a robot pours coke into cutting board in kitchen room?
 response (raw prompt):['no']
-prompt (raw):can a fridge make the glass clean if the glass is dirty? 
-possibility:
+raw prompt:can a robot pours coke into juice in kitchen room?
 response (raw prompt):['no']
-prompt (raw):can a air fryer make the glass clean if the glass is dirty? 
-possibility:
+raw prompt:can a robot pours coke into condiment bottle in kitchen room?
 response (raw prompt):['no']
-prompt (raw):can a water filter make the glass clean if the glass is dirty? 
-possibility:
-response (raw prompt):['yes']
-prompt (raw):can a vacuum cleaner make the glass clean if the glass is dirty? 
-possibility:
-response (raw prompt):['yes']
-prompt (raw):can a water boiler make the glass clean if the glass is dirty? 
-possibility:
+raw prompt:can a robot pours coke into dish bowl in kitchen room?
 response (raw prompt):['no']
-raw prompt:there are some appliances, such as blender, washing machine, oven, water filter, vacuum cleaner. which is the most possible to make the glass clean if the glass is dirty? if there is no reasonable answer, please output no.
-response (raw prompt):['blender']
-raw prompt:there are some utensils, such as drinking glass, measuring cup. which is the most suitable to replace a glass to drink coke if the glass is dirty? if there is no reasonable answer, please output no.
-response (raw prompt):['a drinking glass is the most suitable to replace a glass to drink coke if the glass is dirty']
-raw prompt:there are some utensils, such as glass, measuring cup. which is the most suitable to replace a glass to drink coke if the glass is dirty? if there is no reasonable answer, please output no.
-response (raw prompt):['a measuring cup']
-prompt (raw):can a ice cream maker make the glass clean if the glass is dirty? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a washing machine make the glass clean if the glass is dirty? 
-possibility:
-response (raw prompt):['yes']
-prompt (raw):can a toaster make the glass clean if the glass is dirty? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a stove make the glass clean if the glass is dirty? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a air fryer make the glass clean if the glass is dirty? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a dehumidifier make the glass clean if the glass is dirty? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a water filter make the glass clean if the glass is dirty? 
-possibility:
-response (raw prompt):['yes']
-prompt (raw):can a vacuum cleaner make the glass clean if the glass is dirty? 
-possibility:
-response (raw prompt):['yes']
-prompt (raw):can a fridge make the glass clean if the glass is dirty? 
-possibility:
-response (raw prompt):['no']
-raw prompt:there are some appliances, such as washing machine, water filter, vacuum cleaner. which is the most possible to make the glass clean if the glass is dirty? if there is no reasonable answer, please output no.
-response (raw prompt):['the most possible appliance to make the glass clean if the glass is dirty is the water filter']
-raw prompt:there are some utensils, such as measuring cup, glass. which is the most suitable to replace a glass to drink coke if the glass is dirty? if there is no reasonable answer, please output no.
-response (raw prompt):['a measuring cup is the most suitable replacement for a glass to drink coke if the glass is dirty']
-raw prompt:is it acceptable that a robot moves a glass in kitchen room near a table in table room if the glass is dirty?
-response (raw prompt):['no, it is not acceptable for a robot to move a glass in a kitchen room near a table in a table room if the glass is dirty']
-raw prompt:is it acceptable that a robot places a glass on a table in dining room if the glass falls down?
+raw prompt:there are some utensils, such as drinking glass, bottle water, glass, mug. which is the most suitable to replace a glass to drink coke if the glass is missing? if there is no reasonable answer, please output no.
+response (raw prompt):['bottle water']
+raw prompt:is it acceptable that a robot pours coke into glass in kitchen room if the coke bottle cannot open?
+response (raw prompt):['no, it is not acceptable for a robot to pour coke into a glass in the kitchen room if the coke bottle cannot open']
+raw prompt:there are some utensils, such as colander, wine, sponge, tea, wine glass, trash can, watermelon, bottle water, dish rack, mug, cutting board, condiment bottle, cutlery fork, frying pan, chef knife, oven tray, beer, rag, tea bag, coffee filter. which is the most suitable to replace a bottle to drink coke if the coke bottle cannot open? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a bottle to drink coke if the coke bottle cannot open is a mug']
+raw prompt:there are some utensils, such as milk, coffee, oven tray, rag, dish rack, beer, ground coffee, measuring cup, chef knife, cleaning bottle, wooden spoon, place mat, cutlery knife, water, bucket, dish bowl, condiment bottle, condiment shaker, cloth napkin, glass. which is the most suitable to replace a bottle to drink coke if the coke bottle cannot open? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable replacement for a coke bottle would be a glass']
+raw prompt:there are some utensils, such as colander, cleaning bottle, drinking glass, condiment bottle, cutting board, dish rack, cloth napkin, wooden spoon, coffee cup, paper towel, cutlery fork, place mat, glass, condiment shaker, sponge, oven tray, rag, ground coffee, cooking pot, coffee filter. which is the most suitable to replace a bottle to drink coke if the coke bottle cannot open? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a bottle to drink coke if the coke bottle cannot open is a drinking glass']
+raw prompt:is it acceptable that a robot finds a coke in kitchen room if the coke bottle is empty?
+response (raw prompt):['no, it is not acceptable for a robot to find an empty coke bottle in the kitchen']
+raw prompt:there are some utensils, such as sponge, glass, ground coffee, cloth napkin, colander, cutlery knife, water, beer, measuring cup, alcohol, tea bag, bottle water, paper towel, cleaning bottle, coffee filter, frying pan, rag, bucket, trash can, tea. which is the most suitable to replace a bottle to drink coke if the coke bottle is empty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable replacement for a coke bottle would be a glass']
+raw prompt:there are some utensils, such as chef knife, cleaning bottle, wine glass, glass, colander, juice, wooden spoon, bucket, water, drinking glass, cutlery fork, cutlery knife, cloth napkin, paper towel, dish rack, tea bag, bottle water, watermelon, milk, beer. which is the most suitable to replace a bottle to drink coke if the coke bottle is empty? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable replacement for a coke bottle would be a drinking glass']
+raw prompt:there are some utensils, such as juice, colander, cleaning bottle, chef knife, mug, cloth napkin, beer, trash can, frying pan, place mat, measuring cup, tea bag, wine glass, dish rack, condiment bottle, dish bowl, watermelon, paper towel, coffee filter, water. which is the most suitable to replace a bottle to drink coke if the coke bottle is empty? if there is no reasonable answer, please output no.
+response (raw prompt):['mug']
+raw prompt:is it acceptable that a robot finds a coke in kitchen room if the robot cannot recognize the bottle?
 response (raw prompt):['no, it is not acceptable']
-prompt (raw):can a water filter make the glass picked up if the glass falls down? 
+raw prompt:can a rag walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a cutlery fork walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a alcohol walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a cutlery knife walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a cleaning bottle walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a dish rack walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a condiment bottle walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a coffee walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a ground coffee walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a cutting board walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a colander walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a beer walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a place mat walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a frying pan walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a coffee cup walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a trash can walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a bottle water walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a wine glass walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a juice walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a coffee filter walks from dining room to kitchen room?
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a dishwasher make the glass picked up if the glass falls down? 
+prompt (raw):can a air fryer make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a washing machine make the glass picked up if the glass falls down? 
+prompt (raw):can a fridge make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a coffee maker make the glass picked up if the glass falls down? 
+prompt (raw):can a microwave make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a oven make the glass picked up if the glass falls down? 
+prompt (raw):can a water filter make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a blender make the glass picked up if the glass falls down? 
+prompt (raw):can a blender make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a kettle make the glass picked up if the glass falls down? 
+prompt (raw):can a coffee maker make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a fridge make the glass picked up if the glass falls down? 
+prompt (raw):can a kettle make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a microwave make the glass picked up if the glass falls down? 
+prompt (raw):can a freezer make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-raw prompt:there are some utensils, such as drinking glass, glass, measuring cup. which is the most suitable to replace a glass to drink coke if the glass falls down? if there is no reasonable answer, please output no.
+raw prompt:can a tea bag walks from dining room to kitchen room?
 response (raw prompt):['no']
-prompt (raw):can a water filter make the glass picked up if the glass falls down? 
+raw prompt:can a mug walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a milk walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a oven tray walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a dish bowl walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a condiment shaker walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a sponge walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a watermelon walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a cooking pot walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a drinking glass walks from dining room to kitchen room?
+response (raw prompt):['no']
+raw prompt:can a water walks from dining room to kitchen room?
+response (raw prompt):['no']
+prompt (raw):can a toaster make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a blender make the glass picked up if the glass falls down? 
+prompt (raw):can a coffee maker make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a microwave make the glass picked up if the glass falls down? 
+prompt (raw):can a fridge make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a kettle make the glass picked up if the glass falls down? 
+prompt (raw):can a stove make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a juicer make the glass picked up if the glass falls down? 
+prompt (raw):can a microwave make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a dehumidifier make the glass picked up if the glass falls down? 
+prompt (raw):can a vacuum cleaner make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a ice cream maker make the glass picked up if the glass falls down? 
+prompt (raw):can a freezer make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a fridge make the glass picked up if the glass falls down? 
+prompt (raw):can a ice cream maker make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-prompt (raw):can a oven make the glass picked up if the glass falls down? 
+prompt (raw):can a kettle make the robot recognizeing the bottle if the robot cannot recognize the bottle? 
 possibility:
 response (raw prompt):['no']
-raw prompt:is it acceptable that a robot pours coke into glass in kitchen room if the glass falls down?
-response (raw prompt):['no, it is not acceptable for a robot to pour coke into a glass in a kitchen room if the glass falls down']
-raw prompt:there are some utensils, such as glass, measuring cup. which is the most suitable to replace a glass to drink coke if the glass falls down? if there is no reasonable answer, please output no.
+raw prompt:is it acceptable that a robot places a glass on a table in dining room if the person does not like coke?
+response (raw prompt):['no, it is not acceptable']
+raw prompt:there are some utensils, such as place mat, mug, bucket, coffee cup, oven tray, paper towel, chef knife, trash can, juice, cutlery fork, water, coffee, beer, dish rack, ground coffee, wine, watermelon, colander, cutlery knife, glass. which is the most suitable to replace a person to drink coke if the person does not like coke? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable utensil to replace a person to drink coke if the person does not like coke is a mug']
+raw prompt:is it acceptable that a robot finds a coke in kitchen room if the coke bottle is sticky and leaking?
+response (raw prompt):['no, it is not acceptable for a robot to find a coke in the kitchen room if the coke bottle is sticky and leaking']
+raw prompt:there are some utensils, such as frying pan, juice, coffee filter, ground coffee, mug, condiment bottle, wine, condiment shaker, wooden spoon, tea bag, sponge, cloth napkin, cutlery knife, watermelon, bucket, tea, bottle water, chef knife, cutting board, rag. which is the most suitable to replace a bottle to drink coke if the coke bottle is sticky and leaking? if there is no reasonable answer, please output no.
+response (raw prompt):['the most suitable replacement for a sticky and leaking coke bottle would be a juice bottle']
+raw prompt:is it acceptable that a robot pours coke into glass in kitchen room if the glass is broken?
+response (raw prompt):['no, it is not acceptable for a robot to pour coke into a glass in a kitchen room if the glass is broken']
+raw prompt:can a robot pours coke into measuring cup in kitchen room?
+response (raw prompt):['yes']
+raw prompt:can a robot moves a measuring cup in kitchen room near a table in table room?
+response (raw prompt):['yes']
+raw prompt:can a robot places a measuring cup on a table in dining room?
+response (raw prompt):['yes']
+raw prompt:can a robot pours coke into alcohol in kitchen room?
+response (raw prompt):['no']
+raw prompt:can a robot pours coke into wooden spoon in kitchen room?
+response (raw prompt):['no']
+raw prompt:there are some utensils, such as measuring cup, bottle water. which is the most suitable to replace a glass to drink coke if the glass is broken? if there is no reasonable answer, please output no.
 response (raw prompt):['a measuring cup']
-raw prompt:there are some utensils, such as glass, drinking glass. which is the most suitable to replace a glass to drink coke if the glass falls down? if there is no reasonable answer, please output no.
-response (raw prompt):['a plastic cup']
-prompt (raw):can a blender make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a water filter make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a fridge make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a water boiler make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a coffee maker make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a freezer make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a dehumidifier make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a air fryer make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a ice cream maker make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as glass, drinking glass, measuring cup. which is the most suitable to replace a glass to drink coke if the glass falls down? if there is no reasonable answer, please output no.
-response (raw prompt):['no']
-prompt (raw):can a dehumidifier make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a dishwasher make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a coffee maker make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a ice cream maker make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a air fryer make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a toaster make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a washing machine make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a blender make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-prompt (raw):can a water boiler make the glass picked up if the glass falls down? 
-possibility:
-response (raw prompt):['no']
-raw prompt:is it acceptable that a robot pours coke into glass in kitchen room if the coke spills?
-response (raw prompt):['no, it is not acceptable for a robot to pour coke into a glass in the kitchen room if the coke spills']
-raw prompt:there are some utensils, such as tea bag, ground coffee. which is the most suitable to replace a coke to drink coke if the coke spills? if there is no reasonable answer, please output no.
-response (raw prompt):['tea bag']
-raw prompt:is it acceptable that a robot finds a glass in kitchen room if the coke spills?
-response (raw prompt):['yes, it is acceptable for a robot to find a glass in the kitchen room if the coke spills']
-raw prompt:there are some utensils, such as milk, ground coffee, bottle water. which is the most suitable to replace a coke to drink coke if the coke spills? if there is no reasonable answer, please output no.
-response (raw prompt):['milk']
-raw prompt:there are some utensils, such as bottle water, ground coffee. which is the most suitable to replace a coke to drink coke if the coke spills? if there is no reasonable answer, please output no.
-response (raw prompt):['bottle water']
-raw prompt:there are some utensils, such as water, bottle water, tea bag. which is the most suitable to replace a coke to drink coke if the coke spills? if there is no reasonable answer, please output no.
-response (raw prompt):['water']
-raw prompt:there are some utensils, such as water, ground coffee, tea bag. which is the most suitable to replace a coke to drink coke if the coke spills? if there is no reasonable answer, please output no.
-response (raw prompt):['water']
-raw prompt:there are some utensils, such as tea bag, bottle water, milk. which is the most suitable to replace a coke to drink coke if the coke spills? if there is no reasonable answer, please output no.
-response (raw prompt):['bottle water']

@@ -2323,3 +2323,495 @@ response (raw prompt):['no']
 prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
 possibility:
 response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a vacuum cleaner make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water boiler make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum plug good to use if the vacuum plug is damaged? 
+possibility:
+response (raw prompt):['no']
+raw prompt:is it acceptable that a robot clean a table using vacuum in dining room if the robot cannot reach the vacuum?
+response (raw prompt):['no, it is not acceptable for a robot to clean a table using a vacuum in a dining room if the robot cannot reach the vacuum']
+raw prompt:is it acceptable that a robot takes out a vacuum in dining room if the robot cannot reach the vacuum?
+response (raw prompt):['no, it is not acceptable for a robot to take out a vacuum in the dining room if the robot cannot reach the vacuum']
+prompt (raw):can a washing machine make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a fridge make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a coffee maker make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the vacuum work if the vacuum is not working? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a paper towel walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a drinking glass walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a mug walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a cutlery fork walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a condiment bottle walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a sponge walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a trash can walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a chef knife walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a cutlery knife walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a cooking pot walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a oven tray walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a place mat walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a dish rack walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a bucket walks from kitchen room to dining room?
+response (raw prompt):['no']
+prompt (raw):can a juicer make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dehumidifier make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a microwave make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a water filter make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a freezer make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a ice cream maker make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a oven make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+raw prompt:can a mug walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a cleaning bottle walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a measuring cup walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a cutlery knife walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a cloth napkin walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a coffee cup walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a cutlery fork walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a rag walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a wine glass walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a bucket walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a cutting board walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a chef knife walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a sponge walks from kitchen room to dining room?
+response (raw prompt):['no']
+raw prompt:can a frying pan walks from kitchen room to dining room?
+response (raw prompt):['no']
+prompt (raw):can a freezer make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a kettle make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a dishwasher make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a juicer make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a air fryer make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a toaster make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a stove make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a blender make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']
+prompt (raw):can a washing machine make the robot reaching the vacuum if the robot cannot reach the vacuum? 
+possibility:
+response (raw prompt):['no']

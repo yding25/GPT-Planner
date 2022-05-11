@@ -1,0 +1,366 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 dining kitchen)
+(find_coke rob_1 coke_1 kitchen)
+(grasp_coke rob_1 coke_1 kitchen)
+(find_glass rob_1 glass_1 kitchen)
+(pour_coke rob_1 coke_1 glass_1 kitchen)
+(move_glass rob_1 glass_1 kitchen table_1 dining)
+(place_glass rob_1 glass_1 table_1 dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation: the coke is not available.
+corresponding predicate: coke_not_available
+object in situation: coke
+action that has situation: find_coke
+object manipulated by robot: coke
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['find_coke', 'rob_1', 'coke_1', 'kitchen']
+next action (decoded): a robot finds a coke in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['find_coke', 'rob_1', 'coke_1', 'kitchen']
+['grasp_coke', 'rob_1', 'coke_1', 'kitchen']
+['find_glass', 'rob_1', 'glass_1', 'kitchen']
+['pour_coke', 'rob_1', 'coke_1', 'glass_1', 'kitchen']
+['move_glass', 'rob_1', 'glass_1', 'kitchen', 'table_1', 'dining']
+['place_glass', 'rob_1', 'glass_1', 'table_1', 'dining']
+
+unexecuted action: ['find_coke', 'rob_1', 'coke_1', 'kitchen']
+unexecuted action (decoded): a robot finds a coke in kitchen room.
+! prompt design
+raw prompt: is it acceptable that a robot finds a coke in kitchen room if the coke is not available?
+! experience found
+! response from LLM
+response (raw prompt): ["'no, it is not acceptable'"]
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['coffee filter', 'ground coffee', 'coffee', 'dish rack', 'frying pan', 'milk', 'condiment bottle', 'tea', 'paper towel', 'place mat', 'bottle water', 'condiment shaker', 'rag', 'oven tray', 'colander', 'measuring cup', 'glass', 'dish bowl', 'mug', 'wooden spoon']
+
+! prompt design
+raw prompt: can a robot grasps a coffee filter in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours coffee filter into glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot grasps a ground coffee in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot pours ground coffee into glass in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot grasps a coffee in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot grasps a dish rack in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot grasps a frying pan in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours frying pan into glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot grasps a milk in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot pours milk into glass in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot grasps a condiment bottle in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours condiment bottle into glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot grasps a tea in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot grasps a paper towel in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours paper towel into glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot grasps a place mat in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours place mat into glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot grasps a bottle water in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot pours bottle water into glass in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot grasps a condiment shaker in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours condiment shaker into glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot grasps a rag in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours rag into glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot grasps a oven tray in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours oven tray into glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot grasps a colander in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours colander into glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot grasps a measuring cup in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours measuring cup into glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot grasps a glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours glass into glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot grasps a dish bowl in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours dish bowl into glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot grasps a mug in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours mug into glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot grasps a wooden spoon in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot pours wooden spoon into glass in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+#---------- capable_utensils_actionknowledge: ----------
+ ['coffee filter', 'ground coffee', 'milk', 'condiment bottle', 'bottle water', 'condiment shaker', 'colander', 'measuring cup', 'glass', 'dish bowl', 'mug']
+
+! prompt design
+raw prompt: there are some utensils, such as coffee filter, ground coffee, milk, condiment bottle, bottle water, condiment shaker, colander, measuring cup, glass, dish bowl, mug. which is the most suitable to replace a coke to drink coke if the coke is not available? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['the most suitable replacement for a coke would be another carbonated beverage']
+
+#---------- most possible utensil: ---------- 
+ None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['ice cream maker', 'water filter', 'vacuum cleaner', 'air fryer', 'washing machine', 'juicer', 'freezer', 'oven', 'dishwasher']
+
+! prompt design
+prompt (raw): can a ice cream maker make the coke availabl if the coke is not available? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a water filter make the coke availabl if the coke is not available? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a vacuum cleaner make the coke availabl if the coke is not available? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a air fryer make the coke availabl if the coke is not available? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a washing machine make the coke availabl if the coke is not available? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a juicer make the coke availabl if the coke is not available? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a freezer make the coke availabl if the coke is not available? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a oven make the coke availabl if the coke is not available? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a dishwasher make the coke availabl if the coke is not available? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+no capable appliance found!
+
+no modified_plan_3 found!

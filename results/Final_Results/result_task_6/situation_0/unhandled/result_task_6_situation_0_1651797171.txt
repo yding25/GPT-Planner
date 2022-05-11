@@ -1,0 +1,468 @@
+#---------- generating basic_plan! -----------
+(find_table rob_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(find_cupboard rob_1 cupboard_1 kitchen)
+(open_cupboard rob_1 cupboard_1 kitchen)
+(find_fork rob_1 fork_1 cupboard_1 kitchen plate_1)
+(takeout_fork rob_1 fork_1 cupboard_1 kitchen)
+(find_plate rob_1 plate_1 cupboard_1 kitchen)
+(move_fork rob_1 fork_1 kitchen dining)
+(place_fork rob_1 fork_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(takeout_plate rob_1 plate_1 cupboard_1 kitchen)
+(move_plate rob_1 plate_1 kitchen dining)
+(place_plate rob_1 plate_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(close_cupboard rob_1 cupboard_1 kitchen)
+; cost = 15 (unit cost)
+
+#---------- generating situation! -----------
+situation: a plate is broken.
+corresponding predicate: plate_is_broken
+object in situation: plate
+action that has situation: place_plate
+object manipulated by robot: plate
+
+#---------- executing plan! -----------
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['find_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+next action (decoded): a robot finds a cupboard in kitchen room.
+this action is executed!
+
+next action: ['open_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+next action (decoded): a robot opens a cupboard in kitchen room.
+this action is executed!
+
+next action: ['find_fork', 'rob_1', 'fork_1', 'cupboard_1', 'kitchen', 'plate_1']
+next action (decoded): a robot finds a fork in cupboard room.
+this action is executed!
+
+next action: ['takeout_fork', 'rob_1', 'fork_1', 'cupboard_1', 'kitchen']
+next action (decoded): a robot takes out a fork from a cupboard.
+this action is executed!
+
+next action: ['find_plate', 'rob_1', 'plate_1', 'cupboard_1', 'kitchen']
+next action (decoded): a robot finds a plate in cupboard room.
+this action is executed!
+
+next action: ['move_fork', 'rob_1', 'fork_1', 'kitchen', 'dining']
+next action (decoded): a robot moves a fork from kitchen room to dining room.
+this action is executed!
+
+next action: ['place_fork', 'rob_1', 'fork_1', 'table_1', 'dining']
+next action (decoded): a robot places a fork on table in dining room.
+this action is executed!
+
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['takeout_plate', 'rob_1', 'plate_1', 'cupboard_1', 'kitchen']
+next action (decoded): a robot takes out a plate from a cupboard.
+this action is executed!
+
+next action: ['move_plate', 'rob_1', 'plate_1', 'kitchen', 'dining']
+next action (decoded): a robot moves a plate from kitchen room to dining room.
+this action is executed!
+
+next action: ['place_plate', 'rob_1', 'plate_1', 'table_1', 'dining']
+next action (decoded): a robot places a plate on table in dining room.
+
+#---------- checking unexecuted actions! -----------
+['place_plate', 'rob_1', 'plate_1', 'table_1', 'dining']
+['walk', 'rob_1', 'dining', 'kitchen']
+['close_cupboard', 'rob_1', 'cupboard_1', 'kitchen']
+
+unexecuted action: ['place_plate', 'rob_1', 'plate_1', 'table_1', 'dining']
+unexecuted action (decoded): a robot places a plate on table in dining room.
+! prompt design
+raw prompt: is it acceptable that a robot places a plate on table in dining room if a plate is broken?
+! response from LLM
+response (raw prompt): ['no, it is not acceptable for a robot to place a plate on a table in a dining room if a plate is broken']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['trash can', 'colander', 'condiment shaker', 'wooden spoon', 'drinking glass', 'cutting board', 'rag', 'cutlery knife', 'cleaning bottle', 'frying pan', 'coffee cup', 'cloth napkin', 'cutlery fork', 'condiment bottle']
+
+! prompt design
+raw prompt: can a robot takes out a trash can from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot takes out a colander from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a colander from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a colander on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a condiment shaker from a cupboard ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a condiment shaker from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot places a condiment shaker on table in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot takes out a wooden spoon from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a wooden spoon from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a wooden spoon on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a drinking glass from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a drinking glass from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a drinking glass on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a cutting board from a cupboard ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot moves a cutting board from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot places a cutting board on table in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot takes out a rag from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a rag from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a rag on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a cutlery knife from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a cutlery knife from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a cutlery knife on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a cleaning bottle from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a cleaning bottle from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a cleaning bottle on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a frying pan from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a frying pan from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a frying pan on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a coffee cup from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a coffee cup from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a coffee cup on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a cloth napkin from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a cloth napkin from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a cloth napkin on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a cutlery fork from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a cutlery fork from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a cutlery fork on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot takes out a condiment bottle from a cupboard ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a condiment bottle from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a condiment bottle on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+#---------- capable_utensils_actionknowledge: ----------
+ ['colander', 'condiment shaker', 'wooden spoon', 'drinking glass', 'cutting board', 'rag', 'cutlery knife', 'cleaning bottle', 'frying pan', 'coffee cup', 'cloth napkin', 'cutlery fork', 'condiment bottle']
+
+! prompt design
+raw prompt: there are some utensils, such as colander, condiment shaker, wooden spoon, drinking glass, cutting board, rag, cutlery knife, cleaning bottle, frying pan, coffee cup, cloth napkin, cutlery fork, condiment bottle. which is the most suitable to replace a plate to set up a table if a plate is broken? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['the most suitable utensil to replace a plate if a plate is broken is a cutting board']
+
+#---------- most possible utensil: ---------- 
+ cutting board
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['kettle', 'dishwasher', 'juicer', 'freezer', 'dehumidifier', 'washing machine', 'oven', 'water filter', 'water boiler']
+
+! prompt design
+prompt (raw): can a kettle make a plate not broken if a plate is broken? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a dishwasher make a plate not broken if a plate is broken? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a juicer make a plate not broken if a plate is broken? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a freezer make a plate not broken if a plate is broken? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a dehumidifier make a plate not broken if a plate is broken? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a washing machine make a plate not broken if a plate is broken? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a oven make a plate not broken if a plate is broken? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a water filter make a plate not broken if a plate is broken? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a water boiler make a plate not broken if a plate is broken? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+no capable appliance found!
+
+no modified_plan_3 found!

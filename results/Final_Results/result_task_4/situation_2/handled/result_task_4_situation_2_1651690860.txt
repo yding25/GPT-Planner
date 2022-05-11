@@ -1,0 +1,394 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 dining kitchen)
+(find_cup rob_1 cup_1 kitchen)
+(find_faucet rob_1 faucet_1 kitchen)
+(turnon_faucet rob_1 faucet_1 kitchen)
+(hold_cup rob_1 cup_1 kitchen)
+(fill_cup rob_1 cup_1 faucet_1 kitchen)
+(move_cup rob_1 cup_1 kitchen dining)
+(place_cup rob_1 cup_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(turnoff_faucet rob_1 faucet_1 kitchen)
+; cost = 10 (unit cost)
+
+#---------- generating situation! -----------
+situation: a cup is dirty.
+corresponding predicate: cup_is_dirty
+object in situation: cup
+action that has situation: find_cup
+object manipulated by robot: cup
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['find_cup', 'rob_1', 'cup_1', 'kitchen']
+next action (decoded): a robot finds a cup in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['find_cup', 'rob_1', 'cup_1', 'kitchen']
+['find_faucet', 'rob_1', 'faucet_1', 'kitchen']
+['turnon_faucet', 'rob_1', 'faucet_1', 'kitchen']
+['hold_cup', 'rob_1', 'cup_1', 'kitchen']
+['fill_cup', 'rob_1', 'cup_1', 'faucet_1', 'kitchen']
+['move_cup', 'rob_1', 'cup_1', 'kitchen', 'dining']
+['place_cup', 'rob_1', 'cup_1', 'table_1', 'dining']
+['walk', 'rob_1', 'dining', 'kitchen']
+['turnoff_faucet', 'rob_1', 'faucet_1', 'kitchen']
+
+unexecuted action: ['find_cup', 'rob_1', 'cup_1', 'kitchen']
+unexecuted action (decoded): a robot finds a cup in kitchen room.
+! prompt design
+raw prompt: is it acceptable that a robot finds a cup in kitchen room if a cup is dirty?
+! experience found
+! response from LLM
+response (raw prompt): ["'no, it is not acceptable for a robot to find a cup in the kitchen room if the cup is dirty'"]
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['colander', 'wooden spoon', 'sponge', 'chef knife', 'drinking glass', 'coffee filter', 'place mat', 'cooking pot', 'dish bowl', 'rag', 'measuring cup', 'mug', 'paper towel', 'oven tray']
+
+! prompt design
+raw prompt: can a robot holds a colander in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a colander with water from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a colander from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a colander on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot holds a wooden spoon in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a wooden spoon with water from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot holds a sponge in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a sponge with water from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a sponge from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a sponge on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot holds a chef knife in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot holds a drinking glass in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a drinking glass with water from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a drinking glass from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a drinking glass on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot holds a coffee filter in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot holds a place mat in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a place mat with water from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot holds a cooking pot in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a cooking pot with water from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a cooking pot from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a cooking pot on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot holds a dish bowl in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a dish bowl with water from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a dish bowl from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a dish bowl on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot holds a rag in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a rag with water from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a rag from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a rag on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot holds a measuring cup in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a measuring cup with water from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a measuring cup from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a measuring cup on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot holds a mug in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a mug with water from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot moves a mug from kitchen room to dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot places a mug on table in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot holds a paper towel in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a paper towel with water from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot holds a oven tray in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a oven tray with water from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+#---------- capable_utensils_actionknowledge: ----------
+ ['colander', 'sponge', 'drinking glass', 'cooking pot', 'dish bowl', 'rag', 'measuring cup', 'mug']
+
+! prompt design
+raw prompt: there are some utensils, such as colander, sponge, drinking glass, cooking pot, dish bowl, rag, measuring cup, mug. which is the most suitable to replace a cup to drink water if a cup is dirty? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['drinking glass']
+
+#---------- most possible utensil: ---------- 
+ drinking glass
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+(walk rob_1 dining kitchen)
+(find_cup rob_1 drinking_glass_1 kitchen)
+(find_faucet rob_1 faucet_1 kitchen)
+(turnon_faucet rob_1 faucet_1 kitchen)
+(hold_cup rob_1 drinking_glass_1 kitchen)
+(fill_cup rob_1 drinking_glass_1 faucet_1 kitchen)
+(move_cup rob_1 drinking_glass_1 kitchen dining)
+(place_cup rob_1 drinking_glass_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(turnoff_faucet rob_1 faucet_1 kitchen)
+; cost = 10 (unit cost)
