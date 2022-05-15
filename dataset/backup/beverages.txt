@@ -1,0 +1,11 @@
+beer
+ground coffee
+milk
+watermelon
+alcohol
+bottle water
+coffee
+juice
+tea
+water
+wine

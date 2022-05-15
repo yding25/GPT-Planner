@@ -1,114 +1,310 @@
-raw prompt:is it acceptable that a robot finds a plate in kitchen room if the plate is broken?
-response (raw prompt):['no, it is not acceptable for a robot to find a broken plate in the kitchen room']
-raw prompt:can a robot places a burger on a cooking pot in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a trash can in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a wooden spoon in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a couch in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a cutlery knife in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a oatmeal in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a kitchen counter in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a fork on a kitchen counter in kitchen counter room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a kitchen counter in kitchen room on a table  in dining room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a wine glass in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a cupboard in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a filing cabinet in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a piano bench in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a cutlery fork in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a kitchen cabinet in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a table cloth in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a fork on a table cloth in table cloth room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a table cloth in kitchen room on a table  in dining room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a dish bowl in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a fork on a dish bowl in dish bowl room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a dish bowl in kitchen room on a table  in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a dish bowl on a table  in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a burger on a coffee filter in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a chef knife in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a sponge in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a bucket in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a oil in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a fork on a oil in oil room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a salt in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a cleaning bottle in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a snack in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a fork on a snack in snack room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a snack in kitchen room on a table  in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a snack on a table  in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a burger on a colander in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a fork on a colander in colander room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a colander in kitchen room on a table  in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a colander on a table  in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a burger on a oven tray in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a fork on a oven tray in oven tray room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a oven tray in kitchen room on a table  in dining room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a coffee table in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a fork on a coffee table in coffee table room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a coffee table in kitchen room on a table  in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a coffee table on a table  in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a burger on a drinking glass in kitchen room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a chips in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a fork on a chips in chips room?
-response (raw prompt):['no']
-raw prompt:can a robot places a burger on a frying pan in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a fork on a frying pan in frying pan room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a frying pan in kitchen room on a table  in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a frying pan on a table  in dining room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a burger on a cloth napkin in kitchen room?
-response (raw prompt):['yes']
-raw prompt:can a robot places a fork on a cloth napkin in cloth napkin room?
-response (raw prompt):['yes']
-raw prompt:can a robot moves a cloth napkin in kitchen room on a table  in dining room?
-response (raw prompt):['no']
-raw prompt:there are some utensils, such as dish bowl, snack, colander, coffee table, frying pan. which is the most suitable to replace a plate to eat dinner if the plate is broken? if there is no reasonable answer, please output no.
-response (raw prompt):['dish bowl']
+raw prompt:is it suitable that a robot finds a plate if the plate is dirty?
+no, it is not suitable for a robot to find a dirty plate
+raw prompt:is it suitable that a robot grasps a cutlery fork?
+yes
+raw prompt:is it suitable that a robot moves a cutlery fork near a table?
+yes
+raw prompt:is it suitable that a robot places a cutlery fork on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a cutlery fork?
+yes
+raw prompt:is it suitable that a robot places a burger on a cutlery fork?
+no
+raw prompt:is it suitable that a robot grasps a rice?
+yes
+raw prompt:is it suitable that a robot moves a rice near a table?
+yes
+raw prompt:is it suitable that a robot places a rice on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a rice?
+no
+raw prompt:is it suitable that a robot grasps a dish rack?
+no
+raw prompt:is it suitable that a robot grasps a cooking pot?
+no
+raw prompt:is it suitable that a robot grasps a frying pan?
+no
+raw prompt:is it suitable that a robot grasps a noodles?
+no
+raw prompt:is it suitable that a robot grasps a wooden chopstick?
+yes
+raw prompt:is it suitable that a robot moves a wooden chopstick near a table?
+yes
+raw prompt:is it suitable that a robot places a wooden chopstick on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a wooden chopstick?
+no
+raw prompt:is it suitable that a robot grasps a dish bowl?
+yes
+raw prompt:is it suitable that a robot moves a dish bowl near a table?
+yes
+raw prompt:is it suitable that a robot places a dish bowl on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a dish bowl?
+yes
+raw prompt:is it suitable that a robot places a burger on a dish bowl?
+no
+raw prompt:is it suitable that a robot grasps a ice cream?
+yes
+raw prompt:is it suitable that a robot moves a ice cream near a table?
+yes
+raw prompt:is it suitable that a robot places a ice cream on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a ice cream?
+no
+raw prompt:is it suitable that a robot grasps a cake?
+yes
+raw prompt:is it suitable that a robot moves a cake near a table?
+yes
+raw prompt:is it suitable that a robot places a cake on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a cake?
+no
+raw prompt:is it suitable that a robot grasps a cutting board?
+yes
+raw prompt:is it suitable that a robot moves a cutting board near a table?
+yes
+raw prompt:is it suitable that a robot places a cutting board on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a cutting board?
+yes
+raw prompt:is it suitable that a robot places a burger on a cutting board?
+yes
+raw prompt:is it suitable that a robot places a fork on a cutting board?
+yes
+raw prompt:is it suitable that a robot grasps a pasta?
+no
+raw prompt:is it suitable that a robot grasps a peanut butter?
+yes
+raw prompt:is it suitable that a robot moves a peanut butter near a table?
+yes
+raw prompt:is it suitable that a robot places a peanut butter on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a peanut butter?
+no
+raw prompt:is it suitable that a robot grasps a steak?
+yes
+raw prompt:is it suitable that a robot moves a steak near a table?
+yes
+raw prompt:is it suitable that a robot places a steak on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a steak?
+no
+raw prompt:is it suitable that a robot grasps a dish?
+yes
+raw prompt:is it suitable that a robot moves a dish near a table?
+yes
+raw prompt:is it suitable that a robot places a dish on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a dish?
+yes
+raw prompt:is it suitable that a robot places a burger on a dish?
+yes
+raw prompt:is it suitable that a robot places a fork on a dish?
+yes
+raw prompt:is it suitable that a robot grasps a wine glass?
+yes
+raw prompt:is it suitable that a robot moves a wine glass near a table?
+yes
+raw prompt:is it suitable that a robot places a wine glass on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a wine glass?
+no
+raw prompt:is it suitable that a robot grasps a oil?
+no
+raw prompt:is it suitable that a robot grasps a sponge?
+yes
+raw prompt:is it suitable that a robot moves a sponge near a table?
+yes
+raw prompt:is it suitable that a robot places a sponge on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a sponge?
+yes
+raw prompt:is it suitable that a robot places a burger on a sponge?
+no
+raw prompt:is it suitable that a robot grasps a wooden spoon?
+yes
+raw prompt:is it suitable that a robot moves a wooden spoon near a table?
+yes
+raw prompt:is it suitable that a robot places a wooden spoon on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a wooden spoon?
+yes
+raw prompt:is it suitable that a robot places a burger on a wooden spoon?
+no
+raw prompt:is it suitable that a robot grasps a cleaning bottle?
+yes
+raw prompt:is it suitable that a robot moves a cleaning bottle near a table?
+yes
+raw prompt:is it suitable that a robot places a cleaning bottle on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a cleaning bottle?
+yes
+raw prompt:is it suitable that a robot places a burger on a cleaning bottle?
+no
+raw prompt:is it suitable that a robot grasps a colander?
+no
+raw prompt:is it suitable that a robot grasps a coffee filter?
+yes
+raw prompt:is it suitable that a robot moves a coffee filter near a table?
+yes
+raw prompt:is it suitable that a robot places a coffee filter on a table?
+yes
+raw prompt:is it suitable that a robot moves a kitchen near a coffee filter?
+yes
+raw prompt:is it suitable that a robot places a burger on a coffee filter?
+no
+raw prompt:there are some objects, such as cutting board, dish. which is the most suitable to replace a plate in the task of eating dinner if the plate is dirty?
+a cutting board is the most suitable object to replace a plate in the task of eating dinner if the plate is dirty
+prompt (raw):can a microwave make a plate clean if the plate is dirty?
+no
+prompt (raw):can a kettle make a plate clean if the plate is dirty?
+no
+prompt (raw):can a freezer make a plate clean if the plate is dirty?
+no
+prompt (raw):can a water boiler make a plate clean if the plate is dirty?
+no
+prompt (raw):can a washing machine make a plate clean if the plate is dirty?
+yes
+prompt (raw):can a air fryer make a plate clean if the plate is dirty?
+no
+prompt (raw):can a toaster make a plate clean if the plate is dirty?
+no
+prompt (raw):can a vacuum cleaner make a plate clean if the plate is dirty?
+yes
+prompt (raw):can a dehumidifier make a plate clean if the plate is dirty?
+no
+raw prompt:there are some appliances, such as washing machine, vacuum cleaner. which is the most possible to make a plate clean if the plate is dirty?
+the most possible way to make a plate clean is to wash it with soap and water
+raw prompt:is it suitable that a robot finds a chair if the chair slipped?
+a robot can find a chair if the chair slipped, but it may not be able to identify the chair as being slipped
+raw prompt:is it suitable that a robot pulls up a drinking glass?
+yes
+raw prompt:is it suitable that a robot pulls up a coffee cup?
+yes
+raw prompt:is it suitable that a robot pulls up a wooden chopstick?
+yes
+raw prompt:is it suitable that a robot pulls up a colander?
+yes
+raw prompt:is it suitable that a robot pulls up a cooking pot?
+no
+raw prompt:is it suitable that a robot pulls up a bread?
+yes
+raw prompt:is it suitable that a robot pulls up a bucket?
+yes
+raw prompt:is it suitable that a robot pulls up a mat?
+yes
+raw prompt:is it suitable that a robot pulls up a steak?
+no
+raw prompt:is it suitable that a robot pulls up a cutlery knife?
+no
+raw prompt:is it suitable that a robot pulls up a measuring cup?
+yes
+raw prompt:is it suitable that a robot pulls up a dish bowl?
+yes
+raw prompt:is it suitable that a robot pulls up a cake?
+no
+raw prompt:is it suitable that a robot pulls up a oatmeal?
+no
+raw prompt:is it suitable that a robot pulls up a chef knife?
+no
+raw prompt:is it suitable that a robot pulls up a mug?
+yes
+raw prompt:is it suitable that a robot pulls up a cutting board?
+yes
+raw prompt:is it suitable that a robot pulls up a noodles?
+no
+raw prompt:is it suitable that a robot pulls up a cloth napkin?
+yes
+raw prompt:is it suitable that a robot pulls up a cutlery fork?
+yes
+raw prompt:is it suitable that a robot pulls up a oven tray?
+yes
+raw prompt:is it suitable that a robot pulls up a paper towel?
+yes
+raw prompt:there are some objects, such as drinking glass, coffee cup, wooden chopstick, colander, bread, bucket, mat, measuring cup, dish bowl, mug, cutting board, cloth napkin, cutlery fork, oven tray, paper towel. which is the most suitable to replace a chair in the task of eating dinner if the chair slipped?
+the most suitable object to replace a chair in the task of eating dinner if the chair slipped would be a stool
+prompt (raw):can a vacuum cleaner make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a fridge make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a blender make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a microwave make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a coffee maker make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a toaster make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a dehumidifier make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a ice cream maker make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a water filter make a chair not slipped if the chair slipped?
+no
+raw prompt:is it suitable that a robot finds a burger if the burger is missing?
+no, it is not suitable
+raw prompt:is it suitable that a robot finds a fork if the fork is missing?
+no, it is not suitable
+raw prompt:is it suitable that a robot finds a chair if the chair is broken?
+no, it is not suitable
+raw prompt:is it suitable that a robot pulls up a wine glass?
+yes
+raw prompt:is it suitable that a robot pulls up a desk?
+yes
+raw prompt:is it suitable that a robot pulls up a cabinet?
+yes
+raw prompt:is it suitable that a robot pulls up a sauce?
+no
+raw prompt:is it suitable that a robot pulls up a wooden spoon?
+yes
+raw prompt:is it suitable that a robot pulls up a nightstand?
+yes
+raw prompt:is it suitable that a robot pulls up a rice?
+no
+raw prompt:is it suitable that a robot pulls up a oil?
+no
+raw prompt:is it suitable that a robot pulls up a filing cabinet?
+yes
+raw prompt:is it suitable that a robot pulls up a cupboard?
+no
+raw prompt:is it suitable that a robot pulls up a kitchen counter?
+no
+raw prompt:is it suitable that a robot pulls up a piano bench?
+yes
+raw prompt:is it suitable that a robot pulls up a frying pan?
+no
+raw prompt:is it suitable that a robot pulls up a dish rack?
+yes
+raw prompt:is it suitable that a robot pulls up a wooden chair?
+yes
+raw prompt:is it suitable that a robot pulls up a condiment bottle?
+yes
+raw prompt:is it suitable that a robot pulls up a table cloth?
+yes
+raw prompt:is it suitable that a robot pulls up a cpu table?
+no
+raw prompt:is it suitable that a robot pulls up a pantry?
+no
+raw prompt:is it suitable that a robot pulls up a kitchen table?
+yes
+raw prompt:there are some objects, such as wine glass, desk, cabinet, oven tray, wooden spoon, nightstand, filing cabinet, piano bench, drinking glass, measuring cup, dish rack, wooden chair, bread, cutting board, condiment bottle, table cloth, bucket, kitchen table. which is the most suitable to replace a chair in the task of eating dinner if the chair is broken?
+the most suitable object to replace a chair in the task of eating dinner if the chair is broken would be a wooden chair
+prompt (raw):can a air fryer make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a dehumidifier make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a ice cream maker make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a water filter make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a oven make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a dishwasher make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a freezer make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a microwave make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a coffee maker make a chair unbroken if the chair is broken?
+no

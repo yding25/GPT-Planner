@@ -1,7 +1,7 @@
 (define
-	(problem setup_table)
-	(:domain dining_setup_table)
-	(:objects rob_1 - robot cupboard_1 - cupboard plate_1 - plate fork_1 - fork table_1 - table kitchen - location dining - location mug_1 - plate)
-	(:init (robot_at rob_1 dining) (hand_empty rob_1) (cupboard_at cupboard_1 kitchen) (cupboard_is_closed cupboard_1) (plate_at plate_1 kitchen) (fork_at fork_1 kitchen) (table_at table_1 dining) (plate_not_found plate_1) (plate_at mug_1 kitchen))
-	(:goal (or (and (cupboard_is_closed cupboard_1) (plate_is_placed plate_1 table_1) (fork_is_placed fork_1 table_1)) (and (cupboard_is_closed cupboard_1) (plate_is_placed mug_1 table_1) (fork_is_placed fork_1 table_1))))
+	(problem set_table)
+	(:domain dining)
+	(:objects rob - robot cupboard - cupboard plate_1 - plate fork_1 - fork table - table kitchen - location dining - location wooden_chopstick_1 - fork)
+	(:init (robot_at rob dining) (hand_empty rob) (cupboard_at cupboard kitchen) (cupboard_is_closed cupboard) (plate_at plate_1 kitchen) (fork_at fork_1 kitchen) (table_at table dining) (fork_is_dirty fork_1) (fork_at wooden_chopstick_1 kitchen))
+	(:goal (or (and (cupboard_is_closed cupboard) (plate_is_placed plate_1 table) (fork_is_placed fork_1 table)) (and (cupboard_is_closed cupboard) (plate_is_placed plate_1 table) (fork_is_placed wooden_chopstick_1 table))))
 )

@@ -1,0 +1,273 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 kitchen dining)
+(find_table rob_1 table_1 dining)
+(takeout_vacuum rob_1 vacuum_1 dining)
+(plug_vacuum rob_1 vacuum_1 dining)
+(turnon_vacuum rob_1 vacuum_1 dining)
+(clean_table rob_1 vacuum_1 table_1 dining)
+(turnoff_vacuum rob_1 vacuum_1 table_1 dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation: the vacuum is missing.
+corresponding predicate: vacuum_is_missing
+object in situation: vacuum
+action that has situation: takeout_vacuum
+object manipulated by robot: vacuum
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'kitchen', 'dining']
+next action (decoded): a robot walks from kitchen room to dining room.
+this action is executed!
+
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot find a table in dining room.
+this action is executed!
+
+next action: ['takeout_vacuum', 'rob_1', 'vacuum_1', 'dining']
+next action (decoded): a robot takes out a vacuum in dining room.
+
+#---------- checking unexecuted actions! -----------
+['takeout_vacuum', 'rob_1', 'vacuum_1', 'dining']
+['plug_vacuum', 'rob_1', 'vacuum_1', 'dining']
+['turnon_vacuum', 'rob_1', 'vacuum_1', 'dining']
+['clean_table', 'rob_1', 'vacuum_1', 'table_1', 'dining']
+['turnoff_vacuum', 'rob_1', 'vacuum_1', 'table_1', 'dining']
+
+unexecuted action: ['takeout_vacuum', 'rob_1', 'vacuum_1', 'dining']
+unexecuted action (decoded): a robot takes out a vacuum in dining room.
+! prompt design
+raw prompt: is it acceptable that a robot takes out a vacuum in dining room if the vacuum is missing?
+! experience found
+! response from LLM
+response (raw prompt): ["'no, it is not acceptable for a robot to take out a vacuum in the dining room if the vacuum is missing'"]
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['cleaning bottle', 'dish rack', 'dish bowl', 'cooking pot', 'drinking glass', 'chef knife', 'condiment bottle', 'coffee filter', 'rag', 'sponge', 'cutlery knife', 'wine glass', 'coffee cup', 'oven tray']
+
+! prompt design
+raw prompt: can a robot takes out a cleaning bottle in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot takes out a dish rack in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot takes out a dish bowl in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot plugs a dish bowl in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot takes out a cooking pot in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot takes out a drinking glass in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot plugs a drinking glass in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot takes out a chef knife in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot takes out a condiment bottle in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot plugs a condiment bottle in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot takes out a coffee filter in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot takes out a rag in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot plugs a rag in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot takes out a sponge in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot plugs a sponge in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot takes out a cutlery knife in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot takes out a wine glass in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot plugs a wine glass in dining room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot takes out a coffee cup in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['yes']
+
+! prompt design
+raw prompt: can a robot plugs a coffee cup in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot takes out a oven tray in dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+#---------- capable_utensils_actionknowledge: ----------
+None
+
+#---------- capable utensils: ---------- 
+None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['dishwasher', 'toaster', 'water filter', 'freezer', 'washing machine', 'blender', 'microwave', 'oven', 'water boiler']
+
+! prompt design
+prompt (raw): can a dishwasher make the vacuum found if the vacuum is missing? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a toaster make the vacuum found if the vacuum is missing? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a water filter make the vacuum found if the vacuum is missing? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a freezer make the vacuum found if the vacuum is missing? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a washing machine make the vacuum found if the vacuum is missing? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a blender make the vacuum found if the vacuum is missing? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a microwave make the vacuum found if the vacuum is missing? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a oven make the vacuum found if the vacuum is missing? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a water boiler make the vacuum found if the vacuum is missing? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+no capable appliance found!
+
+no modified_plan_3 found!

@@ -4,1085 +4,823 @@ from utility import predicate_generator
 
 def situation_simulator(task_id):
     if task_id == 1:
-        group1 = 'there is a power outage.'
-        opp_group1 = 'power available.'
-        group1_object = 'power'
-        group1_prob = 28 / 93.
-        group1_actions = ['find_table', 'plug_vacuum', 'turnon_vacuum', 'clean_table']
-        group1_action_prob = [1 / 28., 8 / 28., 16 / 28., 3 / 28.]
+        situations = {
+            0: 'there is a power outage.',
+            1: 'the vacuum is not working.',
+            2: 'the vacuum is missing.',
+            3: 'the vacuum cannot be turned on.',
+            4: 'the vacuum plug is damaged.',
+            5: 'the outlet is missing.',
+            6: 'the vacuum is not plugged.',
+            7: 'the vacuum canister is full.',
+            8: 'the vacuum power cord is too short.',
+            9: 'the robot cannot reach the vacuum.',
+            10: 'the vacuum switch is not working.',
+            11: 'the vacuum power cord is broken.',
+            12: 'the vacuum is battery powered and does not need plug in.',
+            13: 'the robot slips and falls.',
+            14: 'the robot drops the vacuum.',
+            15: 'the plug is damaged.',
+            16: 'the outlet is broken.'
+        }
 
-        group2 = 'the vacuum is not working.'
-        opp_group2 = 'the vacuum work.'
-        group2_object = 'vacuum'
-        group2_prob = 12 / 93.
-        group2_actions = ['takeout_vacuum', 'turnon_vacuum', 'clean_table']
-        group2_action_prob = [2 / 12., 9/ 12., 1 / 12.]
+        situations_opp = {
+            0: 'power available.',
+            1: 'vacuum work.',
+            2: 'vacuum found.',
+            3: 'vacuum turned on.',
+            4: 'vacuum plug good to use.',
+            5: 'outlet found.',
+            6: 'vacuum plugged.',
+            7: 'vacuum canister empty.',
+            8: 'vacuum power cord long.',
+            9: 'robot reaching the vacuum.',
+            10: 'vacuum switch working.',
+            11: 'vacuum power cord good to use.',
+            12: 'vacuum plug needed.',
+            13: 'robot standing.',
+            14: 'robot picking up vacuum.',
+            15: 'plug undamaged.',
+            16: 'outlet good.'
+        }
 
-        group3 = 'the vacuum is missing.'
-        opp_group3 = 'the vacuum found.'
-        group3_object = 'vacuum'
-        group3_prob = 10 / 93.
-        group3_actions = ['takeout_vacuum']
-        group3_action_prob = [10 / 10.]
+        situations_object = {
+            0: 'power',
+            1: 'vacuum',
+            2: 'vacuum',
+            3: 'vacuum',
+            4: 'vacuum plug',
+            5: 'outlet',
+            6: 'vacuum',
+            7: 'vacuum canister',
+            8: 'vacuum power cord',
+            9: 'robot',
+            10: 'vacuum switch',
+            11: 'vacuum power cord',
+            12: 'vacuum plug',
+            13: 'robot',
+            14: 'robot',
+            15: 'vacuum plug',
+            16: 'outlet'
+        }
 
-        group4 = 'the vacuum cannot turn on.'
-        opp_group4 = 'the vacuum turning on.'
-        group4_object = 'vacuum'
-        group4_prob = 10 / 93.
-        group4_actions = ['takeout_vacuum']
-        group4_action_prob = [10 / 10.]
+        situations_prob = {
+            0: 28 / 91.,
+            1: 12 / 91.,
+            2: 10 / 91.,
+            3: 10 / 91.,
+            4: 7 / 91.,
+            5: 6 / 91.,
+            6: 3 / 91.,
+            7: 3 / 91.,
+            8: 2 / 91.,
+            9: 2 / 91.,
+            10: 2 / 91.,
+            11: 1 / 91.,
+            12: 1 / 91.,
+            13: 1 / 91.,
+            14: 1 / 91.,
+            15: 1 / 91.,
+            16: 1 / 91.
+        }
 
-        group5 = 'the vacuum plug is damaged.'
-        opp_group5 = 'the vacuum plug good to use.'
-        group5_object = 'vacuum'
-        group5_prob = 7 / 93.
-        group5_actions = ['find_table', 'plug_vacuum', 'clean_table']
-        group5_action_prob = [1 / 7., 5/ 7., 1/ 7.]
+        situations_action = {
+            0: ['turnon_vacuum', 'clean_area'],
+            1: ['turnon_vacuum', 'clean_area'],
+            2: ['grasp_vacuum'],
+            3: ['grasp_vacuum'],
+            4: ['plug_vacuum'],
+            5: ['plug_vacuum'],
+            6: ['plug_vacuum'],
+            7: ['grasp_vacuum', 'clean_area'],
+            8: ['plug_vacuum'],
+            9: ['clean_area'],
+            10: ['turnon_vacuum'],
+            11: ['plug_vacuum'],
+            12: ['plug_vacuum'],
+            13: ['find_table'],
+            14: ['grasp_vacuum'],
+            15: ['turnon_vacuum'],
+            16: ['plug_vacuum']
+        }
 
-        group6 = 'the outlet is missing.'
-        opp_group6 = 'outlet found.'
-        group6_object = 'outlet'
-        group6_prob = 4 / 93.
-        group6_actions = ['plug_vacuum']
-        group6_action_prob = [4 / 4.]
+        actions_prob = {
+            0: [9 / 28., 19 / 28.],
+            1: [11 / 12., 1 / 12.],
+            2: [10 / 10.],
+            3: [10 / 10.],
+            4: [7 / 7.],
+            5: [6 / 6.],
+            6: [3 / 3.],
+            7: [2 / 3., 1 / 3.],
+            8: [2 / 2.],
+            9: [2 / 2.],
+            10: [2 / 2.],
+            11: [1 / 1.],
+            12: [1 / 1.],
+            13: [1 / 1.],
+            14: [1 / 1.],
+            15: [1 / 1.],
+            16: [1 / 1.]
+        }
 
-        group7 = 'the vacuum is not plugged.'
-        opp_group7 = 'the vacuum plugged.'
-        group7_object = 'vacuum'
-        group7_prob = 3 / 93.
-        group7_actions = ['plug_vacuum', 'clean_table']
-        group7_action_prob = [2 / 3., 1 / 3.]
+        # randomly select a situation
+        situation_index = np.random.choice(list(range(0, len(situations))), p=list(situations_prob.values()))
 
-        group8 = 'the vacuum canister is full.'
-        opp_group8 = 'the vacuum canister empty.'
-        group8_object = 'canister'
-        group8_prob = 3 / 93.
-        group8_actions = ['takeout_vacuum', 'find_table', 'clean_table']
-        group8_action_prob = [1 / 3., 1 / 3., 1 / 3.]
-
-        group9 = 'the vacuum power cord is too short.'
-        opp_group9 = 'the vacuum power cord long.'
-        group9_object = 'power cord'
-        group9_prob = 2 / 93.
-        group9_actions = ['plug_vacuum']
-        group9_action_prob = [ 2 / 2.]
-
-        group10 = 'the robot cannot reach the vacuum.'
-        opp_group10 = 'the robot reaching the vacuum.'
-        group10_object = 'robot'
-        group10_prob = 2 / 93.
-        group10_actions = ['takeout_vacuum', 'clean_table']
-        group10_action_prob = [1 / 2., 1 / 2.]
-
-        group11 = 'the plug is missing.'
-        opp_group11 = 'the plug is found.'
-        group11_object = 'plug'
-        group11_prob = 2 / 93.
-        group11_actions = ['plug_vacuum']
-        group11_action_prob = [2 / 2.]
-
-        group12 = 'the vacuum switch is not working.'
-        opp_group12 = 'the vacuum switch working.'
-        group12_object = 'vacuum switch'
-        group12_prob = 2 / 93.
-        group12_actions = ['turnon_vacuum']
-        group12_action_prob = [1 / 1.]
-
-        group13 = 'the vacuum power cord is broken.'
-        opp_group13 = 'the vacuum power cord good.'
-        group13_object = 'power cord'
-        group13_prob = 1 / 93.
-        group13_actions = ['plug_vacuum']
-        group13_action_prob = [1 / 1.]
-
-        group14 = 'the vacuum is battery powered and does not need plug in.'
-        opp_group14 = 'the plug needed.'
-        group14_object = 'plug'
-        group14_prob = 1 / 93.
-        group14_actions = ['plug_vacuum']
-        group14_action_prob = [1 / 1.]
-
-        group15 = 'the table is very clean.'
-        opp_group15 = 'the table .....'
-        group15_object = 'table'
-        group15_prob = 1 / 93.
-        group15_actions = ['clean_table']
-        group15_action_prob = [1 / 1.]
-
-        group16 = 'the table is too dirty.'
-        opp_group16 = 'the table clean.'
-        group16_object = 'table'
-        group16_prob = 1 / 93.
-        group16_actions = ['clean_table']
-        group16_action_prob = [1 / 1.]
-
-        group17 = 'the robot slips and falls.'
-        opp_group17 = 'the robot standing.'
-        group17_object = 'robot'
-        group17_prob = 1 / 93.
-        group17_actions = ['find_table']
-        group17_action_prob = [1 / 1.]
-
-        group18 = 'the robot drops the vacuum.'
-        opp_group18 = 'the robot picking up vacuum.'
-        group18_object = 'robot'
-        group18_prob = 1 / 93.
-        group18_actions = ['takeout_vacuum']
-        group18_action_prob = [1 / 1.]
-
-        group19 = 'the plug is damaged.'
-        opp_group19 = 'the plug undamaged.'
-        group19_object = 'plug'
-        group19_prob = 1 / 93.
-        group19_actions = ['turnon_vacuum']
-        group19_action_prob = [1 / 1.]
-
-        group20 = 'the outlet is broken.'
-        opp_group20 = 'the outlet good.'
-        group20_object = 'outlet'
-        group20_prob = 1 / 93.
-        group20_actions = ['plug_vacuum']
-        group20_action_prob = [1 / 1.]
-
-        # ------------------------------------------
-        # random select
-        # ------------------------------------------
-        groups = [group1, group2, group3, group4, group5, group6, group7, group8, group9, group10, group11, group12,
-                  group13, group14, group15, group16, group17, group18, group19, group20]
-        opp_groups = [opp_group1, opp_group2, opp_group3, opp_group4, opp_group5, opp_group6, opp_group7, opp_group8,
-                      opp_group9, opp_group10, opp_group11, opp_group12, opp_group13, opp_group14, opp_group15,
-                      opp_group16, opp_group17, opp_group18, opp_group19, opp_group20]
-        group_objects = [group1_object, group2_object, group3_object, group4_object, group5_object, group6_object,
-                         group7_object, group8_object, group9_object, group10_object, group11_object, group12_object,
-                         group13_object, group14_object, group15_object, group16_object, group17_object, group18_object,
-                         group19_object, group20_object]
-        group_probs = np.array(
-            [group1_prob, group2_prob, group3_prob, group4_prob, group5_prob, group6_prob, group7_prob,
-             group8_prob, group9_prob, group10_prob, group11_prob, group12_prob, group13_prob, group14_prob,
-             group15_prob, group16_prob, group17_prob, group18_prob, group19_prob, group20_prob])
-        group_actions = [group1_actions, group2_actions, group3_actions, group4_actions, group5_actions,
-                         group6_actions, group7_actions, group8_actions, group9_actions, group10_actions,
-                         group11_actions,
-                         group12_actions, group13_actions, group14_actions, group15_actions, group16_actions,
-                         group17_actions, group18_actions, group19_actions, group20_actions]
-        group_action_probs = [group1_action_prob, group2_action_prob, group3_action_prob, group4_action_prob,
-                              group5_action_prob,
-                              group6_action_prob, group7_action_prob, group8_action_prob, group9_action_prob,
-                              group10_action_prob,
-                              group11_action_prob, group12_action_prob,
-                              group13_action_prob, group14_action_prob, group15_action_prob, group16_action_prob,
-                              group17_action_prob, group18_action_prob, group19_action_prob, group20_action_prob]
-        # select group index
-        group_index = np.random.choice(list(range(0, 20)), p=group_probs)
-
-        # ------------------------------------------
         # test
-        group_index = 9
-        # ------------------------------------------
+        # situation_index = 0
 
-        group = groups[group_index]
-        opp_group = opp_groups[group_index]
-        group_object = group_objects[group_index]
-        group_action = np.random.choice(group_actions[group_index], p=group_action_probs[group_index])
-        group_predicate = predicate_generator(group)
-        return group, opp_group, group_object, group_predicate, group_action
+        situation = situations[situation_index]
+        situation_opp = situations_opp[situation_index]
+        situation_object = situations_object[situation_index]
+        situation_action = np.random.choice(situations_action[situation_index], p=actions_prob[situation_index])
+        situation_predicate = predicate_generator(situation)
+
+        # test
+        # situation_action = 'clean_area'
+
+        return situation_index, situation, situation_opp, situation_object, situation_predicate, situation_action
 
     if task_id == 4:
-        group1 = 'a cup is broken.'
-        opp_group1 = 'a cup not broken.'
-        group1_object = 'cup'
-        group1_prob = 23 / 95.
-        group1_actions = ['find_cup', 'hold_cup', 'fill_cup']
-        group1_action_prob = [1 / 23., 16 / 23., 6 / 23.]
+        situations = {
+            0: 'the cup is broken.',
+            1: 'the faucet has no water.',
+            2: 'the cup is dirty.',
+            3: 'the cup is missing.',
+            4: 'the water is dirty.',
+            5: 'the water is hot.',
+            6: 'the faucet is broken.',
+            7: 'the faucet cannot be turned on.',
+            8: 'the faucet is not found.',
+            9: 'the faucet is dripping.',
+            10: 'the cup is in the box.',
+            11: 'the water spills on the ground.',
+            12: 'the cup is not full.',
+            13: 'the water is drunk by others.',
+            14: 'the cup full of water falls down.'
+        }
 
-        group2 = 'a faucet has no water.'
-        opp_group2 = 'a faucet have water.'
-        group2_object = 'faucet'
-        group2_prob = 23 / 95.
-        group2_actions = ['walk', 'turnon_faucet', 'find_cup', 'find_cup', 'fill_cup']
-        group2_action_prob = [1 / 23., 11 / 23., 2 / 23., 1 / 23., 8 / 23.]
+        situations_opp = {
+            0: 'a cup not broken.',
+            1: 'a faucet have water.',
+            2: 'a cup clean.',
+            3: 'a cup found.',
+            4: 'water clean.',
+            5: 'water not hot.',
+            6: 'a faucet not broken.',
+            7: 'a faucet easy to be turned on.',
+            8: 'a faucet found.',
+            9: 'a faucet not dripping.',
+            10: 'a cup took out from the box.',
+            11: 'a ground dry.',
+            12: 'a cup full.',
+            13: 'water not drunk by others.',
+            14: 'a cup full of water not falling down.'
+        }
 
-        group3 = 'a cup is dirty.'
-        opp_group3 = 'a cup clean.'
-        group3_object = 'cup'
-        group3_prob = 14 / 95.
-        group3_actions = ['find_cup', 'hold_cup']
-        group3_action_prob = [13 / 14., 1 / 14.]
+        situations_object = {
+            0: 'cup',
+            1: 'faucet',
+            2: 'cup',
+            3: 'cup',
+            4: 'water',
+            5: 'water',
+            6: 'faucet',
+            7: 'faucet',
+            8: 'faucet',
+            9: 'faucet',
+            10: 'cup',
+            11: 'water',
+            12: 'cup',
+            13: 'water',
+            14: 'cup'
+        }
 
-        group4 = 'a cup is missing.'
-        opp_group4 = 'a cup found.'
-        group4_object = 'cup'
-        group4_prob = 10 / 95.
-        group4_actions = ['find_cup', 'hold_cup']
-        group4_action_prob = [9 / 10., 1 / 10.]
+        situations_prob = {
+            0: 23 / 95.,
+            1: 23 / 95.,
+            2: 14 / 95.,
+            3: 10 / 95.,
+            4: 7 / 95.,
+            5: 3 / 95.,
+            6: 3 / 95.,
+            7: 2 / 95.,
+            8: 3 / 95.,
+            9: 1 / 95.,
+            10: 1 / 95.,
+            11: 1 / 95.,
+            12: 2 / 95.,
+            13: 1 / 95.,
+            14: 1 / 95.
+        }
 
-        group5 = 'water is dirty.'
-        opp_group5 = 'water clean.'
-        group5_object = 'water'
-        group5_prob = 7 / 95.
-        group5_actions = ['turnon_faucet', 'find_cup', 'fill_cup', 'place_cup']
-        group5_action_prob = [1 / 7., 1 / 7., 3 / 7., 2 / 7.]
+        situations_action = {
+            0: ['find_cup', 'hold_cup', 'fill_cup'],
+            1: ['turnon_faucet', 'fill_cup'],
+            2: ['find_cup', 'hold_cup'],
+            3: ['find_cup', 'hold_cup'],
+            4: ['turnon_faucet', 'fill_cup', 'place_cup'],
+            5: ['find_cup', 'fill_cup'],
+            6: ['turnon_faucet'],
+            7: ['turnon_faucet'],
+            8: ['find_faucet'],
+            9: ['place_cup'],
+            10: ['find_cup'],
+            11: ['fill_cup'],
+            12: ['fill_cup', 'place_cup'],
+            13: ['place_cup'],
+            14: ['place_cup']
+        }
 
-        group6 = 'water is hot.'
-        opp_group6 = 'water cold.'
-        group6_object = 'water'
-        group6_prob = 3 / 95.
-        group6_actions = ['find_cup', 'fill_cup']
-        group6_action_prob = [2 / 3., 1 / 3.]
+        actions_prob = {
+            0: [1 / 23., 16 / 23., 6 / 23.],
+            1: [15 / 23., 8 / 23.],
+            2: [13 / 14., 1 / 14.],
+            3: [9 / 10., 1 / 10.],
+            4: [2 / 7., 3 / 7., 2 / 7.],
+            5: [2 / 3., 1 / 3.],
+            6: [3 / 3.],
+            7: [2 / 2.],
+            8: [1 / 1.],
+            9: [1 / 1.],
+            10: [1 / 1.],
+            11: [1 / 1.],
+            12: [1 / 2., 1 / 2.],
+            13: [1 / 1.],
+            14: [1 / 1.]
+        }
 
-        group7 = 'a faucet is broken.'
-        opp_group7 = 'a faucet not broken.'
-        group7_object = 'faucet'
-        group7_prob = 3 / 95.
-        group7_actions = ['turnon_faucet', 'find_cup', 'place_cup']
-        group7_action_prob = [1 / 3., 1 / 3., 1 / 3.]
-
-        group8 = 'a faucet cannot be turned on.'
-        opp_group8 = 'a faucet turned on.'
-        group8_object = 'faucet'
-        group8_prob = 1 / 95.
-        group8_actions = ['turnon_faucet']
-        group8_action_prob = [1 / 1.]
-
-        # group9 = 'a sink is not found.'
-        # opp_group9 = 'a sink found.'
-        # group9_object = 'sink'
-        # group9_prob = 2 / 95.
-        # group9_actions = ['find_faucet']
-        # group9_action_prob = [2 / 2.]
-
-        group9 = 'a faucet is not found.'
-        opp_group9 = 'a faucet found.'
-        group9_object = 'faucet'
-        group9_prob = 2 / 95.
-        group9_actions = ['find_faucet']
-        group9_action_prob = [1 / 1.]
-
-        group10 = 'a faucet is dripping.'
-        opp_group10 = 'a faucet not dripping.'
-        group10_object = 'faucet'
-        group10_prob = 1 / 95.
-        group10_actions = ['place_cup']
-        group10_action_prob = [1 / 1.]
-
-        group11 = 'a faucet cannot be turned on.'
-        opp_group11 = 'a faucet turned on.'
-        group11_object = 'faucet'
-        group11_prob = 1 / 95.
-        group11_actions = ['turnon_faucet']
-        group11_action_prob = [1 / 1.]
-
-        group12 = 'a faucet is not found.'
-        opp_group12 = 'a faucet found.'
-        group12_object = 'faucet'
-        group12_prob = 1 / 95.
-        group12_actions = ['find_faucet']
-        group12_action_prob = [1 / 1.]
-
-        group13 = 'a cup is in the box.'
-        opp_group13 = 'a cup took out from the box.'
-        group13_object = 'cup'
-        group13_prob = 1 / 95.
-        group13_actions = ['find_cup']
-        group13_action_prob = [1 / 1.]
-
-        group14 = 'water spills on the ground.'
-        opp_group14 = 'the ground dry.'
-        group14_object = 'water'
-        group14_prob = 1 / 95.
-        group14_actions = ['fill_cup']
-        group14_action_prob = [1 / 1.]
-
-        group15 = 'a cup is not full.'
-        opp_group15 = 'a cup is full.'
-        group15_object = 'cup'
-        group15_prob = 2 / 95.
-        group15_actions = ['fill_cup', 'place_cup']
-        group15_action_prob = [1 / 2., 1 / 2.]
-
-        group16 = 'water is drunk by others.'
-        opp_group16 = 'water not drunk by others.'
-        group16_object = 'water'
-        group16_prob = 1 / 95.
-        group16_actions = ['place_cup']
-        group16_action_prob = [1 / 1.]
-
-        group17 = 'a cup full of water falls down.'
-        opp_group17 = 'a cup full of water not fall down.'
-        group17_object = 'cup'
-        group17_prob = 1 / 95.
-        group17_actions = ['place_cup']
-        group17_action_prob = [1 / 1.]
-
-        # ------------------------------------------
-        # random select
-        # ------------------------------------------
-        groups = [group1, group2, group3, group4, group5, group6, group7, group8, group9, group10, group11, group12,
-                  group13, group14, group15, group16, group17]
-        opp_groups = [opp_group1, opp_group2, opp_group3, opp_group4, opp_group5, opp_group6, opp_group7, opp_group8,
-                      opp_group9, opp_group10, opp_group11, opp_group12, opp_group13, opp_group14, opp_group15, opp_group16, opp_group17]
-        group_objects = [group1_object, group2_object, group3_object, group4_object, group5_object, group6_object, group7_object, group8_object, group9_object, group10_object, group11_object, group12_object,
-                  group13_object, group14_object, group15_object, group16_object, group17_object]
-        group_probs = np.array(
-            [group1_prob, group2_prob, group3_prob, group4_prob, group5_prob, group6_prob, group7_prob,
-             group8_prob, group9_prob, group10_prob, group11_prob, group12_prob, group13_prob, group14_prob,
-             group15_prob, group16_prob, group17_prob])
-        group_actions = [group1_actions, group2_actions, group3_actions, group4_actions, group5_actions,
-                       group6_actions, group7_actions, group8_actions, group9_actions, group10_actions, group11_actions,
-                       group12_actions, group13_actions, group14_actions, group15_actions, group16_actions, group17_actions]
-        group_action_probs = [group1_action_prob, group2_action_prob, group3_action_prob, group4_action_prob, group5_action_prob,
-                            group6_action_prob, group7_action_prob, group8_action_prob, group9_action_prob, group10_action_prob,
-                            group11_action_prob, group12_action_prob,
-                            group13_action_prob, group14_action_prob, group15_action_prob, group16_action_prob,
-                            group17_action_prob]
-        # select group index
-        group_index = np.random.choice(list(range(0, 17)), p=group_probs)
+        # randomly select a situation
+        situation_index = np.random.choice(list(range(0, len(situations))), p=list(situations_prob.values()))
 
         # test
-        # group_index = 3
+        # situation_index = 2
 
-        group = groups[group_index]
-        opp_group = opp_groups[group_index]
-        group_object = group_objects[group_index]
-        group_action = np.random.choice(group_actions[group_index], p=group_action_probs[group_index])
-        group_predicate = predicate_generator(group)
-        return group, opp_group, group_object, group_predicate, group_action
+        situation = situations[situation_index]
+        situation_opp = situations_opp[situation_index]
+        situation_object = situations_object[situation_index]
+        situation_action = np.random.choice(situations_action[situation_index], p=actions_prob[situation_index])
+        situation_predicate = predicate_generator(situation)
+
+        return situation_index, situation, situation_opp, situation_object, situation_predicate, situation_action
 
     if task_id == 6:
-        group1 = 'a plate is broken.'
-        opp_group1 = 'a plate not broken.'
-        group1_object = 'plate'
-        group1_prob = 21 / 92.
-        group1_actions = ['walk', 'open_cupboard', 'find_plate', 'takeout_plate', 'find_table', 'place_plate']
-        group1_action_prob = [2 / 21., 1 / 21., 1 / 21., 7/21., 2/21, 8/21]
+        situations = {
+            0: 'the plate is broken.',
+            1: 'the plate is not found.',
+            2: 'the plate is dirty.',
+            3: 'the fork is dirty.',
+            4: 'the fork is not found.',
+            5: 'the table is dirty.',
+            6: 'the table is not found.',
+            7: 'the cupboard cannot open.',
+            8: 'the plate falls on the ground.',
+            9: 'the table does not have enough space.',
+            10: 'the fork falls on the ground.',
+            11: 'the cupboard has some mites.',
+            12: 'the cupboard is broken.',
+            13: 'the fork is already on the table.',
+            14: 'the fork is broken.',
+            15: 'the table is broken.',
+            16: 'the robot is stopped due to obstacles.'
+        }
 
-        group2 = 'a plate is not found.'
-        opp_group2 = 'a plate found.'
-        group2_object = 'plate'
-        group2_prob = 13 / 92.
-        group2_actions = ['find_cupboard', 'find_plate', 'place_fork', 'takeout_plate']
-        group2_action_prob = [2 / 13., 9 / 13., 1 / 13., 1 / 13.]
+        situations_opp = {
+            0: 'a plate not broken.',
+            1: 'a plate found.',
+            2: 'a plate clean.',
+            3: 'a fork dirty.',
+            4: 'a fork found.',
+            5: 'a table clean.',
+            6: 'a table found.',
+            7: 'a cupboard open.',
+            8: 'a plate grasped.',
+            9: 'a table big enough.',
+            10: 'a fork grasped.',
+            11: 'mites in a cupboard killed.',
+            12: 'a cupboard not broken.',
+            13: 'a fork not on the table.',
+            14: 'a fork broken.',
+            15: 'a table broken.',
+            16: 'there are no obstacles.'
+        }
 
-        group3 = 'a plate is dirty.'
-        opp_group3 = 'a plate clean.'
-        group3_object = 'plate'
-        group3_prob = 12 / 92.
-        group3_actions = ['find_plate', 'takeout_plate', 'place_plate']
-        group3_action_prob = [4 / 12., 4 / 12., 4 / 12.]
+        situations_object = {
+            0: 'plate',
+            1: 'plate',
+            2: 'plate',
+            3: 'fork',
+            4: 'fork',
+            5: 'table',
+            6: 'table',
+            7: 'cupboard',
+            8: 'plate',
+            9: 'table',
+            10: 'fork',
+            11: 'cupboard',
+            12: 'cupboard',
+            13: 'fork',
+            14: 'fork',
+            15: 'table',
+            16: 'obstacle'
+        }
 
-        group4 = 'a fork is dirty.'
-        opp_group4 = 'a fork dirty.'
-        group4_object = 'fork'
-        group4_prob = 8 / 92.
-        group4_actions = ['find_fork', 'takeout_fork', 'place_fork']
-        group4_action_prob = [5 / 8., 2 / 8., 1 / 8.]
+        situations_prob = {
+            0: 21 / 92.,
+            1: 13 / 92.,
+            2: 12 / 92.,
+            3: 8 / 92.,
+            4: 7 / 92.,
+            5: 6 / 92.,
+            6: 4 / 92.,
+            7: 4 / 92.,
+            8: 4 / 92.,
+            9: 4 / 92.,
+            10: 3 / 92.,
+            11: 1 / 92.,
+            12: 1 / 92.,
+            13: 1 / 92.,
+            14: 1 / 92.,
+            15: 1 / 92.,
+            16: 1 / 92.
+        }
 
-        group5 = 'a fork is not found.'
-        opp_group5 = 'fork found.'
-        group5_object = 'fork'
-        group5_prob = 7 / 92.
-        group5_actions = ['find_fork', 'takeout_fork']
-        group5_action_prob = [6 / 7., 1 / 7.]
+        situations_action = {
+            0: ['open_cupboard', 'find_plate'],
+            1: ['find_cupboard', 'find_plate'],
+            2: ['find_plate', 'takeout_plate', 'place_plate'],
+            3: ['find_fork', 'takeout_fork', 'place_fork'],
+            4: ['find_fork', 'takeout_fork'],
+            5: ['find_table', 'place_plate'],
+            6: ['find_table'],
+            7: ['open_cupboard'],
+            8: ['takeout_plate', 'place_plate'],
+            9: ['place_plate', 'place_fork'],
+            10: ['takeout_fork', 'place_fork'],
+            11: ['open_cupboard'],
+            12: ['open_cupboard'],
+            13: ['find_fork'],
+            14: ['find_fork'],
+            15: ['find_table'],
+            16: ['walk']
+        }
 
-        group6 = 'a table is dirty.'
-        opp_group6 = 'a table clean.'
-        group6_object = 'table'
-        group6_prob = 6 / 92.
-        group6_actions = ['find_table', 'place_plate']
-        group6_action_prob = [2 / 6., 4 / 6.]
+        actions_prob = {
+            0: [3 / 21., 18 / 21.],
+            1: [2 / 13., 11 / 13.],
+            2: [4 / 12., 4 / 12., 4 / 12.],
+            3: [5 / 8., 2 / 8., 1 / 8.],
+            4: [6 / 7., 1 / 7.],
+            5: [2 / 6., 4 / 6.],
+            6: [4 / 4.],
+            7: [4 / 4.],
+            8: [2 / 4., 2 / 4.],
+            9: [2 / 4., 2 / 4.],
+            10: [2 / 3., 1 / 3.],
+            11: [1 / 1.],
+            12: [1 / 1.],
+            13: [1 / 1.],
+            14: [1 / 1.],
+            15: [1 / 1.],
+            16: [1 / 1.]
+        }
 
-        group7 = 'a table is not found.'
-        opp_group7 = 'table found.'
-        group7_object = 'table'
-        group7_prob = 4 / 92.
-        group7_actions = ['find_plate', 'takeout_plate', 'place_plate']
-        group7_action_prob = [2 / 4., 1 / 4., 1 / 4.]
+        # randomly select a situation
+        situation_index = np.random.choice(list(range(0, len(situations))), p=list(situations_prob.values()))
 
-        group8 = 'a cupboard cannot open.'
-        opp_group8 = 'a cupboard open.'
-        group8_object = 'cupboard'
-        group8_prob = 4 / 92.
-        group8_actions = ['open_cupboard']
-        group8_action_prob = [4 / 4.]
-
-        group9 = 'a plate falls on the ground.'
-        opp_group9 = 'a plate not fell on the ground.'
-        group9_object = 'plate'
-        group9_prob = 4 / 92.
-        group9_actions = ['takeout_plate', 'find_table', 'place_plate']
-        group9_action_prob = [2 / 4., 1 / 4., 1 / 4.]
-
-        group10 = 'a table does not have enough space.'
-        opp_group10 = 'a table is big enough.'
-        group10_object = 'table'
-        group10_prob = 4 / 92.
-        group10_actions = ['place_plate', 'place_fork']
-        group10_action_prob = [2 / 4., 2 / 4.]
-
-        group11 = 'a fork falls on the ground.'
-        opp_group11 = 'a fork not fell on the ground.'
-        group11_object = 'fork'
-        group11_prob = 3 / 92.
-        group11_actions = ['find_fork', 'takeout_fork', 'place_fork']
-        group11_action_prob = [1 / 3., 1 / 3., 1 / 3.]
-
-        group12 = 'a cupboard has some mites.'
-        opp_group12 = 'a cupboard not have mites.'
-        group12_object = 'cupboard'
-        group12_prob = 1 / 92.
-        group12_actions = ['open_cupboard']
-        group12_action_prob = [1 / 1.]
-
-        group13 = 'a cupboard is broken.'
-        opp_group13 = 'a cupboard not broken.'
-        group13_object = 'cupboard'
-        group13_prob = 1 / 92.
-        group13_actions = ['open_cupboard']
-        group13_action_prob = [1 / 1.]
-
-        group14 = 'a fork is already on the table.'
-        opp_group14 = 'a fork not on the table.'
-        group14_object = 'fork'
-        group14_prob = 1 / 92.
-        group14_actions = ['find_fork']
-        group14_action_prob = [1 / 1.]
-
-        group15 = 'a fork is broken.'
-        opp_group15 = 'a fork broken.'
-        group15_object = 'fork'
-        group15_prob = 1 / 92.
-        group15_actions = ['find_fork']
-        group15_action_prob = [1 / 1.]
-
-        group16 = 'a table is broken.'
-        opp_group16 = 'a table broken.'
-        group16_object = 'table'
-        group16_prob = 1 / 92.
-        group16_actions = ['find_table']
-        group16_action_prob = [1 / 1.]
-
-        group17 = 'there are some obstacles and robot cannot move to the target area.'
-        opp_group17 = 'there are no obstacles.'
-        group17_object = 'obstacle'
-        group17_prob = 1 / 92.
-        group17_actions = ['walk']
-        group17_action_prob = [1 / 1.]
-
-        # ------------------------------------------
-        # random select
-        # ------------------------------------------
-        groups = [group1, group2, group3, group4, group5, group6, group7, group8, group9, group10, group11, group12,
-                  group13, group14, group15, group16, group17]
-        opp_groups = [opp_group1, opp_group2, opp_group3, opp_group4, opp_group5, opp_group6, opp_group7, opp_group8,
-                      opp_group9, opp_group10, opp_group11, opp_group12, opp_group13, opp_group14, opp_group15, opp_group16, opp_group17]
-        group_objects = [group1_object, group2_object, group3_object, group4_object, group5_object, group6_object, group7_object, group8_object, group9_object, group10_object, group11_object, group12_object,
-                  group13_object, group14_object, group15_object, group16_object, group17_object]
-        group_probs = np.array(
-            [group1_prob, group2_prob, group3_prob, group4_prob, group5_prob, group6_prob, group7_prob,
-             group8_prob, group9_prob, group10_prob, group11_prob, group12_prob, group13_prob, group14_prob,
-             group15_prob, group16_prob, group17_prob])
-        group_actions = [group1_actions, group2_actions, group3_actions, group4_actions, group5_actions,
-                       group6_actions, group7_actions, group8_actions, group9_actions, group10_actions, group11_actions,
-                       group12_actions, group13_actions, group14_actions, group15_actions, group16_actions, group17_actions]
-        group_action_probs = [group1_action_prob, group2_action_prob, group3_action_prob, group4_action_prob, group5_action_prob,
-                            group6_action_prob, group7_action_prob, group8_action_prob, group9_action_prob, group10_action_prob,
-                            group11_action_prob, group12_action_prob,
-                            group13_action_prob, group14_action_prob, group15_action_prob, group16_action_prob,
-                            group17_action_prob]
-        # select group index
-        group_index = np.random.choice(list(range(0, 17)), p=group_probs)
-
-        # ------------------------------------------
         # test
-        # group_index = 0
-        # ------------------------------------------
+        # situation_index = 0
 
-        group = groups[group_index]
-        opp_group = opp_groups[group_index]
-        group_object = group_objects[group_index]
-        group_action = np.random.choice(group_actions[group_index], p=group_action_probs[group_index])
-        group_predicate = predicate_generator(group)
-        return group, opp_group, group_object, group_predicate, group_action
+        situation = situations[situation_index]
+        situation_opp = situations_opp[situation_index]
+        situation_object = situations_object[situation_index]
+        situation_action = np.random.choice(situations_action[situation_index], p=actions_prob[situation_index])
+        situation_predicate = predicate_generator(situation)
+
+        return situation_index, situation, situation_opp, situation_object, situation_predicate, situation_action
 
     if task_id == 9:
-        group1 = 'the sink is full.'
-        opp_group1 = 'the sink empty'
-        group1_object = 'sink'
-        group1_prob = 24 / 95.
-        group1_actions = ['find_table', 'walk_table', 'grasp_plate', 'walk_sink', 'place_plate']
-        group1_action_prob = [1 / 24., 2/ 24., 9 / 24., 11 / 24., 1/ 24.]
+        situations = {
+            0: 'the sink is full.',
+            1: 'the plate is broken.',
+            2: 'the plate is already clean.',
+            3: 'the dirty plate is missing on table.',
+            4: 'the plate is dropped.',
+            5: 'the plate is missing.',
+            6: 'the table is missing.',
+            7: 'the sink is too dirty.',
+            8: 'there is no water in sink.',
+            9: 'the table is dirty.',
+            10: 'the table is broken.',
+            11: 'the sink cannot be found.',
+            12: 'the plate is grabbed by dog.',
+            13: 'the door of dinning room is locked.',
+            14: 'the dirty plate has already been placed in the sink.',
+            15: 'people are not finishing food.'
+        }
 
-        group2 = 'the plate is broken.'
-        opp_group2 = 'the plate unbroken.'
-        group2_object = 'plate'
-        group2_prob = 17 / 95.
-        group2_actions = ['grasp_plate', 'walk_sink', 'place_plate']
-        group2_action_prob = [6 / 17., 5 / 17., 6 / 17.]
+        situations_opp = {
+            0: 'a sink empty.',
+            1: 'a plate unbroken.',
+            2: 'a plat dirty',
+            3: 'a plate found',
+            4: 'a plate not dropped.',
+            5: 'a plate found.',
+            6: 'a table found.',
+            7: 'a sink clean.',
+            8: 'water in the sink.',
+            9: 'a table clean.',
+            10: 'a table good.',
+            11: 'a sink found.',
+            12: 'a plate on the table.',
+            13: 'a door open.',
+            14: 'a plate on the table.',
+            15: 'people finishing food.'
+        }
 
-        group3 = 'the plate is clean.'
-        opp_group3 = 'the plate.......'
-        group3_object = 'plate'
-        group3_prob = 11 / 95.
-        group3_actions = ['grasp_plate', 'place_plate']
-        group3_action_prob = [8 / 11., 3 / 11.]
+        situations_object = {
+            0: 'sink',
+            1: 'plate',
+            2: 'plate',
+            3: 'plate',
+            4: 'plate',
+            5: 'plate',
+            6: 'table',
+            7: 'sink',
+            8: 'water',
+            9: 'table',
+            10: 'table',
+            11: 'sink',
+            12: 'plate',
+            13: 'door',
+            14: 'plate',
+            15: 'people'
+        }
 
-        group4 = 'the dirty plate is missing on table.'
-        opp_group4 = '.......'
-        group4_object = 'plate'
-        group4_prob = 11 / 95.
-        group4_actions = ['grasp_plate', 'place_plate']
-        group4_action_prob = [8 / 11., 3 / 11.]
+        situations_prob = {
+            0: 24 / 91.,
+            1: 17 / 91.,
+            2: 11 / 91.,
+            3: 11 / 91.,
+            4: 9 / 91.,
+            5: 6 / 91.,
+            6: 2 / 91.,
+            7: 2 / 91.,
+            8: 1 / 91.,
+            9: 1 / 91.,
+            10: 1 / 91.,
+            11: 1 / 91.,
+            12: 1 / 91.,
+            13: 1 / 91.,
+            14: 2 / 91.,
+            15: 1 / 91.
+        }
 
-        group5 = 'the plate is dropped.'
-        opp_group5 = 'the plate not dropped.'
-        group5_object = 'plate'
-        group5_prob = 9 / 95.
-        group5_actions = ['grasp_plate', 'walk_sink', 'place_plate']
-        group5_action_prob = [6 / 9., 1/ 9., 2 / 9.]
+        situations_action = {
+            0: ['walk_sink', 'place_plate'],
+            1: ['grasp_plate'],
+            2: ['grasp_plate', 'place_plate'],
+            3: ['grasp_plate', 'place_plate'],
+            4: ['grasp_plate', 'walk_sink', 'place_plate'],
+            5: ['grasp_plate', 'walk_sink'],
+            6: ['walk_table'],
+            7: ['walk_sink'],
+            8: ['walk_sink'],
+            9: ['walk_table'],
+            10: ['walk_table'],
+            11: ['walk_sink'],
+            12: ['grasp_plate'],
+            13: ['walk'],
+            14: ['grasp_plate'],
+            15: ['walk']
+        }
 
-        group6 = 'the plate is missing.'
-        opp_group6 = 'the plate found.'
-        group6_object = 'plate'
-        group6_prob = 6 / 95.
-        group6_actions = ['grasp_plate', 'walk_sink']
-        group6_action_prob = [5 / 6., 1 / 6.]
+        actions_prob = {
+            0: [23 / 24., 1 / 24.],
+            1: [17 / 17.],
+            2: [8 / 11., 3 / 11.],
+            3: [8 / 11., 3 / 11.],
+            4: [6 / 9., 1 / 9., 2 / 9.],
+            5: [5 / 6., 1 / 6.],
+            6: [2 / 2.],
+            7: [2 / 2.],
+            8: [1 / 1.],
+            9: [1 / 1.],
+            10: [1 / 1.],
+            11: [1 / 1.],
+            12: [1 / 1.],
+            13: [1 / 1.],
+            14: [1 / 1.],
+            15: [1 / 1.]
+        }
 
-        group7 = 'a person dropped and got injured.'
-        opp_group7 = 'a person good.'
-        group7_object = 'person'
-        group7_prob = 4 / 95.
-        group7_actions = ['walk', 'grasp_plate', 'walk_sink']
-        group7_action_prob = [1 / 4., 1 / 4., 2 / 4.]
+        # randomly select a situation
+        situation_index = np.random.choice(list(range(0, len(situations))), p=list(situations_prob.values()))
 
-        group8 = 'the table is missing.'
-        opp_group8 = 'the table found.'
-        group8_object = 'table'
-        group8_prob = 2 / 95.
-        group8_actions = ['walk_table']
-        group8_action_prob = [2 / 2.]
-
-        group9 = 'the sink is too dirty.'
-        opp_group9 = 'the sink clean.'
-        group9_object = 'sink'
-        group9_prob = 2 / 95.
-        group9_actions = ['walk_sink']
-        group9_action_prob = [2 / 2.]
-
-        group10 = 'there is no water in sink.'
-        opp_group10 = 'water in the sink.'
-        group10_object = 'water'
-        group10_prob = 1 / 95.
-        group10_actions = ['walk_sink']
-        group10_action_prob = [1 / 1.]
-
-        group11 = 'the table is dirty.'
-        opp_group11 = 'the table clean.'
-        group11_object = 'table'
-        group11_prob = 1 / 95.
-        group11_actions = ['walk_table']
-        group11_action_prob = [1 / 1.]
-
-        group12 = 'the table is broken.'
-        opp_group12 = 'the table good.'
-        group12_object = 'table'
-        group12_prob = 1 / 95.
-        group12_actions = ['walk_table']
-        group12_action_prob = [1 / 1.]
-
-        group13 = 'the sink cannot be found.'
-        opp_group13 = 'the sink found.'
-        group13_object = 'sink'
-        group13_prob = 1 / 95.
-        group13_actions = ['walk_sink']
-        group13_action_prob = [1 / 1.]
-
-        group14 = 'the plate is grabbed by dog.'
-        opp_group14 = 'the plate back.'
-        group14_object = 'plate'
-        group14_prob = 1 / 95.
-        group14_actions = ['grasp_plate']
-        group14_action_prob = [1 / 1.]
-
-        group15 = 'the door of dinning room is locked.'
-        opp_group15 = 'the door open'
-        group15_object = 'door'
-        group15_prob = 1 / 95.
-        group15_actions = ['walk']
-        group15_action_prob = [1 / 1.]
-
-        group16 = 'someone has already picked up the dirty plate.'
-        opp_group16 = 'someone returning the dirty plate.'
-        group16_object = 'plate'
-        group16_prob = 1 / 95.
-        group16_actions = ['grasp_plate']
-        group16_action_prob = [1 / 1.]
-
-        group17 = 'someone has already clean the table.'
-        opp_group17 = 'the table dirty.'
-        group17_object = 'table'
-        group17_prob = 1 / 95.
-        group17_actions = ['walk_table']
-        group17_action_prob = [1 / 1.]
-
-        group18 = 'people are not finishing food.'
-        opp_group18 = 'people finishing food.'
-        group18_object = 'food'
-        group18_prob = 1 / 95.
-        group18_actions = ['walk']
-        group18_action_prob = [1 / 1.]
-
-        # ------------------------------------------
-        # random select
-        # ------------------------------------------
-        groups = [group1, group2, group3, group4, group5, group6, group7, group8, group9, group10, group11, group12, group13, group14, group15, group16, group17, group18]
-        opp_groups = [opp_group1, opp_group2, opp_group3, opp_group4, opp_group5, opp_group6, opp_group7, opp_group8, opp_group9, opp_group10, opp_group11, opp_group12, opp_group13, opp_group14, opp_group15, opp_group16, opp_group17, opp_group18]
-        group_objects = [group1_object, group2_object, group3_object, group4_object, group5_object, group6_object, group7_object, group8_object, group9_object, group10_object, group11_object, group12_object, group13_object, group14_object, group15_object, group16_object, group17_object, group18_object]
-        group_probs = np.array([group1_prob, group2_prob, group3_prob, group4_prob, group5_prob, group6_prob, group7_prob, group8_prob, group9_prob, group10_prob, group11_prob, group12_prob, group13_prob, group14_prob, group15_prob, group16_prob, group17_prob, group18_prob])
-        group_actions = [group1_actions, group2_actions, group3_actions, group4_actions, group5_actions,
-                     group6_actions, group7_actions, group8_actions, group9_actions, group10_actions, group11_actions,
-                     group12_actions, group13_actions, group14_actions, group15_actions, group16_actions,
-                     group17_actions, group18_actions]
-        group_action_probs = [group1_action_prob, group2_action_prob, group3_action_prob, group4_action_prob,
-                          group5_action_prob,
-                          group6_action_prob, group7_action_prob, group8_action_prob, group9_action_prob,
-                          group10_action_prob,
-                          group11_action_prob, group12_action_prob,
-                          group13_action_prob, group14_action_prob, group15_action_prob, group16_action_prob,
-                          group17_action_prob, group18_action_prob]
-        # select group index
-        group_index = np.random.choice(list(range(0, 18)), p=group_probs)
-
-        # ------------------------------------------
         # test
-        group_index = 1
-        # ------------------------------------------
+        # situation_index = 0
 
-        group = groups[group_index]
-        opp_group = opp_groups[group_index]
-        group_object = group_objects[group_index]
-        group_action = np.random.choice(group_actions[group_index], p=group_action_probs[group_index])
-        group_predicate = predicate_generator(group)
-        return group, opp_group, group_object, group_predicate, group_action
+        situation = situations[situation_index]
+        situation_opp = situations_opp[situation_index]
+        situation_object = situations_object[situation_index]
+        situation_action = np.random.choice(situations_action[situation_index], p=actions_prob[situation_index])
+        situation_predicate = predicate_generator(situation)
+
+        return situation_index, situation, situation_opp, situation_object, situation_predicate, situation_action
 
     if task_id == 10:
-        group1 = 'the coke is not available.'
-        opp_group1 = 'the coke available'
-        group1_object = 'coke'
-        group1_prob = 17 / 93.
-        group1_actions = ['find_coke', 'grasp_coke']
-        group1_action_prob = [14 / 17., 3 / 17.]
+        situations = {
+            0: 'the bottle of soda is not available.',
+            1: 'the glass is broken.',
+            2: 'the bottle of soda is missing.',
+            3: 'the glass is dirty.',
+            4: 'the glass falls down.',
+            5: 'the bottle of soda spills.',
+            6: 'the glass is missing.',
+            7: 'the bottle of soda is flat.',
+            8: 'the bottle of soda cannot be opened.',
+            9: 'the bottle of soda is empty.',
+            10: 'the bottle of soda is dropped.',
+            11: 'the robot cannot recognize the bottle, and take beer out.',
+            12: 'the bottle of soda is sticky and leaking.',
+            13: 'the bottle of soda is not chill.',
+            14: 'the bottle of soda is too frozen.'
+        }
 
-        group2 = 'the glass is broken.'
-        opp_group2 = 'the glass good.'
-        group2_object = 'glass'
-        group2_prob = 11 / 93.
-        group2_actions = ['find_glass', 'pour_coke', 'move_glass']
-        group2_action_prob = [3 / 11., 5 / 11., 3 / 11.]
+        situations_opp = {
+            0: 'bottle of soda available.',
+            1: 'a glass good.',
+            2: 'bottle of soda found.',
+            3: 'a glass clean',
+            4: 'a glass picked up.',
+            5: 'a ground clean.',
+            6: 'a glass found.',
+            7: 'bottle of soda full of carbon dioxide.',
+            8: 'bottle of soda easy to be opened.',
+            9: 'bottle of soda full of liquid.',
+            10: 'bottle of soda grasped.',
+            11: 'a robot successfully recognizing and grasping the bottle of soda.',
+            12: 'bottle of soda clean.',
+            13: 'bottle of soda chilled.',
+            14: 'bottle of soda not too frozen.'
+        }
 
-        group3 = 'the coke bottle is missing.'
-        opp_group3 = 'the coke bottle found.'
-        group3_object = 'bottle'
-        group3_prob = 11 / 93.
-        group3_actions = ['find_coke']
-        group3_action_prob = [11 / 11.]
+        situations_object = {
+            0: 'soda',
+            1: 'glass',
+            2: 'soda',
+            3: 'glass',
+            4: 'glass',
+            5: 'soda',
+            6: 'glass',
+            7: 'soda',
+            8: 'soda',
+            9: 'soda',
+            10: 'soda',
+            11: 'robot',
+            12: 'soda',
+            13: 'soda',
+            14: 'soda'
+        }
 
-        group4 = 'the glass is dirty.'
-        opp_group4 = 'the glass clean.'
-        group4_object = 'glass'
-        group4_prob = 9 / 93.
-        group4_actions = ['find_glass', 'pour_coke', 'move_glass']
-        group4_action_prob = [6 / 9., 2 / 9., 1 / 9.]
+        situations_prob = {
+            0: 18 / 90.,
+            1: 11 / 90.,
+            2: 11 / 90.,
+            3: 9 / 90.,
+            4: 8 / 90.,
+            5: 8 / 90.,
+            6: 7 / 90.,
+            7: 5 / 90.,
+            8: 4 / 90.,
+            9: 3 / 90.,
+            10: 2 / 90.,
+            11: 1 / 90.,
+            12: 1 / 90.,
+            13: 1 / 90.,
+            14: 1 / 90.
+        }
 
-        group5 = 'the glass falls down.'
-        opp_group5 = 'the glass picked up.'
-        group5_object = 'glass'
-        group5_prob = 8 / 93.
-        group5_actions = ['find_glass', 'pour_coke', 'place_glass']
-        group5_action_prob = [1 / 8., 1 / 8., 6 / 8.]
+        situations_action = {
+            0: ['find_soda', 'grasp_soda'],
+            1: ['find_glass', 'move_glass'],
+            2: ['find_soda'],
+            3: ['find_glass'],
+            4: ['pour_soda', 'place_glass'],
+            5: ['find_glass', 'pour_soda'],
+            6: ['find_glass'],
+            7: ['place_glass'],
+            8: ['pour_soda'],
+            9: ['find_soda'],
+            10: ['pour_soda'],
+            11: ['find_soda'],
+            12: ['find_soda'],
+            13: ['grasp_soda'],
+            14: ['grasp_soda']
+        }
 
-        group6 = 'the coke spills.'
-        opp_group6 = 'the coke good.'
-        group6_object = 'coke'
-        group6_prob = 8 / 93.
-        group6_actions = ['find_glass', 'pour_coke']
-        group6_action_prob = [2 / 8., 6 / 8.]
+        actions_prob = {
+            0: [14 / 18., 4 / 18.],
+            1: [8 / 11., 3 / 11.],
+            2: [11 / 11.],
+            3: [9 / 9.],
+            4: [2 / 8., 6 / 8.],
+            5: [2 / 8., 6 / 8.],
+            6: [7 / 7.],
+            7: [5 / 5.],
+            8: [4 / 4.],
+            9: [3 / 3.],
+            10: [2 / 2.],
+            11: [1 / 1.],
+            12: [1 / 1.],
+            13: [1 / 1.],
+            14: [1 / 1.]
+        }
 
-        group7 = 'the glass is missing.'
-        opp_group7 = 'the glass found.'
-        group7_object = 'glass'
-        group7_prob = 7 / 93.
-        group7_actions = ['find_glass']
-        group7_action_prob = [7 / 7.]
+        # randomly select a situation
+        situation_index = np.random.choice(list(range(0, len(situations))), p=list(situations_prob.values()))
 
-        group8 = 'the coke is flat.'
-        opp_group8 = 'the coke good.'
-        group8_object = 'coke'
-        group8_prob = 5 / 93.
-        group8_actions = ['place_glass']
-        group8_action_prob = [5 / 5.]
-
-        group9 = 'the coke bottle cannot open.'
-        opp_group9 = 'the coke bottle open.'
-        group9_object = 'bottle'
-        group9_prob = 4 / 93.
-        group9_actions = ['pour_coke']
-        group9_action_prob = [4 / 4.]
-
-        group10 = 'the coke bottle is empty.'
-        opp_group10 = 'the coke bottle full.'
-        group10_object = 'bottle'
-        group10_prob = 3 / 93.
-        group10_actions = ['find_coke']
-        group10_action_prob = [3 / 3.]
-
-        group11 = 'the person has something caught in the throat and cough out the drink.'
-        opp_group11 = 'the person good.'
-        group11_object = 'person'
-        group11_prob = 2 / 93.
-        group11_actions = ['place_glass']
-        group11_action_prob = [2 / 2.]
-
-        group12 = 'the coke bottle is dropped.'
-        opp_group12 = 'the coke bottle picked up.'
-        group12_object = 'bottle'
-        group12_prob = 2 / 93.
-        group12_actions = ['pour_coke']
-        group12_action_prob = [2 / 2.]
-
-        group13 = 'the robot cannot recognize the bottle.'
-        opp_group13 = 'the robot recognizeing the bottle.'
-        group13_object = 'robot'
-        group13_prob = 1 / 93.
-        group13_actions = ['find_coke']
-        group13_action_prob = [1 / 1.]
-
-        group14 = 'the robot cannot recognize the bottle, and take beer out.'
-        opp_group14 = '......'
-        group14_object = 'robot'
-        group14_prob = 1 / 93.
-        group14_actions = ['find_coke']
-        group14_action_prob = [1 / 1.]
-
-        group15 = 'the person does not like coke.'
-        opp_group15 = 'the person liking coke'
-        group15_object = 'person'
-        group15_prob = 1 / 93.
-        group15_actions = ['place_glass']
-        group15_action_prob = [1 / 1.]
-
-        group16 = 'the coke bottle is sticky and leaking.'
-        opp_group16 = 'the coke bottle clean and good.'
-        group16_object = 'bottle'
-        group16_prob = 1 / 93.
-        group16_actions = ['find_coke']
-        group16_action_prob = [1 / 1.]
-
-        group17 = 'the coke bottle is not chill.'
-        opp_group17 = 'the coke bottle chilled.'
-        group17_object = 'bottle'
-        group17_prob = 1 / 93.
-        group17_actions = ['grasp_coke']
-        group17_action_prob = [1 / 1.]
-
-        group18 = 'the coke bottle is frozen.'
-        opp_group18 = 'the coke bottle warm.'
-        group18_object = 'bottle'
-        group18_prob = 1 / 93.
-        group18_actions = ['grasp_coke']
-        group18_action_prob = [1 / 1.]
-
-        # ------------------------------------------
-        # random select
-        # ------------------------------------------
-        groups = [group1, group2, group3, group4, group5, group6, group7, group8, group9, group10, group11, group12,
-                  group13, group14, group15, group16, group17, group18]
-        opp_groups = [opp_group1, opp_group2, opp_group3, opp_group4, opp_group5, opp_group6, opp_group7, opp_group8,
-                      opp_group9, opp_group10, opp_group11, opp_group12, opp_group13, opp_group14, opp_group15,
-                      opp_group16,
-                      opp_group17, opp_group18]
-        group_objects = [group1_object, group2_object, group3_object, group4_object, group5_object, group6_object,
-                         group7_object, group8_object, group9_object, group10_object, group11_object, group12_object,
-                         group13_object, group14_object, group15_object, group16_object, group17_object, group18_object]
-        group_probs = np.array(
-            [group1_prob, group2_prob, group3_prob, group4_prob, group5_prob, group6_prob, group7_prob,
-             group8_prob, group9_prob, group10_prob, group11_prob, group12_prob, group13_prob, group14_prob,
-             group15_prob, group16_prob, group17_prob, group18_prob])
-        group_actions = [group1_actions, group2_actions, group3_actions, group4_actions, group5_actions,
-                         group6_actions, group7_actions, group8_actions, group9_actions, group10_actions,
-                         group11_actions,
-                         group12_actions, group13_actions, group14_actions, group15_actions, group16_actions,
-                         group17_actions, group18_actions]
-        group_action_probs = [group1_action_prob, group2_action_prob, group3_action_prob, group4_action_prob,
-                              group5_action_prob,
-                              group6_action_prob, group7_action_prob, group8_action_prob, group9_action_prob,
-                              group10_action_prob,
-                              group11_action_prob, group12_action_prob,
-                              group13_action_prob, group14_action_prob, group15_action_prob, group16_action_prob,
-                              group17_action_prob, group18_action_prob]
-        # select group index
-        group_index = np.random.choice(list(range(0, 18)), p=group_probs)
-
-        # ------------------------------------------
         # test
-        group_index = 1
-        # ------------------------------------------
+        # situation_index = 2
 
-        group = groups[group_index]
-        opp_group = opp_groups[group_index]
-        group_object = group_objects[group_index]
-        group_action = np.random.choice(group_actions[group_index], p=group_action_probs[group_index])
-        group_predicate = predicate_generator(group)
-        return group, opp_group, group_object, group_predicate, group_action
+        situation = situations[situation_index]
+        situation_opp = situations_opp[situation_index]
+        situation_object = situations_object[situation_index]
+        situation_action = np.random.choice(situations_action[situation_index], p=actions_prob[situation_index])
+        situation_predicate = predicate_generator(situation)
+
+        # test
+        # situation_action = 'find_soda'
+
+        return situation_index, situation, situation_opp, situation_object, situation_predicate, situation_action
 
     if task_id == 11:
-        group1 = 'the chair is broken.'
-        opp_group1 = 'the chair unbroken.'
-        group1_object = 'chair'
-        group1_prob = 23 / 93.
-        group1_actions = ['find_chair', 'pull_chair']
-        group1_action_prob = [12 / 23., 11 / 23.]
+        situations = {
+            0: 'the chair is broken.',
+            1: 'the burger is missing.',
+            2: 'the fork is missing.',
+            3: 'the plate is dirty.',
+            4: 'the plate is missing.',
+            5: 'the chair is occupied.',
+            6: 'the fork is dirty.',
+            7: 'the burger spills.',
+            8: 'the burger is overcooked.',
+            9: 'the chair is missing.',
+            10: 'the chair is dirty.',
+            11: 'the plate is placed already.',
+            12: 'the table is dirty.',
+            13: 'the spoon is missing.',
+            14: 'the plate is not available.',
+            15: 'the plate is broken.',
+            16: 'the fork is broken.',
+            17: 'the burger smells bad.',
+            18: 'the burger is not enough for a person.',
+            19: 'the burger is expired.',
+            20: 'the burger is dirty.',
+            21: 'the chair slipped.',
+            22: 'the chair is wet.'
+        }
 
-        group2 = 'the burger is missing.'
-        opp_group2 = 'the burger found.'
-        group2_object = 'burger'
-        group2_prob = 15 / 93.
-        group2_actions = ['find_burger', 'grasp_burger', 'find_plate']
-        group2_action_prob = [10 / 15., 2 / 15., 3 / 15.]
+        situations_opp = {
+            0: 'a chair unbroken.',
+            1: 'a burger found.',
+            2: 'a fork found.',
+            3: 'a plate clean.',
+            4: 'a plate found.',
+            5: 'a chair available.',
+            6: 'a fork clean.',
+            7: 'a ground clean',
+            8: 'a burger well-cooked.',
+            9: 'a chair found.',
+            10: 'a chair clean.',
+            11: 'a plate not placed on the table.',
+            12: 'a table clean.',
+            13: 'a spoon found.',
+            14: 'a plate available.',
+            15: 'a plate unbroken.',
+            16: 'a fork unbroken.',
+            17: 'a burger good.',
+            18: 'a burger enough for a person.',
+            19: 'a burger in good condition.',
+            20: 'a burger clean.',
+            21: 'a chair not slipped.',
+            22: 'a chair dry.'
+        }
 
-        group3 = 'the fork is missing.'
-        opp_group3 = 'the fork found.'
-        group3_object = 'fork'
-        group3_prob = 10 / 93.
-        group3_actions = ['find_fork']
-        group3_action_prob = [10 / 10.]
+        situations_object = {
+            0: 'chair',
+            1: 'burger',
+            2: 'fork',
+            3: 'plate',
+            4: 'plate',
+            5: 'chair',
+            6: 'fork',
+            7: 'burger',
+            8: 'burger',
+            9: 'chair',
+            10: 'chair',
+            11: 'plate',
+            12: 'table',
+            13: 'spoon',
+            14: 'plate',
+            15: 'plate',
+            16: 'fork',
+            17: 'burger',
+            18: 'burger',
+            19: 'burger',
+            20: 'burger',
+            21: 'chair',
+            22: 'chair'
+        }
 
-        group4 = 'the plate is dirty.'
-        opp_group4 = 'the plate clean.'
-        group4_object = 'plate'
-        group4_prob = 5 / 93.
-        group4_actions = ['move_plate', 'place_plate']
-        group4_action_prob = [3 / 5., 2 / 5.]
+        situations_prob = {
+            0: 23 / 84.,
+            1: 15 / 84.,
+            2: 10 / 84.,
+            3: 5 / 84.,
+            4: 4 / 84.,
+            5: 4 / 84.,
+            6: 3 / 84.,
+            7: 2 / 84.,
+            8: 2 / 84.,
+            9: 2 / 84.,
+            10: 2 / 84.,
+            11: 1 / 84.,
+            12: 1 / 84.,
+            13: 1 / 84.,
+            14: 1 / 84.,
+            15: 1 / 84.,
+            16: 1 / 84.,
+            17: 1 / 84.,
+            18: 1 / 84.,
+            19: 1 / 84.,
+            20: 1 / 84.,
+            21: 1 / 84.,
+            22: 1 / 84.
+        }
 
-        group5 = 'the plate is missing.'
-        opp_group5 = 'the plate found.'
-        group5_object = 'plate'
-        group5_prob = 4 / 93.
-        group5_actions = ['find_plate']
-        group5_action_prob = [4 / 4.]
+        situations_action = {
+            0: ['find_chair', 'pull_chair'],
+            1: ['find_burger'],
+            2: ['find_fork'],
+            3: ['find_plate'],
+            4: ['find_plate'],
+            5: ['find_chair'],
+            6: ['find_fork'],
+            7: ['place_plate'],
+            8: ['find_burger'],
+            9: ['find_chair'],
+            10: ['find_chair'],
+            11: ['place_plate'],
+            12: ['find_table'],
+            13: ['place_plate'],
+            14: ['find_plate'],
+            15: ['find_plate'],
+            16: ['find_burger'],
+            17: ['find_burger'],
+            18: ['find_burger'],
+            19: ['find_burger'],
+            20: ['find_burger'],
+            21: ['find_chair'],
+            22: ['find_chair']
+        }
 
-        group6 = 'the person falls when sitting down.'
-        opp_group6 = 'the person standing.'
-        group6_object = 'person'
-        group6_prob = 4 / 93.
-        group6_actions = ['pull_chair']
-        group6_action_prob = [4 / 4.]
+        actions_prob = {
+            0: [12 / 23., 11 / 23.],
+            1: [15 / 15.],
+            2: [10 / 10.],
+            3: [5 / 5.],
+            4: [4 / 4.],
+            5: [4 / 4.],
+            6: [3 / 3.],
+            7: [2 / 2.],
+            8: [2 / 2.],
+            9: [2 / 2.],
+            10: [2 / 2.],
+            11: [1 / 1.],
+            12: [1 / 1.],
+            13: [1 / 1.],
+            14: [1 / 1.],
+            15: [1 / 1.],
+            16: [1 / 1.],
+            17: [1 / 1.],
+            18: [1 / 1.],
+            19: [1 / 1.],
+            20: [1 / 1.],
+            21: [1 / 1.],
+            22: [1 / 1.]
+        }
 
-        group7 = 'the chair is occupied.'
-        opp_group7 = 'the chair available.'
-        group7_object = 'chair'
-        group7_prob = 4 / 93.
-        group7_actions = ['find_chair']
-        group7_action_prob = [4 / 4.]
+        # randomly select a situation
+        situation_index = np.random.choice(list(range(0, len(situations))), p=list(situations_prob.values()))
 
-        group8 = 'the fork is dirty.'
-        opp_group8 = 'the fork clean.'
-        group8_object = 'fork'
-        group8_prob = 3 / 93.
-        group8_actions = ['find_fork']
-        group8_action_prob = [3 / 3.]
-
-        group9 = 'the person has to take out of the burger.'
-        opp_group9 = 'the person......'
-        group9_object = 'person'
-        group9_prob = 2 / 93.
-        group9_actions = ['place_plate']
-        group9_action_prob = [2 / 2.]
-
-        group10 = 'the burger spills.'
-        opp_group10 = 'the burger good.'
-        group10_object = 'burger'
-        group10_prob = 2 / 93.
-        group10_actions = ['place_plate']
-        group10_action_prob = [2 / 2.]
-
-        group11 = 'the burger is overcooked.'
-        opp_group11 = 'the burger well.'
-        group11_object = 'burger'
-        group11_prob = 2 / 93.
-        group11_actions = ['find_burger']
-        group11_action_prob = [2 / 2.]
-
-        group12 = 'the chair is missing.'
-        opp_group12 = 'the chair found.'
-        group12_object = 'chair'
-        group12_prob = 2 / 93.
-        group12_actions = ['find_chair']
-        group12_action_prob = [2 / 2.]
-
-        group13 = 'the chair is dirty.'
-        opp_group13 = 'the chair clean.'
-        group13_object = 'chair'
-        group13_prob = 2 / 93.
-        group13_actions = ['find_chair']
-        group13_action_prob = [2 / 2.]
-
-        group14 = 'the utensil is placed already.'
-        opp_group14 = 'the utencil not placed in advance.'
-        group14_object = 'utencil'
-        group14_prob = 1 / 93.
-        group14_actions = ['place_plate']
-        group14_action_prob = [1 / 1.]
-
-        group15 = 'the table is dirty.'
-        opp_group15 = 'the table clean.'
-        group15_object = 'table'
-        group15_prob = 1 / 93.
-        group15_actions = ['find_table']
-        group15_action_prob = [1 / 1.]
-
-        group16 = 'the spoon is missing.'
-        opp_group16 = 'the spoon found.'
-        group16_object = 'spoon'
-        group16_prob = 1 / 93.
-        group16_actions = ['place_plate']
-        group16_action_prob = [1 / 1.]
-
-        group17 = 'the plate is not available.'
-        opp_group17 = 'the plate available.'
-        group17_object = 'plate'
-        group17_prob = 1 / 93.
-        group17_actions = ['find_plate']
-        group17_action_prob = [1 / 1.]
-
-        group18 = 'the plate is broken.'
-        opp_group18 = 'the plate good.'
-        group18_object = 'plate'
-        group18_prob = 1 / 93.
-        group18_actions = ['find_plate']
-        group18_action_prob = [1 / 1.]
-
-        group19 = 'the person needs a spoon.'
-        opp_group19 = 'the person not needs a spoon.'
-        group19_object = 'person'
-        group19_prob = 1 / 93.
-        group19_actions = ['place_plate']
-        group19_action_prob = [1 / 1.]
-
-        group20 = 'the person needs a napkin.'
-        opp_group20 = 'the person get a spoon.'
-        group20_object = 'person'
-        group20_prob = 1 / 93.
-        group20_actions = ['']
-        group20_action_prob = [1 / 1.]
-
-        group21 = 'the person cannot walk.'
-        opp_group21 = 'the person can walk.'
-        group21_object = 'person'
-        group21_prob = 1 / 93.
-        group21_actions = ['']
-        group21_action_prob = [1 / 1.]
-
-        group22 = 'the fork is broken.'
-        opp_group22 = 'the fork good.'
-        group22_object = 'fork'
-        group22_prob = 1 / 93.
-        group22_actions = ['']
-        group22_action_prob = [1 / 1.]
-
-        group23 = 'the burger smells bad.'
-        opp_group23 = '.'
-        group23_object = 'burger'
-        group23_prob = 1 / 93.
-        group23_actions = ['']
-        group23_action_prob = [1 / 1.]
-
-        group24 = 'the burger is not enough.'
-        opp_group24 = 'the burger enough.'
-        group24_object = 'burger'
-        group24_prob = 1 / 93.
-        group24_actions = ['']
-        group24_action_prob = [1 / 1.]
-
-        group25 = 'the burger is expired.'
-        opp_group25 = 'the burger in good condition.'
-        group25_object = 'burger'
-        group25_prob = 1 / 93.
-        group25_actions = ['']
-        group25_action_prob = [1 / 1.]
-
-        group26 = 'the burger is dirty.'
-        opp_group26 = 'the burger clean.'
-        group26_object = 'burger'
-        group26_prob = 1 / 93.
-        group26_actions = ['']
-        group26_action_prob = [1 / 1.]
-
-        group27 = 'the chair slipped.'
-        opp_group27 = 'the chair in good condition.'
-        group27_object = 'chair'
-        group27_prob = 1 / 93.
-        group27_actions = ['']
-        group27_action_prob = [1 / 1.]
-
-        group28 = 'the chair is wet.'
-        opp_group28 = 'the chair dry.'
-        group28_object = 'chair'
-        group28_prob = 1 / 93.
-        group28_actions = ['']
-        group28_action_prob = [1 / 1.]
-
-        # ------------------------------------------
-        # random select
-        # ------------------------------------------
-        groups = [group1, group2, group3, group4, group5, group6, group7, group8, group9, group10, group11, group12,
-                  group13, group14, group15, group16, group17, group18, group19, group20, group21, group22, group23,
-                  group24, group25, group26, group27, group28]
-        opp_groups = [opp_group1, opp_group2, opp_group3, opp_group4, opp_group5, opp_group6, opp_group7, opp_group8,
-                      opp_group9, opp_group10, opp_group11, opp_group12, opp_group13, opp_group14, opp_group15,
-                      opp_group16, opp_group17, opp_group18, opp_group19, opp_group20, opp_group21, opp_group22,
-                      opp_group23, opp_group24, opp_group25, opp_group26, opp_group27, opp_group28]
-        group_objects = [group1_object, group2_object, group3_object, group4_object, group5_object, group6_object,
-                         group7_object, group8_object, group9_object, group10_object, group11_object, group12_object,
-                         group13_object, group14_object, group15_object, group16_object, group17_object, group18_object,
-                         group19_object, group20_object, group21_object, group22_object, group23_object,
-                         group24_object, group25_object, group26_object, group27_object, group28_object]
-        group_probs = np.array(
-            [group1_prob, group2_prob, group3_prob, group4_prob, group5_prob, group6_prob, group7_prob,
-             group8_prob, group9_prob, group10_prob, group11_prob, group12_prob, group13_prob, group14_prob,
-             group15_prob, group16_prob, group17_prob, group18_prob, group19_prob, group20_prob, group21_prob,
-             group22_prob, group23_prob, group24_prob, group25_prob, group26_prob, group27_prob, group28_prob])
-        group_actions = [group1_actions, group2_actions, group3_actions, group4_actions, group5_actions,
-                         group6_actions, group7_actions, group8_actions, group9_actions, group10_actions,
-                         group11_actions,
-                         group12_actions, group13_actions, group14_actions, group15_actions, group16_actions,
-                         group17_actions, group18_actions, group19_actions, group20_actions, group21_actions,
-                         group22_actions, group23_actions, group24_actions, group25_actions, group26_actions,
-                         group27_actions, group28_actions]
-        group_action_probs = [group1_action_prob, group2_action_prob, group3_action_prob, group4_action_prob,
-                              group5_action_prob,
-                              group6_action_prob, group7_action_prob, group8_action_prob, group9_action_prob,
-                              group10_action_prob,
-                              group11_action_prob, group12_action_prob,
-                              group13_action_prob, group14_action_prob, group15_action_prob, group16_action_prob,
-                              group17_action_prob, group18_action_prob, group19_action_prob, group20_action_prob,
-                              group21_action_prob, group22_action_prob, group23_action_prob, group24_action_prob,
-                              group25_action_prob, group26_action_prob, group27_action_prob, group28_action_prob]
-        # select group index
-        group_index = np.random.choice(list(range(0, 28)), p=group_probs)
-
-        # ------------------------------------------
         # test
-        group_index = 17
-        # ------------------------------------------
+        # situation_index = 0
 
-        group = groups[group_index]
-        opp_group = opp_groups[group_index]
-        group_object = group_objects[group_index]
-        group_action = np.random.choice(group_actions[group_index], p=group_action_probs[group_index])
-        group_predicate = predicate_generator(group)
-        return group, opp_group, group_object, group_predicate, group_action
+        situation = situations[situation_index]
+        situation_opp = situations_opp[situation_index]
+        situation_object = situations_object[situation_index]
+        situation_action = np.random.choice(situations_action[situation_index], p=actions_prob[situation_index])
+        situation_predicate = predicate_generator(situation)
 
-# test
-# task_id = 11
-# group, opp_group, group_object, group_predicate, group_action = situation_simulator(task_id)
-# print('situation, its predicate, and step:', group, group_predicate, group_action)
+        return situation_index, situation, situation_opp, situation_object, situation_predicate, situation_action

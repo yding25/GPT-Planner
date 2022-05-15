@@ -1,0 +1,215 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 kitchen dining)
+(find_table rob_1 table_1 dining)
+(takeout_vacuum rob_1 vacuum_1 dining)
+(plug_vacuum rob_1 vacuum_1 dining)
+(turnon_vacuum rob_1 vacuum_1 dining)
+(clean_table rob_1 vacuum_1 table_1 dining)
+; cost = 6 (unit cost)
+
+#---------- generating situation! -----------
+situation: the robot drops the vacuum.
+corresponding predicate: robot_drops_the_vacuum
+object in situation: robot
+action that has situation: takeout_vacuum
+object manipulated by robot: vacuum
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'kitchen', 'dining']
+next action (decoded): a robot walks from kitchen room to dining room.
+this action is executed!
+
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot find a table in dining room.
+this action is executed!
+
+next action: ['takeout_vacuum', 'rob_1', 'vacuum_1', 'dining']
+next action (decoded): a robot takes out a vacuum in dining room.
+
+#---------- checking unexecuted actions! -----------
+['takeout_vacuum', 'rob_1', 'vacuum_1', 'dining']
+['plug_vacuum', 'rob_1', 'vacuum_1', 'dining']
+['turnon_vacuum', 'rob_1', 'vacuum_1', 'dining']
+['clean_table', 'rob_1', 'vacuum_1', 'table_1', 'dining']
+
+unexecuted action: ['takeout_vacuum', 'rob_1', 'vacuum_1', 'dining']
+unexecuted action (decoded): a robot takes out a vacuum in dining room.
+! prompt design
+raw prompt: is it acceptable that a robot takes out a vacuum in dining room if the robot drops the vacuum?
+! response from LLM
+response (raw prompt): ['no, it is not acceptable for a robot to take out a vacuum in the dining room if the robot drops the vacuum']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['chef knife', 'mug', 'coffee cup', 'drinking glass', 'measuring cup', 'trash can', 'oven tray', 'condiment shaker', 'frying pan', 'paper towel', 'cloth napkin', 'wine glass', 'coffee filter', 'rag']
+
+! prompt design
+raw prompt: can a chef knife walks from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a mug walks from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a coffee cup walks from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a drinking glass walks from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a measuring cup walks from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a trash can walks from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a oven tray walks from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a condiment shaker walks from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a frying pan walks from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a paper towel walks from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a cloth napkin walks from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a wine glass walks from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a coffee filter walks from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a rag walks from kitchen room to dining room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+#---------- capable_utensils_actionknowledge: ----------
+None
+
+#---------- capable utensils: ---------- 
+None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['ice cream maker', 'vacuum cleaner', 'juicer', 'microwave', 'freezer', 'coffee maker', 'blender', 'washing machine', 'stove']
+
+! prompt design
+prompt (raw): can a ice cream maker make the robot picking up vacuum if the robot drops the vacuum? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a vacuum cleaner make the robot picking up vacuum if the robot drops the vacuum? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a juicer make the robot picking up vacuum if the robot drops the vacuum? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a microwave make the robot picking up vacuum if the robot drops the vacuum? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a freezer make the robot picking up vacuum if the robot drops the vacuum? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a coffee maker make the robot picking up vacuum if the robot drops the vacuum? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a blender make the robot picking up vacuum if the robot drops the vacuum? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a washing machine make the robot picking up vacuum if the robot drops the vacuum? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+prompt (raw): can a stove make the robot picking up vacuum if the robot drops the vacuum? 
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+no capable appliance found!
+
+no modified_plan_3 found!

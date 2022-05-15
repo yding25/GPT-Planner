@@ -1,0 +1,62 @@
+dish
+cleaning bottle
+cooking pot
+frying pan
+trash can
+cloth napkin
+paper towel
+bucket
+coffee cup
+colander
+condiment bottle
+dish bowl
+drinking glass
+measuring cup
+mug
+rag
+wine glass
+chef knife
+condiment shaker
+cutlery fork
+cutlery knife
+cutting board
+dish rack
+oven tray
+mat
+wooden spoon
+sponge
+coffee filter
+wooden chopstick
+bookshelf
+cabinet
+closet
+cpu table
+cupboard
+desk
+filing cabinet
+kitchen cabinet
+nightstand
+wooden chair
+piano bench
+table cloth
+coffee table
+couch
+dining table
+kitchen table
+kitchen counter
+pantry
+bread
+cake
+ice cream
+noodles
+oatmeal
+peanut butter
+rice
+salt
+snack
+sugar
+oil
+pasta
+chips
+sauce
+steak

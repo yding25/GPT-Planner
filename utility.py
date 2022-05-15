@@ -1,38 +1,206 @@
-import os
 import getpass
 import openai
 import numpy as np
-import torch
-from sentence_transformers import SentenceTransformer
-from sentence_transformers import util as st_utils
 import math
 import re
+import time
+import os
+from random import sample
+
 
 user = getpass.getuser()
 
 
+# ------------------------------------------
+# classical task planner engine
+# ------------------------------------------
 def task_planner(path_domain, path_problem, name_output):
-    address_taskplanner = '/home/' + getpass.getuser() + '/githubBase/GPT-Planner/FastDownward/fast-downward.py'
-    if os.path.exists(address_taskplanner):
-        output_filename = name_output
-        command = 'python ' + address_taskplanner + ' --alias lama-first ' + '--plan-file ' + output_filename + ' ' + path_domain + ' ' + path_problem
-        os.system(command + '>/dev/null 2>&1')
-        # os.system(command)
-        return '/home/' + user + '/githubBase/GPT-Planner/' + output_filename
+    path_engine = '/home/' + getpass.getuser() + '/GPT-Planner/FastDownward/fast-downward.py'
+    if os.path.exists(path_engine):
+        command = 'python ' + path_engine + ' --alias lama-first ' + '--plan-file ' + name_output + ' ' + path_domain + ' ' + path_problem
+        os.system(command + '>/dev/null 2>&1')  # skip outputting intermediate results
+        # os.system(command)  # outputting intermediate results
+        return '/home/' + user + '/GPT-Planner/' + name_output
     else:
-        print('Error -- Not find fast-downward.py!')
+        print('Error: not find fast-downward.py!')
 
 
-def print_file(file_path):
-    fidin = open(file_path, 'r')
+def exist_remove(task_id):
+    path1 = 'task_' + str(task_id) + '_basic_plan.txt'
+    path2 = '/home/' + user + '/GPT-Planner/pddl/task' + str(task_id) + '/domain_new.pddl'
+    path3 = '/home/' + user + '/GPT-Planner/pddl/task' + str(task_id) + '/domain_new1.pddl'
+    path4 = '/home/' + user + '/GPT-Planner/pddl/task' + str(task_id) + '/domain_new2.pddl'
+    path5 = '/home/' + user + '/GPT-Planner/pddl/task' + str(task_id) + '/problem_new.pddl'
+    path6 = '/home/' + user + '/GPT-Planner/pddl/task' + str(task_id) + '/problem_new1.pddl'
+    path7 = '/home/' + user + '/GPT-Planner/pddl/task' + str(task_id) + '/problem_new2.pddl'
+    path8 = '/home/' + user + '/GPT-Planner/task_' + str(task_id) + '_basic_plan.txt'
+    path9 = '/home/' + user + '/GPT-Planner/task_' + str(task_id) + '_modified_plan_1.txt'
+    path10 = '/home/' + user + '/GPT-Planner/task_' + str(task_id) + '_modified_plan_2.txt'
+    path11 = '/home/' + user + '/GPT-Planner/task_' + str(task_id) + '_modified_plan_3.txt'
+    for path in [path1, path2, path3, path4, path5, path6, path7, path8, path9, path10, path11]:
+        if os.path.exists(path):
+            os.remove(path)
+        else:
+            continue
+    time.sleep(1)
+    print('before running, all old files have been removed.\n')
+
+
+def random_remove(task_id):
+    path = 'experience/experience_task_' + str(task_id) + '.txt'
+    if np.random.choice([True, False], p=np.array([0.1, 0.9])):
+        if os.path.exists(path):
+            os.remove(path)
+        print('experience pool has been removed.\n')
+
+
+def read_plan(path_file):
+    fidin = open(path_file, 'r')
+    plan = []
+    for line in fidin.readlines():
+        line = line.strip()  # remove space
+        line = line[1:-1]  # remove ()
+        line = line.split(' ')
+        plan.append(line)
+    plan = plan[:-1]
+    fidin.close()
+    return plan
+
+
+def extract_objects(path_file):
+    fidin = open(path_file, 'r')
+    objects = []
+    for line in fidin.readlines():
+        line = line.strip()  # remove space
+        line = line[1:-1]  # remove ()
+        line = line.split(' ')
+        line = line[1:]  # remove action
+        for item in line:
+            if ('rob' not in item) and ('dining' not in item) and ('kitchen' not in item) and (item not in objects):
+                objects.append(item)
+    fidin.close()
+    return objects
+
+
+def extract_action_content(path_domain, situation_action):
+        fidin = open(path_domain, 'r')
+        action_part = []
+        domain = []
+        counter_signal = 0
+        for line in fidin.readlines():
+            domain.append(line)  # save domain file with format
+            line = line.strip()
+            if (situation_action in line or counter_signal > 0) and len(action_part) <= 3:  # read the following 4 lines
+                if situation_action in line:
+                    counter_signal = 4
+                action_part.append(line)
+            counter_signal = counter_signal - 1
+        fidin.close()
+
+        # extract content before/after action
+        for index in range(len(domain)):
+            if action_part[0] in domain[index]:
+                action_part_before = domain[0:index]
+            if action_part[-1] in domain[index]:
+                action_part_after = domain[index + 1:]
+
+        # analyze action content
+        action_name = action_part[0]
+        action_parameters = action_part[1]
+        action_precondition = action_part[2]
+        action_effect = action_part[3]
+
+        return domain, action_part, action_part_before, action_part_after, action_name, action_parameters, action_precondition, action_effect
+
+
+def extract_problem_content(path_problem):
+    problem = []
+    fidin = open(path_problem, 'r')
+    for line in fidin.readlines():
+        problem.append(line)
+    fidin.close()
+    problem_define = []
+    problem_problem = []
+    problem_domain = []
+    problem_object = []
+    problem_init = []
+    problem_goal = []
+    for line in problem:
+        if 'define' in line:
+            problem_define = line
+        if 'problem' in line:
+            problem_problem = line
+        if 'domain' in line:
+            problem_domain = line
+        if 'objects' in line:
+            problem_object = line
+        if 'init' in line:
+            problem_init = line
+        if 'goal' in line:
+            problem_goal = line
+    return problem_define, problem_problem, problem_domain, problem_object, problem_init, problem_goal
+
+
+def locate_object(target_object, objects):
+    for item in objects:
+        if target_object in item:
+            target_object = item
+            break
+    return target_object
+
+
+def select_object(task_id, ratio):
+    path_object = {
+        1: 'utensils.txt',
+        4: 'utensils_beverages.txt',
+        6: 'utensils_furnitures.txt',
+        9: 'utensils.txt',
+        10: 'utensils_beverages.txt',
+        11: 'utensils_furnitures_foods.txt'
+    }
+    filein = open('dataset/' + path_object[task_id], 'r')
+    objects = []
+    for line in filein.readlines():
+        line = line.strip()
+        joint_rule = ''
+        objects.append(joint_rule.join(line))
+    objects_selected = sample(objects, round(len(objects) / ratio))
+    return objects_selected
+
+
+def select_appliance(ratio):
+    filein = open('dataset/appliances.txt', 'r')
+    appliances = []
+    for line in filein.readlines():
+        line = line.strip()
+        joint_rule = ''
+        appliances.append(joint_rule.join(line))
+    appliances_selected = sample(appliances, round(len(appliances) / ratio))
+    return appliances_selected
+
+
+def template_response(response):
+    # ideal response should be yes or no
+    if response[0] == 'y':
+        template = 'yes'
+    elif response[0] == 'n':
+        template = 'no'
+    else:
+        template = 'no'
+        print('Error: no template answer.')
+    return template
+
+
+def print_plan(path_file):
+    fidin = open(path_file, 'r')
     for line in fidin.readlines():
         line = line.strip()
         print(line)
     fidin.close()
 
 
-def print_plan(file_path):
-    fidin = open(file_path, 'r')
+def print_file(path_file):
+    fidin = open(path_file, 'r')
     for line in fidin.readlines():
         line = line.strip()
         print(line)
@@ -44,25 +212,12 @@ def print_list(input_list):
         print(item)
 
 
-def write_file(file_path, content):
-    fidin = open(file_path, 'w')
+def write_file(path_file, content):
+    fidin = open(path_file, 'w')
     for item in content:
         fidin.write('%s' % item)
         fidin.flush()
     fidin.close()
-
-
-def read_plan(file_path):
-    fidin = open(file_path, 'r')
-    plan = []
-    for line in fidin.readlines():
-        line = line.strip()
-        line = line[1:-1]
-        line = line.split(' ')
-        plan.append(line)
-    plan = plan[:-1]
-    fidin.close()
-    return plan
 
 
 def plan_manager(step, path_plan):
@@ -83,11 +238,6 @@ key = fidin.read()
 openai.api_key = key
 fidin.close()
 
-# set GPU
-GPU = 0
-if torch.cuda.is_available():
-    torch.cuda.set_device(GPU)
-
 
 def predicate_generator(situation):
     response = openai.Completion.create(
@@ -106,24 +256,7 @@ def predicate_generator(situation):
     return result['text'][1:]
 
 
-def grammar_corrector(sentence):
-    gpt_model = 'text-davinci-002'
-    raw_response = openai.Completion.create(
-        engine=gpt_model,
-        prompt="Correct this to standard English:\n\n" + sentence,
-        temperature=0,
-        max_tokens=32,
-        top_p=1,
-        frequency_penalty=0,
-        presence_penalty=0,
-        stop=['\\n', '.']
-    )
-    response = raw_response['choices'][0]['text']
-    response = response.strip()
-    return response
-
-
-def plan_monitor(situation, action, option1, task_id):
+def plan_monitor(task_id, situation, action_decoded, option1):
     def llm(prompt):
         gpt_model = 'text-davinci-002'
         sampling_params = {"n": 1,  # sampling number
@@ -143,15 +276,11 @@ def plan_monitor(situation, action, option1, task_id):
     # ------------------------------------------
     # prompt design
     # ------------------------------------------
-    prompt = 'is it ' + option1 + ' that ' + action[:-1] + ' if ' + situation[:-1] + '?'
+    prompt = 'is it ' + option1 + ' that ' + action_decoded[:-1] + ' if ' + situation[:-1] + '?'
     print('! prompt design')
     print('raw prompt:', prompt)
 
-    # ------------------------------------------
-    # create a file to store experience
-    # ------------------------------------------
-    fidout1 = open('experience/experience_task_' + str(task_id) + '.txt', 'a')
-
+    fidout1 = open('experience/experience_task_' + str(task_id) + '.txt', 'a')  # create a file to save experience
     # ------------------------------------------
     # search experience pool
     # ------------------------------------------
@@ -169,14 +298,13 @@ def plan_monitor(situation, action, option1, task_id):
         try:
             responses_1, probs_1 = llm(prompt)  # get responses from llm
             fidout1.write('%s\n' % target_prompt)
-            fidout1.write('response (raw prompt):%s\n' % responses_1)
+            fidout1.write('%s\n' % responses_1[0])
             fidout1.flush()
         except:
-            print('Error -- no response from LLM!')
+            print('Error: no response from LLM!')
     else:
-        rule = re.compile(r'[[](.*?)[]]')
         line2 = line2.strip()
-        responses_1 = [re.findall(rule, line2)[0]]
+        responses_1 = line2
     print('! response from LLM')
     print('response (raw prompt):', responses_1)
     if 'no' in responses_1[0] or 'not' in responses_1[0]:

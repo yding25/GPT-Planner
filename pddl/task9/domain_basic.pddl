@@ -1,5 +1,5 @@
 (define
-	(domain dining_pickup_plate)
+	(domain dining)
 	(:requirements :strips :typing)
 	(:types robot table plate sink location food utensil beverage furniture other appliance)
 	(:predicates (robot_at ?r - robot ?l - location) (table_at ?t - table ?l - location) (plate_at ?p - plate ?l - location) (sink_at ?s - sink ?l - location) (robot_near_table ?r - robot) (robot_near_sink ?r - robot) (table_is_found ?t - table) (plate_is_grasped ?p - plate) (plate_is_placed ?p - plate) (appliance_at ?a - appliance ?l))
@@ -13,30 +13,30 @@
 	(:action find_table
 		:parameters (?r - robot ?t - table ?l - location)
 		:precondition (and (table_at ?t ?l) (robot_at ?r ?l))
-		:effect (and (table_is_found ?t) (robot_at ?r ?l))
+		:effect (and (table_is_found ?t))
 	)
 
 	(:action walk_table
 		:parameters (?r - robot ?t - table ?l - location)
 		:precondition (and (table_at ?t ?l) (table_is_found ?t) (robot_at ?r ?l))
-		:effect (and (robot_near_table ?r) (table_at ?t ?l) (table_is_found ?t) (robot_at ?r ?l))
+		:effect (and (robot_near_table ?r))
 	)
 
 	(:action grasp_plate
 		:parameters (?r - robot ?p - plate ?l - location)
-		:precondition (and (robot_near_table ?r) (plate_at ?p ?l))
-		:effect (and (plate_is_grasped ?p))
+		:precondition (and (robot_near_table ?r) (robot_at ?r ?l) (plate_at ?p ?l))
+		:effect (and (plate_is_grasped ?p) (not (robot_near_table ?r)))
 	)
 
 	(:action walk_sink
 		:parameters (?r - robot ?s - sink ?p - plate ?l - location)
 		:precondition (and (plate_is_grasped ?p) (robot_at ?r ?l) (sink_at ?s ?l))
-		:effect (and (robot_near_sink ?r) (plate_is_grasped ?p))
+		:effect (and (robot_near_sink ?r))
 	)
 
 	(:action place_plate
 		:parameters (?r - robot ?p - plate ?l - location)
-		:precondition (and (robot_near_sink ?r))
+		:precondition (and (robot_near_sink ?r) (plate_is_grasped ?p))
 		:effect (and (plate_is_placed ?p) (not (plate_is_grasped ?p)))
 	)
 

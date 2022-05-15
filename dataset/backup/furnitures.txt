@@ -1,0 +1,18 @@
+bookshelf
+cabinet
+closet
+cpu table
+cupboard
+desk
+filing cabinet
+kitchen cabinet
+nightstand
+wooden chair
+piano bench
+table cloth
+coffee table
+couch
+dining table
+kitchen table
+kitchen counter
+pantry

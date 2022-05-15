@@ -1,0 +1,68 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 kitchen dining)
+(find_table rob_1 table_1 dining)
+(takeout_vacuum rob_1 vacuum_1 dining)
+(plug_vacuum rob_1 vacuum_1 dining)
+(turnon_vacuum rob_1 vacuum_1 dining)
+(clean_table rob_1 vacuum_1 table_1 dining)
+; cost = 6 (unit cost)
+
+#---------- generating situation! -----------
+situation: the vacuum plug is damaged.
+corresponding predicate: vacuum_plug_is_damaged
+object in situation: vacuum
+action that has situation: plug_vacuum
+object manipulated by robot: vacuum
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'kitchen', 'dining']
+next action (decoded): a robot walks from kitchen room to dining room.
+this action is executed!
+
+next action: ['find_table', 'rob_1', 'table_1', 'dining']
+next action (decoded): a robot find a table in dining room.
+this action is executed!
+
+next action: ['takeout_vacuum', 'rob_1', 'vacuum_1', 'dining']
+next action (decoded): a robot takes out a vacuum in dining room.
+this action is executed!
+
+next action: ['plug_vacuum', 'rob_1', 'vacuum_1', 'dining']
+next action (decoded): a robot plugs a vacuum in dining room.
+
+#---------- checking unexecuted actions! -----------
+['plug_vacuum', 'rob_1', 'vacuum_1', 'dining']
+['turnon_vacuum', 'rob_1', 'vacuum_1', 'dining']
+['clean_table', 'rob_1', 'vacuum_1', 'table_1', 'dining']
+
+unexecuted action: ['plug_vacuum', 'rob_1', 'vacuum_1', 'dining']
+unexecuted action (decoded): a robot plugs a vacuum in dining room.
+! prompt design
+raw prompt: is it acceptable that a robot plugs a vacuum in dining room if the vacuum plug is damaged?
+! experience found
+! response from LLM
+response (raw prompt): ["'no, it is not acceptable for a robot to plug a vacuum in the dining room if the vacuum plug is damaged'"]
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+(walk rob_1 kitchen dining)
+(find_table rob_1 table_1 dining)
+(takeout_vacuum rob_1 vacuum_0 dining)
+(plug_vacuum rob_1 vacuum_0 dining)
+(turnon_vacuum rob_1 vacuum_0 dining)
+(clean_table rob_1 vacuum_0 table_1 dining)
+; cost = 6 (unit cost)

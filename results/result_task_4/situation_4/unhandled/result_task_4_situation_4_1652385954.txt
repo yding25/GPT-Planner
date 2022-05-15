@@ -1,0 +1,214 @@
+#---------- generating basic_plan! -----------
+(walk rob_1 dining kitchen)
+(find_cup rob_1 cup_1 kitchen)
+(find_faucet rob_1 faucet_1 kitchen)
+(turnon_faucet rob_1 faucet_1 kitchen)
+(hold_cup rob_1 cup_1 kitchen)
+(fill_cup rob_1 cup_1 faucet_1 kitchen)
+(move_cup rob_1 cup_1 kitchen dining)
+(place_cup rob_1 cup_1 table_1 dining)
+(walk rob_1 dining kitchen)
+(turnoff_faucet rob_1 faucet_1 kitchen)
+; cost = 10 (unit cost)
+
+#---------- generating situation! -----------
+situation: water is dirty.
+corresponding predicate: water_is_dirty
+object in situation: water
+action that has situation: place_cup
+object manipulated by robot: cup
+
+#---------- executing plan! -----------
+next action: ['walk', 'rob_1', 'dining', 'kitchen']
+next action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+next action: ['find_cup', 'rob_1', 'cup_1', 'kitchen']
+next action (decoded): a robot finds a cup in kitchen room.
+this action is executed!
+
+next action: ['find_faucet', 'rob_1', 'faucet_1', 'kitchen']
+next action (decoded): a robot finds a faucet in kitchen room.
+this action is executed!
+
+next action: ['turnon_faucet', 'rob_1', 'faucet_1', 'kitchen']
+next action (decoded): a robot turns on a faucet in kitchen room.
+this action is executed!
+
+next action: ['hold_cup', 'rob_1', 'cup_1', 'kitchen']
+next action (decoded): a robot holds a cup in kitchen room.
+this action is executed!
+
+next action: ['fill_cup', 'rob_1', 'cup_1', 'faucet_1', 'kitchen']
+next action (decoded): a robot fills a cup with water from faucet in kitchen room.
+this action is executed!
+
+next action: ['move_cup', 'rob_1', 'cup_1', 'kitchen', 'dining']
+next action (decoded): a robot moves a cup from kitchen room to dining room.
+this action is executed!
+
+next action: ['place_cup', 'rob_1', 'cup_1', 'table_1', 'dining']
+next action (decoded): a robot places a cup on table in dining room.
+
+#---------- checking unexecuted actions! -----------
+['place_cup', 'rob_1', 'cup_1', 'table_1', 'dining']
+['walk', 'rob_1', 'dining', 'kitchen']
+['turnoff_faucet', 'rob_1', 'faucet_1', 'kitchen']
+
+unexecuted action: ['place_cup', 'rob_1', 'cup_1', 'table_1', 'dining']
+unexecuted action (decoded): a robot places a cup on table in dining room.
+! prompt design
+raw prompt: is it acceptable that a robot places a cup on table in dining room if water is dirty?
+! experience found
+! response from LLM
+response (raw prompt): ["'no, it is not acceptable for a robot to place a cup on a table in a dining room if the water is dirty'"]
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is done!
+! step 3: supplement type
+step 3 is done!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is done!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_utensils -----------
+#---------- utensil that robot can operate: ----------
+ ['oven tray', 'cleaning bottle', 'cutting board', 'mug', 'wine glass', 'condiment bottle', 'frying pan', 'sponge', 'place mat', 'coffee cup', 'cutlery knife', 'cutlery fork', 'dish bowl', 'drinking glass']
+
+! prompt design
+raw prompt: can a robot fills a cup with oven tray from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot fills a cup with cleaning bottle from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot fills a cup with cutting board from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot fills a cup with mug from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a cup with wine glass from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot fills a cup with condiment bottle from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot fills a cup with frying pan from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot fills a cup with sponge from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with place mat from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot fills a cup with coffee cup from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+
+! prompt design
+raw prompt: can a robot fills a cup with cutlery knife from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot fills a cup with cutlery fork from faucet in kitchen room ?
+possibility:
+! results from LLM
+response (raw prompt): ['no']
+
+! prompt design
+raw prompt: can a robot fills a cup with dish bowl from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'no'"]
+
+! prompt design
+raw prompt: can a robot fills a cup with drinking glass from faucet in kitchen room ?
+possibility:
+! experience found
+! results from LLM
+response (raw prompt): ["'yes'"]
+#---------- capable_utensils_actionknowledge: ----------
+ ['mug', 'coffee cup', 'drinking glass']
+
+! prompt design
+raw prompt: there are some utensils, such as mug, coffee cup, drinking glass. which is the most suitable to replace a water to drink water if water is dirty? if there is no reasonable answer, please output no.
+! results from LLM
+response (raw prompt): ['coffee cup']
+
+#---------- most possible utensil: ---------- 
+ coffee cup
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+(walk rob_1 dining kitchen)
+(find_cup rob_1 cup_1 kitchen)
+(find_faucet rob_1 faucet_1 kitchen)
+(turnon_faucet rob_1 faucet_1 kitchen)
+(hold_cup rob_1 cup_1 kitchen)
+(fill_cup rob_1 cup_1 faucet_1 kitchen)
+(move_cup rob_1 cup_1 kitchen dining)
+(place_cup rob_1 cup_1 table_1 dining coffee_cup_1)
+(walk rob_1 dining kitchen)
+(turnoff_faucet rob_1 faucet_1 kitchen)
+; cost = 10 (unit cost)
