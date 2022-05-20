@@ -1,0 +1,282 @@
+raw prompt:is it suitable that a robot walks to a sink if the sink is full?
+no, it is not suitable for a robot to walk to a sink if the sink is full
+raw prompt:is it suitable that a robot walks to a condiment shaker?
+yes
+raw prompt:is it suitable that a robot walks to a bucket?
+yes
+raw prompt:is it suitable that a robot walks to a sponge?
+yes
+raw prompt:is it suitable that a robot walks to a cooking pot?
+yes
+raw prompt:is it suitable that a robot walks to a dish rack?
+yes
+raw prompt:is it suitable that a robot walks to a mat?
+yes
+raw prompt:is it suitable that a robot walks to a wooden chopstick?
+yes
+raw prompt:is it suitable that a robot walks to a cutlery knife?
+yes
+raw prompt:is it suitable that a robot walks to a dish?
+yes
+raw prompt:is it suitable that a robot walks to a cleaning bottle?
+yes
+raw prompt:is it suitable that a robot walks to a cloth napkin?
+yes
+raw prompt:is it suitable that a robot walks to a drinking glass?
+yes
+raw prompt:is it suitable that a robot walks to a chef knife?
+yes
+raw prompt:is it suitable that a robot walks to a condiment bottle?
+yes
+raw prompt:there are some objects, such as condiment shaker, bucket, sponge, cooking pot, dish rack, mat, wooden chopstick, cutlery knife, dish, cleaning bottle, cloth napkin, drinking glass, chef knife, condiment bottle. which is the most suitable to replace a sink in the task of putting a dirty plate in a sink if the sink is full?
+the most suitable object to replace a sink in the task of putting a dirty plate in a sink if the sink is full is a dish rack
+prompt (raw):can a microwave make a sink empty if the sink is full?
+no
+prompt (raw):can a washing machine make a sink empty if the sink is full?
+no
+prompt (raw):can a juicer make a sink empty if the sink is full?
+no
+prompt (raw):can a toaster make a sink empty if the sink is full?
+no
+prompt (raw):can a blender make a sink empty if the sink is full?
+no
+prompt (raw):can a freezer make a sink empty if the sink is full?
+no
+prompt (raw):can a dehumidifier make a sink empty if the sink is full?
+no
+prompt (raw):can a fridge make a sink empty if the sink is full?
+no
+prompt (raw):can a water boiler make a sink empty if the sink is full?
+no
+raw prompt:is it suitable that a robot grasps a plate if the plate is broken?
+no, it is not suitable for a robot to grasp a broken plate
+raw prompt:is it suitable that a robot grasps a measuring cup?
+yes
+raw prompt:is it suitable that a robot places a measuring cup?
+yes
+raw prompt:is it suitable that a robot grasps a bucket?
+yes
+raw prompt:is it suitable that a robot places a bucket?
+yes
+raw prompt:is it suitable that a robot grasps a chef knife?
+no
+raw prompt:is it suitable that a robot grasps a mug?
+yes
+raw prompt:is it suitable that a robot places a mug?
+yes
+raw prompt:is it suitable that a robot grasps a cleaning bottle?
+yes
+raw prompt:is it suitable that a robot places a cleaning bottle?
+yes
+raw prompt:is it suitable that a robot grasps a cooking pot?
+no
+raw prompt:is it suitable that a robot grasps a cloth napkin?
+yes
+raw prompt:is it suitable that a robot places a cloth napkin?
+yes
+raw prompt:is it suitable that a robot grasps a wine glass?
+yes
+raw prompt:is it suitable that a robot places a wine glass?
+yes
+raw prompt:is it suitable that a robot grasps a sponge?
+yes
+raw prompt:is it suitable that a robot places a sponge?
+yes
+raw prompt:is it suitable that a robot grasps a dish?
+yes
+raw prompt:is it suitable that a robot places a dish?
+yes
+raw prompt:is it suitable that a robot grasps a paper towel?
+yes
+raw prompt:is it suitable that a robot places a paper towel?
+yes
+raw prompt:is it suitable that a robot grasps a wooden chopstick?
+yes
+raw prompt:is it suitable that a robot places a wooden chopstick?
+yes
+raw prompt:is it suitable that a robot grasps a dish rack?
+no
+raw prompt:is it suitable that a robot grasps a condiment shaker?
+yes
+raw prompt:is it suitable that a robot places a condiment shaker?
+yes
+raw prompt:there are some objects, such as measuring cup, bucket, mug, cleaning bottle, cloth napkin, wine glass, sponge, dish, paper towel, wooden chopstick, condiment shaker. which is the most suitable to replace a plate in the task of putting a dirty plate in a sink if the plate is broken?
+the most suitable object to replace a plate in the task of putting a dirty plate in a sink if the plate is broken is a mug
+prompt (raw):can a freezer make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a air fryer make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a fridge make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a washing machine make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a dishwasher make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a coffee maker make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a juicer make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a toaster make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a kettle make a plate unbroken if the plate is broken?
+no
+raw prompt:is it suitable that a robot grasps a plate if the dirty plate has already been placed in the sink?
+no, it is not suitable for a robot to grasp a dirty plate
+raw prompt:is it suitable that a robot grasps a coffee filter?
+yes
+raw prompt:is it suitable that a robot places a coffee filter?
+yes
+raw prompt:is it suitable that a robot grasps a oven tray?
+no
+raw prompt:is it suitable that a robot grasps a cutlery fork?
+yes
+raw prompt:is it suitable that a robot places a cutlery fork?
+yes
+raw prompt:is it suitable that a robot grasps a trash can?
+no
+raw prompt:is it suitable that a robot grasps a rag?
+yes
+raw prompt:is it suitable that a robot places a rag?
+yes
+raw prompt:is it suitable that a robot grasps a condiment bottle?
+yes
+raw prompt:is it suitable that a robot places a condiment bottle?
+yes
+raw prompt:is it suitable that a robot grasps a dish bowl?
+yes
+raw prompt:is it suitable that a robot places a dish bowl?
+yes
+raw prompt:is it suitable that a robot grasps a coffee cup?
+yes
+raw prompt:is it suitable that a robot places a coffee cup?
+yes
+raw prompt:there are some objects, such as coffee filter, bucket, cloth napkin, cleaning bottle, cutlery fork, rag, condiment bottle, sponge, measuring cup, dish bowl, coffee cup, paper towel. which is the most suitable to replace a plate in the task of putting a dirty plate in a sink if the dirty plate has already been placed in the sink?
+the most suitable object to replace a plate in the task of putting a dirty plate in a sink if the dirty plate has already been placed in the sink
+prompt (raw):can a washing machine make a plate on the table if the dirty plate has already been placed in the sink?
+no
+prompt (raw):can a dishwasher make a plate on the table if the dirty plate has already been placed in the sink?
+no
+prompt (raw):can a stove make a plate on the table if the dirty plate has already been placed in the sink?
+no
+prompt (raw):can a vacuum cleaner make a plate on the table if the dirty plate has already been placed in the sink?
+no
+prompt (raw):can a coffee maker make a plate on the table if the dirty plate has already been placed in the sink?
+no
+prompt (raw):can a microwave make a plate on the table if the dirty plate has already been placed in the sink?
+no
+prompt (raw):can a dehumidifier make a plate on the table if the dirty plate has already been placed in the sink?
+no
+prompt (raw):can a fridge make a plate on the table if the dirty plate has already been placed in the sink?
+no
+prompt (raw):can a kettle make a plate on the table if the dirty plate has already been placed in the sink?
+no
+raw prompt:is it suitable that a robot grasps a frying pan?
+no
+raw prompt:is it suitable that a robot grasps a mat?
+yes
+raw prompt:is it suitable that a robot places a mat?
+yes
+raw prompt:is it suitable that a robot grasps a cutting board?
+yes
+raw prompt:is it suitable that a robot places a cutting board?
+yes
+raw prompt:is it suitable that a robot grasps a drinking glass?
+yes
+raw prompt:is it suitable that a robot places a drinking glass?
+yes
+raw prompt:there are some objects, such as coffee filter, condiment bottle, paper towel, cleaning bottle, wooden chopstick, sponge, condiment shaker, mat, cutting board, drinking glass, measuring cup, coffee cup. which is the most suitable to replace a plate in the task of putting a dirty plate in a sink if the plate is broken?
+the most suitable object to replace a plate in the task of putting a dirty plate in a sink if the plate is broken is a cutting board
+prompt (raw):can a water filter make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a stove make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a water boiler make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a blender make a plate unbroken if the plate is broken?
+no
+raw prompt:is it suitable that a robot walks to a oven tray?
+yes
+raw prompt:is it suitable that a robot walks to a rag?
+yes
+raw prompt:is it suitable that a robot walks to a trash can?
+yes
+raw prompt:is it suitable that a robot walks to a wine glass?
+yes
+raw prompt:is it suitable that a robot walks to a coffee filter?
+yes
+raw prompt:is it suitable that a robot walks to a colander?
+yes
+raw prompt:is it suitable that a robot walks to a coffee cup?
+yes
+raw prompt:is it suitable that a robot walks to a frying pan?
+yes
+raw prompt:is it suitable that a robot walks to a measuring cup?
+yes
+raw prompt:there are some objects, such as oven tray, dish, dish rack, rag, trash can, wine glass, cooking pot, coffee filter, colander, coffee cup, frying pan, sponge, mat, measuring cup. which is the most suitable to replace a sink in the task of putting a dirty plate in a sink if the sink is full?
+the most suitable object to replace a sink in the task of putting a dirty plate in a sink if the sink is full is a dish rack
+prompt (raw):can a kettle make a sink empty if the sink is full?
+no
+prompt (raw):can a coffee maker make a sink empty if the sink is full?
+no
+prompt (raw):can a oven make a sink empty if the sink is full?
+no
+prompt (raw):can a stove make a sink empty if the sink is full?
+no
+prompt (raw):can a air fryer make a sink empty if the sink is full?
+no
+raw prompt:is it suitable that a robot walks to a cutting board?
+yes
+raw prompt:there are some objects, such as condiment bottle, trash can, cutlery knife, cutting board, coffee cup, cooking pot, sponge, mat, dish, cloth napkin, dish rack, chef knife, measuring cup, rag. which is the most suitable to replace a sink in the task of putting a dirty plate in a sink if the sink is full?
+the most suitable object to replace a sink in the task of putting a dirty plate in a sink if the sink is full is a dish rack
+prompt (raw):can a ice cream maker make a sink empty if the sink is full?
+no
+raw prompt:is it suitable that a robot walks to a wooden spoon?
+yes
+raw prompt:is it suitable that a robot walks to a cutlery fork?
+yes
+raw prompt:is it suitable that a robot walks to a mug?
+yes
+raw prompt:is it suitable that a robot walks to a dish bowl?
+yes
+raw prompt:there are some objects, such as wooden spoon, bucket, trash can, dish rack, cutlery fork, coffee cup, mug, cooking pot, cloth napkin, dish bowl, cleaning bottle, condiment bottle, drinking glass, colander. which is the most suitable to replace a sink in the task of putting a dirty plate in a sink if the sink is full?
+the most suitable object to replace a sink in the task of putting a dirty plate in a sink if the sink is full is a dish rack
+prompt (raw):can a dishwasher make a sink empty if the sink is full?
+yes
+raw prompt:is it suitable that a robot grasps a plate if the plate is already clean?
+yes, a robot can grasp a plate that is already clean
+raw prompt:is it suitable that a robot walks to a sink if the plate is already clean?
+no, it is not suitable for a robot to walk to a sink if the plate is already clean
+raw prompt:is it suitable that a robot grasps a wooden spoon?
+yes
+raw prompt:is it suitable that a robot places a wooden spoon?
+yes
+raw prompt:is it suitable that a robot grasps a colander?
+no
+raw prompt:there are some objects, such as condiment bottle, wine glass, cutting board, paper towel, wooden spoon, bucket, cloth napkin, drinking glass, dish. which is the most suitable to replace a plate in the task of putting a dirty plate in a sink if the plate is already clean?
+the most suitable object to replace a plate in the task of putting a dirty plate in a sink is a cutting board
+prompt (raw):can a vacuum cleaner make a plat dirt if the plate is already clean?
+no
+prompt (raw):can a coffee maker make a plat dirt if the plate is already clean?
+no
+prompt (raw):can a air fryer make a plat dirt if the plate is already clean?
+no
+prompt (raw):can a oven make a plat dirt if the plate is already clean?
+no
+prompt (raw):can a stove make a plat dirt if the plate is already clean?
+no
+prompt (raw):can a toaster make a plat dirt if the plate is already clean?
+no
+prompt (raw):can a ice cream maker make a plat dirt if the plate is already clean?
+no
+prompt (raw):can a water boiler make a plat dirt if the plate is already clean?
+no
+prompt (raw):can a microwave make a plat dirt if the plate is already clean?
+no
+raw prompt:is it suitable that a robot grasps a cutlery knife?
+no
+raw prompt:there are some objects, such as condiment bottle, cloth napkin, paper towel, bucket, mug, rag, coffee filter, dish, cleaning bottle. which is the most suitable to replace a plate in the task of putting a dirty plate in a sink if the plate is broken?
+the most suitable object to replace a plate in the task of putting a dirty plate in a sink if the plate is broken is a dish
+prompt (raw):can a ice cream maker make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a microwave make a plate unbroken if the plate is broken?
+no

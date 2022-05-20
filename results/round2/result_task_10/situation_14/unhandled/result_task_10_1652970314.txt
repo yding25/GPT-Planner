@@ -1,0 +1,351 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob dining kitchen)
+(find_coke rob coke_1 kitchen)
+(find_glass rob glass_1 kitchen)
+(grasp_glass rob glass_1 kitchen)
+(move_glass rob glass_1 kitchen table_0 dining)
+(place_glass rob glass_1 table_0 dining)
+(walk rob dining kitchen)
+(grasp_coke rob coke_1 kitchen)
+(pour_coke rob coke_1 glass_1 kitchen)
+; cost = 9 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 14
+situation: the bottle of coke_1 is too frozen.
+action corresponding to situation: grasp_coke
+corresponding predicate: bottle_of_coke_is_too_frozen
+object manipulated by robot: coke_1
+object in situation: coke_1
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_coke', 'rob', 'coke_1', 'kitchen']
+action (decoded): a robot finds a bottle of coke in kitchen room.
+this action is executed!
+
+action: ['find_glass', 'rob', 'glass_1', 'kitchen']
+action (decoded): a robot finds a glass in kitchen room.
+this action is executed!
+
+action: ['grasp_glass', 'rob', 'glass_1', 'kitchen']
+action (decoded): a robot grasps a glass in kitchen room.
+this action is executed!
+
+action: ['move_glass', 'rob', 'glass_1', 'kitchen', 'table_0', 'dining']
+action (decoded): a robot moves a glass in kitchen room near a table in table room.
+this action is executed!
+
+action: ['place_glass', 'rob', 'glass_1', 'table_0', 'dining']
+action (decoded): a robot places a glass on a table in dining room.
+this action is executed!
+
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['grasp_coke', 'rob', 'coke_1', 'kitchen']
+action (decoded): a robot grasps a bottle of coke in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['grasp_coke', 'rob', 'coke_1', 'kitchen']
+['pour_coke', 'rob', 'coke_1', 'glass_1', 'kitchen']
+
+unexecuted action: ['grasp_coke', 'rob', 'coke_1', 'kitchen']
+unexecuted action (decoded): a robot grasps a bottle of coke in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of coke if the bottle of coke is too frozen?
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to grasp a bottle of coke if the bottle of coke is too frozen
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['coffee cup', 'alcohol', 'dish', 'milk', 'cutlery fork', 'colander', 'coffee filter', 'dish bowl', 'mat', 'cutting board', 'mug', 'juice', 'chef knife', 'condiment shaker', 'paper towel', 'frying pan', 'measuring cup', 'cleaning bottle']
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of coffee cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of alcohol?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of dish?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of milk?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of milk into glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of cutlery fork?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of colander?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of coffee filter?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of dish bowl?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of mat?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of cutting board?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of mug?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of juice?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of juice into glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of chef knife?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of condiment shaker into glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of paper towel?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of frying pan?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of measuring cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of cleaning bottle?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+ ['milk', 'juice', 'condiment shaker']
+
+! prompt design
+raw prompt: there are some objects, such as milk, juice, condiment shaker. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is too frozen?
+! results from LLM
+response (raw prompt): milk, juice, and condiment shakers are all suitable replacements for a coke in the task of pouring coke into a glass if the
+
+#---------- most possible object: ---------- 
+ milk
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['fridge', 'water boiler', 'freezer', 'stove', 'microwave', 'kettle', 'air fryer', 'blender', 'ice cream maker']
+
+! prompt design
+prompt (raw): can a fridge make bottle of coke not too frozen if the bottle of coke is too frozen? 
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+prompt (raw): can a water boiler make bottle of coke not too frozen if the bottle of coke is too frozen? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a freezer make bottle of coke not too frozen if the bottle of coke is too frozen? 
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+prompt (raw): can a stove make bottle of coke not too frozen if the bottle of coke is too frozen? 
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+prompt (raw): can a microwave make bottle of coke not too frozen if the bottle of coke is too frozen? 
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+prompt (raw): can a kettle make bottle of coke not too frozen if the bottle of coke is too frozen? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a air fryer make bottle of coke not too frozen if the bottle of coke is too frozen? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a blender make bottle of coke not too frozen if the bottle of coke is too frozen? 
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+prompt (raw): can a ice cream maker make bottle of coke not too frozen if the bottle of coke is too frozen? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+capable appliances: ['fridge', 'freezer', 'stove', 'microwave', 'blender']
+
+! prompt design
+raw prompt: there are some appliances, such as fridge, freezer, stove, microwave, blender. which is the most possible to make bottle of coke not too frozen if the bottle of coke is too frozen?
+! results from LLM
+response (raw prompt): the most possible appliance to make a bottle of coke not too frozen is the microwave
+
+#---------- most possible appliance:
+ microwave
+
+#---------- add effect -----------
+! step 1: add effect
+step 1 is done.
+! step 2: add parameter
+step 2 is done.
+! step 3: supplement init
+step 3 is done.
+! step 4: supplement object
+step 4 is done.
+
+#---------- modified_plan_3! exists -----------
+
+#---------- solution -----------
+both modified_plan_2 and modified_plan_3 exist.
+randomly select modified_plan_2
+
+(walk rob dining kitchen)
+(find_coke rob milk kitchen)
+(find_glass rob glass_1 kitchen)
+(grasp_glass rob glass_1 kitchen)
+(move_glass rob glass_1 kitchen table_0 dining)
+(place_glass rob glass_1 table_0 dining)
+(walk rob dining kitchen)
+(grasp_coke rob milk kitchen)
+(pour_coke rob milk glass_1 kitchen)
+; cost = 9 (unit cost)

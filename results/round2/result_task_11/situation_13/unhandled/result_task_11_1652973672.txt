@@ -1,0 +1,184 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(find_table rob table_0 dining)
+(walk_table rob table_0 dining)
+(find_chair rob chair_1 dining)
+(pull_chair rob chair_1 dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 kitchen)
+(grasp_plate rob plate_1 kitchen)
+(move_plate rob plate_1 kitchen table_0 dining)
+(place_plate rob plate_1 table_0 dining)
+(walk rob dining kitchen)
+(find_burger rob burger_1 kitchen)
+(find_fork rob fork_1 kitchen)
+(grasp_burger rob burger_1 kitchen)
+(move_burger rob burger_1 kitchen plate_1 dining)
+(place_burger rob burger_1 plate_1 dining)
+(walk rob dining kitchen)
+(grasp_fork rob fork_1 kitchen)
+(move_fork rob fork_1 kitchen plate_1 dining)
+(place_fork rob fork_1 plate_1 dining)
+; cost = 19 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 13
+situation: the spoon is missing.
+action corresponding to situation: place_plate
+corresponding predicate: spoon_is_missing
+object manipulated by robot: plate_1
+object in situation: spoon
+
+#---------- executing plan! -----------
+action: ['find_table', 'rob', 'table_0', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk_table', 'rob', 'table_0', 'dining']
+action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+action: ['find_chair', 'rob', 'chair_1', 'dining']
+action (decoded): a robot finds a chair in dining room.
+this action is executed!
+
+action: ['pull_chair', 'rob', 'chair_1', 'dining']
+action (decoded): a robot pulls up a chair in dining room.
+this action is executed!
+
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_plate', 'rob', 'plate_1', 'kitchen']
+action (decoded): a robot finds a plate in kitchen room.
+this action is executed!
+
+action: ['grasp_plate', 'rob', 'plate_1', 'kitchen']
+action (decoded): a robot grasps a plate in kitchen room.
+this action is executed!
+
+action: ['move_plate', 'rob', 'plate_1', 'kitchen', 'table_0', 'dining']
+action (decoded): a robot moves a plate in kitchen room near a table in dining room.
+this action is executed!
+
+action: ['place_plate', 'rob', 'plate_1', 'table_0', 'dining']
+action (decoded): a robot places a plate on a table  in dining room.
+
+#---------- checking unexecuted actions! -----------
+['place_plate', 'rob', 'plate_1', 'table_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['find_burger', 'rob', 'burger_1', 'kitchen']
+['find_fork', 'rob', 'fork_1', 'kitchen']
+['grasp_burger', 'rob', 'burger_1', 'kitchen']
+['move_burger', 'rob', 'burger_1', 'kitchen', 'plate_1', 'dining']
+['place_burger', 'rob', 'burger_1', 'plate_1', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['grasp_fork', 'rob', 'fork_1', 'kitchen']
+['move_fork', 'rob', 'fork_1', 'kitchen', 'plate_1', 'dining']
+['place_fork', 'rob', 'fork_1', 'plate_1', 'dining']
+
+unexecuted action: ['place_plate', 'rob', 'plate_1', 'table_0', 'dining']
+unexecuted action (decoded): a robot places a plate on a table  in dining room.
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a table if the spoon is missing?
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to place a plate on a table if the spoon is missing
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is done!
+! step 3: supplement type
+step 3 is done!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is done!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['wooden spoon', 'bookshelf', 'trash can', 'condiment shaker', 'drinking glass', 'couch', 'oven tray', 'sponge', 'sauce', 'mat', 'dish rack', 'mug', 'oatmeal', 'steak', 'condiment bottle', 'cloth napkin', 'desk', 'rag', 'cutting board', 'nightstand', 'cupboard', 'coffee filter', 'coffee table', 'wooden chopstick', 'cpu table', 'cooking pot', 'pantry', 'cutlery fork', 'wine glass', 'measuring cup']
+
+#---------- capable_objects: ----------
+None
+
+#---------- most possible object: ---------- 
+None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['kettle', 'fridge', 'coffee maker', 'washing machine', 'microwave', 'air fryer', 'dehumidifier', 'water boiler', 'ice cream maker']
+
+! prompt design
+prompt (raw): can a kettle make a spoon found if the spoon is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a fridge make a spoon found if the spoon is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make a spoon found if the spoon is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a washing machine make a spoon found if the spoon is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a microwave make a spoon found if the spoon is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a air fryer make a spoon found if the spoon is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dehumidifier make a spoon found if the spoon is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water boiler make a spoon found if the spoon is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a ice cream maker make a spoon found if the spoon is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

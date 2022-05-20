@@ -1,0 +1,554 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob dining kitchen)
+(find_coke rob coke_1 kitchen)
+(find_glass rob glass_1 kitchen)
+(grasp_glass rob glass_1 kitchen)
+(move_glass rob glass_1 kitchen table_0 dining)
+(place_glass rob glass_1 table_0 dining)
+(walk rob dining kitchen)
+(grasp_coke rob coke_1 kitchen)
+(pour_coke rob coke_1 glass_1 kitchen)
+; cost = 9 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 1
+situation: the glass_1 is broken.
+action corresponding to situation: find_glass
+corresponding predicate: glass_is_broken
+object manipulated by robot: glass_1
+object in situation: glass_1
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_coke', 'rob', 'coke_1', 'kitchen']
+action (decoded): a robot finds a bottle of coke in kitchen room.
+this action is executed!
+
+action: ['find_glass', 'rob', 'glass_1', 'kitchen']
+action (decoded): a robot finds a glass in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['find_glass', 'rob', 'glass_1', 'kitchen']
+['grasp_glass', 'rob', 'glass_1', 'kitchen']
+['move_glass', 'rob', 'glass_1', 'kitchen', 'table_0', 'dining']
+['place_glass', 'rob', 'glass_1', 'table_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['grasp_coke', 'rob', 'coke_1', 'kitchen']
+['pour_coke', 'rob', 'coke_1', 'glass_1', 'kitchen']
+
+unexecuted action: ['find_glass', 'rob', 'glass_1', 'kitchen']
+unexecuted action (decoded): a robot finds a glass in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot finds a glass if the glass is broken?
+! response from LLM
+response (raw prompt): no, it is not suitable
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['tea', 'wine', 'alcohol', 'drinking glass', 'milk', 'dish', 'paper towel', 'dish rack', 'colander', 'condiment shaker', 'measuring cup', 'wine glass', 'trash can', 'watermelon juice', 'dish bowl', 'mat', 'chef knife', 'mug']
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a tea?
+answer:
+['yes']
+[0.4913264337417936]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a tea near a table?
+answer:
+['yes\n\nis it suitable that a robot moves a tea cup?\nanswer: no']
+[0.6895964236325818]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a tea on a table?
+answer:
+['yes']
+[0.5068649689599871]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into tea?
+answer:
+['no']
+[0.5132584398744261]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a wine?
+answer:
+['no']
+[0.5047983095968058]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a alcohol?
+answer:
+['no']
+[0.5066206601643032]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a drinking glass?
+answer:
+['yes']
+[0.5052813027890335]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a drinking glass near a table?
+answer:
+['yes']
+[0.481120940571596]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a drinking glass on a table?
+answer:
+['yes']
+[0.5063027049308093]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into drinking glass?
+answer:
+['yes']
+[0.22799340098381443]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a milk?
+answer:
+['no']
+[0.48490429297730264]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish?
+answer:
+['yes']
+[0.23107702126953497]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a dish near a table?
+answer:
+['yes\n\nis it suitable that a robot moves a dish near a chair?\nanswer: no']
+[0.7667831580581757]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a dish on a table?
+answer:
+['yes']
+[0.5041597851072266]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into dish?
+answer:
+['no']
+[0.5039467392908952]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a paper towel?
+answer:
+['yes']
+[0.5031113922064551]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a paper towel near a table?
+answer:
+['yes']
+[0.4736827102962962]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a paper towel on a table?
+answer:
+['yes']
+[0.5004340018392683]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into paper towel?
+answer:
+['no']
+[0.23757567523597317]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish rack?
+answer:
+['no']
+[0.4982136863873125]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a colander?
+answer:
+['no']
+[0.49458851981489355]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a condiment shaker?
+answer:
+['yes']
+[0.5057097930517833]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a condiment shaker near a table?
+answer:
+['yes']
+[0.48320680698070567]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a condiment shaker on a table?
+answer:
+['yes']
+[0.5024310869984948]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into condiment shaker?
+answer:
+['no']
+[0.494531711796952]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a measuring cup?
+answer:
+['yes']
+[0.5036776140857825]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a measuring cup near a table?
+answer:
+['yes']
+[0.4971647584609856]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a measuring cup on a table?
+answer:
+['yes']
+[0.5139245029533855]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into measuring cup?
+answer:
+['yes']
+[0.5320903834461614]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a wine glass?
+answer:
+['yes']
+[0.4906503351629501]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a wine glass near a table?
+answer:
+['yes\n\nis it suitable that a robot moves a wine glass near a cup?\nanswer: no']
+[0.7440873141118135]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a wine glass on a table?
+answer:
+['yes']
+[0.49621000692446765]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into wine glass?
+answer:
+['no']
+[0.5054931249537449]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a trash can?
+answer:
+['no']
+[0.49554464894900213]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a watermelon juice?
+answer:
+['no']
+[0.49633982377786395]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish bowl?
+answer:
+['yes']
+[0.49183955456808753]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a dish bowl near a table?
+answer:
+['yes']
+[0.47738940248028133]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a dish bowl on a table?
+answer:
+['yes']
+[0.5088184802600522]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into dish bowl?
+answer:
+['no']
+[0.501293850299957]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a mat?
+answer:
+['yes']
+[0.4862842513553017]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a mat near a table?
+answer:
+['yes']
+[0.4776989594863247]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a mat on a table?
+answer:
+['yes']
+[0.5056104633799301]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into mat?
+answer:
+['no']
+[0.5097895814641179]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a chef knife?
+answer:
+['no']
+[0.4993187685775542]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a mug?
+answer:
+['yes']
+[0.2368254792977048]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a mug near a table?
+answer:
+['yes']
+[0.47775152571282914]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a mug on a table?
+answer:
+['yes']
+[0.5048171092624953]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into mug?
+answer:
+['yes']
+[0.47725519649095616]
+! results from LLM
+response (raw prompt): yes
+
+#---------- capable_objects: ----------
+ ['drinking glass', 'measuring cup', 'mug']
+
+! prompt design
+raw prompt: there are some objects, such as drinking glass, measuring cup, mug. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is broken?
+! results from LLM
+response (raw prompt): a drinking glass is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is broken
+
+#---------- most possible object: ---------- 
+ drinking glass
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['toaster', 'juicer', 'ice cream maker', 'dishwasher', 'water filter', 'coffee maker', 'dehumidifier', 'stove', 'freezer']
+
+! prompt design
+prompt (raw): can a toaster make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a juicer make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a ice cream maker make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dishwasher make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water filter make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dehumidifier make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a stove make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a freezer make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+only modified_plan_2 exists.
+
+(walk rob dining kitchen)
+(find_coke rob coke_1 kitchen)
+(find_glass rob drinking_glass kitchen)
+(grasp_glass rob drinking_glass kitchen)
+(move_glass rob drinking_glass kitchen table_0 dining)
+(place_glass rob drinking_glass table_0 dining)
+(walk rob dining kitchen)
+(grasp_coke rob coke_1 kitchen)
+(pour_coke rob coke_1 drinking_glass kitchen)
+; cost = 9 (unit cost)

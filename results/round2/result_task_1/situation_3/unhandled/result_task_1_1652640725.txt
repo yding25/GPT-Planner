@@ -1,0 +1,345 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob kitchen dining)
+(find_table rob table dining)
+(grasp_vacuum rob vacuum_1 dining)
+(plug_vacuum rob vacuum_1 outlet_1 dining)
+(turnon_vacuum rob vacuum_1 dining)
+(clean_area rob vacuum_1 table dining)
+(turnoff_vacuum rob vacuum_1 dining)
+(unplug_vacuum rob vacuum_1 dining)
+; cost = 8 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 3
+situation: the vacuum_1 cannot be turned on.
+action corresponding to situation: grasp_vacuum
+corresponding predicate: vacuum_cannot_be_turned_on
+object manipulated by robot: vacuum_1
+object in situation: vacuum_1
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'kitchen', 'dining']
+action (decoded): a robot walks from a kitchen room to a dining room.
+this action is executed!
+
+action: ['find_table', 'rob', 'table', 'dining']
+action (decoded): a robot finds a table in a dining room.
+this action is executed!
+
+action: ['grasp_vacuum', 'rob', 'vacuum_1', 'dining']
+action (decoded): a robot grasps a vacuum in a dining room.
+
+#---------- checking unexecuted actions! -----------
+['grasp_vacuum', 'rob', 'vacuum_1', 'dining']
+['plug_vacuum', 'rob', 'vacuum_1', 'outlet_1', 'dining']
+['turnon_vacuum', 'rob', 'vacuum_1', 'dining']
+['clean_area', 'rob', 'vacuum_1', 'table', 'dining']
+['turnoff_vacuum', 'rob', 'vacuum_1', 'dining']
+['unplug_vacuum', 'rob', 'vacuum_1', 'dining']
+
+unexecuted action: ['grasp_vacuum', 'rob', 'vacuum_1', 'dining']
+unexecuted action (decoded): a robot grasps a vacuum in a dining room.
+! prompt design
+raw prompt: is it suitable that a robot grasps a vacuum if the vacuum cannot be turned on?
+! response from LLM
+response (raw prompt): ['no, it is not suitable for a robot to grasp a vacuum if the vacuum cannot be turned on']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['trash can', 'wine glass', 'colander', 'wooden chopstick', 'dish', 'dish bowl', 'coffee cup', 'mug', 'rag', 'cloth napkin', 'coffee filter', 'oven tray', 'cleaning bottle', 'measuring cup']
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a trash can?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a wine glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a wine glass using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a colander?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a wooden chopstick?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a wooden chopstick using outlet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a dish using outlet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish bowl?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a dish bowl using outlet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a coffee cup?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a coffee cup using outlet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a mug?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a mug using outlet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a rag?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a rag using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cloth napkin?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a cloth napkin using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a coffee filter?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a coffee filter using outlet?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a coffee filter?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot cleans the area beside a table using coffee filter?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot turns off a coffee filter?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot unplugs a coffee filter?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a oven tray?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cleaning bottle?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a cleaning bottle using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a measuring cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a measuring cup using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+ ['coffee filter']
+
+#---------- most possible object: ---------- 
+ coffee filter
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['water filter', 'coffee maker', 'dishwasher', 'juicer', 'ice cream maker', 'oven', 'toaster', 'dehumidifier', 'water boiler']
+
+! prompt design
+prompt (raw): can a water filter make vacuum turned on if the vacuum cannot be turned on? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make vacuum turned on if the vacuum cannot be turned on? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dishwasher make vacuum turned on if the vacuum cannot be turned on? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a juicer make vacuum turned on if the vacuum cannot be turned on? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a ice cream maker make vacuum turned on if the vacuum cannot be turned on? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a oven make vacuum turned on if the vacuum cannot be turned on? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a toaster make vacuum turned on if the vacuum cannot be turned on? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dehumidifier make vacuum turned on if the vacuum cannot be turned on? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water boiler make vacuum turned on if the vacuum cannot be turned on? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+only modified_plan_2 exists.
+
+(walk rob kitchen dining)
+(find_table rob table dining)
+(grasp_vacuum rob coffee_filter_1 dining)
+(plug_vacuum rob coffee_filter_1 outlet_1 dining)
+(turnon_vacuum rob coffee_filter_1 dining)
+(clean_area rob coffee_filter_1 table dining)
+; cost = 6 (unit cost)

@@ -1,0 +1,638 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(find_table rob table dining)
+(walk rob dining kitchen)
+(find_cupboard rob cupboard kitchen)
+(open_cupboard rob cupboard kitchen)
+(find_fork rob fork_1 cupboard kitchen)
+(takeout_fork rob fork_1 cupboard kitchen)
+(move_fork rob fork_1 kitchen dining)
+(place_fork rob fork_1 table dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 cupboard kitchen)
+(takeout_plate rob plate_1 cupboard kitchen)
+(move_plate rob plate_1 kitchen dining)
+(place_plate rob plate_1 table dining)
+(walk rob dining kitchen)
+(close_cupboard rob cupboard kitchen)
+; cost = 15 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 11
+situation: the cupboard has some mites.
+action corresponding to situation: open_cupboard
+corresponding predicate: cupboard_has_some_mites
+object manipulated by robot: cupboard
+object in situation: cupboard
+
+#---------- executing plan! -----------
+action: ['find_table', 'rob', 'table', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_cupboard', 'rob', 'cupboard', 'kitchen']
+action (decoded): a robot finds a cupboard in kitchen room.
+this action is executed!
+
+action: ['open_cupboard', 'rob', 'cupboard', 'kitchen']
+action (decoded): a robot opens a cupboard in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['open_cupboard', 'rob', 'cupboard', 'kitchen']
+['find_fork', 'rob', 'fork_1', 'cupboard', 'kitchen']
+['takeout_fork', 'rob', 'fork_1', 'cupboard', 'kitchen']
+['move_fork', 'rob', 'fork_1', 'kitchen', 'dining']
+['place_fork', 'rob', 'fork_1', 'table', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['find_plate', 'rob', 'plate_1', 'cupboard', 'kitchen']
+['takeout_plate', 'rob', 'plate_1', 'cupboard', 'kitchen']
+['move_plate', 'rob', 'plate_1', 'kitchen', 'dining']
+['place_plate', 'rob', 'plate_1', 'table', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['close_cupboard', 'rob', 'cupboard', 'kitchen']
+
+unexecuted action: ['open_cupboard', 'rob', 'cupboard', 'kitchen']
+unexecuted action (decoded): a robot opens a cupboard in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot opens a cupboard if the cupboard has some mites?
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to open a cupboard if the cupboard has some mites
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['cooking pot', 'dining table', 'paper towel', 'mug', 'rag', 'condiment bottle', 'desk', 'condiment shaker', 'mat', 'wine glass', 'wooden chair', 'dish', 'cutlery knife', 'cutting board', 'kitchen counter', 'pantry', 'colander', 'coffee filter', 'bucket', 'coffee cup', 'frying pan', 'bookshelf']
+
+! prompt design
+raw prompt: is it suitable that a robot opens a cooking pot?
+answer:
+['yes\n\nis it suitable that a robot opens a cup?\nanswer: no']
+[0.7813430876292301]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a cooking pot?
+answer:
+['yes\n\nis it suitable that a robot takes out a cup from a cooking pot?\nanswer: no']
+[0.8410803480977213]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a plate from a cooking pot?
+answer:
+['yes\n\nis it suitable that a robot takes out a cup from a cooking pot?\nanswer: no']
+[0.8600291400999658]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot closes a cooking pot?
+answer:
+['yes\n\nis it suitable that a robot closes a cup?\nanswer: no']
+[0.7836570040390545]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot opens a dining table?
+answer:
+['no']
+[0.4813795957479648]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot opens a paper towel?
+answer:
+['yes\n\nis it suitable that a robot opens a door?\nanswer: yes']
+[0.7501511597691398]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a paper towel?
+answer:
+['no']
+[0.5009084908208841]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot opens a mug?
+answer:
+['yes\n\nis it suitable that a robot opens a door?\nanswer: no']
+[0.768564646878436]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a mug?
+answer:
+['no']
+[0.518642119196749]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot opens a rag?
+answer:
+['yes\n\nis it suitable that a robot opens a door?\nanswer: yes']
+[0.7349017769947418]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a rag?
+answer:
+['no']
+[0.5153830734184456]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot opens a condiment bottle?
+answer:
+['yes\n\nis it suitable that a robot opens a cooking pot?\nanswer: no']
+[0.7454576109741137]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a condiment bottle?
+answer:
+['no']
+[0.49598730311230976]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot opens a desk?
+answer:
+['yes\n\nis it suitable that a robot opens a door?\nanswer: yes']
+[0.7413730690667972]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a desk?
+answer:
+['yes\n\nis it suitable that a robot takes out a cup from a desk?\nanswer: no']
+[0.7819446928031323]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a plate from a desk?
+answer:
+['yes\n\nis it suitable that a robot takes out a book from a desk?\nanswer: no']
+[0.7885975291289223]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot closes a desk?
+answer:
+['yes\n\nis it suitable that a robot closes a window?\nanswer: no']
+[0.7587179197360199]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot opens a condiment shaker?
+answer:
+['yes\n\nis it suitable that a robot opens a cooking pot?\nanswer: no']
+[0.731840695761756]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a condiment shaker?
+answer:
+['yes\n\nis it suitable that a robot takes out a knife from a condiment shaker?\nanswer: no']
+[0.6197310112601865]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a plate from a condiment shaker?
+answer:
+['no']
+[0.48161945288870645]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot opens a mat?
+answer:
+['yes\n\nis it suitable that a robot opens a door?\nanswer: yes']
+[0.7406027696491858]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a mat?
+answer:
+['yes\n\nis it suitable that a robot takes out a knife from a mat?\nanswer: no']
+[0.7949317503260579]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a plate from a mat?
+answer:
+['yes\n\nis it suitable that a robot takes out a mat from a plate?\nanswer: no']
+[0.7972426379925115]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot closes a mat?
+answer:
+['yes\n\nis it suitable that a robot closes a door?\nanswer: no']
+[0.741710118868669]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot opens a wine glass?
+answer:
+['no']
+[0.4878648561566723]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot opens a wooden chair?
+answer:
+['yes\n\nis it suitable that a robot opens a cup?\nanswer: no']
+[0.7245962807257795]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a wooden chair?
+answer:
+['no']
+[0.5025135523176331]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot opens a dish?
+answer:
+['yes\n\nis it suitable that a robot opens a door?\nanswer: yes']
+[0.7357109643791245]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a dish?
+answer:
+['yes\n\nis it suitable that a robot takes out a dish from a cupboard?\nanswer: no']
+[0.8316975862322119]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a plate from a dish?
+answer:
+['yes\n\nis it suitable that a robot takes out a dish from a plate?\nanswer: no']
+[0.7947327547871579]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot closes a dish?
+answer:
+['yes\n\nis it suitable that a robot closes a door?\nanswer: no']
+[0.7549369728694897]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot opens a cutlery knife?
+answer:
+['yes\n\nis it suitable that a robot opens a door?\nanswer: yes']
+[0.7193678034159237]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a cutlery knife?
+answer:
+['no']
+[0.47815001002875906]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot opens a cutting board?
+answer:
+['yes\n\nis it suitable that a robot opens a door?\nanswer: yes']
+[0.7453602935283917]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a cutting board?
+answer:
+['yes\n\nis it suitable that a robot takes out a knife from a cutting board?\nanswer: no']
+[0.8485980816946684]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a plate from a cutting board?
+answer:
+['yes\n\nis it suitable that a robot takes out a knife from a cutting board?\nanswer: no']
+[0.8588782149708415]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot closes a cutting board?
+answer:
+['yes\n\nis it suitable that a robot closes a door?\nanswer: no']
+[0.7585349396571205]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot opens a kitchen counter?
+answer:
+['yes\n\nis it suitable that a robot opens a fridge?\nanswer: yes']
+[0.7307739100512616]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a kitchen counter?
+answer:
+['yes\n\nis it suitable that a robot takes out a knife from a kitchen counter?\nanswer: no']
+[0.8312116272186181]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a plate from a kitchen counter?
+answer:
+['yes\n\nis it suitable that a robot takes out a table from a kitchen counter?\nanswer: no']
+[0.8336924536953517]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot closes a kitchen counter?
+answer:
+['yes\n\nis it suitable that a robot closes a fridge?\nanswer: no']
+[0.7343443450797491]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot opens a pantry?
+answer:
+['yes\n\nis it suitable that a robot opens a fridge?\nanswer: no']
+[0.7286388506604827]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a pantry?
+answer:
+['yes\n\nis it suitable that a robot takes out a table from a pantry?\nanswer: no']
+[0.8381838649988971]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a plate from a pantry?
+answer:
+['yes\n\nis it suitable that a robot takes out a cup from a pantry?\nanswer: no']
+[0.8331237750069109]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot closes a pantry?
+answer:
+['yes\n\nis it suitable that a robot closes a fridge?\nanswer: no']
+[0.7482881628166731]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot opens a colander?
+answer:
+['yes\n\nis it suitable that a robot opens a door?\nanswer: yes']
+[0.7362289014307211]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a colander?
+answer:
+['yes\n\nis it suitable that a robot takes out a table from a colander?\nanswer: no']
+[0.8272090436509058]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a plate from a colander?
+answer:
+['yes\n\nis it suitable that a robot takes out a colander from a plate?\nanswer: no']
+[0.8232793908962298]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot closes a colander?
+answer:
+['yes\n\nis it suitable that a robot closes a door?\nanswer: no']
+[0.7355572678913539]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot opens a coffee filter?
+answer:
+['yes\n\nis it suitable that a robot opens a door?\nanswer: yes']
+[0.7441971100077276]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a coffee filter?
+answer:
+['no']
+[0.49983154170641997]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot opens a bucket?
+answer:
+['yes\n\nis it suitable that a robot opens a door?\nanswer: yes']
+[0.7490116615528131]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a bucket?
+answer:
+['no']
+[0.4842515488936715]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot opens a coffee cup?
+answer:
+['yes\n\nis it suitable that a robot opens a door?\nanswer: yes']
+[0.7337973837350857]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a coffee cup?
+answer:
+['no']
+[0.5114123790522225]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot opens a frying pan?
+answer:
+['yes\n\nis it suitable that a robot opens a cup?\nanswer: no']
+[0.7610667368872531]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a frying pan?
+answer:
+['no']
+[0.490186098324574]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot opens a bookshelf?
+answer:
+['yes\n\nis it suitable that a robot opens a book?\nanswer: yes']
+[0.7481404914521458]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot takes out a fork from a bookshelf?
+answer:
+['no']
+[0.23735543036542978]
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+ ['cooking pot', 'desk', 'mat', 'dish', 'cutting board', 'kitchen counter', 'pantry', 'colander']
+
+! prompt design
+raw prompt: there are some objects, such as cooking pot, desk, mat, dish, cutting board, kitchen counter, pantry, colander. which is the most suitable to replace a cupboard in the task of setting a table to eat steak if the cupboard has some mites?
+! results from LLM
+response (raw prompt): the most suitable object to replace a cupboard in the task of setting a table to eat steak if the cupboard has some mites is a cutting
+
+#---------- most possible object: ---------- 
+ None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['coffee maker', 'stove', 'kettle', 'microwave', 'water boiler', 'oven', 'water filter', 'air fryer', 'freezer']
+
+! prompt design
+prompt (raw): can a coffee maker make mites in a cupboard killed if the cupboard has some mites? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a stove make mites in a cupboard killed if the cupboard has some mites? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a kettle make mites in a cupboard killed if the cupboard has some mites? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a microwave make mites in a cupboard killed if the cupboard has some mites? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water boiler make mites in a cupboard killed if the cupboard has some mites? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a oven make mites in a cupboard killed if the cupboard has some mites? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water filter make mites in a cupboard killed if the cupboard has some mites? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a air fryer make mites in a cupboard killed if the cupboard has some mites? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a freezer make mites in a cupboard killed if the cupboard has some mites? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

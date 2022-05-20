@@ -1,8 +1,8 @@
 (define
 	(domain dining)
 	(:requirements :strips :typing)
-	(:types robot soda glass table location food utensil beverage furniture other appliance)
-	(:predicates (robot_at ?r - robot ?l - location) (hand_empty ?r - robot) (soda_at ?s - soda ?l - location) (glass_at ?g - glass ?l - location) (table_at ?t - table ?l - location) (soda_is_found ?s - soda) (soda_is_grasped ?s - soda) (glass_is_found ?g - glass) (glass_is_grasped ?g - glass)  (glass_is_filled ?g - glass) (glass_is_placed ?g - glass) (appliance_at ?a - appliance ?l) (bottle_of_soda_is_missing ?s - soda))
+	(:types robot coke glass table location food utensil beverage furniture other appliance)
+	(:predicates (robot_at ?r - robot ?l - location) (hand_empty ?r - robot) (coke_at ?c - coke ?l - location) (glass_at ?g - glass ?l - location) (table_at ?t - table ?l - location) (coke_is_found ?c - coke) (coke_is_grasped ?c - coke) (glass_is_found ?g - glass) (glass_is_grasped ?g - glass)  (glass_is_filled ?g - glass) (glass_is_placed ?g - glass) (appliance_at ?a - appliance ?l) (coke_is_dropped ?c - coke))
 
 	(:action walk
 		:parameters (?r - robot ?l1 - location ?l2 - location)
@@ -34,27 +34,27 @@
 		:effect (and (glass_is_placed ?g) (not (glass_is_grasped ?g)) (hand_empty ?r))
 	)
 
-	(:action find_soda
-		:parameters (?r - robot ?s - soda ?l - location)
-		:precondition (and (soda_at ?s ?l) (robot_at ?r ?l) (not (bottle_of_soda_is_missing ?s)))
-		:effect (and (soda_is_found ?s))
+    (:action find_coke
+		:parameters (?r - robot ?c - coke ?l - location)
+		:precondition (and (coke_at ?c ?l) (robot_at ?r ?l))
+		:effect (and (coke_is_found ?c))
 	)
 
-	(:action grasp_soda
-		:parameters (?r - robot ?s - soda ?l - location)
-		:precondition (and (soda_is_found ?s) (soda_at ?s ?l) (robot_at ?r ?l) (hand_empty ?r))
-		:effect (and (soda_is_grasped ?s) (not (hand_empty ?r)))
+	(:action grasp_coke
+		:parameters (?r - robot ?c - coke ?l - location)
+		:precondition (and (coke_is_found ?c) (coke_at ?c ?l) (robot_at ?r ?l) (hand_empty ?r))
+		:effect (and (coke_is_grasped ?c) (not (hand_empty ?r)))
 	)
 
-	(:action move_soda
-		:parameters (?r - robot ?s - soda ?g - glass ?l1 - location ?l2 - location)
-		:precondition (and (soda_is_grasped ?s) (soda_at ?s ?l1) (glass_is_placed ?g) (glass_at ?g ?l2) (robot_at ?r ?l1))
-		:effect (and (soda_at ?s ?l2) (robot_at ?r ?l2) (not (robot_at ?r ?l1)))
+	(:action move_coke
+		:parameters (?r - robot ?c - coke ?g - glass ?l1 - location ?l2 - location)
+		:precondition (and (coke_is_grasped ?c) (coke_at ?c ?l1) (glass_is_placed ?g) (glass_at ?g ?l2) (robot_at ?r ?l1))
+		:effect (and (coke_at ?c ?l2) (robot_at ?r ?l2) (not (robot_at ?r ?l1)))
 	)
 
-	(:action pour_soda
-		:parameters (?r - robot ?s - soda ?g - glass ?l - location)
-		:precondition (and (glass_is_placed ?g) (soda_is_grasped ?s) (soda_at ?s ?l) (glass_at ?g ?l) (robot_at ?r ?l))
+	(:action pour_coke
+		:parameters (?r - robot ?c - coke ?g - glass ?l - location)
+		:precondition (and (glass_is_placed ?g) (coke_is_grasped ?c) (coke_at ?c ?l) (glass_at ?g ?l) (robot_at ?r ?l) (not (coke_is_dropped ?c)))
 		:effect (and (glass_is_filled ?g) (hand_empty ?r))
 	)
 

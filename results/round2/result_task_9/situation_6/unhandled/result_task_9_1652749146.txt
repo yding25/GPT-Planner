@@ -1,0 +1,259 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob kitchen dining)
+(find_table rob table dining)
+(walk_table rob table dining)
+(grasp_plate rob plate dining)
+(walk rob dining kitchen)
+(walk_sink rob sink_1 plate kitchen)
+(place_plate rob plate dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 6
+situation: the table is missing.
+action corresponding to situation: walk_table
+corresponding predicate: table_is_missing
+object manipulated by robot: table
+object in situation: table
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'kitchen', 'dining']
+action (decoded): a robot walks from kitchen room to dining room.
+this action is executed!
+
+action: ['find_table', 'rob', 'table', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk_table', 'rob', 'table', 'dining']
+action (decoded): a robot walks to a table in dining room.
+
+#---------- checking unexecuted actions! -----------
+['walk_table', 'rob', 'table', 'dining']
+['grasp_plate', 'rob', 'plate', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['walk_sink', 'rob', 'sink_1', 'plate', 'kitchen']
+['place_plate', 'rob', 'plate', 'dining']
+
+unexecuted action: ['walk_table', 'rob', 'table', 'dining']
+unexecuted action (decoded): a robot walks to a table in dining room.
+! prompt design
+raw prompt: is it suitable that a robot walks to a table if the table is missing?
+! experience found
+! response from LLM
+response (raw prompt): no,
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['sponge', 'oven tray', 'condiment bottle', 'trash can', 'wooden chopstick', 'cutlery fork', 'frying pan', 'drinking glass', 'measuring cup', 'chef knife', 'paper towel', 'colander', 'mat', 'dish bowl']
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a sponge?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a oven tray?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a condiment bottle?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a trash can?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a wooden chopstick?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a cutlery fork?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a frying pan?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a drinking glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a measuring cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a chef knife?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a paper towel?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a colander?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a mat?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a dish bowl?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+#---------- capable_objects: ----------
+ ['sponge', 'oven tray', 'condiment bottle', 'trash can', 'wooden chopstick', 'cutlery fork', 'frying pan', 'drinking glass', 'measuring cup', 'chef knife', 'paper towel', 'colander', 'mat', 'dish bowl']
+
+! prompt design
+raw prompt: there are some objects, such as sponge, oven tray, condiment bottle, trash can, wooden chopstick, cutlery fork, frying pan, drinking glass, measuring cup, chef knife, paper towel, colander, mat, dish bowl. which is the most suitable to replace a table in the task of putting a dirty plate in a sink if the table is missing?
+! results from LLM
+response (raw prompt): the most suitable object to replace a table in the task of putting a dirty plate in a sink if the table is missing would be a sponge
+
+#---------- most possible object: ---------- 
+ sponge
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['juicer', 'water boiler', 'vacuum cleaner', 'microwave', 'washing machine', 'toaster', 'dehumidifier', 'blender', 'water filter']
+
+! prompt design
+prompt (raw): can a juicer make a table found if the table is missing? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water boiler make a table found if the table is missing? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a vacuum cleaner make a table found if the table is missing? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a microwave make a table found if the table is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a washing machine make a table found if the table is missing? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a toaster make a table found if the table is missing? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dehumidifier make a table found if the table is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a blender make a table found if the table is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water filter make a table found if the table is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

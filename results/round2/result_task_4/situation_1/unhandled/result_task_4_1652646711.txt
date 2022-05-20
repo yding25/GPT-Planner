@@ -1,0 +1,323 @@
+before running, all old files have been removed.
+
+setting:1
+
+#---------- generating basic plan! -----------
+(walk rob dining kitchen)
+(find_cup rob cup_0 kitchen)
+(hold_cup rob cup_0 kitchen)
+(find_faucet rob faucet kitchen)
+(turnon_faucet rob faucet kitchen)
+(fill_cup rob cup_0 faucet kitchen)
+(turnoff_faucet rob faucet kitchen)
+(walk rob kitchen dining)
+(place_cup rob cup_0 table dining)
+; cost = 9 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 1
+situation: the faucet has no water.
+action corresponding to situation: turnon_faucet
+corresponding predicate: faucet_has_no_water
+object manipulated by robot: faucet
+object in situation: faucet
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from a dining room to a kitchen room.
+this action is executed!
+
+action: ['find_cup', 'rob', 'cup_0', 'kitchen']
+action (decoded): a robot finds a cup in kitchen room.
+this action is executed!
+
+action: ['hold_cup', 'rob', 'cup_0', 'kitchen']
+action (decoded): a robot holds a cup in kitchen room.
+this action is executed!
+
+action: ['find_faucet', 'rob', 'faucet', 'kitchen']
+action (decoded): a robot finds a faucet in kitchen room.
+this action is executed!
+
+action: ['turnon_faucet', 'rob', 'faucet', 'kitchen']
+action (decoded): a robot turns on a faucet in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['turnon_faucet', 'rob', 'faucet', 'kitchen']
+['fill_cup', 'rob', 'cup_0', 'faucet', 'kitchen']
+['turnoff_faucet', 'rob', 'faucet', 'kitchen']
+['walk', 'rob', 'kitchen', 'dining']
+['place_cup', 'rob', 'cup_0', 'table', 'dining']
+
+unexecuted action: ['turnon_faucet', 'rob', 'faucet', 'kitchen']
+unexecuted action (decoded): a robot turns on a faucet in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot turns on a faucet if the faucet has no water?
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to turn on a faucet if the faucet has no water
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['wooden chopstick', 'chef knife', 'trash can', 'coffee cup', 'cloth napkin', 'paper towel', 'drinking glass', 'condiment shaker', 'coffee filter', 'oven tray', 'cutlery knife', 'wine glass', 'dish rack', 'mug']
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a wooden chopstick?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a chef knife?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a trash can?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a coffee cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with water from coffee cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a cloth napkin?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with water from cloth napkin?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a paper towel?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a drinking glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with water from drinking glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot turns off a drinking glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with water from condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a coffee filter?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with water from coffee filter?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a oven tray?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a cutlery knife?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a wine glass?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a dish rack?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with water from dish rack?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot turns off a dish rack?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a mug?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with water from mug?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot turns off a mug?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+#---------- capable_objects: ----------
+ ['drinking glass', 'dish rack', 'mug']
+
+! prompt design
+raw prompt: there are some objects, such as drinking glass, dish rack, mug. which is the most suitable to replace a faucet in the task of drinking water if the faucet has no water?
+! results from LLM
+response (raw prompt): a drinking glass is the most suitable object to replace a faucet in the task of drinking water if the faucet has no water
+
+#---------- most possible object: ---------- 
+ drinking glass
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['freezer', 'ice cream maker', 'toaster', 'stove', 'fridge', 'water filter', 'oven', 'coffee maker', 'dehumidifier']
+
+! prompt design
+prompt (raw): can a freezer make a faucet have water if the faucet has no water? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a ice cream maker make a faucet have water if the faucet has no water? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a toaster make a faucet have water if the faucet has no water? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a stove make a faucet have water if the faucet has no water? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a fridge make a faucet have water if the faucet has no water? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water filter make a faucet have water if the faucet has no water? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a oven make a faucet have water if the faucet has no water? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make a faucet have water if the faucet has no water? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dehumidifier make a faucet have water if the faucet has no water? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

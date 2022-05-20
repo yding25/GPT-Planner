@@ -1,0 +1,329 @@
+before running, all old files have been removed.
+
+setting:1
+
+#---------- generating basic plan! -----------
+(walk rob kitchen dining)
+(find_table rob table dining)
+(walk_table rob table dining)
+(grasp_plate rob plate dining)
+(walk rob dining kitchen)
+(walk_sink rob sink_0 plate kitchen)
+(place_plate rob plate dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 3
+situation: the dirty plate is missing on table.
+action corresponding to situation: grasp_plate
+corresponding predicate: plate_is_missing
+object manipulated by robot: plate
+object in situation: plate
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'kitchen', 'dining']
+action (decoded): a robot walks from kitchen room to dining room.
+this action is executed!
+
+action: ['find_table', 'rob', 'table', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk_table', 'rob', 'table', 'dining']
+action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+action: ['grasp_plate', 'rob', 'plate', 'dining']
+action (decoded): a robot grasps a plate in dining room.
+
+#---------- checking unexecuted actions! -----------
+['grasp_plate', 'rob', 'plate', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['walk_sink', 'rob', 'sink_0', 'plate', 'kitchen']
+['place_plate', 'rob', 'plate', 'dining']
+
+unexecuted action: ['grasp_plate', 'rob', 'plate', 'dining']
+unexecuted action (decoded): a robot grasps a plate in dining room.
+! prompt design
+raw prompt: is it suitable that a robot grasps a plate if the dirty plate is missing on table?
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to grasp a plate if the dirty plate is missing on the table
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['mug', 'cloth napkin', 'paper towel', 'cutting board', 'sponge', 'condiment bottle', 'oven tray', 'wine glass', 'cleaning bottle', 'cooking pot', 'wooden chopstick', 'colander', 'dish', 'coffee cup']
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a mug?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a mug?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cloth napkin?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a cloth napkin?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a paper towel?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a paper towel?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cutting board?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a cutting board?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a sponge?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a sponge?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a condiment bottle?
+answer:
+['yes']
+[0.5100592790063772]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a condiment bottle?
+answer:
+['yes']
+[0.2386760800898874]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a oven tray?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a wine glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a wine glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cleaning bottle?
+answer:
+['yes']
+[0.48823014092196965]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a cleaning bottle?
+answer:
+['yes']
+[0.4911423504732248]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cooking pot?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a wooden chopstick?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a wooden chopstick?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a colander?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a dish?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a coffee cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a coffee cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+#---------- capable_objects: ----------
+ ['mug', 'cloth napkin', 'paper towel', 'cutting board', 'sponge', 'condiment bottle', 'wine glass', 'cleaning bottle', 'wooden chopstick', 'dish', 'coffee cup']
+
+! prompt design
+raw prompt: there are some objects, such as mug, cloth napkin, paper towel, cutting board, sponge, condiment bottle, wine glass, cleaning bottle, wooden chopstick, dish, coffee cup. which is the most suitable to replace a plate in the task of putting a dirty plate in a sink if the dirty plate is missing on table?
+! results from LLM
+response (raw prompt): the most suitable object to replace a plate in the task of putting a dirty plate in a sink if the dirty plate is missing on table is a cutting
+
+#---------- most possible object: ---------- 
+ None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['air fryer', 'freezer', 'vacuum cleaner', 'dehumidifier', 'juicer', 'water filter', 'stove', 'toaster', 'blender']
+
+! prompt design
+prompt (raw): can a air fryer make a plate foun if the dirty plate is missing on table? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a freezer make a plate foun if the dirty plate is missing on table? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a vacuum cleaner make a plate foun if the dirty plate is missing on table? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dehumidifier make a plate foun if the dirty plate is missing on table? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a juicer make a plate foun if the dirty plate is missing on table? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water filter make a plate foun if the dirty plate is missing on table? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a stove make a plate foun if the dirty plate is missing on table? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a toaster make a plate foun if the dirty plate is missing on table? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a blender make a plate foun if the dirty plate is missing on table? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

@@ -18,12 +18,13 @@ from llm_appliance import llm_appliance, llm_appliance_most, plan_modifier_add_e
 # ------------------------------------------
 task_id = 11
 task = {
-    1: 'cleaning floor',
-    4: 'drinking water',
-    6: 'setting table',
-    9: 'grasping plate',
-    10: 'drinking soda',
-    11: 'eating dinner'}
+    1: 'cleaning dirty area beside a table',
+    4: 'filling a cup with water from faucet',
+    6: 'setting a table to eat steak',
+    9: 'putting a dirty plate in a sink',
+    10: 'pouring coke into a glass',
+    11: 'eating a burger on a plate'
+}
 task_name = task[task_id]
 
 # ------------------------------------------
@@ -144,7 +145,7 @@ if result_monitor:  # if plan cannot be executed
     except:
         print('#---------- no modified_plan_1 found! -----------\n')
     # ------------------------------------------
-    # call llm_object and plan_modifier_add_effect
+    # call llm_object and plan_modifier_add_effect_object
     # ------------------------------------------
     if not os.path.exists(path_plan_modified_1):
         print('\n#---------- call llm_object -----------')
@@ -172,6 +173,7 @@ if result_monitor:  # if plan cannot be executed
             selected_object = random.choice(capable_objects)
             print('\n#---------- most possible object: ---------- \n', selected_object)
         elif len(capable_objects) > 1:
+            # note, if there are too many objects, gpt-3 cannot work.
             selected_object = llm_object_most(task_id, task_name, situation, situation_object, capable_objects)
             print('\n#---------- most possible object: ---------- \n', selected_object)
         else:
@@ -184,7 +186,7 @@ if result_monitor:  # if plan cannot be executed
             temp = selected_object.split(' ')
             if len(temp) > 1:
                 selected_object = '_'.join(temp)
-            domain_path_new2, problem_path_new2 = plan_modifier_add_effect_object(task_id, situation_predicate, situation_object, selected_object, domain_path_new1, problem_path_new1)
+            domain_path_new2, problem_path_new2 = plan_modifier_add_effect_object(task_id, situation_predicate, situation_object, situation_object_new, selected_object, domain_path_new1, problem_path_new1)
             try:
                 print('\n#---------- generating modified_plan_2! -----------')
                 file_name = 'task_' + str(task_id) + '_modified_plan_2.txt'

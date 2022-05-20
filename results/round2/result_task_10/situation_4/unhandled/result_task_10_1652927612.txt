@@ -1,0 +1,540 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob dining kitchen)
+(find_coke rob coke_1 kitchen)
+(find_glass rob glass_1 kitchen)
+(grasp_glass rob glass_1 kitchen)
+(move_glass rob glass_1 kitchen table_0 dining)
+(place_glass rob glass_1 table_0 dining)
+(walk rob dining kitchen)
+(grasp_coke rob coke_1 kitchen)
+(pour_coke rob coke_1 glass_1 kitchen)
+; cost = 9 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 4
+situation: the glass_1 falls down.
+action corresponding to situation: place_glass
+corresponding predicate: glass_falls_down
+object manipulated by robot: glass_1
+object in situation: glass_1
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_coke', 'rob', 'coke_1', 'kitchen']
+action (decoded): a robot finds a bottle of coke in kitchen room.
+this action is executed!
+
+action: ['find_glass', 'rob', 'glass_1', 'kitchen']
+action (decoded): a robot finds a glass in kitchen room.
+this action is executed!
+
+action: ['grasp_glass', 'rob', 'glass_1', 'kitchen']
+action (decoded): a robot grasps a glass in kitchen room.
+this action is executed!
+
+action: ['move_glass', 'rob', 'glass_1', 'kitchen', 'table_0', 'dining']
+action (decoded): a robot moves a glass in kitchen room near a table in table room.
+this action is executed!
+
+action: ['place_glass', 'rob', 'glass_1', 'table_0', 'dining']
+action (decoded): a robot places a glass on a table in dining room.
+
+#---------- checking unexecuted actions! -----------
+['place_glass', 'rob', 'glass_1', 'table_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['grasp_coke', 'rob', 'coke_1', 'kitchen']
+['pour_coke', 'rob', 'coke_1', 'glass_1', 'kitchen']
+
+unexecuted action: ['place_glass', 'rob', 'glass_1', 'table_0', 'dining']
+unexecuted action (decoded): a robot places a glass on a table in dining room.
+! prompt design
+raw prompt: is it suitable that a robot places a glass on a table if the glass falls down?
+! experience found
+! response from LLM
+response (raw prompt): no,
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['watermelon juice', 'dish rack', 'bucket', 'dish bowl', 'coffee cup', 'milk', 'cleaning bottle', 'alcohol', 'cutting board', 'mat', 'frying pan', 'sponge', 'wine glass', 'oven tray', 'condiment shaker', 'tea', 'rag', 'trash can']
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a watermelon juice?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish rack?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bucket?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a bucket near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a bucket on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into bucket?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish bowl?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a dish bowl near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a dish bowl on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into dish bowl?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a coffee cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a coffee cup near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a coffee cup on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into coffee cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a milk?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cleaning bottle?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a cleaning bottle near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a cleaning bottle on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into cleaning bottle?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a alcohol?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cutting board?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a cutting board near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a cutting board on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into cutting board?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a mat?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a mat near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a mat on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into mat?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a frying pan?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a sponge?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a sponge near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a sponge on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into sponge?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a wine glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a wine glass near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a wine glass on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into wine glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a oven tray?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a condiment shaker near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a condiment shaker on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a tea?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a tea near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a tea on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into tea?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a rag?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a rag near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a rag on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into rag?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a trash can?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+ ['bucket']
+
+#---------- most possible object: ---------- 
+ bucket
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['stove', 'blender', 'dishwasher', 'ice cream maker', 'dehumidifier', 'air fryer', 'fridge', 'kettle', 'freezer']
+
+! prompt design
+prompt (raw): can a stove make a glass picked up if the glass falls down? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a blender make a glass picked up if the glass falls down? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dishwasher make a glass picked up if the glass falls down? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a ice cream maker make a glass picked up if the glass falls down? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dehumidifier make a glass picked up if the glass falls down? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a air fryer make a glass picked up if the glass falls down? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a fridge make a glass picked up if the glass falls down? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a kettle make a glass picked up if the glass falls down? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a freezer make a glass picked up if the glass falls down? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+only modified_plan_2 exists.
+
+(walk rob dining kitchen)
+(find_coke rob coke_1 kitchen)
+(find_glass rob bucket kitchen)
+(grasp_glass rob bucket kitchen)
+(move_glass rob bucket kitchen table_0 dining)
+(place_glass rob bucket table_0 dining)
+(walk rob dining kitchen)
+(grasp_coke rob coke_1 kitchen)
+(pour_coke rob coke_1 bucket kitchen)
+; cost = 9 (unit cost)

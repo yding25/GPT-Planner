@@ -10,7 +10,7 @@ def situation_simulator(task_id):
             2: 'the vacuum is missing.',
             3: 'the vacuum cannot be turned on.',
             4: 'the vacuum plug is damaged.',
-            5: 'the outlet is missing.',
+            5: 'the outlet is not available.',
             6: 'the vacuum is not plugged.',
             7: 'the vacuum canister is full.',
             8: 'the vacuum power cord is too short.',
@@ -151,13 +151,14 @@ def situation_simulator(task_id):
             5: 'the water is hot.',
             6: 'the faucet is broken.',
             7: 'the faucet cannot be turned on.',
-            8: 'the faucet is not found.',
+            8: 'the sink is not found.',
             9: 'the faucet is dripping.',
-            10: 'the cup is in the box.',
-            11: 'the water spills on the ground.',
-            12: 'the cup is not full.',
-            13: 'the water is drunk by others.',
-            14: 'the cup full of water falls down.'
+            10: 'the faucet is not found.',
+            11: 'the cup is in the box.',
+            12: 'the water spills on the ground.',
+            13: 'the cup is not full.',
+            14: 'the water is drunk by others.',
+            15: 'the cup full of water falls down.'
         }
 
         situations_opp = {
@@ -169,13 +170,14 @@ def situation_simulator(task_id):
             5: 'water not hot.',
             6: 'a faucet not broken.',
             7: 'a faucet easy to be turned on.',
-            8: 'a faucet found.',
+            8: 'a sink found.',
             9: 'a faucet not dripping.',
-            10: 'a cup took out from the box.',
-            11: 'a ground dry.',
-            12: 'a cup full.',
-            13: 'water not drunk by others.',
-            14: 'a cup full of water not falling down.'
+            10: 'a faucet found.',
+            11: 'a cup took out from the box.',
+            12: 'a ground dry.',
+            13: 'a cup full.',
+            14: 'water not drunk by others.',
+            15: 'a cup full of water not falling down.'
         }
 
         situations_object = {
@@ -187,13 +189,14 @@ def situation_simulator(task_id):
             5: 'water',
             6: 'faucet',
             7: 'faucet',
-            8: 'faucet',
+            8: 'sink',
             9: 'faucet',
-            10: 'cup',
-            11: 'water',
-            12: 'cup',
-            13: 'water',
-            14: 'cup'
+            10: 'faucet',
+            11: 'cup',
+            12: 'water',
+            13: 'cup',
+            14: 'water',
+            15: 'cup'
         }
 
         situations_prob = {
@@ -205,13 +208,14 @@ def situation_simulator(task_id):
             5: 3 / 95.,
             6: 3 / 95.,
             7: 2 / 95.,
-            8: 3 / 95.,
+            8: 2 / 95.,
             9: 1 / 95.,
             10: 1 / 95.,
             11: 1 / 95.,
-            12: 2 / 95.,
-            13: 1 / 95.,
-            14: 1 / 95.
+            12: 1 / 95.,
+            13: 2 / 95.,
+            14: 1 / 95.,
+            15: 1 / 95.
         }
 
         situations_action = {
@@ -225,11 +229,12 @@ def situation_simulator(task_id):
             7: ['turnon_faucet'],
             8: ['find_faucet'],
             9: ['place_cup'],
-            10: ['find_cup'],
-            11: ['fill_cup'],
-            12: ['fill_cup', 'place_cup'],
-            13: ['place_cup'],
-            14: ['place_cup']
+            10: ['find_faucet'],
+            11: ['find_cup'],
+            12: ['fill_cup'],
+            13: ['fill_cup', 'place_cup'],
+            14: ['place_cup'],
+            15: ['place_cup']
         }
 
         actions_prob = {
@@ -245,9 +250,10 @@ def situation_simulator(task_id):
             9: [1 / 1.],
             10: [1 / 1.],
             11: [1 / 1.],
-            12: [1 / 2., 1 / 2.],
-            13: [1 / 1.],
-            14: [1 / 1.]
+            12: [1 / 1.],
+            13: [1 / 2., 1 / 2.],
+            14: [1 / 1.],
+            15: [1 / 1.]
         }
 
         # randomly select a situation
@@ -289,7 +295,7 @@ def situation_simulator(task_id):
             0: 'a plate not broken.',
             1: 'a plate found.',
             2: 'a plate clean.',
-            3: 'a fork dirty.',
+            3: 'a fork clean.',
             4: 'a fork found.',
             5: 'a table clean.',
             6: 'a table found.',
@@ -302,7 +308,7 @@ def situation_simulator(task_id):
             13: 'a fork not on the table.',
             14: 'a fork broken.',
             15: 'a table broken.',
-            16: 'there are no obstacles.'
+            16: 'there are no obstacles for the robot.'
         }
 
         situations_object = {
@@ -389,7 +395,7 @@ def situation_simulator(task_id):
         situation_index = np.random.choice(list(range(0, len(situations))), p=list(situations_prob.values()))
 
         # test
-        # situation_index = 0
+        situation_index = 5
 
         situation = situations[situation_index]
         situation_opp = situations_opp[situation_index]
@@ -530,57 +536,57 @@ def situation_simulator(task_id):
 
     if task_id == 10:
         situations = {
-            0: 'the bottle of soda is not available.',
+            0: 'the coke is not available.',
             1: 'the glass is broken.',
-            2: 'the bottle of soda is missing.',
+            2: 'the coke is missing.',
             3: 'the glass is dirty.',
             4: 'the glass falls down.',
-            5: 'the bottle of soda spills.',
+            5: 'the coke spills.',
             6: 'the glass is missing.',
-            7: 'the bottle of soda is flat.',
-            8: 'the bottle of soda cannot be opened.',
-            9: 'the bottle of soda is empty.',
-            10: 'the bottle of soda is dropped.',
+            7: 'the coke is flat.',
+            8: 'the coke cannot be opened.',
+            9: 'the coke is empty.',
+            10: 'the coke is dropped.',
             11: 'the robot cannot recognize the bottle, and take beer out.',
-            12: 'the bottle of soda is sticky and leaking.',
-            13: 'the bottle of soda is not chill.',
-            14: 'the bottle of soda is too frozen.'
+            12: 'the coke is sticky and leaking.',
+            13: 'the coke is not chill.',
+            14: 'the coke is too frozen.'
         }
 
         situations_opp = {
-            0: 'bottle of soda available.',
+            0: 'coke available.',
             1: 'a glass good.',
-            2: 'bottle of soda found.',
+            2: 'coke found.',
             3: 'a glass clean',
             4: 'a glass picked up.',
             5: 'a ground clean.',
             6: 'a glass found.',
-            7: 'bottle of soda full of carbon dioxide.',
-            8: 'bottle of soda easy to be opened.',
-            9: 'bottle of soda full of liquid.',
-            10: 'bottle of soda grasped.',
-            11: 'a robot successfully recognizing and grasping the bottle of soda.',
-            12: 'bottle of soda clean.',
-            13: 'bottle of soda chilled.',
-            14: 'bottle of soda not too frozen.'
+            7: 'coke full of carbon dioxide.',
+            8: 'coke easy to be opened.',
+            9: 'coke full of liquid.',
+            10: 'coke grasped.',
+            11: 'a robot successfully recognizing and grasping the coke.',
+            12: 'coke clean.',
+            13: 'coke chilled.',
+            14: 'coke not too frozen.'
         }
 
         situations_object = {
-            0: 'soda',
+            0: 'coke',
             1: 'glass',
-            2: 'soda',
+            2: 'coke',
             3: 'glass',
             4: 'glass',
-            5: 'soda',
+            5: 'coke',
             6: 'glass',
-            7: 'soda',
-            8: 'soda',
-            9: 'soda',
-            10: 'soda',
+            7: 'coke',
+            8: 'coke',
+            9: 'coke',
+            10: 'coke',
             11: 'robot',
-            12: 'soda',
-            13: 'soda',
-            14: 'soda'
+            12: 'coke',
+            13: 'coke',
+            14: 'coke'
         }
 
         situations_prob = {
@@ -602,21 +608,21 @@ def situation_simulator(task_id):
         }
 
         situations_action = {
-            0: ['find_soda', 'grasp_soda'],
+            0: ['find_coke', 'grasp_coke'],
             1: ['find_glass', 'move_glass'],
-            2: ['find_soda'],
+            2: ['find_coke'],
             3: ['find_glass'],
-            4: ['pour_soda', 'place_glass'],
-            5: ['find_glass', 'pour_soda'],
+            4: ['pour_coke', 'place_glass'],
+            5: ['pour_coke'],
             6: ['find_glass'],
-            7: ['place_glass'],
-            8: ['pour_soda'],
-            9: ['find_soda'],
-            10: ['pour_soda'],
-            11: ['find_soda'],
-            12: ['find_soda'],
-            13: ['grasp_soda'],
-            14: ['grasp_soda']
+            7: ['pour_coke'],
+            8: ['pour_coke'],
+            9: ['find_coke'],
+            10: ['pour_coke'],
+            11: ['find_coke'],
+            12: ['find_coke'],
+            13: ['grasp_coke'],
+            14: ['grasp_coke']
         }
 
         actions_prob = {
@@ -625,7 +631,7 @@ def situation_simulator(task_id):
             2: [11 / 11.],
             3: [9 / 9.],
             4: [2 / 8., 6 / 8.],
-            5: [2 / 8., 6 / 8.],
+            5: [8 / 8.],
             6: [7 / 7.],
             7: [5 / 5.],
             8: [4 / 4.],
@@ -641,7 +647,7 @@ def situation_simulator(task_id):
         situation_index = np.random.choice(list(range(0, len(situations))), p=list(situations_prob.values()))
 
         # test
-        # situation_index = 2
+        # situation_index = 10
 
         situation = situations[situation_index]
         situation_opp = situations_opp[situation_index]
@@ -650,7 +656,7 @@ def situation_simulator(task_id):
         situation_predicate = predicate_generator(situation)
 
         # test
-        # situation_action = 'find_soda'
+        # situation_action = 'find_coke'
 
         return situation_index, situation, situation_opp, situation_object, situation_predicate, situation_action
 
@@ -669,16 +675,15 @@ def situation_simulator(task_id):
             10: 'the chair is dirty.',
             11: 'the plate is placed already.',
             12: 'the table is dirty.',
-            13: 'the spoon is missing.',
-            14: 'the plate is not available.',
-            15: 'the plate is broken.',
-            16: 'the fork is broken.',
-            17: 'the burger smells bad.',
-            18: 'the burger is not enough for a person.',
-            19: 'the burger is expired.',
-            20: 'the burger is dirty.',
-            21: 'the chair slipped.',
-            22: 'the chair is wet.'
+            13: 'the plate is not available.',
+            14: 'the plate is broken.',
+            15: 'the fork is broken.',
+            16: 'the burger smells bad.',
+            17: 'the burger is not enough for a person.',
+            18: 'the burger is expired.',
+            19: 'the burger is dirty.',
+            20: 'the chair slipped.',
+            21: 'the chair is wet.'
         }
 
         situations_opp = {
@@ -695,16 +700,15 @@ def situation_simulator(task_id):
             10: 'a chair clean.',
             11: 'a plate not placed on the table.',
             12: 'a table clean.',
-            13: 'a spoon found.',
-            14: 'a plate available.',
-            15: 'a plate unbroken.',
-            16: 'a fork unbroken.',
-            17: 'a burger good.',
-            18: 'a burger enough for a person.',
-            19: 'a burger in good condition.',
-            20: 'a burger clean.',
-            21: 'a chair not slipped.',
-            22: 'a chair dry.'
+            13: 'a plate available.',
+            14: 'a plate unbroken.',
+            15: 'a fork unbroken.',
+            16: 'a burger good.',
+            17: 'a burger enough for a person.',
+            18: 'a burger in good condition.',
+            19: 'a burger clean.',
+            20: 'a chair not slipped.',
+            21: 'a chair dry.'
         }
 
         situations_object = {
@@ -721,42 +725,40 @@ def situation_simulator(task_id):
             10: 'chair',
             11: 'plate',
             12: 'table',
-            13: 'spoon',
+            13: 'plate',
             14: 'plate',
-            15: 'plate',
-            16: 'fork',
+            15: 'fork',
+            16: 'burger',
             17: 'burger',
             18: 'burger',
             19: 'burger',
-            20: 'burger',
-            21: 'chair',
-            22: 'chair'
+            20: 'chair',
+            21: 'chair'
         }
 
         situations_prob = {
-            0: 23 / 84.,
-            1: 15 / 84.,
-            2: 10 / 84.,
-            3: 5 / 84.,
-            4: 4 / 84.,
-            5: 4 / 84.,
-            6: 3 / 84.,
-            7: 2 / 84.,
-            8: 2 / 84.,
-            9: 2 / 84.,
-            10: 2 / 84.,
-            11: 1 / 84.,
-            12: 1 / 84.,
-            13: 1 / 84.,
-            14: 1 / 84.,
-            15: 1 / 84.,
-            16: 1 / 84.,
-            17: 1 / 84.,
-            18: 1 / 84.,
-            19: 1 / 84.,
-            20: 1 / 84.,
-            21: 1 / 84.,
-            22: 1 / 84.
+            0: 23 / 83.,
+            1: 15 / 83.,
+            2: 10 / 83.,
+            3: 5 / 83.,
+            4: 4 / 83.,
+            5: 4 / 83.,
+            6: 3 / 83.,
+            7: 2 / 83.,
+            8: 2 / 83.,
+            9: 2 / 83.,
+            10: 2 / 83.,
+            11: 1 / 83.,
+            12: 1 / 83.,
+            13: 1 / 83.,
+            14: 1 / 83.,
+            15: 1 / 83.,
+            16: 1 / 83.,
+            17: 1 / 83.,
+            18: 1 / 83.,
+            19: 1 / 83.,
+            20: 1 / 83.,
+            21: 1 / 83.
         }
 
         situations_action = {
@@ -773,16 +775,15 @@ def situation_simulator(task_id):
             10: ['find_chair'],
             11: ['place_plate'],
             12: ['find_table'],
-            13: ['place_plate'],
+            13: ['find_plate'],
             14: ['find_plate'],
-            15: ['find_plate'],
+            15: ['find_burger'],
             16: ['find_burger'],
             17: ['find_burger'],
             18: ['find_burger'],
             19: ['find_burger'],
-            20: ['find_burger'],
-            21: ['find_chair'],
-            22: ['find_chair']
+            20: ['find_chair'],
+            21: ['find_chair']
         }
 
         actions_prob = {
@@ -807,15 +808,14 @@ def situation_simulator(task_id):
             18: [1 / 1.],
             19: [1 / 1.],
             20: [1 / 1.],
-            21: [1 / 1.],
-            22: [1 / 1.]
+            21: [1 / 1.]
         }
 
         # randomly select a situation
         situation_index = np.random.choice(list(range(0, len(situations))), p=list(situations_prob.values()))
 
         # test
-        # situation_index = 0
+        situation_index = 7
 
         situation = situations[situation_index]
         situation_opp = situations_opp[situation_index]

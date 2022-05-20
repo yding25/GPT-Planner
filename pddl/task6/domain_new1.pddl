@@ -2,7 +2,7 @@
 	(domain dining)
 	(:requirements :strips :typing)
 	(:types robot cupboard table plate fork location food utensil beverage furniture other appliance)
-	(:predicates (robot_at ?r - robot ?l - location) (hand_empty ?r - robot) (cupboard_at ?c - cupboard ?l - location) (cupboard_is_found ?c - cupboard) (cupboard_is_open ?c - cupboard) (cupboard_is_closed ?c - cupboard) (table_at ?t - table ?l - location) (table_is_found ?t - table) (plate_at ?p - plate ?l - location) (plate_is_found ?p - plate) (plate_is_takenout ?p - plate) (plate_is_placed ?p - plate ?t - table) (fork_at ?f - fork ?l - location) (fork_is_found ?f - fork) (fork_is_takenout ?f - fork) (fork_is_placed ?f - fork ?t - table) (appliance_at ?a - appliance ?l) (fork_is_dirty ?f - fork))
+	(:predicates (robot_at ?r - robot ?l - location) (hand_empty ?r - robot) (cupboard_at ?c - cupboard ?l - location) (cupboard_is_found ?c - cupboard) (cupboard_is_open ?c - cupboard) (cupboard_is_closed ?c - cupboard) (table_at ?t - table ?l - location) (table_is_found ?t - table) (plate_at ?p - plate ?l - location) (plate_is_found ?p - plate) (plate_is_takenout ?p - plate) (plate_is_placed ?p - plate ?t - table) (fork_at ?f - fork ?l - location) (fork_is_found ?f - fork) (fork_is_takenout ?f - fork) (fork_is_placed ?f - fork ?t - table) (appliance_at ?a - appliance ?l) (table_is_dirty ?t - table))
 
 	(:action walk
 		:parameters (?r - robot ?l1 - location ?l2 - location)
@@ -54,13 +54,13 @@
 
 	(:action place_plate
 		:parameters (?r - robot ?p - plate ?t - table ?l - location)
-		:precondition (and (table_is_found ?t) (plate_is_takenout ?p) (plate_at ?p ?l) (table_at ?t ?l) (robot_at ?r ?l))
+		:precondition (and (table_is_found ?t) (plate_is_takenout ?p) (plate_at ?p ?l) (table_at ?t ?l) (robot_at ?r ?l) (not (table_is_dirty ?t)))
 		:effect (and (plate_is_placed ?p ?t) (not (plate_is_takenout ?p)) (hand_empty ?r))
 	)
 
 	(:action find_fork
 		:parameters (?r - robot ?f - fork ?c - cupboard ?l - location)
-		:precondition (and (fork_at ?f ?l) (cupboard_is_open ?c) (robot_at ?r ?l) (hand_empty ?r) (not (fork_is_dirty ?f)))
+		:precondition (and (fork_at ?f ?l) (cupboard_is_open ?c) (robot_at ?r ?l) (hand_empty ?r))
 		:effect (and (fork_is_found ?f))
 	)
 

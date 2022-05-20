@@ -1,0 +1,585 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(find_table rob table_0 dining)
+(walk_table rob table_0 dining)
+(find_chair rob chair_1 dining)
+(pull_chair rob chair_1 dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 kitchen)
+(grasp_plate rob plate_1 kitchen)
+(move_plate rob plate_1 kitchen table_0 dining)
+(place_plate rob plate_1 table_0 dining)
+(walk rob dining kitchen)
+(find_burger rob burger_1 kitchen)
+(find_fork rob fork_1 kitchen)
+(grasp_burger rob burger_1 kitchen)
+(move_burger rob burger_1 kitchen plate_1 dining)
+(place_burger rob burger_1 plate_1 dining)
+(walk rob dining kitchen)
+(grasp_fork rob fork_1 kitchen)
+(move_fork rob fork_1 kitchen plate_1 dining)
+(place_fork rob fork_1 plate_1 dining)
+; cost = 19 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 6
+situation: the fork_1 is dirty.
+action corresponding to situation: find_fork
+corresponding predicate: fork_is_dirty
+object manipulated by robot: fork_1
+object in situation: fork_1
+
+#---------- executing plan! -----------
+action: ['find_table', 'rob', 'table_0', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk_table', 'rob', 'table_0', 'dining']
+action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+action: ['find_chair', 'rob', 'chair_1', 'dining']
+action (decoded): a robot finds a chair in dining room.
+this action is executed!
+
+action: ['pull_chair', 'rob', 'chair_1', 'dining']
+action (decoded): a robot pulls up a chair in dining room.
+this action is executed!
+
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_plate', 'rob', 'plate_1', 'kitchen']
+action (decoded): a robot finds a plate in kitchen room.
+this action is executed!
+
+action: ['grasp_plate', 'rob', 'plate_1', 'kitchen']
+action (decoded): a robot grasps a plate in kitchen room.
+this action is executed!
+
+action: ['move_plate', 'rob', 'plate_1', 'kitchen', 'table_0', 'dining']
+action (decoded): a robot moves a plate in kitchen room near a table in dining room.
+this action is executed!
+
+action: ['place_plate', 'rob', 'plate_1', 'table_0', 'dining']
+action (decoded): a robot places a plate on a table  in dining room.
+this action is executed!
+
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_burger', 'rob', 'burger_1', 'kitchen']
+action (decoded): a robot finds a burger in kitchen room.
+this action is executed!
+
+action: ['find_fork', 'rob', 'fork_1', 'kitchen']
+action (decoded): a robot finds a fork in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['find_fork', 'rob', 'fork_1', 'kitchen']
+['grasp_burger', 'rob', 'burger_1', 'kitchen']
+['move_burger', 'rob', 'burger_1', 'kitchen', 'plate_1', 'dining']
+['place_burger', 'rob', 'burger_1', 'plate_1', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['grasp_fork', 'rob', 'fork_1', 'kitchen']
+['move_fork', 'rob', 'fork_1', 'kitchen', 'plate_1', 'dining']
+['place_fork', 'rob', 'fork_1', 'plate_1', 'dining']
+
+unexecuted action: ['find_fork', 'rob', 'fork_1', 'kitchen']
+unexecuted action (decoded): a robot finds a fork in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot finds a fork if the fork is dirty?
+! experience found
+! response from LLM
+response (raw prompt): no,
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['table cloth', 'mat', 'condiment bottle', 'coffee filter', 'oatmeal', 'dish', 'drinking glass', 'cooking pot', 'ice cream', 'condiment shaker', 'oven tray', 'cutlery knife', 'closet', 'snack', 'cleaning bottle', 'frying pan', 'bucket', 'piano bench', 'wooden chopstick', 'pantry', 'dish bowl', 'cupboard', 'rice', 'cpu table', 'sponge', 'measuring cup', 'cloth napkin', 'coffee cup', 'desk', 'paper towel']
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a table cloth?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a mat?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a mat on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a condiment bottle?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a condiment bottle on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a coffee filter?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a coffee filter on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a oatmeal?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a oatmeal on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a dish on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a drinking glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a drinking glass on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cooking pot?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a ice cream?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a ice cream on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a condiment shaker on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a oven tray?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cutlery knife?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a closet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a snack?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a snack on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cleaning bottle?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a cleaning bottle on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a frying pan?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bucket?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a bucket on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a piano bench?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a wooden chopstick?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a wooden chopstick on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a pantry?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish bowl?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a dish bowl on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cupboard?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a rice?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a rice on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cpu table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a sponge?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a sponge on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a measuring cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a measuring cup on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cloth napkin?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a cloth napkin on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a coffee cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a coffee cup on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a desk?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a paper towel?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a paper towel on a plate?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+#---------- capable_objects: ----------
+ ['condiment bottle', 'coffee filter', 'oatmeal', 'dish', 'drinking glass', 'ice cream', 'condiment shaker', 'snack', 'wooden chopstick', 'dish bowl', 'rice', 'sponge', 'measuring cup', 'cloth napkin', 'coffee cup', 'paper towel']
+
+! prompt design
+raw prompt: there are some objects, such as condiment bottle, coffee filter, oatmeal, dish, drinking glass, ice cream, condiment shaker, snack, wooden chopstick, dish bowl, rice, sponge, measuring cup, cloth napkin, coffee cup, paper towel. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is dirty?
+! results from LLM
+response (raw prompt): a fork is the most suitable object to use for eating a burger on a plate
+
+#---------- most possible object: ---------- 
+ None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['kettle', 'coffee maker', 'dehumidifier', 'water filter', 'stove', 'microwave', 'fridge', 'toaster', 'vacuum cleaner']
+
+! prompt design
+prompt (raw): can a kettle make a fork clean if the fork is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make a fork clean if the fork is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dehumidifier make a fork clean if the fork is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water filter make a fork clean if the fork is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a stove make a fork clean if the fork is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a microwave make a fork clean if the fork is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a fridge make a fork clean if the fork is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a toaster make a fork clean if the fork is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a vacuum cleaner make a fork clean if the fork is dirty? 
+answer:
+! results from LLM
+response (raw prompt): yes
+
+capable appliances: ['vacuum cleaner']
+
+#---------- most possible appliance:
+ vacuum cleaner
+
+#---------- add effect -----------
+! step 1: add effect
+step 1 is done.
+! step 2: add parameter
+step 2 is done.
+! step 3: supplement init
+step 3 is done.
+! step 4: supplement object
+step 4 is done.
+
+#---------- modified_plan_3! exists -----------
+
+#---------- solution -----------
+only modified_plan_3 exists.
+
+(find_table rob table_0 dining)
+(walk_table rob table_0 dining)
+(find_chair rob chair_1 dining)
+(pull_chair rob chair_1 dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 kitchen)
+(grasp_plate rob plate_1 kitchen)
+(move_plate rob plate_1 kitchen table_0 dining)
+(place_plate rob plate_1 table_0 dining)
+(walk rob dining kitchen)
+(find_burger rob burger_1 kitchen)
+(operate rob vacuum_cleaner kitchen dining fork_1)
+(find_fork rob fork_1 kitchen)
+(grasp_burger rob burger_1 kitchen)
+(move_burger rob burger_1 kitchen plate_1 dining)
+(place_burger rob burger_1 plate_1 dining)
+(walk rob dining kitchen)
+(grasp_fork rob fork_1 kitchen)
+(move_fork rob fork_1 kitchen plate_1 dining)
+(place_fork rob fork_1 plate_1 dining)
+; cost = 20 (unit cost)

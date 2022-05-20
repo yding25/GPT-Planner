@@ -1,0 +1,96 @@
+before running, all old files have been removed.
+
+setting:1
+
+#---------- generating basic plan! -----------
+(walk rob dining kitchen)
+(find_coke rob coke_1 kitchen)
+(find_glass rob glass_2 kitchen)
+(grasp_glass rob glass_2 kitchen)
+(move_glass rob glass_2 kitchen table_0 dining)
+(place_glass rob glass_2 table_0 dining)
+(walk rob dining kitchen)
+(grasp_coke rob coke_1 kitchen)
+(pour_coke rob coke_1 glass_2 kitchen)
+; cost = 9 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 10
+situation: the bottle of coke_1 is dropped.
+action corresponding to situation: pour_coke
+corresponding predicate: bottle_of_coke_is_dropped
+object manipulated by robot: coke_1
+object in situation: coke_1
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_coke', 'rob', 'coke_1', 'kitchen']
+action (decoded): a robot finds a bottle of coke in kitchen room.
+this action is executed!
+
+action: ['find_glass', 'rob', 'glass_2', 'kitchen']
+action (decoded): a robot finds a glass in kitchen room.
+this action is executed!
+
+action: ['grasp_glass', 'rob', 'glass_2', 'kitchen']
+action (decoded): a robot grasps a glass in kitchen room.
+this action is executed!
+
+action: ['move_glass', 'rob', 'glass_2', 'kitchen', 'table_0', 'dining']
+action (decoded): a robot moves a glass in kitchen room near a table in table room.
+this action is executed!
+
+action: ['place_glass', 'rob', 'glass_2', 'table_0', 'dining']
+action (decoded): a robot places a glass on a table in dining room.
+this action is executed!
+
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['grasp_coke', 'rob', 'coke_1', 'kitchen']
+action (decoded): a robot grasps a bottle of coke in kitchen room.
+this action is executed!
+
+action: ['pour_coke', 'rob', 'coke_1', 'glass_2', 'kitchen']
+action (decoded): a robot pours a bottle of coke into glass in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['pour_coke', 'rob', 'coke_1', 'glass_2', 'kitchen']
+
+unexecuted action: ['pour_coke', 'rob', 'coke_1', 'glass_2', 'kitchen']
+unexecuted action (decoded): a robot pours a bottle of coke into glass in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into glass if the bottle of coke is dropped?
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to pour a bottle of coke into a glass if the bottle of coke is dropped
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+(walk rob dining kitchen)
+(find_coke rob coke_2 kitchen)
+(find_glass rob glass_2 kitchen)
+(grasp_glass rob glass_2 kitchen)
+(move_glass rob glass_2 kitchen table_0 dining)
+(place_glass rob glass_2 table_0 dining)
+(walk rob dining kitchen)
+(grasp_coke rob coke_2 kitchen)
+(pour_coke rob coke_2 glass_2 kitchen)
+; cost = 9 (unit cost)

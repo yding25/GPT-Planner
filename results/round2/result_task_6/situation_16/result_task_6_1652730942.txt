@@ -1,0 +1,155 @@
+before running, all old files have been removed.
+
+setting:1
+
+#---------- generating basic plan! -----------
+(find_table rob table dining)
+(walk rob dining kitchen)
+(find_cupboard rob cupboard kitchen)
+(open_cupboard rob cupboard kitchen)
+(find_fork rob fork_1 cupboard kitchen)
+(takeout_fork rob fork_1 cupboard kitchen)
+(move_fork rob fork_1 kitchen dining)
+(place_fork rob fork_1 table dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 cupboard kitchen)
+(takeout_plate rob plate_1 cupboard kitchen)
+(move_plate rob plate_1 kitchen dining)
+(place_plate rob plate_1 table dining)
+(walk rob dining kitchen)
+(close_cupboard rob cupboard kitchen)
+; cost = 15 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 16
+situation: the robot is stopped due to obstacles.
+action corresponding to situation: walk
+corresponding predicate: robot_is_stopped
+object manipulated by robot: None
+object in situation: obstacle
+
+#---------- executing plan! -----------
+action: ['find_table', 'rob', 'table', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['walk', 'rob', 'dining', 'kitchen']
+['find_cupboard', 'rob', 'cupboard', 'kitchen']
+['open_cupboard', 'rob', 'cupboard', 'kitchen']
+['find_fork', 'rob', 'fork_1', 'cupboard', 'kitchen']
+['takeout_fork', 'rob', 'fork_1', 'cupboard', 'kitchen']
+['move_fork', 'rob', 'fork_1', 'kitchen', 'dining']
+['place_fork', 'rob', 'fork_1', 'table', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['find_plate', 'rob', 'plate_1', 'cupboard', 'kitchen']
+['takeout_plate', 'rob', 'plate_1', 'cupboard', 'kitchen']
+['move_plate', 'rob', 'plate_1', 'kitchen', 'dining']
+['place_plate', 'rob', 'plate_1', 'table', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['close_cupboard', 'rob', 'cupboard', 'kitchen']
+
+unexecuted action: ['find_cupboard', 'rob', 'cupboard', 'kitchen']
+unexecuted action (decoded): a robot finds a cupboard in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot finds a cupboard if the robot is stopped due to obstacles?
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to find a cupboard if the robot is stopped due to obstacles
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is done!
+! step 3: supplement type
+step 3 is done!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is done!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['coffee table', 'cutlery knife', 'paper towel', 'cutting board', 'piano bench', 'colander', 'chef knife', 'bucket', 'closet', 'rag', 'condiment bottle', 'trash can', 'cpu table', 'drinking glass', 'kitchen counter', 'cleaning bottle', 'dining table', 'wooden chopstick', 'sponge', 'dish', 'cupboard', 'bookshelf']
+
+#---------- capable_objects: ----------
+None
+
+#---------- most possible object: ---------- 
+None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['washing machine', 'juicer', 'coffee maker', 'microwave', 'vacuum cleaner', 'water filter', 'stove', 'oven', 'ice cream maker']
+
+! prompt design
+prompt (raw): can a washing machine make there are no obstacles for the robot if the robot is stopped due to obstacles? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a juicer make there are no obstacles for the robot if the robot is stopped due to obstacles? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make there are no obstacles for the robot if the robot is stopped due to obstacles? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a microwave make there are no obstacles for the robot if the robot is stopped due to obstacles? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a vacuum cleaner make there are no obstacles for the robot if the robot is stopped due to obstacles? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water filter make there are no obstacles for the robot if the robot is stopped due to obstacles? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a stove make there are no obstacles for the robot if the robot is stopped due to obstacles? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a oven make there are no obstacles for the robot if the robot is stopped due to obstacles? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a ice cream maker make there are no obstacles for the robot if the robot is stopped due to obstacles? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

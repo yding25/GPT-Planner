@@ -1,0 +1,321 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob dining kitchen)
+(find_coke rob coke_1 kitchen)
+(find_glass rob glass_1 kitchen)
+(grasp_glass rob glass_1 kitchen)
+(move_glass rob glass_1 kitchen table_0 dining)
+(place_glass rob glass_1 table_0 dining)
+(walk rob dining kitchen)
+(grasp_coke rob coke_1 kitchen)
+(pour_coke rob coke_1 glass_1 kitchen)
+; cost = 9 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 2
+situation: the bottle of coke_1 is missing.
+action corresponding to situation: find_coke
+corresponding predicate: bottle_of_coke_is_missing
+object manipulated by robot: coke_1
+object in situation: coke_1
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_coke', 'rob', 'coke_1', 'kitchen']
+action (decoded): a robot finds a bottle of coke in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['find_coke', 'rob', 'coke_1', 'kitchen']
+['find_glass', 'rob', 'glass_1', 'kitchen']
+['grasp_glass', 'rob', 'glass_1', 'kitchen']
+['move_glass', 'rob', 'glass_1', 'kitchen', 'table_0', 'dining']
+['place_glass', 'rob', 'glass_1', 'table_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['grasp_coke', 'rob', 'coke_1', 'kitchen']
+['pour_coke', 'rob', 'coke_1', 'glass_1', 'kitchen']
+
+unexecuted action: ['find_coke', 'rob', 'coke_1', 'kitchen']
+unexecuted action (decoded): a robot finds a bottle of coke in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot finds a bottle of coke if the bottle of coke is missing?
+! response from LLM
+response (raw prompt): no, it is not suitable
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['wooden chopstick', 'frying pan', 'wine glass', 'milk', 'juice', 'drinking glass', 'wooden spoon', 'bucket', 'mug', 'wine', 'colander', 'trash can', 'rag', 'condiment bottle', 'sponge', 'cutlery fork', 'cooking pot', 'oven tray']
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of wooden chopstick?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of frying pan?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of wine glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of milk?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of milk into glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of juice?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of juice into glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of drinking glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of wooden spoon?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of bucket?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of mug?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of wine?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of wine into glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of colander?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of trash can?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of rag?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of condiment bottle?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of condiment bottle into glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of sponge?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of cutlery fork?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of cooking pot?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bottle of oven tray?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+ ['milk', 'juice', 'wine', 'condiment bottle']
+
+! prompt design
+raw prompt: there are some objects, such as milk, juice, wine, condiment bottle. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is missing?
+! results from LLM
+response (raw prompt): milk, juice, and wine are all suitable replacements for coke in the task of pouring coke into a glass
+
+#---------- most possible object: ---------- 
+ milk
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['kettle', 'fridge', 'microwave', 'oven', 'ice cream maker', 'dishwasher', 'toaster', 'dehumidifier', 'freezer']
+
+! prompt design
+prompt (raw): can a kettle make bottle of coke found if the bottle of coke is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a fridge make bottle of coke found if the bottle of coke is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a microwave make bottle of coke found if the bottle of coke is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a oven make bottle of coke found if the bottle of coke is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a ice cream maker make bottle of coke found if the bottle of coke is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dishwasher make bottle of coke found if the bottle of coke is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a toaster make bottle of coke found if the bottle of coke is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dehumidifier make bottle of coke found if the bottle of coke is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a freezer make bottle of coke found if the bottle of coke is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+only modified_plan_2 exists.
+
+(walk rob dining kitchen)
+(find_coke rob milk kitchen)
+(find_glass rob glass_1 kitchen)
+(grasp_glass rob glass_1 kitchen)
+(move_glass rob glass_1 kitchen table_0 dining)
+(place_glass rob glass_1 table_0 dining)
+(walk rob dining kitchen)
+(grasp_coke rob milk kitchen)
+(pour_coke rob milk glass_1 kitchen)
+; cost = 9 (unit cost)

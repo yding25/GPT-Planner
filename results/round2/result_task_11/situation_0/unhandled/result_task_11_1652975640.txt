@@ -1,0 +1,391 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(find_table rob table_0 dining)
+(walk_table rob table_0 dining)
+(find_chair rob chair_1 dining)
+(pull_chair rob chair_1 dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 kitchen)
+(grasp_plate rob plate_1 kitchen)
+(move_plate rob plate_1 kitchen table_0 dining)
+(place_plate rob plate_1 table_0 dining)
+(walk rob dining kitchen)
+(find_burger rob burger_1 kitchen)
+(find_fork rob fork_1 kitchen)
+(grasp_burger rob burger_1 kitchen)
+(move_burger rob burger_1 kitchen plate_1 dining)
+(place_burger rob burger_1 plate_1 dining)
+(walk rob dining kitchen)
+(grasp_fork rob fork_1 kitchen)
+(move_fork rob fork_1 kitchen plate_1 dining)
+(place_fork rob fork_1 plate_1 dining)
+; cost = 19 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 0
+situation: the chair_1 is broken.
+action corresponding to situation: find_chair
+corresponding predicate: chair_is_broken
+object manipulated by robot: chair_1
+object in situation: chair_1
+
+#---------- executing plan! -----------
+action: ['find_table', 'rob', 'table_0', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk_table', 'rob', 'table_0', 'dining']
+action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+action: ['find_chair', 'rob', 'chair_1', 'dining']
+action (decoded): a robot finds a chair in dining room.
+
+#---------- checking unexecuted actions! -----------
+['find_chair', 'rob', 'chair_1', 'dining']
+['pull_chair', 'rob', 'chair_1', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['find_plate', 'rob', 'plate_1', 'kitchen']
+['grasp_plate', 'rob', 'plate_1', 'kitchen']
+['move_plate', 'rob', 'plate_1', 'kitchen', 'table_0', 'dining']
+['place_plate', 'rob', 'plate_1', 'table_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['find_burger', 'rob', 'burger_1', 'kitchen']
+['find_fork', 'rob', 'fork_1', 'kitchen']
+['grasp_burger', 'rob', 'burger_1', 'kitchen']
+['move_burger', 'rob', 'burger_1', 'kitchen', 'plate_1', 'dining']
+['place_burger', 'rob', 'burger_1', 'plate_1', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['grasp_fork', 'rob', 'fork_1', 'kitchen']
+['move_fork', 'rob', 'fork_1', 'kitchen', 'plate_1', 'dining']
+['place_fork', 'rob', 'fork_1', 'plate_1', 'dining']
+
+unexecuted action: ['find_chair', 'rob', 'chair_1', 'dining']
+unexecuted action (decoded): a robot finds a chair in dining room.
+! prompt design
+raw prompt: is it suitable that a robot finds a chair if the chair is broken?
+! experience found
+! response from LLM
+response (raw prompt): no,
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['oven tray', 'table cloth', 'rice', 'salt', 'couch', 'nightstand', 'sponge', 'peanut butter', 'coffee filter', 'condiment shaker', 'condiment bottle', 'cake', 'kitchen cabinet', 'coffee table', 'wooden spoon', 'cpu table', 'closet', 'rag', 'colander', 'dish bowl', 'mat', 'oatmeal', 'trash can', 'oil', 'cloth napkin', 'mug', 'dish', 'bread', 'chips', 'bucket']
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a oven tray?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a table cloth?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a rice?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a salt?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a couch?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a nightstand?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a sponge?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a peanut butter?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a coffee filter?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a condiment bottle?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a cake?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a kitchen cabinet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a coffee table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a wooden spoon?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a cpu table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a closet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a rag?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a colander?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a dish bowl?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a mat?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a oatmeal?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a trash can?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a oil?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a cloth napkin?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a mug?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a dish?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a bread?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a chips?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a bucket?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+#---------- capable_objects: ----------
+ ['oven tray', 'table cloth', 'couch', 'nightstand', 'sponge', 'coffee filter', 'condiment shaker', 'condiment bottle', 'kitchen cabinet', 'coffee table', 'wooden spoon', 'rag', 'colander', 'dish bowl', 'mat', 'trash can', 'cloth napkin', 'mug', 'dish', 'bucket']
+
+! prompt design
+raw prompt: there are some objects, such as oven tray, table cloth, couch, nightstand, sponge, coffee filter, condiment shaker, condiment bottle, kitchen cabinet, coffee table, wooden spoon, rag, colander, dish bowl, mat, trash can, cloth napkin, mug, dish, bucket. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+! results from LLM
+response (raw prompt): a table would be the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+
+#---------- most possible object: ---------- 
+ None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['freezer', 'blender', 'oven', 'juicer', 'coffee maker', 'stove', 'vacuum cleaner', 'ice cream maker', 'kettle']
+
+! prompt design
+prompt (raw): can a freezer make a chair unbroken if the chair is broken? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a blender make a chair unbroken if the chair is broken? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a oven make a chair unbroken if the chair is broken? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a juicer make a chair unbroken if the chair is broken? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make a chair unbroken if the chair is broken? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a stove make a chair unbroken if the chair is broken? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a vacuum cleaner make a chair unbroken if the chair is broken? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a ice cream maker make a chair unbroken if the chair is broken? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a kettle make a chair unbroken if the chair is broken? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

@@ -1,0 +1,582 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob dining kitchen)
+(find_coke rob coke_1 kitchen)
+(find_glass rob glass_1 kitchen)
+(grasp_glass rob glass_1 kitchen)
+(move_glass rob glass_1 kitchen table_0 dining)
+(place_glass rob glass_1 table_0 dining)
+(walk rob dining kitchen)
+(grasp_coke rob coke_1 kitchen)
+(pour_coke rob coke_1 glass_1 kitchen)
+; cost = 9 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 1
+situation: the glass_1 is broken.
+action corresponding to situation: find_glass
+corresponding predicate: glass_is_broken
+object manipulated by robot: glass_1
+object in situation: glass_1
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_coke', 'rob', 'coke_1', 'kitchen']
+action (decoded): a robot finds a bottle of coke in kitchen room.
+this action is executed!
+
+action: ['find_glass', 'rob', 'glass_1', 'kitchen']
+action (decoded): a robot finds a glass in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['find_glass', 'rob', 'glass_1', 'kitchen']
+['grasp_glass', 'rob', 'glass_1', 'kitchen']
+['move_glass', 'rob', 'glass_1', 'kitchen', 'table_0', 'dining']
+['place_glass', 'rob', 'glass_1', 'table_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['grasp_coke', 'rob', 'coke_1', 'kitchen']
+['pour_coke', 'rob', 'coke_1', 'glass_1', 'kitchen']
+
+unexecuted action: ['find_glass', 'rob', 'glass_1', 'kitchen']
+unexecuted action (decoded): a robot finds a glass in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot finds a glass if the glass is broken?
+! response from LLM
+response (raw prompt): no, it is not suitable
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['wine glass', 'colander', 'measuring cup', 'dish', 'cutlery fork', 'dish rack', 'wooden chopstick', 'bucket', 'mat', 'juice', 'rag', 'oven tray', 'coffee cup', 'cutting board', 'paper towel', 'alcohol', 'chef knife', 'coffee']
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a wine glass?
+answer:
+['yes']
+[0.4906156519155588]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a wine glass near a table?
+answer:
+['yes\n\nis it suitable that a robot moves a wine glass near a cup?\nanswer: no']
+[0.7434888663986591]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a wine glass on a table?
+answer:
+['yes']
+[0.4965342629494684]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into wine glass?
+answer:
+['no']
+[0.5058461998624281]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a colander?
+answer:
+['no']
+[0.4944275229819599]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a measuring cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a measuring cup near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a measuring cup on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into measuring cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish?
+answer:
+['yes']
+[0.23100915288304127]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a dish near a table?
+answer:
+['yes\n\nis it suitable that a robot moves a dish near a chair?\nanswer: no']
+[0.7664639216823392]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a dish on a table?
+answer:
+['yes']
+[0.5040725770177342]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into dish?
+answer:
+['no']
+[0.5041725762859692]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cutlery fork?
+answer:
+['yes']
+[0.5013107037691953]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a cutlery fork near a table?
+answer:
+['yes']
+[0.4662324415207298]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a cutlery fork on a table?
+answer:
+['yes']
+[0.4768356223439048]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into cutlery fork?
+answer:
+['no']
+[0.5100071154816698]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish rack?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a wooden chopstick?
+answer:
+['yes']
+[0.5020946421271325]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a wooden chopstick near a table?
+answer:
+['yes']
+[0.46325193769619016]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a wooden chopstick on a table?
+answer:
+['yes']
+[0.49969703495426143]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into wooden chopstick?
+answer:
+['no']
+[0.5027396767308117]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bucket?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a bucket near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a bucket on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into bucket?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a mat?
+answer:
+['yes']
+[0.48688703833750546]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a mat near a table?
+answer:
+['yes']
+[0.47546262893710833]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a mat on a table?
+answer:
+['yes']
+[0.5060522684259412]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into mat?
+answer:
+['no']
+[0.5100277470797474]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a juice?
+answer:
+['no']
+[0.5062424749693178]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a rag?
+answer:
+['yes']
+[0.5069643871478468]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a rag near a table?
+answer:
+['yes']
+[0.46964230403430773]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a rag on a table?
+answer:
+['yes']
+[0.4980394140982073]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into rag?
+answer:
+['no']
+[0.5123699748812802]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a oven tray?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a coffee cup?
+answer:
+['yes']
+[0.5139517302673454]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a coffee cup near a table?
+answer:
+['yes']
+[0.49572110026438376]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a coffee cup on a table?
+answer:
+['yes']
+[0.5154573367450938]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into coffee cup?
+answer:
+['no']
+[0.4980746560555482]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cutting board?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a cutting board near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a cutting board on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into cutting board?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a paper towel?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a paper towel near a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a paper towel on a table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into paper towel?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a alcohol?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a chef knife?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a coffee?
+answer:
+['yes']
+[0.498952700456588]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a coffee near a table?
+answer:
+['yes']
+[0.4696244080805635]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a coffee on a table?
+answer:
+['yes']
+[0.5073696516300517]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pours a bottle of coke into coffee?
+answer:
+['no']
+[0.5044404414044694]
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+ ['measuring cup', 'bucket']
+
+! prompt design
+raw prompt: there are some objects, such as measuring cup, bucket. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is broken?
+! results from LLM
+response (raw prompt): a measuring cup is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is broken
+
+#---------- most possible object: ---------- 
+ measuring cup
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['freezer', 'blender', 'dishwasher', 'coffee maker', 'air fryer', 'microwave', 'stove', 'oven', 'juicer']
+
+! prompt design
+prompt (raw): can a freezer make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a blender make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dishwasher make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a air fryer make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a microwave make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a stove make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a oven make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a juicer make a glass good if the glass is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+only modified_plan_2 exists.
+
+(walk rob dining kitchen)
+(find_coke rob coke_1 kitchen)
+(find_glass rob measuring_cup kitchen)
+(grasp_glass rob measuring_cup kitchen)
+(move_glass rob measuring_cup kitchen table_0 dining)
+(place_glass rob measuring_cup table_0 dining)
+(walk rob dining kitchen)
+(grasp_coke rob coke_1 kitchen)
+(pour_coke rob coke_1 measuring_cup kitchen)
+; cost = 9 (unit cost)

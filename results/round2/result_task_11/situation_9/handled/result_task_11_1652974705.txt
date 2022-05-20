@@ -1,0 +1,440 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(find_table rob table_0 dining)
+(walk_table rob table_0 dining)
+(find_chair rob chair_1 dining)
+(pull_chair rob chair_1 dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 kitchen)
+(grasp_plate rob plate_1 kitchen)
+(move_plate rob plate_1 kitchen table_0 dining)
+(place_plate rob plate_1 table_0 dining)
+(walk rob dining kitchen)
+(find_burger rob burger_1 kitchen)
+(find_fork rob fork_1 kitchen)
+(grasp_burger rob burger_1 kitchen)
+(move_burger rob burger_1 kitchen plate_1 dining)
+(place_burger rob burger_1 plate_1 dining)
+(walk rob dining kitchen)
+(grasp_fork rob fork_1 kitchen)
+(move_fork rob fork_1 kitchen plate_1 dining)
+(place_fork rob fork_1 plate_1 dining)
+; cost = 19 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 9
+situation: the chair_1 is missing.
+action corresponding to situation: find_chair
+corresponding predicate: chair_is_missing
+object manipulated by robot: chair_1
+object in situation: chair_1
+
+#---------- executing plan! -----------
+action: ['find_table', 'rob', 'table_0', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk_table', 'rob', 'table_0', 'dining']
+action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+action: ['find_chair', 'rob', 'chair_1', 'dining']
+action (decoded): a robot finds a chair in dining room.
+
+#---------- checking unexecuted actions! -----------
+['find_chair', 'rob', 'chair_1', 'dining']
+['pull_chair', 'rob', 'chair_1', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['find_plate', 'rob', 'plate_1', 'kitchen']
+['grasp_plate', 'rob', 'plate_1', 'kitchen']
+['move_plate', 'rob', 'plate_1', 'kitchen', 'table_0', 'dining']
+['place_plate', 'rob', 'plate_1', 'table_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['find_burger', 'rob', 'burger_1', 'kitchen']
+['find_fork', 'rob', 'fork_1', 'kitchen']
+['grasp_burger', 'rob', 'burger_1', 'kitchen']
+['move_burger', 'rob', 'burger_1', 'kitchen', 'plate_1', 'dining']
+['place_burger', 'rob', 'burger_1', 'plate_1', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['grasp_fork', 'rob', 'fork_1', 'kitchen']
+['move_fork', 'rob', 'fork_1', 'kitchen', 'plate_1', 'dining']
+['place_fork', 'rob', 'fork_1', 'plate_1', 'dining']
+
+unexecuted action: ['find_chair', 'rob', 'chair_1', 'dining']
+unexecuted action (decoded): a robot finds a chair in dining room.
+! prompt design
+raw prompt: is it suitable that a robot finds a chair if the chair is missing?
+! response from LLM
+response (raw prompt): no, it is not suitable
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['dish bowl', 'nightstand', 'piano bench', 'desk', 'steak', 'oven tray', 'cpu table', 'mat', 'sugar', 'ice cream', 'drinking glass', 'snack', 'coffee cup', 'sauce', 'salt', 'trash can', 'kitchen cabinet', 'paper towel', 'wooden chair', 'mug', 'oil', 'colander', 'pantry', 'cleaning bottle', 'cake', 'closet', 'dish rack', 'wine glass', 'sponge', 'oatmeal']
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a dish bowl?
+answer:
+['yes']
+[0.23170712228798973]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a nightstand?
+answer:
+['yes']
+[0.23315627105642328]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a piano bench?
+answer:
+['yes']
+[0.23293701278090131]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a desk?
+answer:
+['yes']
+[0.5019125392585929]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a steak?
+answer:
+['no']
+[0.5060288364338649]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a oven tray?
+answer:
+['yes']
+[0.22126278753409404]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a cpu table?
+answer:
+['no']
+[0.4780991765493955]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a mat?
+answer:
+['yes']
+[0.5012839256829217]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a sugar?
+answer:
+['no']
+[0.5106995805717299]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a ice cream?
+answer:
+['no']
+[0.48125828745329297]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a drinking glass?
+answer:
+['yes']
+[0.23918494373820634]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a snack?
+answer:
+['yes']
+[0.5037404007473205]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a coffee cup?
+answer:
+['yes']
+[0.5061758698458101]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a sauce?
+answer:
+['no']
+[0.5032524995846605]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a salt?
+answer:
+['no']
+[0.4884372607383833]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a trash can?
+answer:
+['yes']
+[0.4911937273861881]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a kitchen cabinet?
+answer:
+['yes']
+[0.4870067741511481]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a paper towel?
+answer:
+['yes']
+[0.503149180606575]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a wooden chair?
+answer:
+['yes']
+[0.5012234441533474]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a mug?
+answer:
+['yes']
+[0.5036584739250934]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a oil?
+answer:
+['no']
+[0.5087501168530623]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a colander?
+answer:
+['yes']
+[0.22654917708557673]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a pantry?
+answer:
+['no']
+[0.49354280326220396]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a cleaning bottle?
+answer:
+['yes']
+[0.48498245492384623]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a cake?
+answer:
+['no']
+[0.47492611936144286]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a closet?
+answer:
+['no']
+[0.48100422578459934]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a dish rack?
+answer:
+['yes']
+[0.4716955494634158]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a wine glass?
+answer:
+['yes']
+[0.22798332626352316]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a sponge?
+answer:
+['yes']
+[0.5012306288569709]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot pulls up a oatmeal?
+answer:
+['no']
+[0.5062622320306164]
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+ ['dish bowl', 'nightstand', 'piano bench', 'desk', 'oven tray', 'mat', 'drinking glass', 'snack', 'coffee cup', 'trash can', 'kitchen cabinet', 'paper towel', 'wooden chair', 'mug', 'colander', 'cleaning bottle', 'dish rack', 'wine glass', 'sponge']
+
+! prompt design
+raw prompt: there are some objects, such as dish bowl, nightstand, piano bench, desk, oven tray, mat, drinking glass, snack, coffee cup, trash can, kitchen cabinet, paper towel, wooden chair, mug, colander, cleaning bottle, dish rack, wine glass, sponge. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is missing?
+! results from LLM
+response (raw prompt): a wooden chair is the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is missing
+
+#---------- most possible object: ---------- 
+ wooden chair
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['kettle', 'vacuum cleaner', 'blender', 'juicer', 'ice cream maker', 'water boiler', 'dishwasher', 'air fryer', 'washing machine']
+
+! prompt design
+prompt (raw): can a kettle make a chair found if the chair is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a vacuum cleaner make a chair found if the chair is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a blender make a chair found if the chair is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a juicer make a chair found if the chair is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a ice cream maker make a chair found if the chair is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water boiler make a chair found if the chair is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dishwasher make a chair found if the chair is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a air fryer make a chair found if the chair is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a washing machine make a chair found if the chair is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+only modified_plan_2 exists.
+
+(find_table rob table_0 dining)
+(walk_table rob table_0 dining)
+(find_chair rob wooden_chair dining)
+(pull_chair rob wooden_chair dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 kitchen)
+(grasp_plate rob plate_1 kitchen)
+(move_plate rob plate_1 kitchen table_0 dining)
+(place_plate rob plate_1 table_0 dining)
+(walk rob dining kitchen)
+(find_burger rob burger_1 kitchen)
+(find_fork rob fork_1 kitchen)
+(grasp_burger rob burger_1 kitchen)
+(move_burger rob burger_1 kitchen plate_1 dining)
+(place_burger rob burger_1 plate_1 dining)
+(walk rob dining kitchen)
+(grasp_fork rob fork_1 kitchen)
+(move_fork rob fork_1 kitchen plate_1 dining)
+(place_fork rob fork_1 plate_1 dining)
+; cost = 19 (unit cost)

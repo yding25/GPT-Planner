@@ -1,0 +1,452 @@
+raw prompt:is it suitable that a robot places a fork on table if the fork is dirty?
+no, it is not suitable for a robot to place a dirty fork on a table
+raw prompt:is it suitable that a robot takes out a coffee filter from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a coffee filter?
+yes
+raw prompt:is it suitable that a robot places a coffee filter on table?
+yes
+raw prompt:is it suitable that a robot takes out a rag from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a rag?
+yes
+raw prompt:is it suitable that a robot places a rag on table?
+yes
+raw prompt:is it suitable that a robot takes out a colander from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a colander?
+yes
+raw prompt:is it suitable that a robot places a colander on table?
+yes
+raw prompt:is it suitable that a robot takes out a closet from a cupboard?
+no
+raw prompt:is it suitable that a robot takes out a cleaning bottle from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a cleaning bottle?
+yes
+raw prompt:is it suitable that a robot places a cleaning bottle on table?
+yes
+raw prompt:is it suitable that a robot takes out a dish bowl from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a dish bowl?
+yes
+raw prompt:is it suitable that a robot places a dish bowl on table?
+yes
+raw prompt:is it suitable that a robot takes out a wooden chopstick from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a wooden chopstick?
+yes
+raw prompt:is it suitable that a robot places a wooden chopstick on table?
+yes
+raw prompt:is it suitable that a robot takes out a drinking glass from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a drinking glass?
+yes
+raw prompt:is it suitable that a robot places a drinking glass on table?
+yes
+raw prompt:is it suitable that a robot takes out a mug from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a mug?
+yes
+raw prompt:is it suitable that a robot places a mug on table?
+yes
+raw prompt:is it suitable that a robot takes out a condiment shaker from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a condiment shaker?
+yes
+raw prompt:is it suitable that a robot places a condiment shaker on table?
+yes
+raw prompt:is it suitable that a robot takes out a cutting board from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a cutting board?
+yes
+raw prompt:is it suitable that a robot places a cutting board on table?
+yes
+raw prompt:is it suitable that a robot takes out a pantry from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a pantry?
+yes
+raw prompt:is it suitable that a robot places a pantry on table?
+no
+raw prompt:is it suitable that a robot takes out a couch from a cupboard?
+no
+raw prompt:is it suitable that a robot takes out a table cloth from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a table cloth?
+yes
+raw prompt:is it suitable that a robot places a table cloth on table?
+yes
+raw prompt:is it suitable that a robot takes out a dish rack from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a dish rack?
+yes
+raw prompt:is it suitable that a robot places a dish rack on table?
+no
+raw prompt:is it suitable that a robot takes out a wine glass from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a wine glass?
+yes
+raw prompt:is it suitable that a robot places a wine glass on table?
+yes
+raw prompt:is it suitable that a robot takes out a wooden spoon from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a wooden spoon?
+yes
+raw prompt:is it suitable that a robot places a wooden spoon on table?
+yes
+raw prompt:is it suitable that a robot takes out a kitchen counter from a cupboard?
+no
+raw prompt:is it suitable that a robot takes out a oven tray from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a oven tray?
+yes
+raw prompt:is it suitable that a robot places a oven tray on table?
+yes
+raw prompt:is it suitable that a robot takes out a cooking pot from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a cooking pot?
+yes
+raw prompt:is it suitable that a robot places a cooking pot on table?
+no
+raw prompt:is it suitable that a robot takes out a bookshelf from a cupboard?
+no
+raw prompt:is it suitable that a robot takes out a cpu table from a cupboard?
+no
+raw prompt:there are some objects, such as coffee filter, rag, colander, cleaning bottle, dish bowl, wooden chopstick, drinking glass, mug, condiment shaker, cutting board, table cloth, wine glass, wooden spoon, oven tray. which is the most suitable to replace a fork in the task of setting a table to eat steak if the fork is dirty?
+the most suitable object to replace a fork in the task of setting a table to eat steak if the fork is dirty is a wooden spoon
+prompt (raw):can a toaster make a fork clean if the fork is dirty?
+no
+prompt (raw):can a kettle make a fork clean if the fork is dirty?
+no
+prompt (raw):can a blender make a fork clean if the fork is dirty?
+no
+prompt (raw):can a ice cream maker make a fork clean if the fork is dirty?
+no
+prompt (raw):can a dehumidifier make a fork clean if the fork is dirty?
+no
+prompt (raw):can a fridge make a fork clean if the fork is dirty?
+no
+prompt (raw):can a vacuum cleaner make a fork clean if the fork is dirty?
+yes
+prompt (raw):can a water filter make a fork clean if the fork is dirty?
+no
+prompt (raw):can a air fryer make a fork clean if the fork is dirty?
+no
+raw prompt:is it suitable that a robot takes out a dining table from a cupboard?
+no
+raw prompt:is it suitable that a robot takes out a measuring cup from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a measuring cup?
+yes
+raw prompt:is it suitable that a robot places a measuring cup on table?
+yes
+raw prompt:is it suitable that a robot takes out a cutlery knife from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a cutlery knife?
+yes
+raw prompt:is it suitable that a robot places a cutlery knife on table?
+yes
+raw prompt:is it suitable that a robot takes out a coffee table from a cupboard?
+no
+raw prompt:is it suitable that a robot takes out a nightstand from a cupboard?
+no
+raw prompt:is it suitable that a robot takes out a piano bench from a cupboard?
+no
+raw prompt:is it suitable that a robot takes out a sponge from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a sponge?
+yes
+raw prompt:is it suitable that a robot places a sponge on table?
+yes
+raw prompt:is it suitable that a robot takes out a coffee cup from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a coffee cup?
+yes
+raw prompt:is it suitable that a robot places a coffee cup on table?
+yes
+raw prompt:is it suitable that a robot takes out a wooden chair from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a wooden chair?
+yes
+raw prompt:is it suitable that a robot places a wooden chair on table?
+yes
+raw prompt:is it suitable that a robot takes out a paper towel from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a paper towel?
+yes
+raw prompt:is it suitable that a robot places a paper towel on table?
+yes
+raw prompt:is it suitable that a robot takes out a cloth napkin from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a cloth napkin?
+yes
+raw prompt:is it suitable that a robot places a cloth napkin on table?
+yes
+raw prompt:there are some objects, such as measuring cup, table cloth, cutlery knife, wine glass, colander, condiment shaker, sponge, coffee cup, wooden chair, wooden chopstick, cutting board, paper towel, wooden spoon, cloth napkin. which is the most suitable to replace a fork in the task of setting a table to eat steak if the fork is dirty?
+the most suitable object to replace a fork in the task of setting a table to eat steak if the fork is dirty is a wooden chopstick
+prompt (raw):can a oven make a fork clean if the fork is dirty?
+no
+prompt (raw):can a juicer make a fork clean if the fork is dirty?
+no
+prompt (raw):can a stove make a fork clean if the fork is dirty?
+no
+prompt (raw):can a water boiler make a fork clean if the fork is dirty?
+no
+prompt (raw):can a freezer make a fork clean if the fork is dirty?
+no
+raw prompt:is it suitable that a robot takes out a fork from a cupboard if the fork is dirty?
+no, it is not suitable for a robot to take out a fork from a cupboard if the fork is dirty
+raw prompt:is it suitable that a robot finds a fork if the fork is dirty?
+no, it is not suitable for a robot to find a fork if the fork is dirty
+raw prompt:is it suitable that a robot takes out a mat from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a mat?
+yes
+raw prompt:is it suitable that a robot places a mat on table?
+yes
+raw prompt:is it suitable that a robot takes out a trash can from a cupboard?
+no
+raw prompt:is it suitable that a robot takes out a kitchen table from a cupboard?
+no
+raw prompt:is it suitable that a robot takes out a dish from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a dish?
+yes
+raw prompt:is it suitable that a robot places a dish on table?
+yes
+raw prompt:is it suitable that a robot takes out a kitchen cabinet from a cupboard?
+no
+raw prompt:is it suitable that a robot takes out a frying pan from a cupboard?
+no
+raw prompt:is it suitable that a robot takes out a cutlery fork from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a cutlery fork?
+yes
+raw prompt:is it suitable that a robot places a cutlery fork on table?
+yes
+raw prompt:is it suitable that a robot takes out a bucket from a cupboard?
+yes
+raw prompt:is it suitable that a robot moves a bucket?
+yes
+raw prompt:is it suitable that a robot places a bucket on table?
+yes
+raw prompt:there are some objects, such as rag, cutlery knife, coffee filter, condiment shaker, cutting board, mat, oven tray, dish, wine glass, cutlery fork, cleaning bottle, bucket. which is the most suitable to replace a fork in the task of setting a table to eat steak if the fork is dirty?
+the most suitable object to replace a fork in the task of setting a table to eat steak if the fork is dirty is a cutlery knife
+prompt (raw):can a microwave make a fork clean if the fork is dirty?
+no
+prompt (raw):can a washing machine make a fork clean if the fork is dirty?
+no
+prompt (raw):can a coffee maker make a fork clean if the fork is dirty?
+no
+prompt (raw):can a dishwasher make a fork clean if the fork is dirty?
+yes
+raw prompt:is it suitable that a robot takes out a desk from a cupboard?
+no
+raw prompt:is it suitable that a robot takes out a cupboard from a cupboard?
+no
+raw prompt:is it suitable that a robot takes out a chef knife from a cupboard?
+no
+raw prompt:there are some objects, such as wooden chair, coffee filter, cutlery knife, wooden chopstick, wine glass, cutting board, mug, measuring cup, drinking glass, table cloth, dish. which is the most suitable to replace a fork in the task of setting a table to eat steak if the fork is dirty?
+the most suitable object to replace a fork in the task of setting a table to eat steak if the fork is dirty is a wooden chopstick
+raw prompt:is it suitable that a robot finds a table if the table is dirty?
+no, it is not suitable for a robot to find a table if the table is dirty
+raw prompt:is it suitable that a robot places a fork on table cloth?
+no
+raw prompt:is it suitable that a robot places a fork on nightstand?
+yes
+raw prompt:is it suitable that a robot places a plate on nightstand?
+yes
+raw prompt:is it suitable that a robot places a fork on condiment shaker?
+no
+raw prompt:is it suitable that a robot places a fork on couch?
+no
+raw prompt:is it suitable that a robot places a fork on cloth napkin?
+yes
+raw prompt:is it suitable that a robot places a plate on cloth napkin?
+yes
+raw prompt:is it suitable that a robot places a fork on desk?
+yes
+raw prompt:is it suitable that a robot places a plate on desk?
+yes
+raw prompt:is it suitable that a robot places a fork on coffee filter?
+no
+raw prompt:is it suitable that a robot places a fork on frying pan?
+yes
+raw prompt:is it suitable that a robot places a plate on frying pan?
+no
+raw prompt:is it suitable that a robot places a fork on mug?
+no
+raw prompt:is it suitable that a robot places a fork on paper towel?
+no
+raw prompt:is it suitable that a robot places a fork on trash can?
+no
+raw prompt:is it suitable that a robot places a fork on cutlery fork?
+yes
+raw prompt:is it suitable that a robot places a plate on cutlery fork?
+no
+raw prompt:is it suitable that a robot places a fork on wooden spoon?
+no
+raw prompt:is it suitable that a robot places a fork on cleaning bottle?
+no
+raw prompt:is it suitable that a robot places a plate on table if the table is dirty?
+no, it is not suitable for a robot to place a plate on a dirty table
+raw prompt:is it suitable that a robot places a fork on dining table?
+yes
+raw prompt:is it suitable that a robot places a plate on dining table?
+yes
+prompt (raw):can a air fryer make a table clean if the table is dirty?
+no
+prompt (raw):can a oven make a table clean if the table is dirty?
+no
+prompt (raw):can a coffee maker make a table clean if the table is dirty?
+no
+prompt (raw):can a fridge make a table clean if the table is dirty?
+no
+prompt (raw):can a juicer make a table clean if the table is dirty?
+no
+prompt (raw):can a water boiler make a table clean if the table is dirty?
+no
+prompt (raw):can a dishwasher make a table clean if the table is dirty?
+yes
+prompt (raw):can a water filter make a table clean if the table is dirty?
+no
+prompt (raw):can a toaster make a table clean if the table is dirty?
+no
+prompt (raw):can a kettle make a table clean if the table is dirty?
+no
+prompt (raw):can a washing machine make a table clean if the table is dirty?
+no
+prompt (raw):can a blender make a table clean if the table is dirty?
+no
+raw prompt:is it suitable that a robot places a fork on kitchen table?
+yes
+raw prompt:is it suitable that a robot places a plate on kitchen table?
+yes
+prompt (raw):can a freezer make a table clean if the table is dirty?
+no
+prompt (raw):can a stove make a table clean if the table is dirty?
+no
+prompt (raw):can a vacuum cleaner make a table clean if the table is dirty?
+yes
+prompt (raw):can a microwave make a table clean if the table is dirty?
+no
+prompt (raw):can a dehumidifier make a table clean if the table is dirty?
+no
+prompt (raw):can a ice cream maker make a table clean if the table is dirty?
+no
+raw prompt:there are some appliances, such as vacuum cleaner, dishwasher. which is the most possible to make a table clean if the table is dirty?
+a vacuum cleaner is the most possible appliance to make a table clean if the table is dirty
+raw prompt:there are some appliances, such as dishwasher, vacuum cleaner. which is the most possible to make a table clean if the table is dirty?
+the most possible way to make a table clean is to use a dishwasher
+raw prompt:is it suitable that a robot finds a table if the table is not found?
+no, it is not suitable
+prompt (raw):can a dishwasher make a table found if the table is not found?
+no
+prompt (raw):can a fridge make a table found if the table is not found?
+no
+prompt (raw):can a juicer make a table found if the table is not found?
+no
+prompt (raw):can a oven make a table found if the table is not found?
+no
+prompt (raw):can a kettle make a table found if the table is not found?
+no
+prompt (raw):can a blender make a table found if the table is not found?
+no
+prompt (raw):can a ice cream maker make a table found if the table is not found?
+no
+prompt (raw):can a water filter make a table found if the table is not found?
+no
+prompt (raw):can a vacuum cleaner make a table found if the table is not found?
+no
+prompt (raw):can a dehumidifier make a table found if the table is not found?
+no
+prompt (raw):can a microwave make a table found if the table is not found?
+no
+prompt (raw):can a air fryer make a table found if the table is not found?
+no
+prompt (raw):can a washing machine make a table found if the table is not found?
+no
+prompt (raw):can a water boiler make a table found if the table is not found?
+no
+raw prompt:is it suitable that a robot places a fork on piano bench?
+no
+raw prompt:is it suitable that a robot places a fork on cooking pot?
+no
+raw prompt:is it suitable that a robot places a fork on bookshelf?
+no
+raw prompt:is it suitable that a robot places a fork on oven tray?
+no
+raw prompt:is it suitable that a robot places a fork on condiment bottle?
+no
+raw prompt:is it suitable that a robot places a fork on cutting board?
+yes
+raw prompt:is it suitable that a robot places a plate on cutting board?
+yes
+raw prompt:is it suitable that a robot places a fork on pantry?
+no
+raw prompt:is it suitable that a robot places a fork on coffee table?
+yes
+raw prompt:is it suitable that a robot places a plate on coffee table?
+yes
+raw prompt:is it suitable that a robot places a fork on measuring cup?
+no
+raw prompt:is it suitable that a robot places a fork on drinking glass?
+no
+raw prompt:is it suitable that a robot places a fork on dish rack?
+yes
+raw prompt:is it suitable that a robot places a plate on dish rack?
+yes
+raw prompt:is it suitable that a robot places a fork on wooden chopstick?
+no
+raw prompt:there are some objects, such as cutting board, desk, kitchen table, coffee table, dining table, dish rack. which is the most suitable to replace a table in the task of setting a table to eat steak if the table is not found?
+a cutting board would be the most suitable object to replace a table in the task of setting a table to eat steak if the table is not found
+prompt (raw):can a toaster make a table found if the table is not found?
+no
+raw prompt:is it suitable that a robot places a fork on colander?
+no
+raw prompt:is it suitable that a robot places a fork on wooden chair?
+no
+raw prompt:is it suitable that a robot places a fork on closet?
+no
+raw prompt:is it suitable that a robot places a fork on cutlery knife?
+no
+raw prompt:is it suitable that a robot places a fork on dish?
+yes
+raw prompt:is it suitable that a robot places a plate on dish?
+yes
+raw prompt:is it suitable that a robot places a fork on coffee cup?
+no
+raw prompt:is it suitable that a robot places a fork on rag?
+no
+raw prompt:is it suitable that a robot places a fork on wine glass?
+no
+raw prompt:is it suitable that a robot places a fork on bucket?
+no
+raw prompt:there are some objects, such as dish, cutting board, cloth napkin, coffee table, nightstand, desk. which is the most suitable to replace a table in the task of setting a table to eat steak if the table is not found?
+the most suitable object to replace a table in the task of setting a table to eat steak would be a cutting board
+prompt (raw):can a freezer make a table found if the table is not found?
+no
+raw prompt:is it suitable that a robot places a fork on chef knife?
+no
+raw prompt:is it suitable that a robot places a fork on dish bowl?
+yes
+raw prompt:is it suitable that a robot places a plate on dish bowl?
+yes
+raw prompt:is it suitable that a robot places a fork on mat?
+yes
+raw prompt:is it suitable that a robot places a plate on mat?
+yes
+raw prompt:there are some objects, such as cutting board, dining table, nightstand, kitchen table, dish bowl, mat, dish. which is the most suitable to replace a table in the task of setting a table to eat steak if the table is dirty?
+the most suitable object to replace a table in the task of setting a table to eat steak if the table is dirty is a cutting board
+raw prompt:is it suitable that a robot places a fork on kitchen cabinet?
+no
+raw prompt:is it suitable that a robot places a fork on kitchen counter?
+yes
+raw prompt:is it suitable that a robot places a plate on kitchen counter?
+yes
+raw prompt:is it suitable that a robot places a fork on sponge?
+no
+raw prompt:is it suitable that a robot places a fork on cpu table?
+no
+raw prompt:there are some objects, such as kitchen counter, cloth napkin, kitchen table, dish rack, coffee table. which is the most suitable to replace a table in the task of setting a table to eat steak if the table is dirty?
+the most suitable object to replace a table in the task of setting a table to eat steak if the table is dirty would be a kitchen counter

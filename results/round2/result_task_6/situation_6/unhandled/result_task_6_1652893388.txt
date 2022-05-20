@@ -1,0 +1,397 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(find_table rob table_0 dining)
+(walk rob dining kitchen)
+(find_cupboard rob cupboard_0 kitchen)
+(open_cupboard rob cupboard_0 kitchen)
+(find_fork rob fork_1 cupboard_0 kitchen)
+(takeout_fork rob fork_1 cupboard_0 kitchen)
+(move_fork rob fork_1 kitchen dining)
+(place_fork rob fork_1 table_0 dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 cupboard_0 kitchen)
+(takeout_plate rob plate_1 cupboard_0 kitchen)
+(move_plate rob plate_1 kitchen dining)
+(place_plate rob plate_1 table_0 dining)
+(walk rob dining kitchen)
+(close_cupboard rob cupboard_0 kitchen)
+; cost = 15 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 6
+situation: the table_0 is not found.
+action corresponding to situation: find_table
+corresponding predicate: table_not_found
+object manipulated by robot: table_0
+object in situation: table_0
+
+#---------- executing plan! -----------
+action: ['find_table', 'rob', 'table_0', 'dining']
+action (decoded): a robot finds a table in dining room.
+
+#---------- checking unexecuted actions! -----------
+['find_table', 'rob', 'table_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['find_cupboard', 'rob', 'cupboard_0', 'kitchen']
+['open_cupboard', 'rob', 'cupboard_0', 'kitchen']
+['find_fork', 'rob', 'fork_1', 'cupboard_0', 'kitchen']
+['takeout_fork', 'rob', 'fork_1', 'cupboard_0', 'kitchen']
+['move_fork', 'rob', 'fork_1', 'kitchen', 'dining']
+['place_fork', 'rob', 'fork_1', 'table_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['find_plate', 'rob', 'plate_1', 'cupboard_0', 'kitchen']
+['takeout_plate', 'rob', 'plate_1', 'cupboard_0', 'kitchen']
+['move_plate', 'rob', 'plate_1', 'kitchen', 'dining']
+['place_plate', 'rob', 'plate_1', 'table_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['close_cupboard', 'rob', 'cupboard_0', 'kitchen']
+
+unexecuted action: ['find_table', 'rob', 'table_0', 'dining']
+unexecuted action (decoded): a robot finds a table in dining room.
+! prompt design
+raw prompt: is it suitable that a robot finds a table if the table is not found?
+! experience found
+! response from LLM
+response (raw prompt): no,
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['coffee filter', 'trash can', 'colander', 'mug', 'wooden chair', 'closet', 'bookshelf', 'cutlery knife', 'paper towel', 'dish', 'cutting board', 'cloth napkin', 'coffee table', 'coffee cup', 'cleaning bottle', 'rag', 'nightstand', 'wine glass', 'desk', 'piano bench', 'bucket', 'measuring cup']
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on coffee filter?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on trash can?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on colander?
+answer:
+['no']
+[0.49002834304564885]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on mug?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on wooden chair?
+answer:
+['no']
+[0.4905505474995978]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on closet?
+answer:
+['no']
+[0.5118713924167878]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on bookshelf?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on cutlery knife?
+answer:
+['no']
+[0.469275870528622]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on paper towel?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on dish?
+answer:
+['yes\n\nis it suitable that a robot places a dish on a fork?\nanswer: no']
+[0.7831261783400919]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on dish?
+answer:
+['yes']
+[0.22825441160318186]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on cutting board?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on cutting board?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on cloth napkin?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on cloth napkin?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on coffee table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on coffee table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on coffee cup?
+answer:
+['no']
+[0.47022402642730965]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on cleaning bottle?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on rag?
+answer:
+['no']
+[0.5092413696155235]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on nightstand?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on nightstand?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on wine glass?
+answer:
+['no']
+[0.5001864099800191]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on desk?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on desk?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on piano bench?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on bucket?
+answer:
+['no']
+[0.5063597763729961]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on measuring cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+ ['dish', 'cutting board', 'cloth napkin', 'coffee table', 'nightstand', 'desk']
+
+! prompt design
+raw prompt: there are some objects, such as dish, cutting board, cloth napkin, coffee table, nightstand, desk. which is the most suitable to replace a table in the task of setting a table to eat steak if the table is not found?
+! results from LLM
+response (raw prompt): the most suitable object to replace a table in the task of setting a table to eat steak would be a cutting board
+
+#---------- most possible object: ---------- 
+ cutting board
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['ice cream maker', 'microwave', 'fridge', 'freezer', 'water boiler', 'water filter', 'vacuum cleaner', 'toaster', 'air fryer']
+
+! prompt design
+prompt (raw): can a ice cream maker make a table found if the table is not found? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a microwave make a table found if the table is not found? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a fridge make a table found if the table is not found? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a freezer make a table found if the table is not found? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water boiler make a table found if the table is not found? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water filter make a table found if the table is not found? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a vacuum cleaner make a table found if the table is not found? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a toaster make a table found if the table is not found? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a air fryer make a table found if the table is not found? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+only modified_plan_2 exists.
+
+(find_table rob cutting_board dining)
+(walk rob dining kitchen)
+(find_cupboard rob cupboard_0 kitchen)
+(open_cupboard rob cupboard_0 kitchen)
+(find_fork rob fork_1 cupboard_0 kitchen)
+(takeout_fork rob fork_1 cupboard_0 kitchen)
+(move_fork rob fork_1 kitchen dining)
+(place_fork rob fork_1 cutting_board dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 cupboard_0 kitchen)
+(takeout_plate rob plate_1 cupboard_0 kitchen)
+(move_plate rob plate_1 kitchen dining)
+(place_plate rob plate_1 cutting_board dining)
+(walk rob dining kitchen)
+(close_cupboard rob cupboard_0 kitchen)
+; cost = 15 (unit cost)

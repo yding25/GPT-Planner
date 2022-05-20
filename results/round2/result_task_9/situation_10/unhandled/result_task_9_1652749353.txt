@@ -1,0 +1,267 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob kitchen dining)
+(find_table rob table dining)
+(walk_table rob table dining)
+(grasp_plate rob plate dining)
+(walk rob dining kitchen)
+(walk_sink rob sink_1 plate kitchen)
+(place_plate rob plate dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 10
+situation: the table is broken.
+action corresponding to situation: walk_table
+corresponding predicate: table_is_broken
+object manipulated by robot: table
+object in situation: table
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'kitchen', 'dining']
+action (decoded): a robot walks from kitchen room to dining room.
+this action is executed!
+
+action: ['find_table', 'rob', 'table', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk_table', 'rob', 'table', 'dining']
+action (decoded): a robot walks to a table in dining room.
+
+#---------- checking unexecuted actions! -----------
+['walk_table', 'rob', 'table', 'dining']
+['grasp_plate', 'rob', 'plate', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['walk_sink', 'rob', 'sink_1', 'plate', 'kitchen']
+['place_plate', 'rob', 'plate', 'dining']
+
+unexecuted action: ['walk_table', 'rob', 'table', 'dining']
+unexecuted action (decoded): a robot walks to a table in dining room.
+! prompt design
+raw prompt: is it suitable that a robot walks to a table if the table is broken?
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to walk to a table if the table is broken
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['dish', 'wooden spoon', 'coffee filter', 'frying pan', 'sponge', 'cooking pot', 'colander', 'paper towel', 'trash can', 'mat', 'dish rack', 'drinking glass', 'cloth napkin', 'cutlery knife']
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a dish?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7660998814299679]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a wooden spoon?
+answer:
+['yes\n\nis it suitable that a robot walks to a cat?\nanswer: no']
+[0.7551981441159743]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a coffee filter?
+answer:
+['yes\n\nis it suitable that a robot walks to a cat?\nanswer: no']
+[0.7436479801494065]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a frying pan?
+answer:
+['yes\n\nis it suitable that a robot walks to a cup?\nanswer: no']
+[0.7514116742667395]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a sponge?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.738248812980515]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a cooking pot?
+answer:
+['yes\n\nis it suitable that a robot walks to a chair?\nanswer: yes']
+[0.747104515301329]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a colander?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7546176891512891]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a paper towel?
+answer:
+['yes\n\nis it suitable that a robot walks to a cat?\nanswer: no']
+[0.765321493677855]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a trash can?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7264902855461914]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a mat?
+answer:
+['yes']
+[0.4640836925278088]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a dish rack?
+answer:
+['yes\n\nis it suitable that a robot walks to a sink?\nanswer: yes']
+[0.760825086518013]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a drinking glass?
+answer:
+['yes\n\nis it suitable that a robot walks to a cat?\nanswer: no']
+[0.7178791889886436]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a cloth napkin?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.727139602695038]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a cutlery knife?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7034408062626201]
+! results from LLM
+response (raw prompt): yes
+
+#---------- capable_objects: ----------
+ ['dish', 'wooden spoon', 'coffee filter', 'frying pan', 'sponge', 'cooking pot', 'colander', 'paper towel', 'trash can', 'mat', 'dish rack', 'drinking glass', 'cloth napkin', 'cutlery knife']
+
+! prompt design
+raw prompt: there are some objects, such as dish, wooden spoon, coffee filter, frying pan, sponge, cooking pot, colander, paper towel, trash can, mat, dish rack, drinking glass, cloth napkin, cutlery knife. which is the most suitable to replace a table in the task of putting a dirty plate in a sink if the table is broken?
+! results from LLM
+response (raw prompt): the most suitable object to replace a table in the task of putting a dirty plate in a sink if the table is broken is a dish rack
+
+#---------- most possible object: ---------- 
+ dish
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['kettle', 'freezer', 'ice cream maker', 'coffee maker', 'oven', 'water boiler', 'toaster', 'blender', 'microwave']
+
+! prompt design
+prompt (raw): can a kettle make a table good if the table is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a freezer make a table good if the table is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a ice cream maker make a table good if the table is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make a table good if the table is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a oven make a table good if the table is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water boiler make a table good if the table is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a toaster make a table good if the table is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a blender make a table good if the table is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a microwave make a table good if the table is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

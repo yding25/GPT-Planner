@@ -1,0 +1,875 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(find_table rob table_0 dining)
+(walk_table rob table_0 dining)
+(find_chair rob chair_1 dining)
+(pull_chair rob chair_1 dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 kitchen)
+(grasp_plate rob plate_1 kitchen)
+(move_plate rob plate_1 kitchen table_0 dining)
+(place_plate rob plate_1 table_0 dining)
+(walk rob dining kitchen)
+(find_burger rob burger_1 kitchen)
+(find_fork rob fork_1 kitchen)
+(grasp_burger rob burger_1 kitchen)
+(move_burger rob burger_1 kitchen plate_1 dining)
+(place_burger rob burger_1 plate_1 dining)
+(walk rob dining kitchen)
+(grasp_fork rob fork_1 kitchen)
+(move_fork rob fork_1 kitchen plate_1 dining)
+(place_fork rob fork_1 plate_1 dining)
+; cost = 19 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 12
+situation: the table_0 is dirty.
+action corresponding to situation: find_table
+corresponding predicate: table_is_dirty
+object manipulated by robot: table_0
+object in situation: table_0
+
+#---------- executing plan! -----------
+action: ['find_table', 'rob', 'table_0', 'dining']
+action (decoded): a robot finds a table in dining room.
+
+#---------- checking unexecuted actions! -----------
+['find_table', 'rob', 'table_0', 'dining']
+['walk_table', 'rob', 'table_0', 'dining']
+['find_chair', 'rob', 'chair_1', 'dining']
+['pull_chair', 'rob', 'chair_1', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['find_plate', 'rob', 'plate_1', 'kitchen']
+['grasp_plate', 'rob', 'plate_1', 'kitchen']
+['move_plate', 'rob', 'plate_1', 'kitchen', 'table_0', 'dining']
+['place_plate', 'rob', 'plate_1', 'table_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['find_burger', 'rob', 'burger_1', 'kitchen']
+['find_fork', 'rob', 'fork_1', 'kitchen']
+['grasp_burger', 'rob', 'burger_1', 'kitchen']
+['move_burger', 'rob', 'burger_1', 'kitchen', 'plate_1', 'dining']
+['place_burger', 'rob', 'burger_1', 'plate_1', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['grasp_fork', 'rob', 'fork_1', 'kitchen']
+['move_fork', 'rob', 'fork_1', 'kitchen', 'plate_1', 'dining']
+['place_fork', 'rob', 'fork_1', 'plate_1', 'dining']
+
+unexecuted action: ['find_table', 'rob', 'table_0', 'dining']
+unexecuted action (decoded): a robot finds a table in dining room.
+! prompt design
+raw prompt: is it suitable that a robot finds a table if the table is dirty?
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to find a table if the table is dirty
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['cupboard', 'piano bench', 'chef knife', 'pantry', 'frying pan', 'dish', 'mug', 'rag', 'snack', 'cutlery fork', 'salt', 'dish bowl', 'cutting board', 'sauce', 'trash can', 'bookshelf', 'noodles', 'wooden chair', 'dish rack', 'oatmeal', 'coffee table', 'kitchen counter', 'measuring cup', 'kitchen cabinet', 'table cloth', 'mat', 'condiment bottle', 'pasta', 'cooking pot', 'bucket']
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a cupboard?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7515526743507206]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a cupboard?
+answer:
+['yes\n\nis it suitable that a robot moves a cupboard near a plate?\nanswer: no']
+[0.8424624256939263]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a cupboard?
+answer:
+['yes']
+[0.48366194487444264]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a piano bench?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7192841728980875]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a piano bench?
+answer:
+['yes\n\nis it suitable that a robot moves a cat near a piano bench?\nanswer: no']
+[0.8149687976519899]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a piano bench?
+answer:
+['no']
+[0.5131486875495661]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a chef knife?
+answer:
+['yes\n\nis it suitable that a robot walks to a cup?\nanswer: no']
+[0.7030479561590948]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a chef knife?
+answer:
+['no']
+[0.46972790020092536]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a pantry?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7356388565432702]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a pantry?
+answer:
+['yes\n\nis it suitable that a robot moves a cat near a pantry?\nanswer: no']
+[0.793907013692512]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a pantry?
+answer:
+['yes']
+[0.4704530084970813]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a frying pan?
+answer:
+['yes\n\nis it suitable that a robot walks to a cup?\nanswer: no']
+[0.7514731345715437]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a frying pan?
+answer:
+['yes']
+[0.48068748835648206]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a frying pan?
+answer:
+['no']
+[0.49005046257161927]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a dish?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7667989221620295]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a dish?
+answer:
+['yes\n\nis it suitable that a robot moves a dish near a plate?\nanswer: no']
+[0.8059291806766434]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a dish?
+answer:
+['yes']
+[0.22146550760421288]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a mug?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7487594799744494]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a mug?
+answer:
+['yes\n\nis it suitable that a robot moves a cat near a mug?\nanswer: no']
+[0.7861867432936868]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a mug?
+answer:
+['no']
+[0.48648815916274246]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a rag?
+answer:
+['yes\n\nis it suitable that a robot walks to a cat?\nanswer: no']
+[0.749830576578909]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a rag?
+answer:
+['yes\n\nis it suitable that a robot moves a cup near a table?\nanswer: no']
+[0.770333247930294]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a rag?
+answer:
+['no']
+[0.5075839576992367]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a snack?
+answer:
+['yes']
+[0.48494277374725053]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a snack?
+answer:
+['yes\n\nis it suitable that a robot moves a cat near a snack?\nanswer: no']
+[0.7545208179812726]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a snack?
+answer:
+['yes']
+[0.4557337114218792]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a cutlery fork?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7405983907885444]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a cutlery fork?
+answer:
+['yes']
+[0.4672320170372571]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a cutlery fork?
+answer:
+['no']
+[0.49408500269749783]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a salt?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7538811181857703]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a salt?
+answer:
+['yes']
+[0.46931874314710115]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a salt?
+answer:
+['no']
+[0.5014522655376239]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a dish bowl?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7367882045152738]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a dish bowl?
+answer:
+['yes\n\nis it suitable that a robot moves a dish bowl near a plate?\nanswer: no']
+[0.8011764026042884]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a dish bowl?
+answer:
+['yes']
+[0.48566454436019996]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a cutting board?
+answer:
+['yes\n\nis it suitable that a robot walks to a sink?\nanswer: yes']
+[0.5796407630914936]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a cutting board?
+answer:
+['yes']
+[0.4782311196601542]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a cutting board?
+answer:
+['yes']
+[0.4759375586135658]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a sauce?
+answer:
+['yes\n\nis it suitable that a robot walks to a cat?\nanswer: no']
+[0.7426922614527321]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a sauce?
+answer:
+['yes\n\nis it suitable that a robot moves a cat near a sauce?\nanswer: no']
+[0.7987111974740092]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a sauce?
+answer:
+['no']
+[0.4954134171354961]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a trash can?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7282856441148474]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a trash can?
+answer:
+['yes']
+[0.4868725780169413]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a trash can?
+answer:
+['no']
+[0.5041509083053946]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a bookshelf?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: yes']
+[0.5898516572320921]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a bookshelf?
+answer:
+['yes\n\nis it suitable that a robot moves a book near a bookshelf?\nanswer: no']
+[0.8467106915527156]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a bookshelf?
+answer:
+['no']
+[0.5162110095788037]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a noodles?
+answer:
+['no']
+[0.49737151011032404]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a wooden chair?
+answer:
+['yes']
+[0.4757061159923896]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a wooden chair?
+answer:
+['yes']
+[0.49772546913279975]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a wooden chair?
+answer:
+['yes']
+[0.4999455544195091]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a dish rack?
+answer:
+['yes\n\nis it suitable that a robot walks to a sink?\nanswer: yes']
+[0.760586339906344]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a dish rack?
+answer:
+['yes\n\nis it suitable that a robot moves a dish rack near a plate?\nanswer: no']
+[0.8180567666473223]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a dish rack?
+answer:
+['yes']
+[0.4748190501002099]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a oatmeal?
+answer:
+['no']
+[0.4973471029191808]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a coffee table?
+answer:
+['yes\n\nis it suitable that a robot walks to a cat?\nanswer: no']
+[0.7276650367110544]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a coffee table?
+answer:
+['yes']
+[0.47753337169711935]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a coffee table?
+answer:
+['yes']
+[0.4976720328043743]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a kitchen counter?
+answer:
+['yes']
+[0.21893093240852166]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a kitchen counter?
+answer:
+['yes']
+[0.4942317293683823]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a kitchen counter?
+answer:
+['yes']
+[0.5093906720324703]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a measuring cup?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7273804729326937]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a measuring cup?
+answer:
+['yes']
+[0.4942087201272711]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a measuring cup?
+answer:
+['no']
+[0.48167325154234125]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a kitchen cabinet?
+answer:
+['yes\n\nis it suitable that a robot walks to a living room cabinet?\nanswer: no']
+[0.7496211714258114]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a kitchen cabinet?
+answer:
+['yes']
+[0.47516697596582724]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a kitchen cabinet?
+answer:
+['yes']
+[0.49599752099991096]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a table cloth?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7204608164588587]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a table cloth?
+answer:
+['yes']
+[0.47150419469654303]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a table cloth?
+answer:
+['yes']
+[0.48148046486463997]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a mat?
+answer:
+['yes']
+[0.46359918992358745]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a mat?
+answer:
+['yes\n\nis it suitable that a robot moves a cat near a mat?\nanswer: no']
+[0.7964754559970608]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a mat?
+answer:
+['yes']
+[0.2338413107830714]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a condiment bottle?
+answer:
+['yes\n\nis it suitable that a robot walks to a cat?\nanswer: no']
+[0.721211425633934]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a condiment bottle?
+answer:
+['yes']
+[0.22320510681303685]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a condiment bottle?
+answer:
+['no']
+[0.514894222066643]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a pasta?
+answer:
+['no']
+[0.4977638039432744]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a cooking pot?
+answer:
+['yes\n\nis it suitable that a robot walks to a chair?\nanswer: yes']
+[0.7483125975280045]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a cooking pot?
+answer:
+['yes\n\nis it suitable that a robot moves a cup near a cooking pot?\nanswer: no']
+[0.8161814172420228]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a cooking pot?
+answer:
+['no']
+[0.48975754833738416]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a bucket?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.730557492597547]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot moves a plate near a bucket?
+answer:
+['yes\n\nis it suitable that a robot moves a bucket near a plate?\nanswer: no']
+[0.7807066385136909]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a bucket?
+answer:
+['no']
+[0.5137112430659846]
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+ ['cupboard', 'pantry', 'dish', 'snack', 'dish bowl', 'cutting board', 'wooden chair', 'dish rack', 'coffee table', 'kitchen counter', 'kitchen cabinet', 'table cloth', 'mat']
+
+! prompt design
+raw prompt: there are some objects, such as cupboard, pantry, dish, snack, dish bowl, cutting board, wooden chair, dish rack, coffee table, kitchen counter, kitchen cabinet, table cloth, mat. which is the most suitable to replace a table in the task of eating a burger on a plate if the table is dirty?
+! results from LLM
+response (raw prompt): a cutting board would be the most suitable object to replace a table in the task of eating a burger on a plate if the table is dirty
+
+#---------- most possible object: ---------- 
+ cutting board
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['ice cream maker', 'fridge', 'juicer', 'water boiler', 'kettle', 'stove', 'vacuum cleaner', 'toaster', 'air fryer']
+
+! prompt design
+prompt (raw): can a ice cream maker make a table clean if the table is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a fridge make a table clean if the table is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a juicer make a table clean if the table is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water boiler make a table clean if the table is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a kettle make a table clean if the table is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a stove make a table clean if the table is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a vacuum cleaner make a table clean if the table is dirty? 
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+prompt (raw): can a toaster make a table clean if the table is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a air fryer make a table clean if the table is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+capable appliances: ['vacuum cleaner']
+
+#---------- most possible appliance:
+ vacuum cleaner
+
+#---------- add effect -----------
+! step 1: add effect
+step 1 is done.
+! step 2: add parameter
+step 2 is done.
+! step 3: supplement init
+step 3 is done.
+! step 4: supplement object
+step 4 is done.
+
+#---------- modified_plan_3! exists -----------
+
+#---------- solution -----------
+both modified_plan_2 and modified_plan_3 exist.
+randomly select modified_plan_3
+
+(walk rob dining kitchen)
+(find_plate rob plate_1 kitchen)
+(grasp_plate rob plate_1 kitchen)
+(find_burger rob burger_1 kitchen)
+(find_fork rob fork_1 kitchen)
+(operate rob vacuum_cleaner kitchen dining table_0)
+(walk rob kitchen dining)
+(find_table rob table_0 dining)
+(walk_table rob table_0 dining)
+(find_chair rob chair_1 dining)
+(walk rob dining kitchen)
+(move_plate rob plate_1 kitchen table_0 dining)
+(place_plate rob plate_1 table_0 dining)
+(pull_chair rob chair_1 dining)
+(walk rob dining kitchen)
+(grasp_burger rob burger_1 kitchen)
+(move_burger rob burger_1 kitchen plate_1 dining)
+(place_burger rob burger_1 plate_1 dining)
+(walk rob dining kitchen)
+(grasp_fork rob fork_1 kitchen)
+(move_fork rob fork_1 kitchen plate_1 dining)
+(place_fork rob fork_1 plate_1 dining)
+; cost = 22 (unit cost)

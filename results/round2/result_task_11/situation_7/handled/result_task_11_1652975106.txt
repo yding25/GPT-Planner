@@ -1,0 +1,126 @@
+before running, all old files have been removed.
+
+setting:1
+
+#---------- generating basic plan! -----------
+(find_table rob table_0 dining)
+(walk_table rob table_0 dining)
+(find_chair rob chair_1 dining)
+(pull_chair rob chair_1 dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 kitchen)
+(grasp_plate rob plate_1 kitchen)
+(move_plate rob plate_1 kitchen table_0 dining)
+(place_plate rob plate_1 table_0 dining)
+(walk rob dining kitchen)
+(find_burger rob burger_2 kitchen)
+(find_fork rob fork_2 kitchen)
+(grasp_burger rob burger_2 kitchen)
+(move_burger rob burger_2 kitchen plate_1 dining)
+(place_burger rob burger_2 plate_1 dining)
+(walk rob dining kitchen)
+(grasp_fork rob fork_2 kitchen)
+(move_fork rob fork_2 kitchen plate_1 dining)
+(place_fork rob fork_2 plate_1 dining)
+; cost = 19 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 7
+situation: the burger_2 spills.
+action corresponding to situation: place_plate
+corresponding predicate: burger_spills
+object manipulated by robot: plate_1
+object in situation: burger_2
+
+#---------- executing plan! -----------
+action: ['find_table', 'rob', 'table_0', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk_table', 'rob', 'table_0', 'dining']
+action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+action: ['find_chair', 'rob', 'chair_1', 'dining']
+action (decoded): a robot finds a chair in dining room.
+this action is executed!
+
+action: ['pull_chair', 'rob', 'chair_1', 'dining']
+action (decoded): a robot pulls up a chair in dining room.
+this action is executed!
+
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_plate', 'rob', 'plate_1', 'kitchen']
+action (decoded): a robot finds a plate in kitchen room.
+this action is executed!
+
+action: ['grasp_plate', 'rob', 'plate_1', 'kitchen']
+action (decoded): a robot grasps a plate in kitchen room.
+this action is executed!
+
+action: ['move_plate', 'rob', 'plate_1', 'kitchen', 'table_0', 'dining']
+action (decoded): a robot moves a plate in kitchen room near a table in dining room.
+this action is executed!
+
+action: ['place_plate', 'rob', 'plate_1', 'table_0', 'dining']
+action (decoded): a robot places a plate on a table  in dining room.
+
+#---------- checking unexecuted actions! -----------
+['place_plate', 'rob', 'plate_1', 'table_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['find_burger', 'rob', 'burger_2', 'kitchen']
+['find_fork', 'rob', 'fork_2', 'kitchen']
+['grasp_burger', 'rob', 'burger_2', 'kitchen']
+['move_burger', 'rob', 'burger_2', 'kitchen', 'plate_1', 'dining']
+['place_burger', 'rob', 'burger_2', 'plate_1', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['grasp_fork', 'rob', 'fork_2', 'kitchen']
+['move_fork', 'rob', 'fork_2', 'kitchen', 'plate_1', 'dining']
+['place_fork', 'rob', 'fork_2', 'plate_1', 'dining']
+
+unexecuted action: ['place_plate', 'rob', 'plate_1', 'table_0', 'dining']
+unexecuted action (decoded): a robot places a plate on a table  in dining room.
+! prompt design
+raw prompt: is it suitable that a robot places a plate on a table if the burger spills?
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to place a plate on a table if the burger spills
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is done!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+(find_table rob table_0 dining)
+(walk_table rob table_0 dining)
+(find_chair rob chair_1 dining)
+(pull_chair rob chair_1 dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 kitchen)
+(grasp_plate rob plate_1 kitchen)
+(move_plate rob plate_1 kitchen table_0 dining)
+(place_plate rob plate_1 table_0 dining burger_1)
+(walk rob dining kitchen)
+(find_burger rob burger_2 kitchen)
+(find_fork rob fork_2 kitchen)
+(grasp_burger rob burger_2 kitchen)
+(move_burger rob burger_2 kitchen plate_1 dining)
+(place_burger rob burger_2 plate_1 dining)
+(walk rob dining kitchen)
+(grasp_fork rob fork_2 kitchen)
+(move_fork rob fork_2 kitchen plate_1 dining)
+(place_fork rob fork_2 plate_1 dining)
+; cost = 19 (unit cost)

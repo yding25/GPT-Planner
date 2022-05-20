@@ -1,0 +1,288 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob dining kitchen)
+(find_coke rob coke_1 kitchen)
+(find_glass rob glass_1 kitchen)
+(grasp_glass rob glass_1 kitchen)
+(move_glass rob glass_1 kitchen table_0 dining)
+(place_glass rob glass_1 table_0 dining)
+(walk rob dining kitchen)
+(grasp_coke rob coke_1 kitchen)
+(pour_coke rob coke_1 glass_1 kitchen)
+; cost = 9 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 11
+situation: the robot cannot recognize the bottle, and take beer out.
+action corresponding to situation: find_coke
+corresponding predicate: robot_cannot_recognize_bottle
+and_take_beer_out
+object manipulated by robot: coke_1
+object in situation: robot
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_coke', 'rob', 'coke_1', 'kitchen']
+action (decoded): a robot finds a bottle of coke in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['find_coke', 'rob', 'coke_1', 'kitchen']
+['find_glass', 'rob', 'glass_1', 'kitchen']
+['grasp_glass', 'rob', 'glass_1', 'kitchen']
+['move_glass', 'rob', 'glass_1', 'kitchen', 'table_0', 'dining']
+['place_glass', 'rob', 'glass_1', 'table_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['grasp_coke', 'rob', 'coke_1', 'kitchen']
+['pour_coke', 'rob', 'coke_1', 'glass_1', 'kitchen']
+
+unexecuted action: ['find_coke', 'rob', 'coke_1', 'kitchen']
+unexecuted action (decoded): a robot finds a bottle of coke in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot finds a bottle of coke if the robot cannot recognize the bottle, and take beer out?
+! response from LLM
+response (raw prompt): no, it is not suitable
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['wooden spoon', 'cloth napkin', 'juice', 'condiment shaker', 'condiment bottle', 'mat', 'cutlery knife', 'cutlery fork', 'dish', 'colander', 'cutting board', 'wooden chopstick', 'wine', 'sponge', 'chef knife', 'coffee cup', 'frying pan', 'dish bowl']
+
+! prompt design
+raw prompt: is it suitable that a wooden spoon walks from dining room to kitchen room?
+answer:
+['no']
+[0.5139285778788517]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a cloth napkin walks from dining room to kitchen room?
+answer:
+['no']
+[0.5131377637283563]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a juice walks from dining room to kitchen room?
+answer:
+['no']
+[0.5162250976515046]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a condiment shaker walks from dining room to kitchen room?
+answer:
+['no']
+[0.24155370453141176]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a condiment bottle walks from dining room to kitchen room?
+answer:
+['no']
+[0.5048790517024084]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a mat walks from dining room to kitchen room?
+answer:
+['no']
+[0.50709379600029]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a cutlery knife walks from dining room to kitchen room?
+answer:
+['no']
+[0.5098743131902536]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a cutlery fork walks from dining room to kitchen room?
+answer:
+['no']
+[0.5102349029366182]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a dish walks from dining room to kitchen room?
+answer:
+['no']
+[0.5185019153989533]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a colander walks from dining room to kitchen room?
+answer:
+['no']
+[0.5158492112179801]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a cutting board walks from dining room to kitchen room?
+answer:
+['no']
+[0.5132766624623369]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a wooden chopstick walks from dining room to kitchen room?
+answer:
+['no']
+[0.5052740264666536]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a wine walks from dining room to kitchen room?
+answer:
+['no']
+[0.5138212804979065]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a sponge walks from dining room to kitchen room?
+answer:
+['no']
+[0.5179844601185734]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a chef knife walks from dining room to kitchen room?
+answer:
+['no']
+[0.5091287564366543]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a coffee cup walks from dining room to kitchen room?
+answer:
+['no']
+[0.5151771111600922]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a frying pan walks from dining room to kitchen room?
+answer:
+['no']
+[0.5172395153913398]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a dish bowl walks from dining room to kitchen room?
+answer:
+['no']
+[0.5132610395619539]
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+None
+
+#---------- most possible object: ---------- 
+None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['water boiler', 'coffee maker', 'ice cream maker', 'blender', 'water filter', 'washing machine', 'fridge', 'oven', 'toaster']
+
+! prompt design
+prompt (raw): can a water boiler make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a ice cream maker make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a blender make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water filter make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a washing machine make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a fridge make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a oven make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a toaster make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

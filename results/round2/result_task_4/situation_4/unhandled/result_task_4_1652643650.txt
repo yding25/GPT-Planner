@@ -1,0 +1,317 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob dining kitchen)
+(find_faucet rob faucet kitchen)
+(find_cup rob cup_1 kitchen)
+(hold_cup rob cup_1 kitchen)
+(turnon_faucet rob faucet kitchen)
+(fill_cup rob cup_1 faucet kitchen)
+(walk rob kitchen dining)
+(place_cup rob cup_1 table dining)
+(walk rob dining kitchen)
+(turnoff_faucet rob faucet kitchen)
+; cost = 10 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 4
+situation: the water is dirty.
+action corresponding to situation: fill_cup
+corresponding predicate: water_is_dirty
+object manipulated by robot: cup_1
+object in situation: water
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from a dining room to a kitchen room.
+this action is executed!
+
+action: ['find_faucet', 'rob', 'faucet', 'kitchen']
+action (decoded): a robot finds a faucet in kitchen room.
+this action is executed!
+
+action: ['find_cup', 'rob', 'cup_1', 'kitchen']
+action (decoded): a robot finds a cup in kitchen room.
+this action is executed!
+
+action: ['hold_cup', 'rob', 'cup_1', 'kitchen']
+action (decoded): a robot holds a cup in kitchen room.
+this action is executed!
+
+action: ['turnon_faucet', 'rob', 'faucet', 'kitchen']
+action (decoded): a robot turns on a faucet in kitchen room.
+this action is executed!
+
+action: ['fill_cup', 'rob', 'cup_1', 'faucet', 'kitchen']
+action (decoded): a robot fills a cup with water from faucet in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['fill_cup', 'rob', 'cup_1', 'faucet', 'kitchen']
+['walk', 'rob', 'kitchen', 'dining']
+['place_cup', 'rob', 'cup_1', 'table', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['turnoff_faucet', 'rob', 'faucet', 'kitchen']
+
+unexecuted action: ['fill_cup', 'rob', 'cup_1', 'faucet', 'kitchen']
+unexecuted action (decoded): a robot fills a cup with water from faucet in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with water from faucet if the water is dirty?
+! response from LLM
+response (raw prompt): ['no, it is not suitable for a robot to fill a cup with water from a faucet if the water is dirty']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is done!
+! step 3: supplement type
+step 3 is done!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is done!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['cooking pot', 'cloth napkin', 'dish rack', 'drinking glass', 'coffee cup', 'colander', 'juice', 'bucket', 'mug', 'cutlery fork', 'condiment shaker', 'cutting board', 'watermelon juice', 'rag', 'tea', 'frying pan', 'mat', 'beer', 'dish bowl', 'trash can']
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with cooking pot from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with cloth napkin from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with dish rack from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with drinking glass from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with coffee cup from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with colander from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with juice from faucet?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with bucket from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with mug from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with cutlery fork from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with condiment shaker from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with cutting board from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with watermelon juice from faucet?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with rag from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with tea from faucet?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with frying pan from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with mat from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with beer from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with dish bowl from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cup with trash can from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+ ['juice', 'watermelon juice', 'tea']
+
+! prompt design
+raw prompt: there are some objects, such as juice, watermelon juice, tea. which is the most suitable to replace a water in the task of drinking water if the water is dirty?
+! results from LLM
+response (raw prompt): the most suitable object to replace water in the task of drinking water if the water is dirty would be juice, watermelon juice, or tea
+
+#---------- most possible object: ---------- 
+ juice
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['air fryer', 'coffee maker', 'washing machine', 'stove', 'vacuum cleaner', 'fridge', 'microwave', 'kettle', 'juicer']
+
+! prompt design
+prompt (raw): can a air fryer make water clean if the water is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make water clean if the water is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a washing machine make water clean if the water is dirty? 
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+prompt (raw): can a stove make water clean if the water is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a vacuum cleaner make water clean if the water is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a fridge make water clean if the water is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a microwave make water clean if the water is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a kettle make water clean if the water is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a juicer make water clean if the water is dirty? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+capable appliances: ['washing machine']
+
+#---------- most possible appliance:
+ washing machine
+
+#---------- add effect -----------
+! step 1: add effect
+step 1 is done.
+! step 2: add parameter
+step 2 is done.
+! step 3: supplement init
+step 3 is done.
+! step 4: supplement object
+step 4 is done.
+
+#---------- modified_plan_3! exists -----------
+
+#---------- solution -----------
+both modified_plan_2 and modified_plan_3 exist.
+randomly select modified_plan_3
+
+(walk rob dining kitchen)
+(find_faucet rob faucet kitchen)
+(operate rob washing_machine kitchen dining water)
+(find_cup rob cup_1 kitchen)
+(hold_cup rob cup_1 kitchen)
+(turnon_faucet rob faucet kitchen)
+(fill_cup rob cup_1 faucet kitchen water)
+(walk rob kitchen dining)
+(place_cup rob cup_1 table dining)
+(walk rob dining kitchen)
+(turnoff_faucet rob faucet kitchen)
+; cost = 11 (unit cost)

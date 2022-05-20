@@ -1,0 +1,405 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob kitchen dining)
+(find_table rob table dining)
+(grasp_vacuum rob vacuum_1 dining)
+(plug_vacuum rob vacuum_1 outlet_1 dining)
+(turnon_vacuum rob vacuum_1 dining)
+(clean_area rob vacuum_1 table dining)
+(turnoff_vacuum rob vacuum_1 dining)
+(unplug_vacuum rob vacuum_1 dining)
+; cost = 8 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 2
+situation: the vacuum_1 is missing.
+action corresponding to situation: grasp_vacuum
+corresponding predicate: vacuum_is_missing
+object manipulated by robot: vacuum_1
+object in situation: vacuum_1
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'kitchen', 'dining']
+action (decoded): a robot walks from a kitchen room to a dining room.
+this action is executed!
+
+action: ['find_table', 'rob', 'table', 'dining']
+action (decoded): a robot finds a table in a dining room.
+this action is executed!
+
+action: ['grasp_vacuum', 'rob', 'vacuum_1', 'dining']
+action (decoded): a robot grasps a vacuum in a dining room.
+
+#---------- checking unexecuted actions! -----------
+['grasp_vacuum', 'rob', 'vacuum_1', 'dining']
+['plug_vacuum', 'rob', 'vacuum_1', 'outlet_1', 'dining']
+['turnon_vacuum', 'rob', 'vacuum_1', 'dining']
+['clean_area', 'rob', 'vacuum_1', 'table', 'dining']
+['turnoff_vacuum', 'rob', 'vacuum_1', 'dining']
+['unplug_vacuum', 'rob', 'vacuum_1', 'dining']
+
+unexecuted action: ['grasp_vacuum', 'rob', 'vacuum_1', 'dining']
+unexecuted action (decoded): a robot grasps a vacuum in a dining room.
+! prompt design
+raw prompt: is it suitable that a robot grasps a vacuum if the vacuum is missing?
+! experience found
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to grasp a vacuum if the vacuum is missing
+#---------- action can be executed! -----------
+
+unexecuted action: ['plug_vacuum', 'rob', 'vacuum_1', 'outlet_1', 'dining']
+unexecuted action (decoded): a robot plugs a vacuum using outlet in a dining room.
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using outlet if the vacuum is missing?
+! experience found
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to plug in a vacuum using an outlet if the vacuum is missing
+#---------- action can be executed! -----------
+
+unexecuted action: ['turnon_vacuum', 'rob', 'vacuum_1', 'dining']
+unexecuted action (decoded): a robot turns on a vacuum in a dining room.
+! prompt design
+raw prompt: is it suitable that a robot turns on a vacuum if the vacuum is missing?
+! response from LLM
+response (raw prompt): ['no, it is not suitable']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['measuring cup', 'mug', 'condiment shaker', 'drinking glass', 'wooden chopstick', 'mat', 'sponge', 'dish bowl', 'chef knife', 'trash can', 'coffee cup', 'cloth napkin', 'condiment bottle', 'cutlery knife']
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a measuring cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a measuring cup using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a mug?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a mug using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a condiment shaker using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot cleans the area beside a table using condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot turns off a condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot unplugs a condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a drinking glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a drinking glass using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a wooden chopstick?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a wooden chopstick using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a mat?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a mat using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot turns on a mat?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot cleans the area beside a table using mat?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot turns off a mat?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot unplugs a mat?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a sponge?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a sponge using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish bowl?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a dish bowl using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a chef knife?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a trash can?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a coffee cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a coffee cup using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cloth napkin?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a cloth napkin using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a condiment bottle?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a condiment bottle using outlet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cutlery knife?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+ ['condiment shaker', 'mat']
+
+! prompt design
+raw prompt: there are some objects, such as condiment shaker, mat. which is the most suitable to replace a vacuum in the task of cleaning floor if the vacuum is missing?
+! results from LLM
+response (raw prompt): a broom and dustpan would be the most suitable replacement for a vacuum in the task of cleaning a floor
+
+#---------- most possible object: ---------- 
+ None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['fridge', 'air fryer', 'toaster', 'washing machine', 'vacuum cleaner', 'water filter', 'dehumidifier', 'freezer', 'coffee maker']
+
+! prompt design
+prompt (raw): can a fridge make vacuum found if the vacuum is missing? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a air fryer make vacuum found if the vacuum is missing? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a toaster make vacuum found if the vacuum is missing? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a washing machine make vacuum found if the vacuum is missing? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a vacuum cleaner make vacuum found if the vacuum is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water filter make vacuum found if the vacuum is missing? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dehumidifier make vacuum found if the vacuum is missing? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a freezer make vacuum found if the vacuum is missing? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make vacuum found if the vacuum is missing? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

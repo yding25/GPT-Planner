@@ -1,0 +1,422 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(find_table rob table_0 dining)
+(walk rob dining kitchen)
+(find_cupboard rob cupboard_0 kitchen)
+(open_cupboard rob cupboard_0 kitchen)
+(find_fork rob fork_1 cupboard_0 kitchen)
+(takeout_fork rob fork_1 cupboard_0 kitchen)
+(move_fork rob fork_1 kitchen dining)
+(place_fork rob fork_1 table_0 dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 cupboard_0 kitchen)
+(takeout_plate rob plate_1 cupboard_0 kitchen)
+(move_plate rob plate_1 kitchen dining)
+(place_plate rob plate_1 table_0 dining)
+(walk rob dining kitchen)
+(close_cupboard rob cupboard_0 kitchen)
+; cost = 15 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 5
+situation: the table_0 is dirty.
+action corresponding to situation: place_plate
+corresponding predicate: table_is_dirty
+object manipulated by robot: plate_1
+object in situation: table_0
+
+#---------- executing plan! -----------
+action: ['find_table', 'rob', 'table_0', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_cupboard', 'rob', 'cupboard_0', 'kitchen']
+action (decoded): a robot finds a cupboard in kitchen room.
+this action is executed!
+
+action: ['open_cupboard', 'rob', 'cupboard_0', 'kitchen']
+action (decoded): a robot opens a cupboard in kitchen room.
+this action is executed!
+
+action: ['find_fork', 'rob', 'fork_1', 'cupboard_0', 'kitchen']
+action (decoded): a robot finds a fork in cupboard room.
+this action is executed!
+
+action: ['takeout_fork', 'rob', 'fork_1', 'cupboard_0', 'kitchen']
+action (decoded): a robot takes out a fork from a cupboard.
+this action is executed!
+
+action: ['move_fork', 'rob', 'fork_1', 'kitchen', 'dining']
+action (decoded): a robot moves a fork from kitchen room to dining room.
+this action is executed!
+
+action: ['place_fork', 'rob', 'fork_1', 'table_0', 'dining']
+action (decoded): a robot places a fork on table in dining room.
+this action is executed!
+
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_plate', 'rob', 'plate_1', 'cupboard_0', 'kitchen']
+action (decoded): a robot finds a plate in cupboard room.
+this action is executed!
+
+action: ['takeout_plate', 'rob', 'plate_1', 'cupboard_0', 'kitchen']
+action (decoded): a robot takes out a plate from a cupboard.
+this action is executed!
+
+action: ['move_plate', 'rob', 'plate_1', 'kitchen', 'dining']
+action (decoded): a robot moves a plate from kitchen room to dining room.
+this action is executed!
+
+action: ['place_plate', 'rob', 'plate_1', 'table_0', 'dining']
+action (decoded): a robot places a plate on table in dining room.
+
+#---------- checking unexecuted actions! -----------
+['place_plate', 'rob', 'plate_1', 'table_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['close_cupboard', 'rob', 'cupboard_0', 'kitchen']
+
+unexecuted action: ['place_plate', 'rob', 'plate_1', 'table_0', 'dining']
+unexecuted action (decoded): a robot places a plate on table in dining room.
+! prompt design
+raw prompt: is it suitable that a robot places a plate on table if the table is dirty?
+! experience found
+! response from LLM
+response (raw prompt): no,
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['kitchen cabinet', 'chef knife', 'drinking glass', 'colander', 'closet', 'kitchen counter', 'sponge', 'wine glass', 'condiment shaker', 'cloth napkin', 'condiment bottle', 'bucket', 'kitchen table', 'coffee filter', 'paper towel', 'cpu table', 'oven tray', 'table cloth', 'dish rack', 'rag', 'bookshelf', 'coffee table']
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on kitchen cabinet?
+answer:
+['no']
+[0.4630203888331636]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on chef knife?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on drinking glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on colander?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on closet?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on kitchen counter?
+answer:
+['yes']
+[0.23109626922723825]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on kitchen counter?
+answer:
+['yes']
+[0.4968128241249555]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on sponge?
+answer:
+['no']
+[0.5024482843715363]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on wine glass?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on cloth napkin?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on cloth napkin?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on condiment bottle?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on bucket?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on kitchen table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on kitchen table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on coffee filter?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on paper towel?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on cpu table?
+answer:
+['no']
+[0.46875935942782027]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on oven tray?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on table cloth?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on dish rack?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on dish rack?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on rag?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on bookshelf?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on coffee table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on coffee table?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+#---------- capable_objects: ----------
+ ['kitchen counter', 'cloth napkin', 'kitchen table', 'dish rack', 'coffee table']
+
+! prompt design
+raw prompt: there are some objects, such as kitchen counter, cloth napkin, kitchen table, dish rack, coffee table. which is the most suitable to replace a table in the task of setting a table to eat steak if the table is dirty?
+! results from LLM
+response (raw prompt): the most suitable object to replace a table in the task of setting a table to eat steak if the table is dirty would be a kitchen counter
+
+#---------- most possible object: ---------- 
+ kitchen counter
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['dehumidifier', 'toaster', 'freezer', 'oven', 'juicer', 'microwave', 'blender', 'stove', 'water filter']
+
+! prompt design
+prompt (raw): can a dehumidifier make a table clean if the table is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a toaster make a table clean if the table is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a freezer make a table clean if the table is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a oven make a table clean if the table is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a juicer make a table clean if the table is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a microwave make a table clean if the table is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a blender make a table clean if the table is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a stove make a table clean if the table is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water filter make a table clean if the table is dirty? 
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+only modified_plan_2 exists.
+
+(find_table rob kitchen_counter dining)
+(walk rob dining kitchen)
+(find_cupboard rob cupboard_0 kitchen)
+(open_cupboard rob cupboard_0 kitchen)
+(find_fork rob fork_1 cupboard_0 kitchen)
+(takeout_fork rob fork_1 cupboard_0 kitchen)
+(move_fork rob fork_1 kitchen dining)
+(place_fork rob fork_1 kitchen_counter dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 cupboard_0 kitchen)
+(takeout_plate rob plate_1 cupboard_0 kitchen)
+(move_plate rob plate_1 kitchen dining)
+(place_plate rob plate_1 kitchen_counter dining)
+(walk rob dining kitchen)
+(close_cupboard rob cupboard_0 kitchen)
+; cost = 15 (unit cost)

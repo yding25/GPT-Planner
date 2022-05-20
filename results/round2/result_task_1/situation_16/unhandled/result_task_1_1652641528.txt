@@ -1,0 +1,237 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob kitchen dining)
+(find_table rob table dining)
+(grasp_vacuum rob vacuum_1 dining)
+(plug_vacuum rob vacuum_1 outlet_1 dining)
+(turnon_vacuum rob vacuum_1 dining)
+(clean_area rob vacuum_1 table dining)
+(turnoff_vacuum rob vacuum_1 dining)
+(unplug_vacuum rob vacuum_1 dining)
+; cost = 8 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 16
+situation: the outlet_1 is broken.
+action corresponding to situation: plug_vacuum
+corresponding predicate: outlet_is_broken
+object manipulated by robot: vacuum_1
+object in situation: outlet_1
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'kitchen', 'dining']
+action (decoded): a robot walks from a kitchen room to a dining room.
+this action is executed!
+
+action: ['find_table', 'rob', 'table', 'dining']
+action (decoded): a robot finds a table in a dining room.
+this action is executed!
+
+action: ['grasp_vacuum', 'rob', 'vacuum_1', 'dining']
+action (decoded): a robot grasps a vacuum in a dining room.
+this action is executed!
+
+action: ['plug_vacuum', 'rob', 'vacuum_1', 'outlet_1', 'dining']
+action (decoded): a robot plugs a vacuum using outlet in a dining room.
+
+#---------- checking unexecuted actions! -----------
+['plug_vacuum', 'rob', 'vacuum_1', 'outlet_1', 'dining']
+['turnon_vacuum', 'rob', 'vacuum_1', 'dining']
+['clean_area', 'rob', 'vacuum_1', 'table', 'dining']
+['turnoff_vacuum', 'rob', 'vacuum_1', 'dining']
+['unplug_vacuum', 'rob', 'vacuum_1', 'dining']
+
+unexecuted action: ['plug_vacuum', 'rob', 'vacuum_1', 'outlet_1', 'dining']
+unexecuted action (decoded): a robot plugs a vacuum using outlet in a dining room.
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using outlet if the outlet is broken?
+! response from LLM
+response (raw prompt): ['no, it is not suitable for a robot to plug a vacuum into an outlet if the outlet is broken']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['rag', 'cloth napkin', 'cleaning bottle', 'mug', 'bucket', 'measuring cup', 'wooden spoon', 'coffee cup', 'mat', 'chef knife', 'cutting board', 'dish rack', 'frying pan', 'wooden chopstick']
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using rag?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using cloth napkin?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using cleaning bottle?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using mug?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using bucket?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using measuring cup?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using wooden spoon?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using coffee cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using mat?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using chef knife?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using cutting board?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using dish rack?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using frying pan?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using wooden chopstick?
+answer:
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+None
+
+#---------- most possible object: ---------- 
+None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['washing machine', 'water filter', 'kettle', 'fridge', 'freezer', 'dehumidifier', 'oven', 'blender', 'juicer']
+
+! prompt design
+prompt (raw): can a washing machine make outlet good if the outlet is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water filter make outlet good if the outlet is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a kettle make outlet good if the outlet is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a fridge make outlet good if the outlet is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a freezer make outlet good if the outlet is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dehumidifier make outlet good if the outlet is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a oven make outlet good if the outlet is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a blender make outlet good if the outlet is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a juicer make outlet good if the outlet is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

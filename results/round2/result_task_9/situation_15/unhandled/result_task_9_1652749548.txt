@@ -1,0 +1,66 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob kitchen dining)
+(find_table rob table dining)
+(walk_table rob table dining)
+(grasp_plate rob plate dining)
+(walk rob dining kitchen)
+(walk_sink rob sink_1 plate kitchen)
+(place_plate rob plate dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 15
+situation: people are not finishing food.
+action corresponding to situation: walk
+corresponding predicate: food_not_finished
+object manipulated by robot: None
+object in situation: people
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'kitchen', 'dining']
+action (decoded): a robot walks from kitchen room to dining room.
+
+#---------- checking unexecuted actions! -----------
+['walk', 'rob', 'kitchen', 'dining']
+['find_table', 'rob', 'table', 'dining']
+['walk_table', 'rob', 'table', 'dining']
+['grasp_plate', 'rob', 'plate', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['walk_sink', 'rob', 'sink_1', 'plate', 'kitchen']
+['place_plate', 'rob', 'plate', 'dining']
+
+unexecuted action: ['find_table', 'rob', 'table', 'dining']
+unexecuted action (decoded): a robot finds a table in dining room.
+! prompt design
+raw prompt: is it suitable that a robot finds a table if people are not finishing food?
+! response from LLM
+response (raw prompt): a robot finding a table is only suitable if the robot is specifically designed for that task and the people are not finishing their food
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is done!
+! step 3: supplement type
+step 3 is done!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is done!
+
+#---------- generating modified_plan_1! -----------
+(walk rob kitchen dining people)
+(find_table rob table dining)
+(walk_table rob table dining)
+(grasp_plate rob plate dining)
+(walk rob dining kitchen people)
+(walk_sink rob sink_1 plate kitchen)
+(place_plate rob plate dining)
+; cost = 7 (unit cost)

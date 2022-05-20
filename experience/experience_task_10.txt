@@ -1,68 +1,1154 @@
-raw prompt:is it suitable that a robot finds a bottle of soda if the bottle of soda is missing?
-no, it is not suitable
-raw prompt:is it suitable that a robot grasps a bottle of rag?
+raw prompt:is it suitable that a robot places a glass on a table if the glass falls down?
+no, it is not suitable for a robot to place a glass on a table if the glass falls down
+raw prompt:is it suitable that a robot grasps a cutlery knife?
 no
-raw prompt:is it suitable that a robot grasps a bottle of frying pan?
+raw prompt:is it suitable that a robot grasps a condiment bottle?
+yes
+raw prompt:is it suitable that a robot moves a condiment bottle near a table?
+yes
+raw prompt:is it suitable that a robot places a condiment bottle on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into condiment bottle?
+no
+raw prompt:is it suitable that a robot grasps a trash can?
+no
+raw prompt:is it suitable that a robot grasps a watermelon juice?
+no
+raw prompt:is it suitable that a robot grasps a cutting board?
+yes
+raw prompt:is it suitable that a robot moves a cutting board near a table?
+yes
+raw prompt:is it suitable that a robot places a cutting board on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into cutting board?
+no
+raw prompt:is it suitable that a robot grasps a measuring cup?
+yes
+raw prompt:is it suitable that a robot moves a measuring cup near a table?
+yes
+raw prompt:is it suitable that a robot places a measuring cup on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into measuring cup?
+yes
+raw prompt:is it suitable that a robot grasps a chef knife?
+no
+raw prompt:is it suitable that a robot grasps a oven tray?
+no
+raw prompt:is it suitable that a robot grasps a paper towel?
+yes
+raw prompt:is it suitable that a robot moves a paper towel near a table?
+yes
+raw prompt:is it suitable that a robot places a paper towel on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into paper towel?
+no
+raw prompt:is it suitable that a robot grasps a frying pan?
+no
+raw prompt:is it suitable that a robot grasps a alcohol?
+no
+raw prompt:is it suitable that a robot grasps a bucket?
+yes
+raw prompt:is it suitable that a robot moves a bucket near a table?
+yes
+raw prompt:is it suitable that a robot places a bucket on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into bucket?
+yes
+raw prompt:is it suitable that a robot grasps a tea?
+yes
+raw prompt:is it suitable that a robot moves a tea near a table?
+yes
+raw prompt:is it suitable that a robot places a tea on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into tea?
+no
+raw prompt:is it suitable that a robot grasps a mug?
+yes
+raw prompt:is it suitable that a robot moves a mug near a table?
+yes
+raw prompt:is it suitable that a robot places a mug on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into mug?
+yes
+raw prompt:is it suitable that a robot grasps a cloth napkin?
+yes
+raw prompt:is it suitable that a robot moves a cloth napkin near a table?
+yes
+raw prompt:is it suitable that a robot places a cloth napkin on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into cloth napkin?
+no
+raw prompt:is it suitable that a robot grasps a coffee filter?
+yes
+raw prompt:is it suitable that a robot moves a coffee filter near a table?
+yes
+raw prompt:is it suitable that a robot places a coffee filter on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into coffee filter?
+no
+raw prompt:is it suitable that a robot grasps a dish rack?
+no
+raw prompt:is it suitable that a robot grasps a wine?
+no
+raw prompt:there are some objects, such as measuring cup, bucket, mug. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass falls down?
+a measuring cup is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass falls down
+prompt (raw):can a water filter make a glass picked up if the glass falls down?
+no
+prompt (raw):can a air fryer make a glass picked up if the glass falls down?
+no
+prompt (raw):can a ice cream maker make a glass picked up if the glass falls down?
+no
+prompt (raw):can a stove make a glass picked up if the glass falls down?
+no
+prompt (raw):can a coffee maker make a glass picked up if the glass falls down?
+no
+prompt (raw):can a blender make a glass picked up if the glass falls down?
+no
+prompt (raw):can a dehumidifier make a glass picked up if the glass falls down?
+no
+prompt (raw):can a washing machine make a glass picked up if the glass falls down?
+no
+prompt (raw):can a kettle make a glass picked up if the glass falls down?
+no
+raw prompt:is it suitable that a robot grasps a bottle of coke if the bottle of coke is not available?
+no, it is not suitable for a robot to grasp a bottle of coke if the bottle of coke is not available
+raw prompt:is it suitable that a robot grasps a bottle of colander?
 no
 raw prompt:is it suitable that a robot grasps a bottle of cutlery knife?
 no
-raw prompt:is it suitable that a robot grasps a bottle of dish rack?
+raw prompt:is it suitable that a robot grasps a bottle of cooking pot?
 no
-raw prompt:is it suitable that a robot grasps a bottle of sponge?
-no
-raw prompt:is it suitable that a robot grasps a bottle of mug?
-no
-raw prompt:is it suitable that a robot grasps a bottle of cloth napkin?
-no
-raw prompt:is it suitable that a robot grasps a bottle of wooden spoon?
-no
-raw prompt:is it suitable that a robot grasps a bottle of dish?
-no
-raw prompt:is it suitable that a robot grasps a bottle of oven tray?
-no
-raw prompt:is it suitable that a robot grasps a bottle of paper towel?
-no
-raw prompt:is it suitable that a robot grasps a bottle of water?
+raw prompt:is it suitable that a robot grasps a bottle of tea?
 yes
-raw prompt:is it suitable that a robot pours a bottle of water into glass?
-yes
-raw prompt:is it suitable that a robot grasps a bottle of juice?
-yes
-raw prompt:is it suitable that a robot pours a bottle of juice into glass?
+raw prompt:is it suitable that a robot pours a bottle of tea into glass?
 yes
 raw prompt:is it suitable that a robot grasps a bottle of coffee?
 yes
 raw prompt:is it suitable that a robot pours a bottle of coffee into glass?
 yes
-raw prompt:is it suitable that a robot grasps a bottle of cutlery fork?
+raw prompt:is it suitable that a robot grasps a bottle of oven tray?
 no
-raw prompt:is it suitable that a robot grasps a bottle of cutting board?
+raw prompt:is it suitable that a robot grasps a bottle of paper towel?
 no
-raw prompt:is it suitable that a robot grasps a bottle of trash can?
+raw prompt:is it suitable that a robot grasps a bottle of wine glass?
+no
+raw prompt:is it suitable that a robot grasps a bottle of dish?
+no
+raw prompt:is it suitable that a robot grasps a bottle of coffee cup?
 no
 raw prompt:is it suitable that a robot grasps a bottle of cleaning bottle?
 no
-raw prompt:is it suitable that a robot grasps a bottle of drinking glass?
+raw prompt:is it suitable that a robot grasps a bottle of condiment bottle?
+yes
+raw prompt:is it suitable that a robot pours a bottle of condiment bottle into glass?
+yes
+raw prompt:is it suitable that a robot grasps a bottle of coffee filter?
+no
+raw prompt:is it suitable that a robot grasps a bottle of chef knife?
 no
 raw prompt:is it suitable that a robot grasps a bottle of measuring cup?
 no
-raw prompt:there are some objects, such as water, juice, coffee. which is the most suitable to replace a soda in the task of drinking soda if the bottle of soda is missing?
-water is the most suitable to replace a soda in the task of drinking soda if the bottle of soda is missing
-prompt (raw):can a toaster make bottle of soda found if the bottle of soda is missing?
+raw prompt:is it suitable that a robot grasps a bottle of dish rack?
 no
-prompt (raw):can a dehumidifier make bottle of soda found if the bottle of soda is missing?
+raw prompt:is it suitable that a robot grasps a bottle of mug?
 no
-prompt (raw):can a freezer make bottle of soda found if the bottle of soda is missing?
+raw prompt:is it suitable that a robot grasps a bottle of rag?
 no
-prompt (raw):can a juicer make bottle of soda found if the bottle of soda is missing?
+raw prompt:there are some objects, such as tea, coffee, condiment bottle. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available?
+a tea or coffee pot would be the most suitable object to replace a coke bottle in the task of pouring coke into a glass, as they are both
+prompt (raw):can a dishwasher make bottle of coke available if the bottle of coke is not available?
 no
-prompt (raw):can a air fryer make bottle of soda found if the bottle of soda is missing?
+prompt (raw):can a dehumidifier make bottle of coke available if the bottle of coke is not available?
 no
-prompt (raw):can a vacuum cleaner make bottle of soda found if the bottle of soda is missing?
+prompt (raw):can a toaster make bottle of coke available if the bottle of coke is not available?
 no
-prompt (raw):can a water filter make bottle of soda found if the bottle of soda is missing?
+prompt (raw):can a washing machine make bottle of coke available if the bottle of coke is not available?
 no
-prompt (raw):can a ice cream maker make bottle of soda found if the bottle of soda is missing?
+prompt (raw):can a stove make bottle of coke available if the bottle of coke is not available?
 no
-prompt (raw):can a washing machine make bottle of soda found if the bottle of soda is missing?
+prompt (raw):can a oven make bottle of coke available if the bottle of coke is not available?
+no
+prompt (raw):can a water filter make bottle of coke available if the bottle of coke is not available?
+no
+prompt (raw):can a fridge make bottle of coke available if the bottle of coke is not available?
+no
+prompt (raw):can a kettle make bottle of coke available if the bottle of coke is not available?
+no
+raw prompt:is it suitable that a robot finds a bottle of coke if the bottle of coke is not available?
+no, it is not suitable
+raw prompt:is it suitable that a robot grasps a bottle of cloth napkin?
+no
+raw prompt:is it suitable that a robot grasps a bottle of cutting board?
+no
+raw prompt:is it suitable that a robot grasps a bottle of juice?
+yes
+raw prompt:is it suitable that a robot pours a bottle of juice into glass?
+yes
+raw prompt:is it suitable that a robot grasps a bottle of trash can?
+no
+raw prompt:is it suitable that a robot grasps a bottle of wine?
+yes
+raw prompt:is it suitable that a robot pours a bottle of wine into glass?
+yes
+raw prompt:is it suitable that a robot grasps a bottle of watermelon juice?
+yes
+raw prompt:is it suitable that a robot pours a bottle of watermelon juice into glass?
+yes
+raw prompt:is it suitable that a robot grasps a bottle of sponge?
+no
+raw prompt:is it suitable that a robot grasps a bottle of wooden spoon?
+no
+raw prompt:is it suitable that a robot grasps a bottle of condiment shaker?
+yes
+raw prompt:is it suitable that a robot pours a bottle of condiment shaker into glass?
+yes
+raw prompt:there are some objects, such as juice, condiment bottle, wine, watermelon juice, coffee, condiment shaker. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available?
+the most suitable object to replace a coke in the task of pouring coke into a glass would be a bottle of water
+prompt (raw):can a microwave make bottle of coke available if the bottle of coke is not available?
+no
+prompt (raw):can a juicer make bottle of coke available if the bottle of coke is not available?
+no
+prompt (raw):can a water boiler make bottle of coke available if the bottle of coke is not available?
+no
+prompt (raw):can a vacuum cleaner make bottle of coke available if the bottle of coke is not available?
+no
+prompt (raw):can a freezer make bottle of coke available if the bottle of coke is not available?
+no
+prompt (raw):can a coffee maker make bottle of coke available if the bottle of coke is not available?
+no
+prompt (raw):can a air fryer make bottle of coke available if the bottle of coke is not available?
+no
+raw prompt:is it suitable that a robot pours a bottle of coke into glass if the bottle of coke is dropped?
+no, it is not suitable for a robot to pour a bottle of coke into a glass if the bottle of coke is dropped
+raw prompt:is it suitable that a robot grasps a bottle of mat?
+no
+raw prompt:is it suitable that a robot grasps a bottle of cutlery fork?
+no
+raw prompt:is it suitable that a robot grasps a bottle of frying pan?
+no
+raw prompt:there are some objects, such as coffee, tea, condiment bottle. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is dropped?
+a coffee mug would be the most suitable object to replace a coke bottle in the task of pouring coke into a glass if the coke bottle is dropped
+prompt (raw):can a oven make bottle of coke grasped if the bottle of coke is dropped?
+no
+prompt (raw):can a dehumidifier make bottle of coke grasped if the bottle of coke is dropped?
+no
+prompt (raw):can a juicer make bottle of coke grasped if the bottle of coke is dropped?
+no
+prompt (raw):can a microwave make bottle of coke grasped if the bottle of coke is dropped?
+no
+prompt (raw):can a air fryer make bottle of coke grasped if the bottle of coke is dropped?
+no
+prompt (raw):can a kettle make bottle of coke grasped if the bottle of coke is dropped?
+no
+prompt (raw):can a dishwasher make bottle of coke grasped if the bottle of coke is dropped?
+no
+prompt (raw):can a blender make bottle of coke grasped if the bottle of coke is dropped?
+no
+prompt (raw):can a coffee maker make bottle of coke grasped if the bottle of coke is dropped?
+no
+raw prompt:is it suitable that a robot grasps a bottle of drinking glass?
+no
+raw prompt:is it suitable that a robot grasps a bottle of bucket?
+no
+raw prompt:is it suitable that a robot grasps a bottle of beer?
+yes
+raw prompt:is it suitable that a robot pours a bottle of beer into glass?
+yes
+raw prompt:is it suitable that a robot grasps a bottle of wooden chopstick?
+no
+raw prompt:is it suitable that a robot grasps a bottle of dish bowl?
+no
+raw prompt:there are some objects, such as juice, coffee, wine, watermelon juice, beer, condiment shaker. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available?
+if the bottle of coke is not available, the most suitable object to replace it would be a can of coke
+prompt (raw):can a ice cream maker make bottle of coke available if the bottle of coke is not available?
+no
+prompt (raw):can a blender make bottle of coke available if the bottle of coke is not available?
+no
+raw prompt:is it suitable that a robot finds a glass if the glass is broken?
+no, it is not suitable
+raw prompt:is it suitable that a robot grasps a wine glass?
+yes
+raw prompt:is it suitable that a robot moves a wine glass near a table?
+yes
+raw prompt:is it suitable that a robot places a wine glass on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into wine glass?
+no
+raw prompt:is it suitable that a robot grasps a colander?
+no
+raw prompt:is it suitable that a robot grasps a dish?
+yes
+raw prompt:is it suitable that a robot moves a dish near a table?
+yes
+raw prompt:is it suitable that a robot places a dish on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into dish?
+no
+raw prompt:is it suitable that a robot grasps a cutlery fork?
+yes
+raw prompt:is it suitable that a robot moves a cutlery fork near a table?
+yes
+raw prompt:is it suitable that a robot places a cutlery fork on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into cutlery fork?
+no
+raw prompt:is it suitable that a robot grasps a wooden chopstick?
+yes
+raw prompt:is it suitable that a robot moves a wooden chopstick near a table?
+yes
+raw prompt:is it suitable that a robot places a wooden chopstick on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into wooden chopstick?
+no
+raw prompt:is it suitable that a robot grasps a mat?
+yes
+raw prompt:is it suitable that a robot moves a mat near a table?
+yes
+raw prompt:is it suitable that a robot places a mat on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into mat?
+no
+raw prompt:is it suitable that a robot grasps a juice?
+no
+raw prompt:is it suitable that a robot grasps a rag?
+yes
+raw prompt:is it suitable that a robot moves a rag near a table?
+yes
+raw prompt:is it suitable that a robot places a rag on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into rag?
+no
+raw prompt:is it suitable that a robot grasps a coffee cup?
+yes
+raw prompt:is it suitable that a robot moves a coffee cup near a table?
+yes
+raw prompt:is it suitable that a robot places a coffee cup on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into coffee cup?
+no
+raw prompt:is it suitable that a robot grasps a coffee?
+yes
+raw prompt:is it suitable that a robot moves a coffee near a table?
+yes
+raw prompt:is it suitable that a robot places a coffee on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into coffee?
+no
+raw prompt:there are some objects, such as measuring cup, bucket. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is broken?
+a measuring cup is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is broken
+prompt (raw):can a freezer make a glass good if the glass is broken?
+no
+prompt (raw):can a blender make a glass good if the glass is broken?
+no
+prompt (raw):can a dishwasher make a glass good if the glass is broken?
+no
+prompt (raw):can a coffee maker make a glass good if the glass is broken?
+no
+prompt (raw):can a air fryer make a glass good if the glass is broken?
+no
+prompt (raw):can a microwave make a glass good if the glass is broken?
+no
+prompt (raw):can a stove make a glass good if the glass is broken?
+no
+prompt (raw):can a oven make a glass good if the glass is broken?
+no
+prompt (raw):can a juicer make a glass good if the glass is broken?
+no
+raw prompt:is it suitable that a robot places a glass on a table if the bottle of coke is flat?
+no, it is not suitable for a robot to place a glass on a table if the bottle of coke is flat
+raw prompt:is it suitable that a robot grasps a bottle of alcohol?
+no
+raw prompt:there are some objects, such as juice, condiment shaker, beer, coffee, tea, wine. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is flat?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke is flat would be a
+prompt (raw):can a air fryer make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a washing machine make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a dehumidifier make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a freezer make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a fridge make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a kettle make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a microwave make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a oven make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a water boiler make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+raw prompt:there are some objects, such as condiment shaker, beer. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is dropped?
+a condiment shaker is the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of co
+prompt (raw):can a water filter make bottle of coke grasped if the bottle of coke is dropped?
+no
+prompt (raw):can a ice cream maker make bottle of coke grasped if the bottle of coke is dropped?
+no
+prompt (raw):can a freezer make bottle of coke grasped if the bottle of coke is dropped?
+no
+prompt (raw):can a vacuum cleaner make bottle of coke grasped if the bottle of coke is dropped?
+no
+raw prompt:is it suitable that a robot finds a glass if the bottle of coke spills?
+a robot may be able to find a glass if the bottle of coke spills, but it is not guaranteed
+raw prompt:there are some objects, such as beer, condiment shaker, condiment bottle. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke spills?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke spills is a beer
+prompt (raw):can a blender make a ground clean if the bottle of coke spills?
+no
+prompt (raw):can a ice cream maker make a ground clean if the bottle of coke spills?
+no
+prompt (raw):can a vacuum cleaner make a ground clean if the bottle of coke spills?
+yes
+prompt (raw):can a juicer make a ground clean if the bottle of coke spills?
+no
+prompt (raw):can a dishwasher make a ground clean if the bottle of coke spills?
+no
+prompt (raw):can a coffee maker make a ground clean if the bottle of coke spills?
+no
+prompt (raw):can a stove make a ground clean if the bottle of coke spills?
+no
+prompt (raw):can a toaster make a ground clean if the bottle of coke spills?
+no
+prompt (raw):can a dehumidifier make a ground clean if the bottle of coke spills?
+no
+raw prompt:is it suitable that a robot finds a glass if the glass is dirty?
+no, it is not suitable for a robot to find a glass if the glass is dirty
+raw prompt:is it suitable that a robot grasps a condiment shaker?
+yes
+raw prompt:is it suitable that a robot moves a condiment shaker near a table?
+yes
+raw prompt:is it suitable that a robot places a condiment shaker on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into condiment shaker?
+no
+raw prompt:is it suitable that a robot grasps a cooking pot?
+no
+raw prompt:is it suitable that a robot grasps a milk?
+no
+raw prompt:is it suitable that a robot grasps a beer?
+no
+raw prompt:there are some objects, such as mug, measuring cup. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is dirty?
+a measuring cup is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is dirty
+prompt (raw):can a dehumidifier make a glass clea if the glass is dirty?
+no
+prompt (raw):can a ice cream maker make a glass clea if the glass is dirty?
+no
+prompt (raw):can a dishwasher make a glass clea if the glass is dirty?
+yes
+prompt (raw):can a washing machine make a glass clea if the glass is dirty?
+no
+prompt (raw):can a water boiler make a glass clea if the glass is dirty?
+no
+prompt (raw):can a juicer make a glass clea if the glass is dirty?
+no
+prompt (raw):can a kettle make a glass clea if the glass is dirty?
+no
+prompt (raw):can a stove make a glass clea if the glass is dirty?
+no
+prompt (raw):can a toaster make a glass clea if the glass is dirty?
+no
+raw prompt:there are some objects, such as juice, watermelon juice, tea. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available?
+water is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available
+raw prompt:is it suitable that a robot grasps a bottle of milk?
+yes
+raw prompt:is it suitable that a robot pours a bottle of milk into glass?
+yes
+raw prompt:there are some objects, such as tea, milk, condiment bottle, coffee, beer, condiment shaker, watermelon juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available?
+if the bottle of coke is not available, the most suitable object to replace it would be a can of coke
+raw prompt:is it suitable that a robot finds a bottle of coke if the robot cannot recognize the bottle, and take beer out?
+no, it is not suitable
+raw prompt:is it suitable that a juice walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a rag walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a milk walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a beer walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a colander walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a wooden spoon walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a condiment bottle walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a dish bowl walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a wine walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a sponge walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a alcohol walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a measuring cup walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a bucket walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a drinking glass walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a dish rack walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a cutting board walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a watermelon juice walks from dining room to kitchen room?
+no
+raw prompt:is it suitable that a chef knife walks from dining room to kitchen room?
+no
+prompt (raw):can a blender make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out?
+no
+prompt (raw):can a water filter make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out?
+no
+prompt (raw):can a air fryer make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out?
+no
+prompt (raw):can a stove make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out?
+no
+prompt (raw):can a toaster make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out?
+no
+prompt (raw):can a ice cream maker make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out?
+no
+prompt (raw):can a dishwasher make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out?
+no
+prompt (raw):can a juicer make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out?
+no
+prompt (raw):can a water boiler make a robot successfully recognizing and grasping the bottle of coke if the robot cannot recognize the bottle, and take beer out?
+no
+raw prompt:is it suitable that a robot finds a bottle of coke if the bottle of coke is empty?
+no, it is not suitable
+raw prompt:there are some objects, such as condiment bottle, coffee, watermelon juice, tea, juice, wine. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is empty?
+if the bottle of coke is empty, the most suitable object to replace it would be a can of coke
+prompt (raw):can a vacuum cleaner make bottle of coke full of liquid if the bottle of coke is empty?
+no
+prompt (raw):can a oven make bottle of coke full of liquid if the bottle of coke is empty?
+no
+prompt (raw):can a air fryer make bottle of coke full of liquid if the bottle of coke is empty?
+no
+prompt (raw):can a dehumidifier make bottle of coke full of liquid if the bottle of coke is empty?
+no
+prompt (raw):can a fridge make bottle of coke full of liquid if the bottle of coke is empty?
+no
+prompt (raw):can a stove make bottle of coke full of liquid if the bottle of coke is empty?
+no
+prompt (raw):can a water filter make bottle of coke full of liquid if the bottle of coke is empty?
+no
+prompt (raw):can a washing machine make bottle of coke full of liquid if the bottle of coke is empty?
+no
+prompt (raw):can a water boiler make bottle of coke full of liquid if the bottle of coke is empty?
+no
+raw prompt:is it suitable that a robot finds a glass if the glass is missing?
+a robot can find a glass if the glass is missing
+raw prompt:is it suitable that a robot grasps a glass if the glass is missing?
+no, it is not suitable for a robot to grasp a glass if the glass is missing
+raw prompt:is it suitable that a robot grasps a sponge?
+yes
+raw prompt:is it suitable that a robot moves a sponge near a table?
+yes
+raw prompt:is it suitable that a robot places a sponge on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into sponge?
+no
+raw prompt:is it suitable that a robot grasps a cleaning bottle?
+yes
+raw prompt:is it suitable that a robot moves a cleaning bottle near a table?
+yes
+raw prompt:is it suitable that a robot places a cleaning bottle on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into cleaning bottle?
+no
+raw prompt:there are some objects, such as measuring cup, mug. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is missing?
+a measuring cup is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is missing
+prompt (raw):can a toaster make a glass found if the glass is missing?
+no
+prompt (raw):can a washing machine make a glass found if the glass is missing?
+no
+prompt (raw):can a blender make a glass found if the glass is missing?
+no
+prompt (raw):can a vacuum cleaner make a glass found if the glass is missing?
+no
+prompt (raw):can a microwave make a glass found if the glass is missing?
+no
+prompt (raw):can a fridge make a glass found if the glass is missing?
+no
+prompt (raw):can a dehumidifier make a glass found if the glass is missing?
+no
+prompt (raw):can a coffee maker make a glass found if the glass is missing?
+no
+prompt (raw):can a freezer make a glass found if the glass is missing?
+no
+raw prompt:is it suitable that a robot finds a bottle of coke if the bottle of coke is missing?
+no, it is not suitable
+raw prompt:there are some objects, such as condiment shaker, tea, wine, beer, condiment bottle. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is missing?
+a condiment shaker is the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of co
+prompt (raw):can a water boiler make bottle of coke found if the bottle of coke is missing?
+no
+prompt (raw):can a vacuum cleaner make bottle of coke found if the bottle of coke is missing?
+no
+prompt (raw):can a fridge make bottle of coke found if the bottle of coke is missing?
+no
+prompt (raw):can a microwave make bottle of coke found if the bottle of coke is missing?
+no
+prompt (raw):can a juicer make bottle of coke found if the bottle of coke is missing?
+no
+prompt (raw):can a blender make bottle of coke found if the bottle of coke is missing?
+no
+prompt (raw):can a stove make bottle of coke found if the bottle of coke is missing?
+no
+prompt (raw):can a dehumidifier make bottle of coke found if the bottle of coke is missing?
+no
+prompt (raw):can a water filter make bottle of coke found if the bottle of coke is missing?
+no
+raw prompt:is it suitable that a robot pours a bottle of coke into glass if the bottle of coke cannot be opened?
+no, it is not suitable for a robot to pour a bottle of coke into a glass if the bottle of coke cannot be opened
+raw prompt:there are some objects, such as tea, milk, coffee, beer, watermelon juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke cannot be opened?
+if the bottle of coke cannot be opened, the most suitable object to replace it would be water
+prompt (raw):can a stove make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+prompt (raw):can a juicer make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+prompt (raw):can a water filter make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+prompt (raw):can a toaster make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+prompt (raw):can a coffee maker make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+prompt (raw):can a fridge make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+prompt (raw):can a freezer make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+prompt (raw):can a washing machine make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+prompt (raw):can a blender make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+raw prompt:is it suitable that a robot moves a glass near a table if the glass is broken?
+no, it is not suitable for a robot to move a glass near a table if the glass is broken
+raw prompt:is it suitable that a robot grasps a wooden spoon?
+yes
+raw prompt:is it suitable that a robot moves a wooden spoon near a table?
+yes
+raw prompt:is it suitable that a robot places a wooden spoon on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into wooden spoon?
+no
+raw prompt:there are some objects, such as measuring cup, bucket, mug. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is broken?
+a measuring cup is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is broken
+prompt (raw):can a toaster make a glass good if the glass is broken?
+no
+prompt (raw):can a kettle make a glass good if the glass is broken?
+no
+prompt (raw):can a washing machine make a glass good if the glass is broken?
+no
+prompt (raw):can a dehumidifier make a glass good if the glass is broken?
+no
+raw prompt:is it suitable that a robot grasps a dish bowl?
+yes
+raw prompt:is it suitable that a robot moves a dish bowl near a table?
+yes
+raw prompt:is it suitable that a robot places a dish bowl on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into dish bowl?
+no
+prompt (raw):can a coffee maker make a glass clea if the glass is dirty?
+no
+prompt (raw):can a fridge make a glass clea if the glass is dirty?
+no
+prompt (raw):can a water filter make a glass clea if the glass is dirty?
+no
+prompt (raw):can a freezer make a glass clea if the glass is dirty?
+no
+prompt (raw):can a microwave make a glass clea if the glass is dirty?
+no
+raw prompt:there are some objects, such as condiment shaker, coffee, watermelon juice, beer, condiment bottle. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is missing?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke is missing would be a
+prompt (raw):can a ice cream maker make bottle of coke found if the bottle of coke is missing?
+no
+prompt (raw):can a air fryer make bottle of coke found if the bottle of coke is missing?
+no
+prompt (raw):can a kettle make bottle of coke found if the bottle of coke is missing?
+no
+prompt (raw):can a toaster make bottle of coke found if the bottle of coke is missing?
+no
+prompt (raw):can a freezer make bottle of coke found if the bottle of coke is missing?
+no
+raw prompt:there are some objects, such as watermelon juice, milk, wine. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available?
+watermelon juice is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not
+raw prompt:is it suitable that a robot grasps a drinking glass?
+yes
+raw prompt:is it suitable that a robot moves a drinking glass near a table?
+yes
+raw prompt:is it suitable that a robot places a drinking glass on a table?
+yes
+raw prompt:is it suitable that a robot pours a bottle of coke into drinking glass?
+yes
+raw prompt:there are some objects, such as drinking glass, mug. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is dirty?
+a drinking glass is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is dirty
+prompt (raw):can a oven make a glass clea if the glass is dirty?
+yes
+prompt (raw):can a vacuum cleaner make a glass clea if the glass is dirty?
+yes
+prompt (raw):can a air fryer make a glass clea if the glass is dirty?
+no
+raw prompt:there are some appliances, such as oven, vacuum cleaner, dishwasher. which is the most possible to make a glass clea if the glass is dirty?
+the most possible way to make a glass clean is to use a dishwasher
+raw prompt:there are some objects, such as drinking glass, bucket, mug. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is missing?
+a drinking glass is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is missing
+prompt (raw):can a juicer make a glass found if the glass is missing?
+no
+prompt (raw):can a dishwasher make a glass found if the glass is missing?
+no
+prompt (raw):can a kettle make a glass found if the glass is missing?
+no
+prompt (raw):can a water boiler make a glass found if the glass is missing?
+no
+prompt (raw):can a oven make a glass found if the glass is missing?
+no
+raw prompt:there are some objects, such as tea, condiment bottle, watermelon juice, wine, condiment shaker. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is missing?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke is missing would be a
+prompt (raw):can a oven make bottle of coke found if the bottle of coke is missing?
+no
+prompt (raw):can a coffee maker make bottle of coke found if the bottle of coke is missing?
+no
+raw prompt:there are some objects, such as condiment bottle, milk, juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available?
+a condiment bottle would be the most suitable object to replace a coke bottle in the task of pouring coke into a glass
+raw prompt:there are some objects, such as drinking glass, mug. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is missing?
+a drinking glass is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is missing
+prompt (raw):can a air fryer make a glass found if the glass is missing?
+no
+prompt (raw):can a stove make a glass found if the glass is missing?
+no
+raw prompt:is it suitable that a robot finds a bottle of coke if the bottle of coke is sticky and leaking?
+no, it is not suitable for a robot to find a bottle of coke if the bottle of coke is sticky and leaking
+raw prompt:there are some objects, such as wine, juice, condiment shaker, watermelon juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is sticky and leaking?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke is sticky and leaking is
+prompt (raw):can a freezer make bottle of coke clean if the bottle of coke is sticky and leaking?
+no
+prompt (raw):can a blender make bottle of coke clean if the bottle of coke is sticky and leaking?
+no
+prompt (raw):can a oven make bottle of coke clean if the bottle of coke is sticky and leaking?
+no
+prompt (raw):can a microwave make bottle of coke clean if the bottle of coke is sticky and leaking?
+no
+prompt (raw):can a dishwasher make bottle of coke clean if the bottle of coke is sticky and leaking?
+no
+prompt (raw):can a kettle make bottle of coke clean if the bottle of coke is sticky and leaking?
+no
+prompt (raw):can a stove make bottle of coke clean if the bottle of coke is sticky and leaking?
+no
+prompt (raw):can a ice cream maker make bottle of coke clean if the bottle of coke is sticky and leaking?
+no
+prompt (raw):can a air fryer make bottle of coke clean if the bottle of coke is sticky and leaking?
+no
+raw prompt:there are some objects, such as bucket, mug. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is dirty?
+a bucket is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is dirty
+raw prompt:there are some appliances, such as vacuum cleaner, oven. which is the most possible to make a glass clea if the glass is dirty?
+a vacuum cleaner is the most likely appliance to make a glass clean if the glass is dirty
+raw prompt:there are some objects, such as milk, condiment shaker, wine, coffee, tea, condiment bottle, watermelon juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is flat?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke is flat would be a
+prompt (raw):can a stove make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a vacuum cleaner make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a blender make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a dishwasher make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a juicer make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a air fryer make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+prompt (raw):can a microwave make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+prompt (raw):can a vacuum cleaner make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+prompt (raw):can a kettle make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+raw prompt:is it suitable that a robot pours a bottle of coke into glass if the glass falls down?
+no, it is not suitable for a robot to pour a bottle of coke into a glass if the glass falls down
+raw prompt:there are some objects, such as bucket, measuring cup. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass falls down?
+a bucket is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass falls down
+prompt (raw):can a oven make a glass picked up if the glass falls down?
+no
+prompt (raw):can a freezer make a glass picked up if the glass falls down?
+no
+prompt (raw):can a juicer make a glass picked up if the glass falls down?
+no
+raw prompt:there are some objects, such as coffee, condiment shaker, milk, condiment bottle. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available?
+a condiment bottle would be the most suitable object to replace a coke bottle in the task of pouring coke into a glass
+raw prompt:there are some objects, such as juice, condiment shaker, milk, tea, beer, condiment bottle, coffee, watermelon juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke cannot be opened?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke cannot be opened is water
+prompt (raw):can a water boiler make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+prompt (raw):can a dishwasher make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+prompt (raw):can a oven make bottle of coke easy to be opened if the bottle of coke cannot be opened?
+no
+raw prompt:there are some objects, such as bucket, drinking glass. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass falls down?
+a bucket is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass falls down
+prompt (raw):can a fridge make a glass picked up if the glass falls down?
+no
+prompt (raw):can a vacuum cleaner make a glass picked up if the glass falls down?
+no
+prompt (raw):can a microwave make a glass picked up if the glass falls down?
+no
+prompt (raw):can a toaster make a glass picked up if the glass falls down?
+no
+raw prompt:there are some objects, such as mug, drinking glass, measuring cup. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is missing?
+a drinking glass is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is missing
+prompt (raw):can a water filter make a glass found if the glass is missing?
+no
+prompt (raw):can a vacuum cleaner make a glass good if the glass is broken?
+no
+prompt (raw):can a ice cream maker make a glass good if the glass is broken?
+no
+prompt (raw):can a water boiler make a glass good if the glass is broken?
+no
+prompt (raw):can a fridge make a glass good if the glass is broken?
+no
+prompt (raw):can a dishwasher make a glass picked up if the glass falls down?
+no
+raw prompt:there are some objects, such as tea, wine, beer, coffee, condiment bottle. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is flat?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke is flat would be a
+prompt (raw):can a toaster make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a coffee maker make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+prompt (raw):can a blender make a glass clea if the glass is dirty?
+no
+raw prompt:there are some objects, such as tea, milk, wine, condiment bottle, condiment shaker, coffee. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is missing?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke is missing would be a
+prompt (raw):can a washing machine make bottle of coke found if the bottle of coke is missing?
+no
+raw prompt:there are some objects, such as bucket, mug, drinking glass. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass falls down?
+a drinking glass is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass falls down
+prompt (raw):can a water filter make a glass good if the glass is broken?
+no
+raw prompt:there are some objects, such as juice, condiment shaker, condiment bottle, milk. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available?
+the most suitable object to replace a coke in the task of pouring coke into a glass would be a juice
+raw prompt:there are some objects, such as measuring cup, bucket. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is dirty?
+a measuring cup is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is dirty
+raw prompt:is it suitable that a robot pours a bottle of coke into glass if the bottle of coke spills?
+no, it is not suitable for a robot to pour a bottle of coke into a glass if the bottle of coke spills
+raw prompt:there are some objects, such as juice, condiment bottle, wine. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available?
+a juice bottle would be the most suitable replacement for a coke bottle in the task of pouring coke into a glass
+raw prompt:there are some objects, such as juice, milk, condiment bottle, tea, condiment shaker. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is flat?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke is flat would be a
+prompt (raw):can a ice cream maker make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+raw prompt:there are some objects, such as beer, condiment shaker, juice, watermelon juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is dropped?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke is dropped would be a
+prompt (raw):can a toaster make bottle of coke grasped if the bottle of coke is dropped?
+no
+prompt (raw):can a fridge make bottle of coke grasped if the bottle of coke is dropped?
+no
+raw prompt:there are some objects, such as drinking glass, bucket, measuring cup. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is broken?
+a drinking glass is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is broken
+raw prompt:there are some objects, such as juice, condiment shaker, beer, wine, milk, watermelon juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is flat?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke is flat would be a
+raw prompt:there are some objects, such as drinking glass, bucket, mug. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is dirty?
+a drinking glass is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is dirty
+raw prompt:there are some appliances, such as dishwasher, oven, vacuum cleaner. which is the most possible to make a glass clea if the glass is dirty?
+the most possible appliance to make a glass clean if the glass is dirty is the dishwasher
+raw prompt:there are some objects, such as wine, tea, watermelon juice, coffee. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available?
+if the bottle of coke is not available, the most suitable object to replace it with would be water
+raw prompt:there are some objects, such as tea, watermelon juice, coffee, condiment bottle, juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is missing?
+if the bottle of coke is missing, the most suitable object to replace it would be a can of coke
+prompt (raw):can a dishwasher make bottle of coke found if the bottle of coke is missing?
+no
+raw prompt:there are some objects, such as bucket, mug. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is broken?
+a bucket is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is broken
+raw prompt:there are some objects, such as drinking glass, measuring cup. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is broken?
+a drinking glass is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is broken
+raw prompt:there are some objects, such as condiment bottle, watermelon juice, condiment shaker, juice, tea. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is missing?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke is missing would be a
+raw prompt:there are some objects, such as wine, beer, coffee, condiment shaker. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available?
+if the bottle of coke is not available, the most suitable object to replace it would be a can of coke
+raw prompt:there are some objects, such as beer, watermelon juice, condiment shaker. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is flat?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke is flat would be a
+prompt (raw):can a water filter make bottle of coke full of carbon dioxide if the bottle of coke is flat?
+no
+raw prompt:there are some objects, such as watermelon juice, condiment shaker, milk, tea, juice, condiment bottle. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is missing?
+watermelon juice is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is missing
+raw prompt:there are some objects, such as drinking glass, bucket. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is broken?
+a drinking glass is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is broken
+raw prompt:there are some objects, such as tea, condiment shaker, juice, condiment bottle, watermelon juice, beer. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the bottle of coke is not available would be
+prompt (raw):can a water boiler make a glass picked up if the glass falls down?
+no
+raw prompt:there are some objects, such as watermelon juice, beer, tea, condiment bottle, juice, wine. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is flat?
+watermelon juice is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is flat
+raw prompt:there are some objects, such as bucket, measuring cup, mug. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is dirty?
+a measuring cup is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is dirty
+raw prompt:there are some appliances, such as vacuum cleaner, dishwasher. which is the most possible to make a glass clea if the glass is dirty?
+a vacuum cleaner is the most likely appliance to make a glass clean if the glass is dirty
+raw prompt:there are some objects, such as drinking glass, bucket. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is missing?
+a drinking glass is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is missing
+prompt (raw):can a ice cream maker make a glass found if the glass is missing?
+no
+raw prompt:there are some objects, such as condiment bottle, wine, tea, condiment shaker. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is missing?
+a wine bottle would be the most suitable object to replace a coke bottle in the task of pouring coke into a glass
+raw prompt:is it suitable that a robot grasps a bottle of coke if the bottle of coke is too frozen?
+no, it is not suitable for a robot to grasp a bottle of coke if the bottle of coke is too frozen
+raw prompt:there are some objects, such as milk, juice, condiment shaker. which is the most suitable to replace a coke in the task of pouring coke into a glass if the bottle of coke is too frozen?
+milk, juice, and condiment shakers are all suitable replacements for a coke in the task of pouring coke into a glass if the
+prompt (raw):can a fridge make bottle of coke not too frozen if the bottle of coke is too frozen?
+yes
+prompt (raw):can a water boiler make bottle of coke not too frozen if the bottle of coke is too frozen?
+no
+prompt (raw):can a freezer make bottle of coke not too frozen if the bottle of coke is too frozen?
+yes
+prompt (raw):can a stove make bottle of coke not too frozen if the bottle of coke is too frozen?
+yes
+prompt (raw):can a microwave make bottle of coke not too frozen if the bottle of coke is too frozen?
+yes
+prompt (raw):can a kettle make bottle of coke not too frozen if the bottle of coke is too frozen?
+no
+prompt (raw):can a air fryer make bottle of coke not too frozen if the bottle of coke is too frozen?
+no
+prompt (raw):can a blender make bottle of coke not too frozen if the bottle of coke is too frozen?
+yes
+prompt (raw):can a ice cream maker make bottle of coke not too frozen if the bottle of coke is too frozen?
+no
+raw prompt:there are some appliances, such as fridge, freezer, stove, microwave, blender. which is the most possible to make bottle of coke not too frozen if the bottle of coke is too frozen?
+the most possible appliance to make a bottle of coke not too frozen is the microwave
+raw prompt:is it suitable that a robot finds a bottle of coke if the coke is not available?
+no, it is not suitable
+raw prompt:there are some objects, such as condiment shaker, juice, milk, watermelon juice, coffee, beer. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+if the coke is not available, the most suitable object to replace it would be water
+prompt (raw):can a stove make coke available if the coke is not available?
+no
+prompt (raw):can a toaster make coke available if the coke is not available?
+no
+prompt (raw):can a ice cream maker make coke available if the coke is not available?
+no
+prompt (raw):can a dishwasher make coke available if the coke is not available?
+no
+prompt (raw):can a blender make coke available if the coke is not available?
+no
+prompt (raw):can a dehumidifier make coke available if the coke is not available?
+no
+prompt (raw):can a kettle make coke available if the coke is not available?
+no
+prompt (raw):can a oven make coke available if the coke is not available?
+no
+prompt (raw):can a air fryer make coke available if the coke is not available?
+no
+raw prompt:is it suitable that a robot grasps a bottle of coke if the coke is not available?
+no, it is not suitable for a robot to grasp a bottle of coke if the coke is not available
+raw prompt:there are some objects, such as juice, beer, condiment shaker. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+if the coke is not available, the most suitable object to replace it would be beer
+prompt (raw):can a water boiler make coke available if the coke is not available?
+no
+prompt (raw):can a coffee maker make coke available if the coke is not available?
+no
+prompt (raw):can a freezer make coke available if the coke is not available?
+no
+prompt (raw):can a vacuum cleaner make coke available if the coke is not available?
+no
+raw prompt:there are some objects, such as condiment bottle, coffee, wine, juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+if the coke is not available, the most suitable object to replace it with would be another beverage, such as water, juice, or milk
+prompt (raw):can a fridge make coke available if the coke is not available?
+no
+prompt (raw):can a microwave make coke available if the coke is not available?
+no
+prompt (raw):can a washing machine make coke available if the coke is not available?
+no
+raw prompt:there are some objects, such as coffee, wine, tea, watermelon juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+if the coke is not available, the most suitable object to replace it with would be water
+prompt (raw):can a juicer make coke available if the coke is not available?
+no
+prompt (raw):can a water filter make coke available if the coke is not available?
+no
+raw prompt:there are some objects, such as condiment bottle, watermelon juice, condiment shaker. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+the most suitable object to replace a coke in the task of pouring coke into a glass would be a watermelon juice
+raw prompt:there are some objects, such as wine, juice, beer, condiment shaker, coffee. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+if the coke is not available, the most suitable object to replace it with in the task of pouring coke into a glass would be beer
+raw prompt:there are some objects, such as watermelon juice, juice, tea, milk. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+watermelon juice, juice, tea, and milk are all suitable replacements for coke in the task of pouring coke into a glass
+raw prompt:there are some objects, such as condiment bottle, beer, wine, milk. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+if the coke is not available, the most suitable object to replace it with would be beer
+raw prompt:there are some objects, such as condiment bottle, beer, condiment shaker, watermelon juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+the most suitable object to replace a coke in the task of pouring coke into a glass would be a can of soda
+raw prompt:there are some objects, such as milk, condiment bottle, wine, coffee, watermelon juice, beer. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+if the coke is not available, the most suitable object to replace it would be water
+raw prompt:there are some objects, such as tea, condiment shaker, condiment bottle, beer, juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+if the coke is not available, the most suitable object to replace it would be the beer
+raw prompt:there are some objects, such as milk, wine, watermelon juice, condiment shaker, beer, coffee. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+if the coke is not available, the most suitable object to replace it with would be water
+raw prompt:there are some objects, such as condiment shaker, beer, tea, condiment bottle, watermelon juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+the most suitable object to replace a coke in the task of pouring coke into a glass would be a can of soda
+raw prompt:there are some objects, such as condiment shaker, coffee, wine, watermelon juice, condiment bottle. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+if the coke is not available, the most suitable object to replace it would be watermelon juice
+raw prompt:there are some objects, such as coffee, milk, condiment bottle, juice, beer. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is not available?
+if the coke is not available, the most suitable object to replace it would be beer
+raw prompt:is it suitable that a robot finds a bottle of coke if the coke is missing?
+no, it is not suitable
+raw prompt:there are some objects, such as watermelon juice, wine, milk. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is missing?
+if the coke is missing, the most suitable object to replace it with would be watermelon juice
+prompt (raw):can a oven make coke found if the coke is missing?
+no
+prompt (raw):can a stove make coke found if the coke is missing?
+no
+prompt (raw):can a fridge make coke found if the coke is missing?
+no
+prompt (raw):can a juicer make coke found if the coke is missing?
+no
+prompt (raw):can a coffee maker make coke found if the coke is missing?
+no
+prompt (raw):can a dehumidifier make coke found if the coke is missing?
+no
+prompt (raw):can a air fryer make coke found if the coke is missing?
+no
+prompt (raw):can a kettle make coke found if the coke is missing?
+no
+prompt (raw):can a ice cream maker make coke found if the coke is missing?
+no
+raw prompt:there are some objects, such as tea, beer, juice, condiment bottle. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is missing?
+if the coke is missing, the most suitable object to replace it would be beer
+prompt (raw):can a toaster make coke found if the coke is missing?
+no
+prompt (raw):can a microwave make coke found if the coke is missing?
+no
+prompt (raw):can a dishwasher make coke found if the coke is missing?
+no
+prompt (raw):can a freezer make coke found if the coke is missing?
+no
+prompt (raw):can a blender make coke found if the coke is missing?
+no
+raw prompt:there are some objects, such as wine, coffee, tea, watermelon juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is missing?
+if the coke is missing, the most suitable object to replace it with would be watermelon juice
+prompt (raw):can a water boiler make coke found if the coke is missing?
+no
+prompt (raw):can a vacuum cleaner make coke found if the coke is missing?
+no
+prompt (raw):can a water filter make coke found if the coke is missing?
+no
+raw prompt:there are some objects, such as tea, beer, condiment shaker, juice, watermelon juice, condiment bottle. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is missing?
+if the coke is missing, the most suitable object to replace it would be beer
+raw prompt:there are some objects, such as measuring cup, mug. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is dirty?
+a measuring cup is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is dirty
+raw prompt:there are some objects, such as mug, measuring cup, bucket. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is dirty?
+a measuring cup is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is dirty
+raw prompt:there are some appliances, such as dishwasher, vacuum cleaner. which is the most possible to make a glass clea if the glass is dirty?
+a dishwasher is the most likely appliance to make a glass clean if the glass is dirty
+raw prompt:there are some objects, such as mug, bucket. which is the most suitable to replace a glass in the task of pouring coke into a glass if the glass is dirty?
+a mug is the most suitable object to replace a glass in the task of pouring coke into a glass if the glass is dirty
+raw prompt:is it suitable that a robot pours a bottle of coke into glass if the coke spills?
+no, it is not suitable for a robot to pour a bottle of coke into a glass if the coke spills
+raw prompt:there are some objects, such as juice, tea, beer, milk. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke spills?
+if the coke spills, the most suitable object to replace it with is beer
+prompt (raw):can a ice cream maker make a ground clean if the coke spills?
+no
+prompt (raw):can a kettle make a ground clean if the coke spills?
+no
+prompt (raw):can a fridge make a ground clean if the coke spills?
+no
+prompt (raw):can a oven make a ground clean if the coke spills?
+no
+prompt (raw):can a air fryer make a ground clean if the coke spills?
+no
+prompt (raw):can a washing machine make a ground clean if the coke spills?
+no
+prompt (raw):can a freezer make a ground clean if the coke spills?
+no
+prompt (raw):can a toaster make a ground clean if the coke spills?
+no
+prompt (raw):can a water filter make a ground clean if the coke spills?
+no
+raw prompt:there are some objects, such as condiment shaker, tea, milk, condiment bottle, watermelon juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke spills?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the coke spills is water
+prompt (raw):can a juicer make a ground clean if the coke spills?
+no
+prompt (raw):can a water boiler make a ground clean if the coke spills?
+no
+prompt (raw):can a blender make a ground clean if the coke spills?
+no
+prompt (raw):can a dehumidifier make a ground clean if the coke spills?
+no
+prompt (raw):can a dishwasher make a ground clean if the coke spills?
+no
+raw prompt:there are some objects, such as coffee, condiment shaker. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke spills?
+a coffee mug would be the most suitable object to replace a coke in the task of pouring coke into a glass if the coke spills
+raw prompt:there are some objects, such as tea, wine, condiment bottle, juice, beer. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke spills?
+if the coke spills, the most suitable object to replace it would be a tea bag
+prompt (raw):can a coffee maker make a ground clean if the coke spills?
+no
+prompt (raw):can a microwave make a ground clean if the coke spills?
+no
+raw prompt:is it suitable that a robot pours a bottle of coke into glass if the coke is flat?
+no, it is not suitable for a robot to pour a bottle of coke into a glass if the coke is flat
+raw prompt:there are some objects, such as condiment shaker, watermelon juice, coffee. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is flat?
+the most suitable object to replace a flat coke in the task of pouring coke into a glass would be water
+prompt (raw):can a oven make coke full of carbon dioxide if the coke is flat?
+no
+prompt (raw):can a freezer make coke full of carbon dioxide if the coke is flat?
+no
+prompt (raw):can a juicer make coke full of carbon dioxide if the coke is flat?
+no
+prompt (raw):can a water filter make coke full of carbon dioxide if the coke is flat?
+no
+prompt (raw):can a microwave make coke full of carbon dioxide if the coke is flat?
+no
+prompt (raw):can a vacuum cleaner make coke full of carbon dioxide if the coke is flat?
+no
+prompt (raw):can a stove make coke full of carbon dioxide if the coke is flat?
+no
+prompt (raw):can a air fryer make coke full of carbon dioxide if the coke is flat?
+no
+prompt (raw):can a dishwasher make coke full of carbon dioxide if the coke is flat?
+no
+raw prompt:there are some objects, such as coffee, wine, juice, watermelon juice. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is flat?
+the most suitable object to replace a flat coke in the task of pouring coke into a glass would be wine
+prompt (raw):can a water boiler make coke full of carbon dioxide if the coke is flat?
+no
+prompt (raw):can a washing machine make coke full of carbon dioxide if the coke is flat?
+no
+prompt (raw):can a kettle make coke full of carbon dioxide if the coke is flat?
+no
+prompt (raw):can a coffee maker make coke full of carbon dioxide if the coke is flat?
+no
+raw prompt:there are some objects, such as watermelon juice, milk, wine, juice, tea, beer. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is flat?
+watermelon juice, milk, wine, juice, tea, and beer are all suitable replacements for flat coke
+prompt (raw):can a ice cream maker make coke full of carbon dioxide if the coke is flat?
+no
+prompt (raw):can a fridge make coke full of carbon dioxide if the coke is flat?
+no
+prompt (raw):can a toaster make coke full of carbon dioxide if the coke is flat?
+no
+raw prompt:there are some objects, such as condiment shaker, milk, beer, wine, condiment bottle, tea. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is flat?
+if the coke is flat, the most suitable object to replace it would be beer
+prompt (raw):can a blender make coke full of carbon dioxide if the coke is flat?
+no
+prompt (raw):can a dehumidifier make coke full of carbon dioxide if the coke is flat?
+no
+raw prompt:there are some objects, such as tea, milk, juice, coffee. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is flat?
+if the coke is flat, then the most suitable object to replace it would be tea, milk, juice, or coffee
+raw prompt:is it suitable that a robot pours a bottle of coke into glass if the coke is dropped?
+no, it is not suitable for a robot to pour a bottle of coke into a glass if the coke is dropped
+raw prompt:there are some objects, such as condiment bottle, juice, tea, wine, coffee. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is dropped?
+the most suitable object to replace a coke in the task of pouring coke into a glass if the coke is dropped would be a condiment
+prompt (raw):can a toaster make coke grasped if the coke is dropped?
+no
+prompt (raw):can a water filter make coke grasped if the coke is dropped?
+no
+prompt (raw):can a dishwasher make coke grasped if the coke is dropped?
+no
+prompt (raw):can a washing machine make coke grasped if the coke is dropped?
+no
+prompt (raw):can a stove make coke grasped if the coke is dropped?
+no
+prompt (raw):can a coffee maker make coke grasped if the coke is dropped?
+no
+prompt (raw):can a blender make coke grasped if the coke is dropped?
+no
+prompt (raw):can a freezer make coke grasped if the coke is dropped?
+no
+prompt (raw):can a air fryer make coke grasped if the coke is dropped?
+no
+raw prompt:there are some objects, such as milk, beer, tea, watermelon juice, condiment bottle. which is the most suitable to replace a coke in the task of pouring coke into a glass if the coke is dropped?
+if the coke is dropped, the most suitable object to replace it would be water
+prompt (raw):can a vacuum cleaner make coke grasped if the coke is dropped?
+no
+prompt (raw):can a microwave make coke grasped if the coke is dropped?
+no
+prompt (raw):can a kettle make coke grasped if the coke is dropped?
+no
+prompt (raw):can a water boiler make coke grasped if the coke is dropped?
+no
+prompt (raw):can a dehumidifier make coke grasped if the coke is dropped?
 no

@@ -1,0 +1,237 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob kitchen dining)
+(find_table rob table dining)
+(grasp_vacuum rob vacuum_1 dining)
+(plug_vacuum rob vacuum_1 outlet_1 dining)
+(turnon_vacuum rob vacuum_1 dining)
+(clean_area rob vacuum_1 table dining)
+(turnoff_vacuum rob vacuum_1 dining)
+(unplug_vacuum rob vacuum_1 dining)
+; cost = 8 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 9
+situation: the robot cannot reach the vacuum.
+action corresponding to situation: clean_area
+corresponding predicate: robot_cannot_reach_the_vacuum
+object manipulated by robot: area
+object in situation: robot
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'kitchen', 'dining']
+action (decoded): a robot walks from a kitchen room to a dining room.
+this action is executed!
+
+action: ['find_table', 'rob', 'table', 'dining']
+action (decoded): a robot finds a table in a dining room.
+this action is executed!
+
+action: ['grasp_vacuum', 'rob', 'vacuum_1', 'dining']
+action (decoded): a robot grasps a vacuum in a dining room.
+this action is executed!
+
+action: ['plug_vacuum', 'rob', 'vacuum_1', 'outlet_1', 'dining']
+action (decoded): a robot plugs a vacuum using outlet in a dining room.
+this action is executed!
+
+action: ['turnon_vacuum', 'rob', 'vacuum_1', 'dining']
+action (decoded): a robot turns on a vacuum in a dining room.
+this action is executed!
+
+action: ['clean_area', 'rob', 'vacuum_1', 'table', 'dining']
+action (decoded): a robot cleans the area beside a table using vacuum in a dining room.
+
+#---------- checking unexecuted actions! -----------
+['clean_area', 'rob', 'vacuum_1', 'table', 'dining']
+['turnoff_vacuum', 'rob', 'vacuum_1', 'dining']
+['unplug_vacuum', 'rob', 'vacuum_1', 'dining']
+
+unexecuted action: ['clean_area', 'rob', 'vacuum_1', 'table', 'dining']
+unexecuted action (decoded): a robot cleans the area beside a table using vacuum in a dining room.
+! prompt design
+raw prompt: is it suitable that a robot cleans the area beside a table using vacuum if the robot cannot reach the vacuum?
+! response from LLM
+response (raw prompt): ['no, it is not suitable']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['colander', 'cutlery fork', 'drinking glass', 'sponge', 'wine glass', 'cloth napkin', 'oven tray', 'paper towel', 'wooden chopstick', 'rag', 'cutting board', 'wooden spoon', 'frying pan', 'mat']
+
+! prompt design
+raw prompt: is it suitable that a colander walks from a kitchen room to a dining room?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a cutlery fork walks from a kitchen room to a dining room?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a drinking glass walks from a kitchen room to a dining room?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a sponge walks from a kitchen room to a dining room?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a wine glass walks from a kitchen room to a dining room?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a cloth napkin walks from a kitchen room to a dining room?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a oven tray walks from a kitchen room to a dining room?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a paper towel walks from a kitchen room to a dining room?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a wooden chopstick walks from a kitchen room to a dining room?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a rag walks from a kitchen room to a dining room?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a cutting board walks from a kitchen room to a dining room?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a wooden spoon walks from a kitchen room to a dining room?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a frying pan walks from a kitchen room to a dining room?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a mat walks from a kitchen room to a dining room?
+answer:
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+None
+
+#---------- most possible object: ---------- 
+None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['ice cream maker', 'microwave', 'dehumidifier', 'juicer', 'kettle', 'coffee maker', 'fridge', 'toaster', 'dishwasher']
+
+! prompt design
+prompt (raw): can a ice cream maker make robot reaching the vacuum if the robot cannot reach the vacuum? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a microwave make robot reaching the vacuum if the robot cannot reach the vacuum? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dehumidifier make robot reaching the vacuum if the robot cannot reach the vacuum? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a juicer make robot reaching the vacuum if the robot cannot reach the vacuum? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a kettle make robot reaching the vacuum if the robot cannot reach the vacuum? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make robot reaching the vacuum if the robot cannot reach the vacuum? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a fridge make robot reaching the vacuum if the robot cannot reach the vacuum? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a toaster make robot reaching the vacuum if the robot cannot reach the vacuum? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dishwasher make robot reaching the vacuum if the robot cannot reach the vacuum? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

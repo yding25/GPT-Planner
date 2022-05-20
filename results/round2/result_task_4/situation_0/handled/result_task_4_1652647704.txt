@@ -1,0 +1,79 @@
+before running, all old files have been removed.
+
+setting:1
+
+#---------- generating basic plan! -----------
+(walk rob dining kitchen)
+(find_cup rob cup_0 kitchen)
+(hold_cup rob cup_0 kitchen)
+(find_faucet rob faucet kitchen)
+(turnon_faucet rob faucet kitchen)
+(fill_cup rob cup_0 faucet kitchen)
+(turnoff_faucet rob faucet kitchen)
+(walk rob kitchen dining)
+(place_cup rob cup_0 table dining)
+; cost = 9 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 0
+situation: the cup_0 is broken.
+action corresponding to situation: hold_cup
+corresponding predicate: cup_is_broken
+object manipulated by robot: cup_0
+object in situation: cup_0
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from a dining room to a kitchen room.
+this action is executed!
+
+action: ['find_cup', 'rob', 'cup_0', 'kitchen']
+action (decoded): a robot finds a cup in kitchen room.
+this action is executed!
+
+action: ['hold_cup', 'rob', 'cup_0', 'kitchen']
+action (decoded): a robot holds a cup in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['hold_cup', 'rob', 'cup_0', 'kitchen']
+['find_faucet', 'rob', 'faucet', 'kitchen']
+['turnon_faucet', 'rob', 'faucet', 'kitchen']
+['fill_cup', 'rob', 'cup_0', 'faucet', 'kitchen']
+['turnoff_faucet', 'rob', 'faucet', 'kitchen']
+['walk', 'rob', 'kitchen', 'dining']
+['place_cup', 'rob', 'cup_0', 'table', 'dining']
+
+unexecuted action: ['hold_cup', 'rob', 'cup_0', 'kitchen']
+unexecuted action (decoded): a robot holds a cup in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot holds a cup if the cup is broken?
+! experience found
+! response from LLM
+response (raw prompt): no,
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+(walk rob dining kitchen)
+(find_faucet rob faucet kitchen)
+(find_cup rob cup_1 kitchen)
+(hold_cup rob cup_1 kitchen)
+(turnon_faucet rob faucet kitchen)
+(fill_cup rob cup_1 faucet kitchen)
+(turnoff_faucet rob faucet kitchen)
+(walk rob kitchen dining)
+(place_cup rob cup_1 table dining)
+; cost = 9 (unit cost)

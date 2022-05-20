@@ -87,6 +87,9 @@ def llm_object(task_id, path_plan, situation_object, item, option):
                     fidout1.write('%s\n' % target_prompt)
                     fidout1.write('%s\n' % resp)
                     fidout1.flush()
+                    # test
+                    print(responses)
+                    print(probs_1)
                 except:
                     print('Error: no response in llm_object!')
             else:
@@ -175,6 +178,7 @@ def llm_object_most(task_id, task_name, situation, situation_object, candidate_o
         if item in resp:
             return item
 
+
 # ------------------------------------------
 # how many steps in adding effect?
 # (problem file) step 1: add object in objects
@@ -183,16 +187,16 @@ def llm_object_most(task_id, task_name, situation, situation_object, candidate_o
 # ------------------------------------------
 
 
-def plan_modifier_add_effect_object(task_id, situation_predicate, situation_object, selected_object, path_domain, path_problem):
+def plan_modifier_add_effect_object(task_id, situation_predicate, situation_object, situation_object_new, selected_object, path_domain, path_problem):
     # ------------------------------------------
-    # extrac and analyze problem file
+    # extract and analyze problem file
     # ------------------------------------------
     problem_define, problem_problem, problem_domain, problem_object, problem_init, problem_goal = extract_problem_content(path_problem)
     # ------------------------------------------
     # step 1: add object in objects
     # ------------------------------------------
     print('! step 1: supplement object')
-    problem_object_new = problem_object[:-2] + ' ' + selected_object + '_1 - ' + situation_object + ')\n'
+    problem_object_new = problem_object[:-2] + ' ' + selected_object + ' - ' + situation_object + ')\n'
     print('step 1 is done.')
     # ------------------------------------------
     # step 2: supplement init
@@ -202,8 +206,8 @@ def plan_modifier_add_effect_object(task_id, situation_predicate, situation_obje
     problem_init_1 = re.findall(rule1, problem_init)
     problem_init_2 = []
     for item in problem_init_1:
-        if (situation_object in item) and (situation_predicate not in item):
-            problem_init_2.append(item.replace(situation_object + '_1', selected_object + '_1'))
+        if (situation_object_new in item) and (situation_predicate not in item):
+            problem_init_2.append(item.replace(situation_object_new, selected_object))
     problem_init_new_raw = problem_init_1 + problem_init_2
     problem_init_new = []
     for item in problem_init_new_raw:
@@ -216,7 +220,7 @@ def plan_modifier_add_effect_object(task_id, situation_predicate, situation_obje
     print('! step 3: change goal')
     rule1 = re.compile(r'[(](and.*)[)]', re.S)
     problem_goal_1 = re.findall(rule1, problem_goal)
-    problem_goal_2 = problem_goal_1[0].replace(situation_object + '_1', selected_object + '_1')
+    problem_goal_2 = problem_goal_1[0].replace(situation_object_new, selected_object)
     problem_goal_new = '\t(:goal (or ' + '(' + problem_goal_1[0] + ' ' + '(' + problem_goal_2 + '))' + '\n)'
 
     problem_new = [problem_define] + [problem_problem] + [problem_domain] + [problem_object_new] + [problem_init_new] + [problem_goal_new]

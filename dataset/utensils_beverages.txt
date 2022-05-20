@@ -31,9 +31,7 @@ beer
 milk
 watermelon juice
 alcohol
-water
 coffee
 juice
 tea
-water
 wine

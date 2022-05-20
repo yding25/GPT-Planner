@@ -1,0 +1,147 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob kitchen dining)
+(find_table rob table dining)
+(grasp_vacuum rob vacuum_1 dining)
+(plug_vacuum rob vacuum_1 outlet_1 dining)
+(turnon_vacuum rob vacuum_1 dining)
+(clean_area rob vacuum_1 table dining)
+(turnoff_vacuum rob vacuum_1 dining)
+(unplug_vacuum rob vacuum_1 dining)
+; cost = 8 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 4
+situation: the vacuum plug is damaged.
+action corresponding to situation: plug_vacuum
+corresponding predicate: vacuum_plug_is_damaged
+object manipulated by robot: vacuum_1
+object in situation: vacuum plug
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'kitchen', 'dining']
+action (decoded): a robot walks from a kitchen room to a dining room.
+this action is executed!
+
+action: ['find_table', 'rob', 'table', 'dining']
+action (decoded): a robot finds a table in a dining room.
+this action is executed!
+
+action: ['grasp_vacuum', 'rob', 'vacuum_1', 'dining']
+action (decoded): a robot grasps a vacuum in a dining room.
+this action is executed!
+
+action: ['plug_vacuum', 'rob', 'vacuum_1', 'outlet_1', 'dining']
+action (decoded): a robot plugs a vacuum using outlet in a dining room.
+
+#---------- checking unexecuted actions! -----------
+['plug_vacuum', 'rob', 'vacuum_1', 'outlet_1', 'dining']
+['turnon_vacuum', 'rob', 'vacuum_1', 'dining']
+['clean_area', 'rob', 'vacuum_1', 'table', 'dining']
+['turnoff_vacuum', 'rob', 'vacuum_1', 'dining']
+['unplug_vacuum', 'rob', 'vacuum_1', 'dining']
+
+unexecuted action: ['plug_vacuum', 'rob', 'vacuum_1', 'outlet_1', 'dining']
+unexecuted action (decoded): a robot plugs a vacuum using outlet in a dining room.
+! prompt design
+raw prompt: is it suitable that a robot plugs a vacuum using outlet if the vacuum plug is damaged?
+! response from LLM
+response (raw prompt): ['no, it is not suitable for a robot to plug a vacuum using an outlet if the vacuum plug is damaged']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is done!
+! step 3: supplement type
+step 3 is done!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is done!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['sponge', 'dish rack', 'coffee filter', 'bucket', 'cutlery fork', 'rag', 'oven tray', 'drinking glass', 'cutting board', 'colander', 'condiment bottle', 'cloth napkin', 'paper towel', 'condiment shaker']
+
+#---------- capable_objects: ----------
+None
+
+#---------- most possible object: ---------- 
+None
+
+no modified_plan_2 found!
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['juicer', 'vacuum cleaner', 'freezer', 'washing machine', 'dishwasher', 'coffee maker', 'blender', 'air fryer', 'stove']
+
+! prompt design
+prompt (raw): can a juicer make vacuum plug good to use if the vacuum plug is damaged? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a vacuum cleaner make vacuum plug good to use if the vacuum plug is damaged? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a freezer make vacuum plug good to use if the vacuum plug is damaged? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a washing machine make vacuum plug good to use if the vacuum plug is damaged? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dishwasher make vacuum plug good to use if the vacuum plug is damaged? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make vacuum plug good to use if the vacuum plug is damaged? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a blender make vacuum plug good to use if the vacuum plug is damaged? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a air fryer make vacuum plug good to use if the vacuum plug is damaged? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a stove make vacuum plug good to use if the vacuum plug is damaged? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

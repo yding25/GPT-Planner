@@ -1,0 +1,457 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(find_table rob table dining)
+(walk rob dining kitchen)
+(find_cupboard rob cupboard kitchen)
+(open_cupboard rob cupboard kitchen)
+(find_fork rob fork_1 cupboard kitchen)
+(takeout_fork rob fork_1 cupboard kitchen)
+(move_fork rob fork_1 kitchen dining)
+(place_fork rob fork_1 table dining)
+(walk rob dining kitchen)
+(find_plate rob plate_1 cupboard kitchen)
+(takeout_plate rob plate_1 cupboard kitchen)
+(move_plate rob plate_1 kitchen dining)
+(place_plate rob plate_1 table dining)
+(walk rob dining kitchen)
+(close_cupboard rob cupboard kitchen)
+; cost = 15 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 9
+situation: the table does not have enough space.
+action corresponding to situation: place_plate
+corresponding predicate: table_does_not_have_enough_space
+object manipulated by robot: plate_1
+object in situation: table
+
+#---------- executing plan! -----------
+action: ['find_table', 'rob', 'table', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_cupboard', 'rob', 'cupboard', 'kitchen']
+action (decoded): a robot finds a cupboard in kitchen room.
+this action is executed!
+
+action: ['open_cupboard', 'rob', 'cupboard', 'kitchen']
+action (decoded): a robot opens a cupboard in kitchen room.
+this action is executed!
+
+action: ['find_fork', 'rob', 'fork_1', 'cupboard', 'kitchen']
+action (decoded): a robot finds a fork in cupboard room.
+this action is executed!
+
+action: ['takeout_fork', 'rob', 'fork_1', 'cupboard', 'kitchen']
+action (decoded): a robot takes out a fork from a cupboard.
+this action is executed!
+
+action: ['move_fork', 'rob', 'fork_1', 'kitchen', 'dining']
+action (decoded): a robot moves a fork from kitchen room to dining room.
+this action is executed!
+
+action: ['place_fork', 'rob', 'fork_1', 'table', 'dining']
+action (decoded): a robot places a fork on table in dining room.
+this action is executed!
+
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['find_plate', 'rob', 'plate_1', 'cupboard', 'kitchen']
+action (decoded): a robot finds a plate in cupboard room.
+this action is executed!
+
+action: ['takeout_plate', 'rob', 'plate_1', 'cupboard', 'kitchen']
+action (decoded): a robot takes out a plate from a cupboard.
+this action is executed!
+
+action: ['move_plate', 'rob', 'plate_1', 'kitchen', 'dining']
+action (decoded): a robot moves a plate from kitchen room to dining room.
+this action is executed!
+
+action: ['place_plate', 'rob', 'plate_1', 'table', 'dining']
+action (decoded): a robot places a plate on table in dining room.
+
+#---------- checking unexecuted actions! -----------
+['place_plate', 'rob', 'plate_1', 'table', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['close_cupboard', 'rob', 'cupboard', 'kitchen']
+
+unexecuted action: ['place_plate', 'rob', 'plate_1', 'table', 'dining']
+unexecuted action (decoded): a robot places a plate on table in dining room.
+! prompt design
+raw prompt: is it suitable that a robot places a plate on table if the table does not have enough space?
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to place a plate on a table if the table does not have enough space
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['wooden chopstick', 'condiment shaker', 'kitchen table', 'table cloth', 'mug', 'frying pan', 'dish', 'coffee cup', 'piano bench', 'dish bowl', 'dish rack', 'cutting board', 'coffee filter', 'bookshelf', 'coffee table', 'colander', 'nightstand', 'wine glass', 'cloth napkin', 'condiment bottle', 'mat', 'wooden chair']
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on wooden chopstick?
+answer:
+['no']
+[0.5001678678176462]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on condiment shaker?
+answer:
+['no']
+[0.4924614266845347]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on kitchen table?
+answer:
+['yes']
+[0.494321523915235]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on kitchen table?
+answer:
+['yes']
+[0.498827060508062]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on table cloth?
+answer:
+['no']
+[0.4973856723408764]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on mug?
+answer:
+['no']
+[0.5085467272258342]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on frying pan?
+answer:
+['yes\n\nis it suitable that a robot places a frying pan on a fork?\nanswer: no']
+[0.7863161584171187]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on frying pan?
+answer:
+['no']
+[0.47134033902717754]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on dish?
+answer:
+['yes\n\nis it suitable that a robot places a dish on a fork?\nanswer: no']
+[0.7822420238768917]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on dish?
+answer:
+['yes']
+[0.22806476701762252]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on coffee cup?
+answer:
+['no']
+[0.46936742420957983]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on piano bench?
+answer:
+['no']
+[0.5021966149711797]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on dish bowl?
+answer:
+['yes\n\nis it suitable that a robot places a book on a dish bowl?\nanswer: no']
+[0.7638423663669722]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on dish bowl?
+answer:
+['yes']
+[0.2309064102762899]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on dish rack?
+answer:
+['yes\n\nis it suitable that a robot places a dish rack on a fork?\nanswer: no']
+[0.7911848784180175]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on dish rack?
+answer:
+['yes\n\nis it suitable that a robot places a dish rack on a plate?\nanswer: no']
+[0.7852527935357096]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on cutting board?
+answer:
+['yes\n\nis it suitable that a robot places a knife on a cutting board?\nanswer: yes']
+[0.8013620143655398]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on cutting board?
+answer:
+['yes']
+[0.22697130197736476]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on coffee filter?
+answer:
+['no']
+[0.49603761939445573]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on bookshelf?
+answer:
+['no']
+[0.512303367773026]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on coffee table?
+answer:
+['yes']
+[0.44525559778380275]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on coffee table?
+answer:
+['yes']
+[0.4959329611258385]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on colander?
+answer:
+['no']
+[0.4899604454565979]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on nightstand?
+answer:
+['yes\n\nis it suitable that a robot places a book on a nightstand?\nanswer: no']
+[0.7655844258264133]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on nightstand?
+answer:
+['yes\n\nis it suitable that a robot places a book on a nightstand?\nanswer: yes']
+[0.7999890829729569]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on wine glass?
+answer:
+['no']
+[0.500628546001142]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on cloth napkin?
+answer:
+['yes\n\nis it suitable that a robot places a fork on a table?\nanswer: no']
+[0.7664999905880647]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on cloth napkin?
+answer:
+['yes']
+[0.4868296179809282]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on condiment bottle?
+answer:
+['no']
+[0.501236591804545]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on mat?
+answer:
+['yes']
+[0.46328652385973723]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a plate on mat?
+answer:
+['yes']
+[0.23447750780258556]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a fork on wooden chair?
+answer:
+['no']
+[0.49126840351471435]
+! results from LLM
+response (raw prompt): no
+
+#---------- capable_objects: ----------
+ ['kitchen table', 'dish', 'dish bowl', 'dish rack', 'cutting board', 'coffee table', 'nightstand', 'cloth napkin', 'mat']
+
+! prompt design
+raw prompt: there are some objects, such as kitchen table, dish, dish bowl, dish rack, cutting board, coffee table, nightstand, cloth napkin, mat. which is the most suitable to replace a table in the task of setting a table to eat steak if the table does not have enough space?
+! results from LLM
+response (raw prompt): the most suitable object to replace a table in the task of setting a table to eat steak if the table does not have enough space is a cutting board
+
+#---------- most possible object: ---------- 
+ cutting board
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['microwave', 'coffee maker', 'vacuum cleaner', 'oven', 'water boiler', 'kettle', 'freezer', 'air fryer', 'fridge']
+
+! prompt design
+prompt (raw): can a microwave make a table big enough if the table does not have enough space? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a coffee maker make a table big enough if the table does not have enough space? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a vacuum cleaner make a table big enough if the table does not have enough space? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a oven make a table big enough if the table does not have enough space? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water boiler make a table big enough if the table does not have enough space? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a kettle make a table big enough if the table does not have enough space? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a freezer make a table big enough if the table does not have enough space? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a air fryer make a table big enough if the table does not have enough space? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a fridge make a table big enough if the table does not have enough space? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

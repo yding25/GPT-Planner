@@ -1,0 +1,397 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob dining kitchen)
+(find_faucet rob faucet kitchen)
+(find_cup rob cup_1 kitchen)
+(hold_cup rob cup_1 kitchen)
+(turnon_faucet rob faucet kitchen)
+(fill_cup rob cup_1 faucet kitchen)
+(walk rob kitchen dining)
+(place_cup rob cup_1 table dining)
+(walk rob dining kitchen)
+(turnoff_faucet rob faucet kitchen)
+; cost = 10 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 0
+situation: the cup_1 is broken.
+action corresponding to situation: hold_cup
+corresponding predicate: cup_is_broken
+object manipulated by robot: cup_1
+object in situation: cup_1
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from a dining room to a kitchen room.
+this action is executed!
+
+action: ['find_faucet', 'rob', 'faucet', 'kitchen']
+action (decoded): a robot finds a faucet in kitchen room.
+this action is executed!
+
+action: ['find_cup', 'rob', 'cup_1', 'kitchen']
+action (decoded): a robot finds a cup in kitchen room.
+this action is executed!
+
+action: ['hold_cup', 'rob', 'cup_1', 'kitchen']
+action (decoded): a robot holds a cup in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['hold_cup', 'rob', 'cup_1', 'kitchen']
+['turnon_faucet', 'rob', 'faucet', 'kitchen']
+['fill_cup', 'rob', 'cup_1', 'faucet', 'kitchen']
+['walk', 'rob', 'kitchen', 'dining']
+['place_cup', 'rob', 'cup_1', 'table', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['turnoff_faucet', 'rob', 'faucet', 'kitchen']
+
+unexecuted action: ['hold_cup', 'rob', 'cup_1', 'kitchen']
+unexecuted action (decoded): a robot holds a cup in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot holds a cup if the cup is broken?
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to hold a cup if the cup is broken
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['sponge', 'cooking pot', 'cloth napkin', 'dish bowl', 'cutting board', 'oven tray', 'wine glass', 'paper towel', 'colander', 'cutlery knife', 'drinking glass', 'condiment bottle', 'wooden spoon', 'coffee cup']
+
+! prompt design
+raw prompt: is it suitable that a robot holds a sponge?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a sponge with water from faucet?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a sponge on table?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot holds a cooking pot?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot holds a cloth napkin?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cloth napkin with water from faucet?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a cloth napkin on table?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot holds a dish bowl?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a dish bowl with water from faucet?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a dish bowl on table?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot holds a cutting board?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cutting board with water from faucet?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a cutting board on table?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot holds a oven tray?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a oven tray with water from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot holds a wine glass?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a wine glass with water from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot holds a paper towel?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a paper towel with water from faucet?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a paper towel on table?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot holds a colander?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a colander with water from faucet?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a colander on table?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot holds a cutlery knife?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a cutlery knife with water from faucet?
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot holds a drinking glass?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a drinking glass with water from faucet?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a drinking glass on table?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot holds a condiment bottle?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a condiment bottle with water from faucet?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a condiment bottle on table?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot holds a wooden spoon?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a wooden spoon with water from faucet?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a wooden spoon on table?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot holds a coffee cup?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot fills a coffee cup with water from faucet?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a coffee cup on table?
+answer:
+! results from LLM
+response (raw prompt): yes
+
+#---------- capable_objects: ----------
+ ['sponge', 'cloth napkin', 'dish bowl', 'cutting board', 'paper towel', 'colander', 'drinking glass', 'condiment bottle', 'wooden spoon', 'coffee cup']
+
+! prompt design
+raw prompt: there are some objects, such as sponge, cloth napkin, dish bowl, cutting board, paper towel, colander, drinking glass, condiment bottle, wooden spoon, coffee cup. which is the most suitable to replace a cup in the task of drinking water if the cup is broken?
+! results from LLM
+response (raw prompt): a drinking glass is the most suitable object to replace a cup in the task of drinking water if the cup is broken
+
+#---------- most possible object: ---------- 
+ drinking glass
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['dehumidifier', 'toaster', 'water filter', 'fridge', 'microwave', 'air fryer', 'stove', 'blender', 'ice cream maker']
+
+! prompt design
+prompt (raw): can a dehumidifier make a cup not broken if the cup is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a toaster make a cup not broken if the cup is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water filter make a cup not broken if the cup is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a fridge make a cup not broken if the cup is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a microwave make a cup not broken if the cup is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a air fryer make a cup not broken if the cup is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a stove make a cup not broken if the cup is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a blender make a cup not broken if the cup is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a ice cream maker make a cup not broken if the cup is broken? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+only modified_plan_2 exists.
+
+(walk rob dining kitchen)
+(find_faucet rob faucet kitchen)
+(find_cup rob drinking_glass_1 kitchen)
+(hold_cup rob drinking_glass_1 kitchen)
+(turnon_faucet rob faucet kitchen)
+(fill_cup rob drinking_glass_1 faucet kitchen)
+(turnoff_faucet rob faucet kitchen)
+(walk rob kitchen dining)
+(place_cup rob drinking_glass_1 table dining)
+; cost = 9 (unit cost)

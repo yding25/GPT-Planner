@@ -2,7 +2,7 @@
 	(domain dining)
 	(:requirements :strips :typing)
 	(:types robot table chair burger plate fork location food utensil beverage furniture other appliance)
-	(:predicates (robot_at ?r - robot ?l - location) (hand_empty ?r) (table_at ?t - table ?l - location) (robot_near_table ?r) (chair_at ?c - chair ?l - location) (chair_is_found ?c) (table_is_found ?t) (chair_is_pulled ?c) (burger_at ?b - burger ?l - location) (burger_is_found ?b - burger) (burger_is_grasped ?b - burger) (burger_is_placed ?b - burger) (plate_at ?p - plate ?l - location) (plate_is_found ?p - plate) (plate_is_grasped ?p - plate) (plate_is_placed ?p - plate) (fork_at ?f - fork ?l - location) (fork_is_found ?f - fork) (fork_is_grasped ?f - fork) (fork_is_placed ?f - fork) (appliance_at ?a - appliance ?l) (chair_is_broken ?c - chair))
+	(:predicates (robot_at ?r - robot ?l - location) (hand_empty ?r) (table_at ?t - table ?l - location) (robot_near_table ?r) (chair_at ?c - chair ?l - location) (chair_is_found ?c) (table_is_found ?t) (chair_is_pulled ?c) (burger_at ?b - burger ?l - location) (burger_is_found ?b - burger) (burger_is_grasped ?b - burger) (burger_is_placed ?b - burger) (plate_at ?p - plate ?l - location) (plate_is_found ?p - plate) (plate_is_grasped ?p - plate) (plate_is_placed ?p - plate) (fork_at ?f - fork ?l - location) (fork_is_found ?f - fork) (fork_is_grasped ?f - fork) (fork_is_placed ?f - fork) (appliance_at ?a - appliance ?l) (burger_spills ?b - burger))
 
 	(:action walk
 		:parameters (?r - robot ?l1 - location ?l2 - location)
@@ -24,7 +24,7 @@
 
 	(:action find_chair
 		:parameters (?r - robot ?c - chair ?l - location)
-		:precondition (and (robot_near_table ?r) (chair_at ?c ?l) (robot_at ?r ?l) (not (chair_is_broken ?c)))
+		:precondition (and (robot_near_table ?r) (chair_at ?c ?l) (robot_at ?r ?l))
 		:effect (and (chair_is_found ?c))
 	)
 
@@ -53,8 +53,8 @@
 	)
 
 	(:action place_plate
-		:parameters (?r - robot ?p - plate ?t - table ?l - location)
-		:precondition (and (plate_is_grasped ?p) (plate_at ?p ?l) (table_at ?t ?l) (robot_at ?r ?l))
+		:parameters (?r - robot ?p - plate ?t - table ?l - location ?b - burger)
+		:precondition (and (plate_is_grasped ?p) (plate_at ?p ?l) (table_at ?t ?l) (robot_at ?r ?l) (not (burger_spills ?b)))
 		:effect (and (plate_is_placed ?p) (hand_empty ?r))
 	)
 

@@ -1,0 +1,363 @@
+before running, all old files have been removed.
+
+setting:1
+
+#---------- generating basic plan! -----------
+(walk rob kitchen dining)
+(find_table rob table dining)
+(walk_table rob table dining)
+(grasp_plate rob plate dining)
+(walk rob dining kitchen)
+(walk_sink rob sink_0 plate kitchen)
+(place_plate rob plate dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 2
+situation: the plate is already clean.
+action corresponding to situation: grasp_plate
+corresponding predicate: plate_already_clean
+object manipulated by robot: plate
+object in situation: plate
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'kitchen', 'dining']
+action (decoded): a robot walks from kitchen room to dining room.
+this action is executed!
+
+action: ['find_table', 'rob', 'table', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk_table', 'rob', 'table', 'dining']
+action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+action: ['grasp_plate', 'rob', 'plate', 'dining']
+action (decoded): a robot grasps a plate in dining room.
+
+#---------- checking unexecuted actions! -----------
+['grasp_plate', 'rob', 'plate', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['walk_sink', 'rob', 'sink_0', 'plate', 'kitchen']
+['place_plate', 'rob', 'plate', 'dining']
+
+unexecuted action: ['grasp_plate', 'rob', 'plate', 'dining']
+unexecuted action (decoded): a robot grasps a plate in dining room.
+! prompt design
+raw prompt: is it suitable that a robot grasps a plate if the plate is already clean?
+! response from LLM
+response (raw prompt): yes, a robot can grasp a plate that is already clean
+#---------- action can be executed! -----------
+
+unexecuted action: ['walk_sink', 'rob', 'sink_0', 'plate', 'kitchen']
+unexecuted action (decoded): a robot walks to a sink in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot walks to a sink if the plate is already clean?
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to walk to a sink if the plate is already clean
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['frying pan', 'drinking glass', 'bucket', 'mug', 'coffee filter', 'dish rack', 'cloth napkin', 'condiment shaker', 'paper towel', 'coffee cup', 'wooden spoon', 'dish bowl', 'dish', 'wine glass']
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a frying pan?
+answer:
+['no']
+[0.5071962418529454]
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a drinking glass?
+answer:
+['yes']
+[0.5060102506529273]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a drinking glass?
+answer:
+['yes']
+[0.5040087864148148]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a bucket?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a bucket?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a mug?
+answer:
+['yes']
+[0.23701076270398727]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a mug?
+answer:
+['yes']
+[0.5133733210510907]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a coffee filter?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a coffee filter?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish rack?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a cloth napkin?
+answer:
+['yes']
+[0.5114458328849512]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a cloth napkin?
+answer:
+['yes']
+[0.23710578641567773]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a condiment shaker?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a paper towel?
+answer:
+['yes']
+[0.5026055487259063]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a paper towel?
+answer:
+['yes']
+[0.4962232648430254]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a coffee cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a coffee cup?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a wooden spoon?
+answer:
+['yes']
+[0.5053740764652785]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a wooden spoon?
+answer:
+['yes']
+[0.4883070564795467]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish bowl?
+answer:
+['yes']
+[0.49157738417600055]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a dish bowl?
+answer:
+['yes']
+[0.501328806196192]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a dish?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a dish?
+answer:
+! experience found
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot grasps a wine glass?
+answer:
+['yes']
+[0.4898160439986587]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot places a wine glass?
+answer:
+['yes']
+[0.23993434813478834]
+! results from LLM
+response (raw prompt): yes
+
+#---------- capable_objects: ----------
+ ['drinking glass', 'bucket', 'mug', 'coffee filter', 'cloth napkin', 'condiment shaker', 'paper towel', 'coffee cup', 'wooden spoon', 'dish bowl', 'dish', 'wine glass']
+
+! prompt design
+raw prompt: there are some objects, such as drinking glass, bucket, mug, coffee filter, cloth napkin, condiment shaker, paper towel, coffee cup, wooden spoon, dish bowl, dish, wine glass. which is the most suitable to replace a plate in the task of putting a dirty plate in a sink if the plate is already clean?
+! results from LLM
+response (raw prompt): the most suitable object to replace a plate in the task of putting a dirty plate in a sink if the plate is already clean would be a dish
+
+#---------- most possible object: ---------- 
+ dish
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['fridge', 'dehumidifier', 'water boiler', 'kettle', 'vacuum cleaner', 'stove', 'ice cream maker', 'air fryer', 'dishwasher']
+
+! prompt design
+prompt (raw): can a fridge make a plat dirt if the plate is already clean? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dehumidifier make a plat dirt if the plate is already clean? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a water boiler make a plat dirt if the plate is already clean? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a kettle make a plat dirt if the plate is already clean? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a vacuum cleaner make a plat dirt if the plate is already clean? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a stove make a plat dirt if the plate is already clean? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a ice cream maker make a plat dirt if the plate is already clean? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a air fryer make a plat dirt if the plate is already clean? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dishwasher make a plat dirt if the plate is already clean? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+no capable appliance found!
+
+no modified_plan_3 found!
+
+#---------- solution -----------
+none of modified_plan_1, modified_plan_2 and modified_plan_3 exist.

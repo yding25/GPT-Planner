@@ -48,7 +48,7 @@ def exist_remove(task_id):
 
 def random_remove(task_id):
     path = 'experience/experience_task_' + str(task_id) + '.txt'
-    if np.random.choice([True, False], p=np.array([0.1, 0.9])):
+    if np.random.choice([True, False], p=np.array([0.01, 0.99])):
         if os.path.exists(path):
             os.remove(path)
         print('experience pool has been removed.\n')
@@ -152,7 +152,7 @@ def locate_object(target_object, objects):
 def select_object(task_id, ratio):
     path_object = {
         1: 'utensils.txt',
-        4: 'utensils_beverages.txt',
+        4: 'utensils.txt',
         6: 'utensils_furnitures.txt',
         9: 'utensils.txt',
         10: 'utensils_beverages.txt',
@@ -296,18 +296,20 @@ def plan_monitor(task_id, situation, action_decoded, option1):
             continue
     if not signal_experience:
         try:
-            responses_1, probs_1 = llm(prompt)  # get responses from llm
+            responses, probs_1 = llm(prompt)  # get responses from llm
+            resp = responses[0]
             fidout1.write('%s\n' % target_prompt)
-            fidout1.write('%s\n' % responses_1[0])
+            fidout1.write('%s\n' % resp)
             fidout1.flush()
         except:
             print('Error: no response from LLM!')
     else:
         line2 = line2.strip()
-        responses_1 = line2
+        responses = line2.split(' ')
+        resp = responses[0]
     print('! response from LLM')
-    print('response (raw prompt):', responses_1)
-    if 'no' in responses_1[0] or 'not' in responses_1[0]:
+    print('response (raw prompt):', resp)
+    if 'no' in resp or 'not' in resp:
         return True
     else:
         return False

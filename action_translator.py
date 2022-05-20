@@ -235,19 +235,19 @@ def action_translator(action, task_id):
             sentence_completed = 'a robot places a ' + action[2] + ' on a table in ' + action[4] + ' room.'
             sentence_simplified = 'a robot places a ' + action[2] + ' on a table.'
 
-        if 'find_soda' in action[0]:
+        if 'find_coke' in action[0]:
             sentence_completed = 'a robot finds a bottle of ' + action[2] + ' in ' + action[3] + ' room.'
             sentence_simplified = 'a robot finds a bottle of ' + action[2] + '.'
 
-        if 'grasp_soda' in action[0]:
+        if 'grasp_coke' in action[0]:
             sentence_completed = 'a robot grasps a bottle of ' + action[2] + ' in ' + action[3] + ' room.'
             sentence_simplified = 'a robot grasps a bottle of ' + action[2] + '.'
 
-        if 'move_soda' in action[0]:
+        if 'move_coke' in action[0]:
             sentence_completed = 'a robot moves a bottle of ' + action[2] + ' in ' + action[3] + ' room' + ' near a glass in ' + action[4] + ' room.'
             sentence_simplified = 'a robot moves a bottle of ' + action[2] + ' near a glass.'
 
-        if 'pour_soda' in action[0]:
+        if 'pour_coke' in action[0]:
             sentence_completed = 'a robot pours a bottle of ' + action[2] + ' into ' + action[3] + ' in ' + action[4] + ' room.'
             sentence_simplified = 'a robot pours a bottle of ' + action[2] + ' into ' + action[3] + '.'
 

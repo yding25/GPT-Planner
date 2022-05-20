@@ -1,0 +1,338 @@
+raw prompt:is it suitable that a robot turns on a faucet if the faucet is broken?
+no, it is not suitable for a robot to turn on a faucet if the faucet is broken
+raw prompt:is it suitable that a robot turns on a mat?
+yes
+raw prompt:is it suitable that a robot fills a cup with water from mat?
+no
+raw prompt:is it suitable that a robot turns on a oven tray?
+no
+raw prompt:is it suitable that a robot turns on a measuring cup?
+yes
+raw prompt:is it suitable that a robot fills a cup with water from measuring cup?
+yes
+raw prompt:is it suitable that a robot turns off a measuring cup?
+yes
+raw prompt:is it suitable that a robot turns on a cutlery fork?
+no
+raw prompt:is it suitable that a robot turns on a dish rack?
+yes
+raw prompt:is it suitable that a robot fills a cup with water from dish rack?
+yes
+raw prompt:is it suitable that a robot turns off a dish rack?
+yes
+raw prompt:is it suitable that a robot turns on a wooden chopstick?
+no
+raw prompt:is it suitable that a robot turns on a paper towel?
+no
+raw prompt:is it suitable that a robot turns on a sponge?
+no
+raw prompt:is it suitable that a robot turns on a cutlery knife?
+no
+raw prompt:is it suitable that a robot turns on a wine glass?
+no
+raw prompt:is it suitable that a robot turns on a coffee cup?
+yes
+raw prompt:is it suitable that a robot fills a cup with water from coffee cup?
+no
+raw prompt:is it suitable that a robot turns on a colander?
+no
+raw prompt:is it suitable that a robot turns on a coffee filter?
+yes
+raw prompt:is it suitable that a robot fills a cup with water from coffee filter?
+no
+raw prompt:is it suitable that a robot turns on a condiment shaker?
+yes
+raw prompt:is it suitable that a robot fills a cup with water from condiment shaker?
+no
+raw prompt:there are some objects, such as measuring cup, dish rack. which is the most suitable to replace a faucet in the task of drinking water if the faucet is broken?
+a measuring cup is the most suitable object to replace a faucet in the task of drinking water if the faucet is broken
+prompt (raw):can a blender make a faucet not broken if the faucet is broken?
+no
+prompt (raw):can a ice cream maker make a faucet not broken if the faucet is broken?
+no
+prompt (raw):can a washing machine make a faucet not broken if the faucet is broken?
+no
+prompt (raw):can a coffee maker make a faucet not broken if the faucet is broken?
+no
+prompt (raw):can a kettle make a faucet not broken if the faucet is broken?
+no
+prompt (raw):can a stove make a faucet not broken if the faucet is broken?
+no
+prompt (raw):can a air fryer make a faucet not broken if the faucet is broken?
+no
+prompt (raw):can a fridge make a faucet not broken if the faucet is broken?
+no
+prompt (raw):can a microwave make a faucet not broken if the faucet is broken?
+no
+raw prompt:is it suitable that a robot holds a cup if the cup is broken?
+no, it is not suitable for a robot to hold a cup if the cup is broken
+raw prompt:is it suitable that a robot holds a sponge?
+yes
+raw prompt:is it suitable that a robot fills a sponge with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a sponge on table?
+yes
+raw prompt:is it suitable that a robot holds a chef knife?
+no
+raw prompt:is it suitable that a robot holds a wooden chopstick?
+yes
+raw prompt:is it suitable that a robot fills a wooden chopstick with water from faucet?
+no
+raw prompt:is it suitable that a robot holds a trash can?
+yes
+raw prompt:is it suitable that a robot fills a trash can with water from faucet?
+no
+raw prompt:is it suitable that a robot holds a frying pan?
+yes
+raw prompt:is it suitable that a robot fills a frying pan with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a frying pan on table?
+yes
+raw prompt:is it suitable that a robot holds a paper towel?
+yes
+raw prompt:is it suitable that a robot fills a paper towel with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a paper towel on table?
+yes
+raw prompt:is it suitable that a robot holds a dish?
+yes
+raw prompt:is it suitable that a robot fills a dish with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a dish on table?
+yes
+raw prompt:is it suitable that a robot holds a mat?
+yes
+raw prompt:is it suitable that a robot fills a mat with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a mat on table?
+yes
+raw prompt:is it suitable that a robot holds a mug?
+yes
+raw prompt:is it suitable that a robot fills a mug with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a mug on table?
+yes
+raw prompt:is it suitable that a robot holds a condiment shaker?
+yes
+raw prompt:is it suitable that a robot fills a condiment shaker with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a condiment shaker on table?
+yes
+raw prompt:is it suitable that a robot holds a cloth napkin?
+yes
+raw prompt:is it suitable that a robot fills a cloth napkin with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a cloth napkin on table?
+yes
+raw prompt:is it suitable that a robot holds a bucket?
+yes
+raw prompt:is it suitable that a robot fills a bucket with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a bucket on table?
+yes
+raw prompt:is it suitable that a robot holds a wine glass?
+yes
+raw prompt:is it suitable that a robot fills a wine glass with water from faucet?
+no
+raw prompt:is it suitable that a robot holds a rag?
+yes
+raw prompt:is it suitable that a robot fills a rag with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a rag on table?
+yes
+raw prompt:there are some objects, such as sponge, frying pan, paper towel, dish, mat, mug, condiment shaker, cloth napkin, bucket, rag. which is the most suitable to replace a cup in the task of drinking water if the cup is broken?
+a mug is the most suitable object to replace a cup in the task of drinking water if the cup is broken
+prompt (raw):can a dehumidifier make a cup not broken if the cup is broken?
+no
+prompt (raw):can a air fryer make a cup not broken if the cup is broken?
+no
+prompt (raw):can a blender make a cup not broken if the cup is broken?
+no
+prompt (raw):can a water filter make a cup not broken if the cup is broken?
+no
+prompt (raw):can a microwave make a cup not broken if the cup is broken?
+no
+prompt (raw):can a oven make a cup not broken if the cup is broken?
+no
+prompt (raw):can a coffee maker make a cup not broken if the cup is broken?
+no
+prompt (raw):can a ice cream maker make a cup not broken if the cup is broken?
+no
+prompt (raw):can a fridge make a cup not broken if the cup is broken?
+no
+raw prompt:is it suitable that a robot holds a coffee filter?
+yes
+raw prompt:is it suitable that a robot fills a coffee filter with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a coffee filter on table?
+yes
+raw prompt:is it suitable that a robot holds a coffee cup?
+yes
+raw prompt:is it suitable that a robot fills a coffee cup with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a coffee cup on table?
+yes
+raw prompt:is it suitable that a robot holds a measuring cup?
+yes
+raw prompt:is it suitable that a robot fills a measuring cup with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a measuring cup on table?
+yes
+raw prompt:is it suitable that a robot holds a cooking pot?
+no
+raw prompt:is it suitable that a robot holds a drinking glass?
+yes
+raw prompt:is it suitable that a robot fills a drinking glass with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a drinking glass on table?
+yes
+raw prompt:is it suitable that a robot holds a wooden spoon?
+yes
+raw prompt:is it suitable that a robot fills a wooden spoon with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a wooden spoon on table?
+yes
+raw prompt:is it suitable that a robot holds a cleaning bottle?
+yes
+raw prompt:is it suitable that a robot fills a cleaning bottle with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a cleaning bottle on table?
+yes
+raw prompt:there are some objects, such as mat, dish, coffee filter, coffee cup, mug, measuring cup, drinking glass, wooden spoon, cloth napkin, cleaning bottle, rag. which is the most suitable to replace a cup in the task of drinking water if the cup is broken?
+a drinking glass is the most suitable object to replace a cup in the task of drinking water if the cup is broken
+prompt (raw):can a toaster make a cup not broken if the cup is broken?
+no
+prompt (raw):can a vacuum cleaner make a cup not broken if the cup is broken?
+no
+prompt (raw):can a stove make a cup not broken if the cup is broken?
+no
+prompt (raw):can a freezer make a cup not broken if the cup is broken?
+no
+prompt (raw):can a water boiler make a cup not broken if the cup is broken?
+no
+raw prompt:is it suitable that a robot fills a cup with water from faucet if the cup is broken?
+no, it is not suitable for a robot to fill a cup with water from a faucet if the cup is broken
+raw prompt:is it suitable that a robot holds a colander?
+yes
+raw prompt:is it suitable that a robot fills a colander with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a colander on table?
+yes
+raw prompt:is it suitable that a robot holds a condiment bottle?
+yes
+raw prompt:is it suitable that a robot fills a condiment bottle with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a condiment bottle on table?
+yes
+raw prompt:is it suitable that a robot holds a cutlery fork?
+yes
+raw prompt:is it suitable that a robot fills a cutlery fork with water from faucet?
+no
+raw prompt:there are some objects, such as sponge, paper towel, colander, bucket, condiment bottle, dish, frying pan, wooden spoon, cleaning bottle. which is the most suitable to replace a cup in the task of drinking water if the cup is broken?
+a cup can be replaced with any of the objects listed
+prompt (raw):can a dishwasher make a cup not broken if the cup is broken?
+no
+raw prompt:is it suitable that a robot holds a dish bowl?
+yes
+raw prompt:is it suitable that a robot fills a dish bowl with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a dish bowl on table?
+yes
+raw prompt:is it suitable that a robot holds a cutlery knife?
+yes
+raw prompt:is it suitable that a robot fills a cutlery knife with water from faucet?
+no
+raw prompt:is it suitable that a robot holds a cutting board?
+yes
+raw prompt:is it suitable that a robot fills a cutting board with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a cutting board on table?
+yes
+raw prompt:is it suitable that a robot holds a oven tray?
+yes
+raw prompt:is it suitable that a robot fills a oven tray with water from faucet?
+no
+raw prompt:is it suitable that a robot holds a dish rack?
+yes
+raw prompt:is it suitable that a robot fills a dish rack with water from faucet?
+yes
+raw prompt:is it suitable that a robot places a dish rack on table?
+no
+raw prompt:there are some objects, such as condiment bottle, coffee cup, paper towel, dish bowl, cutting board, wooden spoon, rag, frying pan. which is the most suitable to replace a cup in the task of drinking water if the cup is broken?
+the most suitable object to replace a cup in the task of drinking water if the cup is broken would be a dish bowl
+prompt (raw):can a washing machine make a cup not broken if the cup is broken?
+no
+prompt (raw):can a kettle make a cup not broken if the cup is broken?
+no
+prompt (raw):can a juicer make a cup not broken if the cup is broken?
+no
+raw prompt:is it suitable that a robot finds a cup if the cup is dirty?
+no, it is not suitable for a robot to find a cup if the cup is dirty
+raw prompt:there are some objects, such as coffee cup, frying pan, cloth napkin, wooden spoon, drinking glass, rag, measuring cup, sponge, coffee filter. which is the most suitable to replace a cup in the task of drinking water if the cup is dirty?
+a drinking glass is the most suitable object to replace a cup in the task of drinking water if the cup is dirty
+prompt (raw):can a dehumidifier make a cup clean if the cup is dirty?
+no
+prompt (raw):can a microwave make a cup clean if the cup is dirty?
+no
+prompt (raw):can a fridge make a cup clean if the cup is dirty?
+no
+prompt (raw):can a oven make a cup clean if the cup is dirty?
+no
+prompt (raw):can a washing machine make a cup clean if the cup is dirty?
+yes
+prompt (raw):can a toaster make a cup clean if the cup is dirty?
+no
+prompt (raw):can a kettle make a cup clean if the cup is dirty?
+no
+prompt (raw):can a freezer make a cup clean if the cup is dirty?
+no
+prompt (raw):can a water boiler make a cup clean if the cup is dirty?
+no
+raw prompt:is it suitable that a robot fills a cup with water from faucet if the water is hot?
+no, it is not suitable for a robot to fill a cup with hot water from a faucet
+raw prompt:is it suitable that a robot fills a cup with rag from faucet?
+no
+raw prompt:is it suitable that a robot fills a cup with cutlery fork from faucet?
+no
+raw prompt:is it suitable that a robot fills a cup with cleaning bottle from faucet?
+no
+raw prompt:is it suitable that a robot fills a cup with condiment bottle from faucet?
+no
+raw prompt:is it suitable that a robot fills a cup with sponge from faucet?
+yes
+raw prompt:is it suitable that a robot fills a cup with mat from faucet?
+no
+raw prompt:is it suitable that a robot fills a cup with chef knife from faucet?
+no
+raw prompt:is it suitable that a robot fills a cup with wooden chopstick from faucet?
+no
+raw prompt:is it suitable that a robot fills a cup with dish bowl from faucet?
+no
+raw prompt:is it suitable that a robot fills a cup with bucket from faucet?
+no
+raw prompt:is it suitable that a robot fills a cup with dish rack from faucet?
+no
+raw prompt:is it suitable that a robot fills a cup with condiment shaker from faucet?
+no
+raw prompt:is it suitable that a robot fills a cup with paper towel from faucet?
+no
+raw prompt:is it suitable that a robot fills a cup with dish from faucet?
+no
+prompt (raw):can a air fryer make water not hot if the water is hot?
+no
+prompt (raw):can a fridge make water not hot if the water is hot?
+yes
+prompt (raw):can a water boiler make water not hot if the water is hot?
+no
+prompt (raw):can a stove make water not hot if the water is hot?
+no
+prompt (raw):can a washing machine make water not hot if the water is hot?
+no
+prompt (raw):can a juicer make water not hot if the water is hot?
+no
+prompt (raw):can a kettle make water not hot if the water is hot?
+no
+prompt (raw):can a dishwasher make water not hot if the water is hot?
+no
+prompt (raw):can a ice cream maker make water not hot if the water is hot?
+no

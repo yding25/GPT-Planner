@@ -1,56 +1,502 @@
+raw prompt:is it suitable that a robot finds a burger if the burger is dirty?
+no, it is not suitable for a robot to find a burger if the burger is dirty
+raw prompt:is it suitable that a robot grasps a peanut butter?
+yes
+raw prompt:is it suitable that a robot places a peanut butter on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a condiment bottle?
+yes
+raw prompt:is it suitable that a robot places a condiment bottle on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a chips?
+no
+raw prompt:is it suitable that a robot grasps a cupboard?
+no
+raw prompt:is it suitable that a robot grasps a wooden chopstick?
+yes
+raw prompt:is it suitable that a robot places a wooden chopstick on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a nightstand?
+no
+raw prompt:is it suitable that a robot grasps a cutting board?
+yes
+raw prompt:is it suitable that a robot places a cutting board on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a kitchen table?
+no
+raw prompt:is it suitable that a robot grasps a coffee cup?
+yes
+raw prompt:is it suitable that a robot places a coffee cup on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a dining table?
+no
+raw prompt:is it suitable that a robot grasps a filing cabinet?
+no
+raw prompt:is it suitable that a robot grasps a pasta?
+no
+raw prompt:is it suitable that a robot grasps a mug?
+yes
+raw prompt:is it suitable that a robot places a mug on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a coffee table?
+no
+raw prompt:is it suitable that a robot grasps a bucket?
+yes
+raw prompt:is it suitable that a robot places a bucket on a plate?
+no
+raw prompt:is it suitable that a robot grasps a coffee filter?
+yes
+raw prompt:is it suitable that a robot places a coffee filter on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a cutlery knife?
+no
+raw prompt:is it suitable that a robot grasps a paper towel?
+yes
+raw prompt:is it suitable that a robot places a paper towel on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a cloth napkin?
+yes
+raw prompt:is it suitable that a robot places a cloth napkin on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a snack?
+yes
+raw prompt:is it suitable that a robot places a snack on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a oatmeal?
+yes
+raw prompt:is it suitable that a robot places a oatmeal on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a oil?
+no
+raw prompt:is it suitable that a robot grasps a rag?
+yes
+raw prompt:is it suitable that a robot places a rag on a plate?
+no
+raw prompt:is it suitable that a robot grasps a colander?
+no
+raw prompt:is it suitable that a robot grasps a kitchen cabinet?
+no
+raw prompt:is it suitable that a robot grasps a drinking glass?
+yes
+raw prompt:is it suitable that a robot places a drinking glass on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a cooking pot?
+no
+raw prompt:is it suitable that a robot grasps a sugar?
+no
+raw prompt:is it suitable that a robot grasps a pantry?
+no
+raw prompt:is it suitable that a robot grasps a steak?
+yes
+raw prompt:is it suitable that a robot places a steak on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a cutlery fork?
+yes
+raw prompt:is it suitable that a robot places a cutlery fork on a plate?
+yes
+raw prompt:there are some objects, such as peanut butter, condiment bottle, wooden chopstick, cutting board, coffee cup, mug, coffee filter, paper towel, cloth napkin, snack, oatmeal, drinking glass, steak, cutlery fork. which is the most suitable to replace a burger in the task of eating dinner if the burger is dirty?
+the most suitable object to replace a burger in the task of eating dinner if the burger is dirty is a steak
+prompt (raw):can a juicer make a burger clean if the burger is dirty?
+no
+prompt (raw):can a dehumidifier make a burger clean if the burger is dirty?
+no
+prompt (raw):can a water filter make a burger clean if the burger is dirty?
+no
+prompt (raw):can a ice cream maker make a burger clean if the burger is dirty?
+no
+prompt (raw):can a dishwasher make a burger clean if the burger is dirty?
+no
+prompt (raw):can a coffee maker make a burger clean if the burger is dirty?
+no
+prompt (raw):can a oven make a burger clean if the burger is dirty?
+no
+prompt (raw):can a kettle make a burger clean if the burger is dirty?
+no
+prompt (raw):can a water boiler make a burger clean if the burger is dirty?
+no
+raw prompt:is it suitable that a robot pulls up a chair if the chair is broken?
+no, it is not suitable for a robot to pull up a chair if the chair is broken
+raw prompt:is it suitable that a robot places a plate on a table if the spoon is missing?
+no, it is not suitable for a robot to place a plate on a table if the spoon is missing
+prompt (raw):can a kettle make a spoon found if the spoon is missing?
+no
+prompt (raw):can a fridge make a spoon found if the spoon is missing?
+no
+prompt (raw):can a coffee maker make a spoon found if the spoon is missing?
+no
+prompt (raw):can a washing machine make a spoon found if the spoon is missing?
+no
+prompt (raw):can a microwave make a spoon found if the spoon is missing?
+no
+prompt (raw):can a air fryer make a spoon found if the spoon is missing?
+no
+prompt (raw):can a dehumidifier make a spoon found if the spoon is missing?
+no
+prompt (raw):can a water boiler make a spoon found if the spoon is missing?
+no
+prompt (raw):can a ice cream maker make a spoon found if the spoon is missing?
+no
+raw prompt:is it suitable that a robot finds a fork if the fork is missing?
+no, it is not suitable
+raw prompt:is it suitable that a robot grasps a noodles?
+no
+raw prompt:is it suitable that a robot grasps a sponge?
+yes
+raw prompt:is it suitable that a robot places a sponge on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a cpu table?
+no
+raw prompt:is it suitable that a robot grasps a dish bowl?
+yes
+raw prompt:is it suitable that a robot places a dish bowl on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a couch?
+no
+raw prompt:is it suitable that a robot grasps a table cloth?
+no
+raw prompt:is it suitable that a robot grasps a bookshelf?
+no
+raw prompt:is it suitable that a robot grasps a chef knife?
+no
+raw prompt:is it suitable that a robot grasps a sauce?
+no
+raw prompt:is it suitable that a robot grasps a wooden spoon?
+yes
+raw prompt:is it suitable that a robot places a wooden spoon on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a kitchen counter?
+yes
+raw prompt:is it suitable that a robot places a kitchen counter on a plate?
+no
+raw prompt:is it suitable that a robot grasps a trash can?
+no
+raw prompt:is it suitable that a robot grasps a condiment shaker?
+yes
+raw prompt:is it suitable that a robot places a condiment shaker on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a oven tray?
+no
+raw prompt:is it suitable that a robot grasps a dish rack?
+no
+raw prompt:there are some objects, such as paper towel, peanut butter, sponge, snack, coffee filter, dish bowl, wooden spoon, condiment shaker, cloth napkin, steak. which is the most suitable to replace a fork in the task of eating a burger on a plate using a fork if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate using a fork if the fork is missing would be a wooden
+prompt (raw):can a vacuum cleaner make a fork found if the fork is missing?
+no
+prompt (raw):can a oven make a fork found if the fork is missing?
+no
+prompt (raw):can a juicer make a fork found if the fork is missing?
+no
+prompt (raw):can a water filter make a fork found if the fork is missing?
+no
+prompt (raw):can a blender make a fork found if the fork is missing?
+no
+prompt (raw):can a freezer make a fork found if the fork is missing?
+no
+prompt (raw):can a fridge make a fork found if the fork is missing?
+no
+prompt (raw):can a coffee maker make a fork found if the fork is missing?
+no
+prompt (raw):can a toaster make a fork found if the fork is missing?
+no
 raw prompt:is it suitable that a robot finds a plate if the plate is dirty?
 no, it is not suitable for a robot to find a dirty plate
-raw prompt:is it suitable that a robot grasps a cutlery fork?
+raw prompt:is it suitable that a robot grasps a piano bench?
+no
+raw prompt:is it suitable that a robot moves a coffee filter near a table?
+yes
+raw prompt:is it suitable that a robot places a coffee filter on a table?
+yes
+raw prompt:is it suitable that a robot moves a coffee filter near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a coffee filter?
+no
+raw prompt:is it suitable that a robot grasps a salt?
+yes
+raw prompt:is it suitable that a robot moves a salt near a table?
+yes
+raw prompt:is it suitable that a robot places a salt on a table?
+yes
+raw prompt:is it suitable that a robot moves a salt near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a salt?
+no
+raw prompt:is it suitable that a robot moves a paper towel near a table?
+yes
+raw prompt:is it suitable that a robot places a paper towel on a table?
+yes
+raw prompt:is it suitable that a robot moves a paper towel near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a paper towel?
+yes
+raw prompt:is it suitable that a robot moves a paper towel near a paper towel?
+yes
+raw prompt:is it suitable that a robot places a fork on a paper towel?
+yes
+raw prompt:is it suitable that a robot moves a oatmeal near a table?
+yes
+raw prompt:is it suitable that a robot places a oatmeal on a table?
+yes
+raw prompt:is it suitable that a robot moves a oatmeal near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a oatmeal?
+no
+raw prompt:is it suitable that a robot grasps a desk?
+no
+raw prompt:is it suitable that a robot grasps a frying pan?
+no
+raw prompt:is it suitable that a robot moves a bucket near a table?
+yes
+raw prompt:is it suitable that a robot places a bucket on a table?
+yes
+raw prompt:is it suitable that a robot moves a bucket near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a bucket?
+no
+raw prompt:is it suitable that a robot grasps a mat?
+yes
+raw prompt:is it suitable that a robot moves a mat near a table?
+yes
+raw prompt:is it suitable that a robot places a mat on a table?
+yes
+raw prompt:is it suitable that a robot moves a mat near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a mat?
+yes
+raw prompt:is it suitable that a robot moves a mat near a mat?
+yes
+raw prompt:is it suitable that a robot places a fork on a mat?
 yes
 raw prompt:is it suitable that a robot moves a cutlery fork near a table?
 yes
 raw prompt:is it suitable that a robot places a cutlery fork on a table?
 yes
-raw prompt:is it suitable that a robot moves a kitchen near a cutlery fork?
+raw prompt:is it suitable that a robot moves a cutlery fork near a kitchen?
 yes
 raw prompt:is it suitable that a robot places a burger on a cutlery fork?
 no
-raw prompt:is it suitable that a robot grasps a rice?
+raw prompt:is it suitable that a robot moves a drinking glass near a table?
 yes
-raw prompt:is it suitable that a robot moves a rice near a table?
+raw prompt:is it suitable that a robot places a drinking glass on a table?
 yes
-raw prompt:is it suitable that a robot places a rice on a table?
+raw prompt:is it suitable that a robot moves a drinking glass near a kitchen?
 yes
-raw prompt:is it suitable that a robot moves a kitchen near a rice?
+raw prompt:is it suitable that a robot places a burger on a drinking glass?
 no
-raw prompt:is it suitable that a robot grasps a dish rack?
-no
-raw prompt:is it suitable that a robot grasps a cooking pot?
-no
-raw prompt:is it suitable that a robot grasps a frying pan?
-no
-raw prompt:is it suitable that a robot grasps a noodles?
-no
-raw prompt:is it suitable that a robot grasps a wooden chopstick?
+raw prompt:is it suitable that a robot moves a wooden spoon near a table?
 yes
-raw prompt:is it suitable that a robot moves a wooden chopstick near a table?
+raw prompt:is it suitable that a robot places a wooden spoon on a table?
 yes
-raw prompt:is it suitable that a robot places a wooden chopstick on a table?
+raw prompt:is it suitable that a robot moves a wooden spoon near a kitchen?
 yes
-raw prompt:is it suitable that a robot moves a kitchen near a wooden chopstick?
+raw prompt:is it suitable that a robot places a burger on a wooden spoon?
 no
-raw prompt:is it suitable that a robot grasps a dish bowl?
+raw prompt:is it suitable that a robot moves a snack near a table?
 yes
+raw prompt:is it suitable that a robot places a snack on a table?
+yes
+raw prompt:is it suitable that a robot moves a snack near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a snack?
+yes
+raw prompt:is it suitable that a robot moves a snack near a snack?
+yes
+raw prompt:is it suitable that a robot places a fork on a snack?
+yes
+raw prompt:is it suitable that a robot moves a rag near a table?
+yes
+raw prompt:is it suitable that a robot places a rag on a table?
+yes
+raw prompt:is it suitable that a robot moves a rag near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a rag?
+no
+raw prompt:is it suitable that a robot moves a mug near a table?
+yes
+raw prompt:is it suitable that a robot places a mug on a table?
+yes
+raw prompt:is it suitable that a robot moves a mug near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a mug?
+no
+raw prompt:is it suitable that a robot moves a kitchen counter near a table?
+yes
+raw prompt:is it suitable that a robot places a kitchen counter on a table?
+no
 raw prompt:is it suitable that a robot moves a dish bowl near a table?
 yes
 raw prompt:is it suitable that a robot places a dish bowl on a table?
 yes
-raw prompt:is it suitable that a robot moves a kitchen near a dish bowl?
+raw prompt:is it suitable that a robot moves a dish bowl near a kitchen?
 yes
 raw prompt:is it suitable that a robot places a burger on a dish bowl?
 no
-raw prompt:is it suitable that a robot grasps a ice cream?
+raw prompt:is it suitable that a robot grasps a closet?
+no
+raw prompt:there are some objects, such as paper towel, mat, snack. which is the most suitable to replace a plate in the task of eating a burger on a plate using a fork if the plate is dirty?
+a paper towel would be the most suitable object to replace a plate in the task of eating a burger on a fork if the plate is dirty
+prompt (raw):can a juicer make a plate clean if the plate is dirty?
+no
+prompt (raw):can a water boiler make a plate clean if the plate is dirty?
+no
+prompt (raw):can a ice cream maker make a plate clean if the plate is dirty?
+no
+prompt (raw):can a dehumidifier make a plate clean if the plate is dirty?
+no
+prompt (raw):can a oven make a plate clean if the plate is dirty?
 yes
-raw prompt:is it suitable that a robot moves a ice cream near a table?
+prompt (raw):can a freezer make a plate clean if the plate is dirty?
+no
+prompt (raw):can a stove make a plate clean if the plate is dirty?
+no
+prompt (raw):can a toaster make a plate clean if the plate is dirty?
+no
+prompt (raw):can a fridge make a plate clean if the plate is dirty?
+no
+raw prompt:is it suitable that a robot finds a burger if the burger is missing?
+no, it is not suitable
+raw prompt:is it suitable that a robot places a mat on a plate?
+no
+raw prompt:is it suitable that a robot grasps a dish?
 yes
-raw prompt:is it suitable that a robot places a ice cream on a table?
+raw prompt:is it suitable that a robot places a dish on a plate?
 yes
-raw prompt:is it suitable that a robot moves a kitchen near a ice cream?
+raw prompt:there are some objects, such as peanut butter, drinking glass, condiment shaker, condiment bottle, sponge, paper towel, cutting board, dish, coffee cup, wooden chopstick, steak, cutlery fork, mug, wooden spoon. which is the most suitable to replace a burger in the task of eating a burger on a plate using a fork if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate using a fork if the burger is missing is a steak
+prompt (raw):can a dehumidifier make a burger found if the burger is missing?
+no
+prompt (raw):can a water filter make a burger found if the burger is missing?
+no
+prompt (raw):can a ice cream maker make a burger found if the burger is missing?
+no
+prompt (raw):can a water boiler make a burger found if the burger is missing?
+no
+prompt (raw):can a freezer make a burger found if the burger is missing?
+no
+prompt (raw):can a fridge make a burger found if the burger is missing?
+no
+prompt (raw):can a dishwasher make a burger found if the burger is missing?
+no
+prompt (raw):can a washing machine make a burger found if the burger is missing?
+no
+prompt (raw):can a kettle make a burger found if the burger is missing?
+no
+raw prompt:is it suitable that a robot places a salt on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a cleaning bottle?
+yes
+raw prompt:is it suitable that a robot places a cleaning bottle on a plate?
+no
+raw prompt:is it suitable that a robot grasps a rice?
+yes
+raw prompt:is it suitable that a robot places a rice on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a measuring cup?
+yes
+raw prompt:is it suitable that a robot places a measuring cup on a plate?
+yes
+raw prompt:is it suitable that a robot grasps a wooden chair?
+yes
+raw prompt:is it suitable that a robot places a wooden chair on a plate?
+no
+raw prompt:there are some objects, such as salt, coffee cup, cloth napkin, wooden chopstick, condiment shaker, dish bowl, cutlery fork, coffee filter, rice, measuring cup, mug. which is the most suitable to replace a burger in the task of eating a burger on a plate using a fork if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate using a fork if the burger is missing would be a piece
+prompt (raw):can a air fryer make a burger found if the burger is missing?
+no
+prompt (raw):can a juicer make a burger found if the burger is missing?
+no
+prompt (raw):can a blender make a burger found if the burger is missing?
+no
+raw prompt:is it suitable that a robot finds a chair if the chair is missing?
+no, it is not suitable
+raw prompt:is it suitable that a robot pulls up a dish bowl?
+yes
+raw prompt:is it suitable that a robot pulls up a nightstand?
+yes
+raw prompt:is it suitable that a robot pulls up a piano bench?
+yes
+raw prompt:is it suitable that a robot pulls up a desk?
+yes
+raw prompt:is it suitable that a robot pulls up a steak?
+no
+raw prompt:is it suitable that a robot pulls up a oven tray?
+yes
+raw prompt:is it suitable that a robot pulls up a cpu table?
+no
+raw prompt:is it suitable that a robot pulls up a mat?
+yes
+raw prompt:is it suitable that a robot pulls up a sugar?
+no
+raw prompt:is it suitable that a robot pulls up a ice cream?
+no
+raw prompt:is it suitable that a robot pulls up a drinking glass?
+yes
+raw prompt:is it suitable that a robot pulls up a snack?
+yes
+raw prompt:is it suitable that a robot pulls up a coffee cup?
+yes
+raw prompt:is it suitable that a robot pulls up a sauce?
+no
+raw prompt:is it suitable that a robot pulls up a salt?
+no
+raw prompt:is it suitable that a robot pulls up a trash can?
+yes
+raw prompt:is it suitable that a robot pulls up a kitchen cabinet?
+yes
+raw prompt:is it suitable that a robot pulls up a paper towel?
+yes
+raw prompt:is it suitable that a robot pulls up a wooden chair?
+yes
+raw prompt:is it suitable that a robot pulls up a mug?
+yes
+raw prompt:is it suitable that a robot pulls up a oil?
+no
+raw prompt:is it suitable that a robot pulls up a colander?
+yes
+raw prompt:is it suitable that a robot pulls up a pantry?
+no
+raw prompt:is it suitable that a robot pulls up a cleaning bottle?
+yes
+raw prompt:is it suitable that a robot pulls up a cake?
+no
+raw prompt:is it suitable that a robot pulls up a closet?
+no
+raw prompt:is it suitable that a robot pulls up a dish rack?
+yes
+raw prompt:is it suitable that a robot pulls up a wine glass?
+yes
+raw prompt:is it suitable that a robot pulls up a sponge?
+yes
+raw prompt:is it suitable that a robot pulls up a oatmeal?
+no
+raw prompt:there are some objects, such as dish bowl, nightstand, piano bench, desk, oven tray, mat, drinking glass, snack, coffee cup, trash can, kitchen cabinet, paper towel, wooden chair, mug, colander, cleaning bottle, dish rack, wine glass, sponge. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is missing?
+a wooden chair is the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is missing
+prompt (raw):can a kettle make a chair found if the chair is missing?
+no
+prompt (raw):can a vacuum cleaner make a chair found if the chair is missing?
+no
+prompt (raw):can a blender make a chair found if the chair is missing?
+no
+prompt (raw):can a juicer make a chair found if the chair is missing?
+no
+prompt (raw):can a ice cream maker make a chair found if the chair is missing?
+no
+prompt (raw):can a water boiler make a chair found if the chair is missing?
+no
+prompt (raw):can a dishwasher make a chair found if the chair is missing?
+no
+prompt (raw):can a air fryer make a chair found if the chair is missing?
+no
+prompt (raw):can a washing machine make a chair found if the chair is missing?
+no
+raw prompt:is it suitable that a robot finds a plate if the plate is missing?
+no, a robot cannot find a plate if the plate is missing
+raw prompt:is it suitable that a robot moves a measuring cup near a table?
+yes
+raw prompt:is it suitable that a robot places a measuring cup on a table?
+yes
+raw prompt:is it suitable that a robot moves a measuring cup near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a measuring cup?
 no
 raw prompt:is it suitable that a robot grasps a cake?
 yes
@@ -58,253 +504,1149 @@ raw prompt:is it suitable that a robot moves a cake near a table?
 yes
 raw prompt:is it suitable that a robot places a cake on a table?
 yes
-raw prompt:is it suitable that a robot moves a kitchen near a cake?
+raw prompt:is it suitable that a robot moves a cake near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a cake?
 no
-raw prompt:is it suitable that a robot grasps a cutting board?
+raw prompt:is it suitable that a robot moves a coffee cup near a table?
 yes
-raw prompt:is it suitable that a robot moves a cutting board near a table?
+raw prompt:is it suitable that a robot places a coffee cup on a table?
 yes
-raw prompt:is it suitable that a robot places a cutting board on a table?
+raw prompt:is it suitable that a robot moves a coffee cup near a kitchen?
 yes
-raw prompt:is it suitable that a robot moves a kitchen near a cutting board?
-yes
-raw prompt:is it suitable that a robot places a burger on a cutting board?
-yes
-raw prompt:is it suitable that a robot places a fork on a cutting board?
-yes
-raw prompt:is it suitable that a robot grasps a pasta?
+raw prompt:is it suitable that a robot places a burger on a coffee cup?
 no
-raw prompt:is it suitable that a robot grasps a peanut butter?
+raw prompt:is it suitable that a robot moves a sponge near a table?
 yes
-raw prompt:is it suitable that a robot moves a peanut butter near a table?
+raw prompt:is it suitable that a robot places a sponge on a table?
 yes
-raw prompt:is it suitable that a robot places a peanut butter on a table?
+raw prompt:is it suitable that a robot moves a sponge near a kitchen?
 yes
-raw prompt:is it suitable that a robot moves a kitchen near a peanut butter?
+raw prompt:is it suitable that a robot places a burger on a sponge?
 no
-raw prompt:is it suitable that a robot grasps a steak?
+raw prompt:is it suitable that a robot moves a cloth napkin near a table?
 yes
+raw prompt:is it suitable that a robot places a cloth napkin on a table?
+yes
+raw prompt:is it suitable that a robot moves a cloth napkin near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a cloth napkin?
+yes
+raw prompt:is it suitable that a robot moves a cloth napkin near a cloth napkin?
+yes
+raw prompt:is it suitable that a robot places a fork on a cloth napkin?
+yes
+raw prompt:is it suitable that a robot grasps a bread?
+yes
+raw prompt:is it suitable that a robot moves a bread near a table?
+yes
+raw prompt:is it suitable that a robot places a bread on a table?
+yes
+raw prompt:is it suitable that a robot moves a bread near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a bread?
+yes
+raw prompt:is it suitable that a robot moves a bread near a bread?
+no
 raw prompt:is it suitable that a robot moves a steak near a table?
 yes
 raw prompt:is it suitable that a robot places a steak on a table?
 yes
-raw prompt:is it suitable that a robot moves a kitchen near a steak?
+raw prompt:is it suitable that a robot moves a steak near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a steak?
 no
-raw prompt:is it suitable that a robot grasps a dish?
+raw prompt:is it suitable that a robot moves a cleaning bottle near a table?
 yes
-raw prompt:is it suitable that a robot moves a dish near a table?
+raw prompt:is it suitable that a robot places a cleaning bottle on a table?
 yes
-raw prompt:is it suitable that a robot places a dish on a table?
+raw prompt:is it suitable that a robot moves a cleaning bottle near a kitchen?
 yes
-raw prompt:is it suitable that a robot moves a kitchen near a dish?
+raw prompt:is it suitable that a robot places a burger on a cleaning bottle?
+no
+raw prompt:is it suitable that a robot grasps a ice cream?
 yes
-raw prompt:is it suitable that a robot places a burger on a dish?
+raw prompt:is it suitable that a robot moves a ice cream near a table?
 yes
-raw prompt:is it suitable that a robot places a fork on a dish?
+raw prompt:is it suitable that a robot places a ice cream on a table?
+yes
+raw prompt:is it suitable that a robot moves a ice cream near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a ice cream?
+no
+raw prompt:there are some objects, such as paper towel, cloth napkin. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is missing?
+a paper towel or cloth napkin would be the most suitable replacements for a plate in the task of eating a burger
+prompt (raw):can a microwave make a plate found if the plate is missing?
+no
+prompt (raw):can a dishwasher make a plate found if the plate is missing?
+no
+prompt (raw):can a coffee maker make a plate found if the plate is missing?
+no
+prompt (raw):can a water boiler make a plate found if the plate is missing?
+no
+prompt (raw):can a water filter make a plate found if the plate is missing?
+no
+prompt (raw):can a juicer make a plate found if the plate is missing?
+no
+prompt (raw):can a oven make a plate found if the plate is missing?
+no
+prompt (raw):can a washing machine make a plate found if the plate is missing?
+no
+prompt (raw):can a air fryer make a plate found if the plate is missing?
+no
+raw prompt:is it suitable that a robot finds a chair if the chair slipped?
+a robot can find a chair if the chair slipped, but it may not be able to identify the chair as being slipped
+raw prompt:is it suitable that a robot pulls up a condiment shaker?
+yes
+raw prompt:is it suitable that a robot pulls up a bookshelf?
+yes
+raw prompt:is it suitable that a robot pulls up a couch?
+yes
+raw prompt:is it suitable that a robot pulls up a kitchen table?
+yes
+raw prompt:is it suitable that a robot pulls up a kitchen counter?
+no
+raw prompt:is it suitable that a robot pulls up a table cloth?
+yes
+raw prompt:is it suitable that a robot pulls up a rice?
+no
+raw prompt:is it suitable that a robot pulls up a coffee table?
+yes
+raw prompt:is it suitable that a robot pulls up a peanut butter?
+no
+raw prompt:is it suitable that a robot pulls up a cupboard?
+no
+raw prompt:is it suitable that a robot pulls up a cooking pot?
+no
+raw prompt:is it suitable that a robot pulls up a dish?
+yes
+raw prompt:is it suitable that a robot pulls up a noodles?
+no
+raw prompt:is it suitable that a robot pulls up a bread?
+no
+raw prompt:is it suitable that a robot pulls up a cutlery fork?
+yes
+raw prompt:there are some objects, such as wine glass, condiment shaker, bookshelf, couch, kitchen table, piano bench, table cloth, nightstand, mug, cleaning bottle, coffee table, oven tray, dish, cutlery fork, kitchen cabinet, trash can. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair slipped?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair slipped would be a kitchen table
+prompt (raw):can a juicer make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a fridge make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a kettle make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a coffee maker make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a stove make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a washing machine make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a oven make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a water boiler make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a air fryer make a chair not slipped if the chair slipped?
+no
+raw prompt:is it suitable that a robot pulls up a cloth napkin?
+yes
+raw prompt:is it suitable that a robot pulls up a frying pan?
+no
+raw prompt:is it suitable that a robot pulls up a dining table?
+no
+raw prompt:is it suitable that a robot pulls up a chips?
+no
+raw prompt:is it suitable that a robot pulls up a bucket?
+yes
+raw prompt:is it suitable that a robot pulls up a cutting board?
+yes
+raw prompt:is it suitable that a robot pulls up a coffee filter?
+yes
+raw prompt:is it suitable that a robot pulls up a rag?
+yes
+raw prompt:there are some objects, such as wine glass, cloth napkin, condiment shaker, drinking glass, snack, kitchen table, trash can, oven tray, bucket, kitchen cabinet, cutting board, coffee cup, coffee filter, bookshelf, cutlery fork, rag, colander, couch. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is missing?
+a drinking glass is the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is missing
+prompt (raw):can a dehumidifier make a chair found if the chair is missing?
+no
+prompt (raw):can a fridge make a chair found if the chair is missing?
+no
+prompt (raw):can a stove make a chair found if the chair is missing?
+no
+prompt (raw):can a toaster make a chair found if the chair is missing?
+no
+prompt (raw):can a oven make a chair found if the chair is missing?
+no
+raw prompt:is it suitable that a robot places a bread on a plate?
+yes
+raw prompt:is it suitable that a robot places a ice cream on a plate?
 yes
 raw prompt:is it suitable that a robot grasps a wine glass?
+yes
+raw prompt:is it suitable that a robot places a wine glass on a plate?
+yes
+raw prompt:there are some objects, such as salt, rice, dish, cutlery fork, bread, steak, paper towel, coffee cup, cutting board, ice cream, oatmeal, wine glass, condiment bottle, peanut butter. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing would be a steak knife
+prompt (raw):can a dishwasher make a fork found if the fork is missing?
+no
+prompt (raw):can a water boiler make a fork found if the fork is missing?
+no
+prompt (raw):can a stove make a fork found if the fork is missing?
+no
+prompt (raw):can a washing machine make a fork found if the fork is missing?
+no
+raw prompt:is it suitable that a robot places a plate on a table if the burger spills?
+no, it is not suitable for a robot to place a plate on a table if the burger spills
+raw prompt:is it suitable that a robot pulls up a chair if the chair slipped?
+no, it is not suitable for a robot to pull up a chair if the chair slipped
+raw prompt:is it suitable that a robot pulls up a pasta?
+no
+raw prompt:is it suitable that a robot pulls up a chef knife?
+no
+raw prompt:is it suitable that a robot pulls up a measuring cup?
+yes
+raw prompt:there are some objects, such as coffee cup, nightstand, bucket, dish, kitchen cabinet, colander, coffee table, oven tray, snack, drinking glass, measuring cup, kitchen table, couch, dish bowl, wine glass, desk. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair slipped?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair slipped would be a coffee table
+prompt (raw):can a microwave make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a water filter make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a ice cream maker make a chair not slipped if the chair slipped?
+no
+prompt (raw):can a freezer make a chair not slipped if the chair slipped?
+no
+raw prompt:is it suitable that a robot places a cake on a plate?
+yes
+raw prompt:there are some objects, such as measuring cup, wine glass, ice cream, snack, cloth napkin, coffee cup, wooden chopstick, cutlery fork, coffee filter, dish bowl, bread, cake, sponge, salt. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing would be a wooden chopstick
+prompt (raw):can a air fryer make a fork found if the fork is missing?
+no
+raw prompt:is it suitable that a robot finds a chair if the chair is broken?
+no, it is not suitable
+raw prompt:is it suitable that a robot pulls up a condiment bottle?
+yes
+raw prompt:is it suitable that a robot pulls up a wooden spoon?
+yes
+raw prompt:there are some objects, such as condiment bottle, cutlery fork, colander, mat, wooden spoon, kitchen cabinet, wooden chair, desk, dish, bookshelf, cleaning bottle, cloth napkin, wine glass, table cloth, trash can, snack, dish bowl, sponge. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a wooden chair would be the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+prompt (raw):can a dishwasher make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a fridge make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a toaster make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a coffee maker make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a blender make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a air fryer make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a kettle make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a oven make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a stove make a chair unbroken if the chair is broken?
+no
+raw prompt:is it suitable that a robot finds a burger if the burger is not enough for a person?
+no, it is not suitable
+raw prompt:there are some objects, such as snack, condiment shaker, cloth napkin, wooden spoon, drinking glass, peanut butter, salt, oatmeal, rice, dish bowl, coffee filter, ice cream, wooden chopstick, sponge. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing would be a wooden chopstick
+prompt (raw):can a microwave make a fork found if the fork is missing?
+no
+raw prompt:is it suitable that a robot pulls up a cutlery knife?
+no
+raw prompt:is it suitable that a robot pulls up a wooden chopstick?
+yes
+raw prompt:there are some objects, such as condiment bottle, cutting board, cloth napkin, coffee filter, nightstand, rag, kitchen table, oven tray, measuring cup, colander, coffee cup, kitchen cabinet, dish bowl, dish, wine glass, wooden chopstick, dish rack. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken is a kitchen table
+prompt (raw):can a freezer make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a ice cream maker make a chair unbroken if the chair is broken?
+no
+raw prompt:there are some objects, such as cutlery fork, measuring cup, dish, dish bowl, snack, mug, cake, paper towel, condiment shaker, peanut butter, coffee filter, wine glass. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a dish
+prompt (raw):can a coffee maker make a burger found if the burger is missing?
+no
+prompt (raw):can a vacuum cleaner make a burger found if the burger is missing?
+no
+prompt (raw):can a toaster make a burger found if the burger is missing?
+no
+prompt (raw):can a stove make a burger found if the burger is missing?
+no
+raw prompt:is it suitable that a robot finds a fork if the fork is dirty?
+no, it is not suitable for a robot to find a fork if the fork is dirty
+raw prompt:is it suitable that a robot finds a chair if the chair is dirty?
+no, it is not suitable for a robot to find a chair if the chair is dirty
+raw prompt:there are some objects, such as measuring cup, cleaning bottle, snack, coffee cup, sponge, condiment bottle, mug, dish bowl, cutting board, nightstand, dish, couch, drinking glass, trash can, kitchen cabinet, desk, cloth napkin, paper towel, table cloth. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is dirty?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is dirty would be a nightstand
+prompt (raw):can a ice cream maker make a chair clean if the chair is dirty?
+no
+prompt (raw):can a blender make a chair clean if the chair is dirty?
+no
+prompt (raw):can a air fryer make a chair clean if the chair is dirty?
+no
+prompt (raw):can a coffee maker make a chair clean if the chair is dirty?
+no
+prompt (raw):can a water filter make a chair clean if the chair is dirty?
+no
+prompt (raw):can a juicer make a chair clean if the chair is dirty?
+no
+prompt (raw):can a freezer make a chair clean if the chair is dirty?
+no
+prompt (raw):can a oven make a chair clean if the chair is dirty?
+no
+prompt (raw):can a toaster make a chair clean if the chair is dirty?
+no
+raw prompt:there are some objects, such as paper towel, drinking glass, wine glass, coffee cup, coffee filter, kitchen cabinet, nightstand, bookshelf, dish bowl, kitchen table, wooden chair, snack, mug, desk, condiment shaker, rag, wooden chopstick. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a wooden chair is the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+prompt (raw):can a water boiler make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a washing machine make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a juicer make a chair unbroken if the chair is broken?
+no
+raw prompt:there are some objects, such as steak, cake, rice, coffee filter, snack, cloth napkin, condiment bottle, cutting board, cutlery fork, coffee cup, sponge, condiment shaker, wooden chopstick, wine glass. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a steak
+prompt (raw):can a microwave make a burger found if the burger is missing?
+no
+prompt (raw):can a oven make a burger found if the burger is missing?
+no
+raw prompt:there are some objects, such as table cloth, bookshelf, dish rack, sponge, cloth napkin, wooden chopstick, nightstand, drinking glass, dish, kitchen cabinet, coffee filter, rag, wooden spoon, coffee table, piano bench, coffee cup, dish bowl, cutting board. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a table would be the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+prompt (raw):can a water filter make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a vacuum cleaner make a chair unbroken if the chair is broken?
+no
+prompt (raw):can a dehumidifier make a chair unbroken if the chair is broken?
+no
+raw prompt:there are some objects, such as mug, snack, cutting board, condiment shaker, nightstand, drinking glass, cleaning bottle, wooden chair, wine glass, table cloth, piano bench, bucket, wooden chopstick, kitchen table, colander, coffee cup, kitchen cabinet, dish, rag, wooden spoon. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken is a wooden chair
+prompt (raw):can a microwave make a chair unbroken if the chair is broken?
+no
+raw prompt:there are some objects, such as steak, condiment bottle, measuring cup, mug, sponge, wooden spoon, cake, ice cream, condiment shaker, wine glass, salt, oatmeal. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a steak
+raw prompt:there are some objects, such as mug, cutting board, sponge, steak, cloth napkin, wooden spoon, paper towel, ice cream, measuring cup, rice, bread, coffee cup, dish. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing would be a wooden spoon
+prompt (raw):can a kettle make a fork found if the fork is missing?
+no
+raw prompt:is it suitable that a robot finds a plate if the plate is broken?
+no, a robot would not be able to find a broken plate
+raw prompt:is it suitable that a robot moves a peanut butter near a table?
+yes
+raw prompt:is it suitable that a robot places a peanut butter on a table?
+yes
+raw prompt:is it suitable that a robot moves a peanut butter near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a peanut butter?
+no
+raw prompt:is it suitable that a robot moves a cutting board near a table?
+yes
+raw prompt:is it suitable that a robot places a cutting board on a table?
+yes
+raw prompt:is it suitable that a robot moves a cutting board near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a cutting board?
+yes
+raw prompt:is it suitable that a robot moves a cutting board near a cutting board?
+yes
+raw prompt:is it suitable that a robot places a fork on a cutting board?
 yes
 raw prompt:is it suitable that a robot moves a wine glass near a table?
 yes
 raw prompt:is it suitable that a robot places a wine glass on a table?
 yes
-raw prompt:is it suitable that a robot moves a kitchen near a wine glass?
+raw prompt:is it suitable that a robot moves a wine glass near a kitchen?
 no
-raw prompt:is it suitable that a robot grasps a oil?
+raw prompt:there are some objects, such as mat, cutting board, snack. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is broken?
+a cutting board would be the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is broken
+prompt (raw):can a vacuum cleaner make a plate unbroken if the plate is broken?
 no
-raw prompt:is it suitable that a robot grasps a sponge?
-yes
-raw prompt:is it suitable that a robot moves a sponge near a table?
-yes
-raw prompt:is it suitable that a robot places a sponge on a table?
-yes
-raw prompt:is it suitable that a robot moves a kitchen near a sponge?
-yes
-raw prompt:is it suitable that a robot places a burger on a sponge?
+prompt (raw):can a toaster make a plate unbroken if the plate is broken?
 no
-raw prompt:is it suitable that a robot grasps a wooden spoon?
-yes
-raw prompt:is it suitable that a robot moves a wooden spoon near a table?
-yes
-raw prompt:is it suitable that a robot places a wooden spoon on a table?
-yes
-raw prompt:is it suitable that a robot moves a kitchen near a wooden spoon?
-yes
-raw prompt:is it suitable that a robot places a burger on a wooden spoon?
+prompt (raw):can a air fryer make a plate unbroken if the plate is broken?
 no
-raw prompt:is it suitable that a robot grasps a cleaning bottle?
-yes
-raw prompt:is it suitable that a robot moves a cleaning bottle near a table?
-yes
-raw prompt:is it suitable that a robot places a cleaning bottle on a table?
-yes
-raw prompt:is it suitable that a robot moves a kitchen near a cleaning bottle?
-yes
-raw prompt:is it suitable that a robot places a burger on a cleaning bottle?
+prompt (raw):can a oven make a plate unbroken if the plate is broken?
 no
-raw prompt:is it suitable that a robot grasps a colander?
+prompt (raw):can a dishwasher make a plate unbroken if the plate is broken?
 no
-raw prompt:is it suitable that a robot grasps a coffee filter?
-yes
-raw prompt:is it suitable that a robot moves a coffee filter near a table?
-yes
-raw prompt:is it suitable that a robot places a coffee filter on a table?
-yes
-raw prompt:is it suitable that a robot moves a kitchen near a coffee filter?
-yes
-raw prompt:is it suitable that a robot places a burger on a coffee filter?
+prompt (raw):can a blender make a plate unbroken if the plate is broken?
 no
-raw prompt:there are some objects, such as cutting board, dish. which is the most suitable to replace a plate in the task of eating dinner if the plate is dirty?
-a cutting board is the most suitable object to replace a plate in the task of eating dinner if the plate is dirty
+prompt (raw):can a water filter make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a microwave make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a kettle make a plate unbroken if the plate is broken?
+no
+raw prompt:is it suitable that a robot moves a wooden chair near a table?
+yes
+raw prompt:is it suitable that a robot places a wooden chair on a table?
+yes
+raw prompt:is it suitable that a robot moves a wooden chair near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a wooden chair?
+no
+raw prompt:is it suitable that a robot moves a condiment bottle near a table?
+yes
+raw prompt:is it suitable that a robot places a condiment bottle on a table?
+yes
+raw prompt:is it suitable that a robot moves a condiment bottle near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a condiment bottle?
+no
+raw prompt:is it suitable that a robot moves a dish near a table?
+yes
+raw prompt:is it suitable that a robot places a dish on a table?
+yes
+raw prompt:is it suitable that a robot moves a dish near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a dish?
+yes
+raw prompt:is it suitable that a robot moves a dish near a dish?
+yes
+raw prompt:is it suitable that a robot places a fork on a dish?
+yes
+raw prompt:is it suitable that a robot moves a wooden chopstick near a table?
+yes
+raw prompt:is it suitable that a robot places a wooden chopstick on a table?
+yes
+raw prompt:is it suitable that a robot moves a wooden chopstick near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a wooden chopstick?
+no
+raw prompt:is it suitable that a robot moves a rice near a table?
+yes
+raw prompt:is it suitable that a robot places a rice on a table?
+yes
+raw prompt:is it suitable that a robot moves a rice near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a rice?
+no
+raw prompt:there are some objects, such as cutting board, dish, mat. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is missing?
+a cutting board would be the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is missing
+prompt (raw):can a ice cream maker make a plate found if the plate is missing?
+no
+prompt (raw):can a stove make a plate found if the plate is missing?
+no
+prompt (raw):can a freezer make a plate found if the plate is missing?
+no
+prompt (raw):can a kettle make a plate found if the plate is missing?
+no
+raw prompt:there are some objects, such as kitchen table, sponge, coffee table, paper towel, snack, wooden spoon, bookshelf, couch, cleaning bottle, bucket, drinking glass, cloth napkin, coffee filter, trash can, dish bowl. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a kitchen table would be the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:there are some objects, such as oatmeal, cloth napkin, bread, ice cream, salt, steak, dish bowl, peanut butter, measuring cup, snack, wine glass, mug, coffee cup, cutlery fork. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a steak
+raw prompt:is it suitable that a robot finds a burger if the fork is broken?
+no, it is not suitable
+raw prompt:there are some objects, such as dish bowl, cutting board, cloth napkin, mug, dish, measuring cup, sponge, wooden chopstick, cake, rice, snack, salt, condiment bottle, steak. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is broken?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is broken is a wooden chopstick
+prompt (raw):can a fridge make a fork unbroken if the fork is broken?
+no
+prompt (raw):can a vacuum cleaner make a fork unbroken if the fork is broken?
+no
+prompt (raw):can a dishwasher make a fork unbroken if the fork is broken?
+no
+prompt (raw):can a ice cream maker make a fork unbroken if the fork is broken?
+no
+prompt (raw):can a washing machine make a fork unbroken if the fork is broken?
+no
+prompt (raw):can a water boiler make a fork unbroken if the fork is broken?
+no
+prompt (raw):can a water filter make a fork unbroken if the fork is broken?
+no
+prompt (raw):can a freezer make a fork unbroken if the fork is broken?
+no
+prompt (raw):can a blender make a fork unbroken if the fork is broken?
+no
+raw prompt:there are some objects, such as mat, cutting board, cloth napkin. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is missing?
+a mat is the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is missing
+prompt (raw):can a blender make a plate found if the plate is missing?
+no
+raw prompt:there are some objects, such as rag, dish rack, bookshelf, colander, trash can, bucket, coffee table, wooden chopstick, cutting board, dish bowl, kitchen cabinet, nightstand, table cloth, measuring cup, condiment shaker. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is dirty?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is dirty would be a cutting board
+prompt (raw):can a microwave make a chair clean if the chair is dirty?
+no
+prompt (raw):can a kettle make a chair clean if the chair is dirty?
+no
+prompt (raw):can a stove make a chair clean if the chair is dirty?
+no
+raw prompt:there are some objects, such as mat, cutting board. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is broken?
+a cutting board would be the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is broken
+prompt (raw):can a freezer make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a dehumidifier make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a stove make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a ice cream maker make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a fridge make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a juicer make a plate unbroken if the plate is broken?
+no
+prompt (raw):can a washing machine make a plate unbroken if the plate is broken?
+no
+raw prompt:there are some objects, such as cloth napkin, peanut butter, bread, condiment shaker, cutlery fork, oatmeal, snack, cutting board, ice cream, salt, coffee filter, condiment bottle. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a cutting board
+raw prompt:there are some objects, such as dish, mat, paper towel, cutting board. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is missing?
+a dish would be the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is missing
+prompt (raw):can a dehumidifier make a plate found if the plate is missing?
+no
+raw prompt:there are some objects, such as oven tray, table cloth, couch, nightstand, sponge, coffee filter, condiment shaker, condiment bottle, kitchen cabinet, coffee table, wooden spoon, rag, colander, dish bowl, mat, trash can, cloth napkin, mug, dish, bucket. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a table would be the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:there are some objects, such as couch, cloth napkin, colander, rag, table cloth, snack, cutlery fork, dish, condiment shaker, dish bowl, trash can, drinking glass, wooden chair, dish rack, kitchen table, piano bench, measuring cup, bucket, coffee filter. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a wooden chair is the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:is it suitable that a robot finds a burger if the burger is overcooked?
+no, it is not suitable
+raw prompt:there are some objects, such as oatmeal, rice, condiment shaker, salt, peanut butter, cloth napkin, bread, snack, cake, paper towel, coffee cup, wine glass, cutting board, dish, drinking glass. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is overcooked?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is overcooked is a cutting board
+prompt (raw):can a fridge make a burger well-cooked if the burger is overcooked?
+no
+prompt (raw):can a blender make a burger well-cooked if the burger is overcooked?
+no
+prompt (raw):can a dehumidifier make a burger well-cooked if the burger is overcooked?
+no
+prompt (raw):can a washing machine make a burger well-cooked if the burger is overcooked?
+no
+prompt (raw):can a kettle make a burger well-cooked if the burger is overcooked?
+no
+prompt (raw):can a air fryer make a burger well-cooked if the burger is overcooked?
+no
+prompt (raw):can a oven make a burger well-cooked if the burger is overcooked?
+no
+prompt (raw):can a stove make a burger well-cooked if the burger is overcooked?
+no
+prompt (raw):can a water boiler make a burger well-cooked if the burger is overcooked?
+no
+raw prompt:there are some objects, such as coffee filter, condiment shaker, cutting board, peanut butter, cutlery fork, dish, wooden chopstick, dish bowl, mug. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing would be a wooden chopstick
+prompt (raw):can a dehumidifier make a fork found if the fork is missing?
+no
+raw prompt:there are some objects, such as drinking glass, paper towel, cutlery fork, snack, condiment shaker, peanut butter, coffee cup, dish, coffee filter, salt, bread, cloth napkin, condiment bottle, wine glass. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+a paper towel would be the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing
+raw prompt:there are some objects, such as wooden chopstick, sponge, paper towel, dish, wine glass, rice, coffee cup, dish bowl, drinking glass, cloth napkin, bread, salt, wooden spoon, coffee filter. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing would be a wooden chopstick
+prompt (raw):can a ice cream maker make a fork found if the fork is missing?
+no
+raw prompt:there are some objects, such as dish, rag, wooden spoon, oven tray, coffee table, coffee filter, drinking glass, kitchen table, bookshelf, bucket, dish rack, cutlery fork, snack, mat, wooden chopstick, cleaning bottle, wine glass, colander, nightstand. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a dish would be the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:is it suitable that a robot moves a condiment shaker near a table?
+yes
+raw prompt:is it suitable that a robot places a condiment shaker on a table?
+yes
+raw prompt:is it suitable that a robot moves a condiment shaker near a kitchen?
+yes
+raw prompt:is it suitable that a robot places a burger on a condiment shaker?
+no
+raw prompt:there are some objects, such as cutting board, paper towel, dish, cloth napkin. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is dirty?
+the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is dirty would be a cutting board
 prompt (raw):can a microwave make a plate clean if the plate is dirty?
 no
-prompt (raw):can a kettle make a plate clean if the plate is dirty?
+prompt (raw):can a water filter make a plate clean if the plate is dirty?
 no
-prompt (raw):can a freezer make a plate clean if the plate is dirty?
-no
-prompt (raw):can a water boiler make a plate clean if the plate is dirty?
-no
-prompt (raw):can a washing machine make a plate clean if the plate is dirty?
-yes
-prompt (raw):can a air fryer make a plate clean if the plate is dirty?
-no
-prompt (raw):can a toaster make a plate clean if the plate is dirty?
+prompt (raw):can a blender make a plate clean if the plate is dirty?
 no
 prompt (raw):can a vacuum cleaner make a plate clean if the plate is dirty?
 yes
-prompt (raw):can a dehumidifier make a plate clean if the plate is dirty?
+raw prompt:there are some appliances, such as oven, vacuum cleaner. which is the most possible to make a plate clean if the plate is dirty?
+the most possible way to make a plate clean is to use a dishwasher
+raw prompt:there are some objects, such as ice cream, condiment bottle, measuring cup, cloth napkin, sponge, dish bowl, wooden chopstick, condiment shaker, coffee cup. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is dirty?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is dirty is a wooden chopstick
+prompt (raw):can a stove make a fork clean if the fork is dirty?
 no
-raw prompt:there are some appliances, such as washing machine, vacuum cleaner. which is the most possible to make a plate clean if the plate is dirty?
+prompt (raw):can a microwave make a fork clean if the fork is dirty?
+no
+prompt (raw):can a water filter make a fork clean if the fork is dirty?
+no
+prompt (raw):can a dehumidifier make a fork clean if the fork is dirty?
+no
+prompt (raw):can a coffee maker make a fork clean if the fork is dirty?
+no
+prompt (raw):can a fridge make a fork clean if the fork is dirty?
+no
+prompt (raw):can a air fryer make a fork clean if the fork is dirty?
+no
+prompt (raw):can a water boiler make a fork clean if the fork is dirty?
+no
+prompt (raw):can a toaster make a fork clean if the fork is dirty?
+no
+raw prompt:there are some objects, such as wine glass, dish bowl, rice, ice cream, dish, mug, snack, salt, condiment bottle, cloth napkin, paper towel, coffee cup, wooden chopstick, cutlery fork, drinking glass. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a dish
+raw prompt:there are some objects, such as cutting board, steak, condiment bottle, dish bowl, measuring cup, condiment shaker, dish, peanut butter, wine glass, ice cream, rice. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing would be a steak knife
+raw prompt:there are some objects, such as wooden chair, dish rack, couch, mat, kitchen cabinet, wine glass, cleaning bottle, drinking glass, mug, rag, coffee table, sponge, nightstand, measuring cup, cutting board. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is dirty?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is dirty would be a wooden chair
+prompt (raw):can a fridge make a chair clean if the chair is dirty?
+no
+raw prompt:there are some objects, such as oatmeal, wine glass, dish, ice cream, condiment bottle, cutlery fork, mug, cake, condiment shaker, sponge, wooden spoon, rice. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a cutlery fork
+raw prompt:there are some objects, such as dish, snack, condiment bottle, coffee cup, cutlery fork, coffee filter, drinking glass, cake, wooden spoon, mug. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is dirty?
+a wooden spoon would be the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is dirty
+prompt (raw):can a kettle make a fork clean if the fork is dirty?
+no
+prompt (raw):can a washing machine make a fork clean if the fork is dirty?
+no
+prompt (raw):can a oven make a fork clean if the fork is dirty?
+no
+prompt (raw):can a freezer make a fork clean if the fork is dirty?
+no
+prompt (raw):can a blender make a fork clean if the fork is dirty?
+no
+raw prompt:there are some objects, such as cake, measuring cup, oatmeal, paper towel, dish, snack, mug, wooden chopstick, coffee cup, ice cream, cutting board, condiment bottle, condiment shaker. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is dirty?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is dirty is a paper towel
+prompt (raw):can a toaster make a burger clean if the burger is dirty?
+no
+prompt (raw):can a fridge make a burger clean if the burger is dirty?
+no
+prompt (raw):can a washing machine make a burger clean if the burger is dirty?
+no
+prompt (raw):can a air fryer make a burger clean if the burger is dirty?
+no
+raw prompt:there are some objects, such as dish, cutting board, snack. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is missing?
+a dish would be the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is missing
+prompt (raw):can a fridge make a plate found if the plate is missing?
+no
+prompt (raw):can a vacuum cleaner make a plate found if the plate is missing?
+no
+prompt (raw):can a toaster make a plate found if the plate is missing?
+no
+raw prompt:there are some objects, such as dish bowl, sponge, coffee filter, dish, ice cream, drinking glass, peanut butter, salt, coffee cup, wooden chopstick, paper towel, mug. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger spills?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger spills is a paper towel
+prompt (raw):can a water filter make a ground clea if the burger spills?
+no
+prompt (raw):can a microwave make a ground clea if the burger spills?
+no
+prompt (raw):can a dehumidifier make a ground clea if the burger spills?
+no
+prompt (raw):can a juicer make a ground clea if the burger spills?
+no
+prompt (raw):can a freezer make a ground clea if the burger spills?
+no
+prompt (raw):can a ice cream maker make a ground clea if the burger spills?
+no
+prompt (raw):can a washing machine make a ground clea if the burger spills?
+no
+prompt (raw):can a water boiler make a ground clea if the burger spills?
+no
+prompt (raw):can a oven make a ground clea if the burger spills?
+no
+raw prompt:there are some objects, such as cutting board, steak, wine glass, oatmeal, ice cream, paper towel, condiment shaker, mug, wooden chopstick, snack, dish bowl, coffee cup, cloth napkin, cake. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a steak
+raw prompt:is it suitable that a robot finds a chair if the chair is occupied?
+no, it is not suitable for a robot to find a chair if the chair is occupied
+raw prompt:there are some objects, such as snack, bookshelf, nightstand, colander, piano bench, measuring cup, cleaning bottle, coffee cup, coffee filter, wooden chopstick, cloth napkin, sponge, mug, rag, paper towel, kitchen cabinet, mat, table cloth, coffee table, bucket, kitchen table, cutting board, drinking glass, condiment bottle. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is occupied?
+a colander would be the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is occupied
+prompt (raw):can a vacuum cleaner make a chair available if the chair is occupied?
+no
+prompt (raw):can a water boiler make a chair available if the chair is occupied?
+no
+prompt (raw):can a coffee maker make a chair available if the chair is occupied?
+no
+prompt (raw):can a freezer make a chair available if the chair is occupied?
+no
+prompt (raw):can a water filter make a chair available if the chair is occupied?
+no
+prompt (raw):can a oven make a chair available if the chair is occupied?
+no
+prompt (raw):can a dishwasher make a chair available if the chair is occupied?
+no
+prompt (raw):can a washing machine make a chair available if the chair is occupied?
+no
+prompt (raw):can a toaster make a chair available if the chair is occupied?
+no
+raw prompt:there are some objects, such as cutting board, cloth napkin, steak, wine glass, coffee filter, salt, drinking glass, wooden spoon, measuring cup, snack, peanut butter, mug, paper towel, wooden chopstick. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing would be a wooden chopstick
+raw prompt:there are some objects, such as drinking glass, coffee filter, mug, desk, kitchen table, nightstand, couch, coffee cup, snack, cutlery fork, dish, wooden chair, condiment bottle, rag, dish rack, piano bench, measuring cup, bucket. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken would be a wooden chair
+raw prompt:there are some objects, such as wooden chopstick, cloth napkin, colander, bucket, wine glass, condiment shaker, rag, kitchen table, desk, cutlery fork, mat, snack, wooden chair, condiment bottle, dish. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a wooden chair is the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:there are some objects, such as dish, mat, paper towel. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is dirty?
+a paper towel would be the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is dirty
+prompt (raw):can a kettle make a plate clean if the plate is dirty?
+no
+prompt (raw):can a dishwasher make a plate clean if the plate is dirty?
+yes
+prompt (raw):can a coffee maker make a plate clean if the plate is dirty?
+no
+prompt (raw):can a washing machine make a plate clean if the plate is dirty?
+yes
+raw prompt:there are some appliances, such as dishwasher, vacuum cleaner, washing machine. which is the most possible to make a plate clean if the plate is dirty?
+the most possible way to make a plate clean if the plate is dirty is to use a dishwasher
+raw prompt:there are some objects, such as wine glass, cloth napkin, mug, coffee filter, measuring cup, dish, dish bowl, wooden chopstick, paper towel, cake, drinking glass, oatmeal, rice. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a dish
+raw prompt:is it suitable that a robot places a plate on a table if the plate is placed already?
+no, it is not suitable
+raw prompt:there are some objects, such as snack, cutting board, cloth napkin. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is placed already?
+the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is placed already is a cutting board
+prompt (raw):can a dishwasher make a plate not placed on the table if the plate is placed already?
+no
+prompt (raw):can a coffee maker make a plate not placed on the table if the plate is placed already?
+no
+prompt (raw):can a kettle make a plate not placed on the table if the plate is placed already?
+no
+prompt (raw):can a freezer make a plate not placed on the table if the plate is placed already?
+no
+prompt (raw):can a water filter make a plate not placed on the table if the plate is placed already?
+no
+prompt (raw):can a oven make a plate not placed on the table if the plate is placed already?
+no
+prompt (raw):can a fridge make a plate not placed on the table if the plate is placed already?
+no
+prompt (raw):can a toaster make a plate not placed on the table if the plate is placed already?
+no
+prompt (raw):can a stove make a plate not placed on the table if the plate is placed already?
+no
+raw prompt:there are some objects, such as coffee cup, dish, wooden spoon, bucket, oven tray, mat, kitchen table, snack, condiment bottle, wooden chair, coffee table, measuring cup, cutting board, mug, cutlery fork, rag, dish rack. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is occupied?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is occupied is a wooden chair
+prompt (raw):can a air fryer make a chair available if the chair is occupied?
+no
+prompt (raw):can a blender make a chair available if the chair is occupied?
+no
+prompt (raw):can a fridge make a chair available if the chair is occupied?
+no
+prompt (raw):can a ice cream maker make a chair available if the chair is occupied?
+no
+prompt (raw):can a stove make a chair available if the chair is occupied?
+no
+prompt (raw):can a juicer make a chair available if the chair is occupied?
+no
+prompt (raw):can a kettle make a chair available if the chair is occupied?
+no
+raw prompt:there are some objects, such as nightstand, paper towel, mat, kitchen table, colander, kitchen cabinet, rag, cloth napkin, coffee table, wooden spoon, condiment bottle, dish rack, table cloth, wooden chair, sponge, couch, coffee cup, cutlery fork. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a wooden chair is the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:there are some objects, such as oatmeal, measuring cup, wooden chopstick, paper towel, condiment shaker, ice cream, coffee cup, rice, dish, salt, snack. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is not enough for a person?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is not enough for a person is the o
+prompt (raw):can a stove make a burger enough for a person if the burger is not enough for a person?
+no
+prompt (raw):can a toaster make a burger enough for a person if the burger is not enough for a person?
+no
+prompt (raw):can a washing machine make a burger enough for a person if the burger is not enough for a person?
+no
+prompt (raw):can a dehumidifier make a burger enough for a person if the burger is not enough for a person?
+no
+prompt (raw):can a vacuum cleaner make a burger enough for a person if the burger is not enough for a person?
+no
+prompt (raw):can a water filter make a burger enough for a person if the burger is not enough for a person?
+no
+prompt (raw):can a coffee maker make a burger enough for a person if the burger is not enough for a person?
+no
+prompt (raw):can a oven make a burger enough for a person if the burger is not enough for a person?
+no
+prompt (raw):can a dishwasher make a burger enough for a person if the burger is not enough for a person?
+no
+raw prompt:there are some objects, such as piano bench, wooden spoon, couch, dish rack, kitchen cabinet, mat, wine glass, paper towel, kitchen table, cutting board, desk, bucket, snack, cutlery fork, colander, coffee table, measuring cup, condiment shaker, cloth napkin. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken would be a piano bench
+raw prompt:there are some objects, such as wooden chair, mat, coffee cup, kitchen cabinet, colander, trash can, rag, sponge, condiment bottle, dish rack, couch, bucket, cloth napkin, cleaning bottle, oven tray, cutlery fork, measuring cup, cutting board. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a wooden chair would be the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:there are some objects, such as dish, mat, cutting board, paper towel. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is missing?
+the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is missing would be a cutting board
+raw prompt:there are some objects, such as cloth napkin, coffee filter, sponge, ice cream, wooden chopstick, paper towel, condiment bottle, wooden spoon, peanut butter, snack, oatmeal, steak, cake, dish bowl. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing would be a wooden spoon
+raw prompt:there are some objects, such as coffee table, wooden spoon, measuring cup, kitchen table, cutting board, cleaning bottle, condiment shaker, mat, trash can, dish rack, mug, oven tray, couch, dish bowl, wooden chair, table cloth, coffee filter, snack, sponge, cloth napkin. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken would be a wooden chair
+raw prompt:there are some objects, such as snack, paper towel. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is dirty?
+a paper towel would be the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is dirty
+raw prompt:there are some appliances, such as oven, dishwasher. which is the most possible to make a plate clean if the plate is dirty?
+the most possible way to make a plate clean if the plate is dirty is to use a dishwasher
+raw prompt:there are some objects, such as dish, paper towel. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is missing?
+a paper towel would be the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is missing
+raw prompt:there are some objects, such as dish rack, trash can, coffee filter, cleaning bottle, coffee table, paper towel, wooden chopstick, drinking glass, dish bowl, desk, kitchen cabinet, wooden spoon, couch, cutting board, dish, rag, mat, sponge, measuring cup. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a dish rack would be the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:there are some objects, such as dish, mat, cloth napkin. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is dirty?
+a dish is the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is dirty
+raw prompt:there are some appliances, such as vacuum cleaner, washing machine. which is the most possible to make a plate clean if the plate is dirty?
 the most possible way to make a plate clean is to wash it with soap and water
-raw prompt:is it suitable that a robot finds a chair if the chair slipped?
-a robot can find a chair if the chair slipped, but it may not be able to identify the chair as being slipped
-raw prompt:is it suitable that a robot pulls up a drinking glass?
+raw prompt:there are some objects, such as wooden chopstick, dish rack, mat, bucket, piano bench, dish bowl, coffee cup, nightstand, sponge, coffee table, wooden chair, rag, paper towel, bookshelf, wine glass, coffee filter, cleaning bottle, measuring cup, cutting board, cutlery fork. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a wooden chair is the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:there are some objects, such as cloth napkin, cutting board, salt, mug, condiment bottle, snack, measuring cup, steak, wine glass, peanut butter, wooden chopstick, dish bowl, bread. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a steak
+raw prompt:there are some objects, such as dish, wooden chopstick, wooden spoon, dish bowl, cutlery fork, measuring cup, piano bench, mat, dish rack, nightstand, rag, snack, kitchen cabinet, trash can, coffee cup, colander. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a dish would be the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:there are some objects, such as paper towel, wooden spoon, couch, mat, table cloth, wooden chopstick, wine glass, cutting board, coffee cup, cleaning bottle, kitchen table, kitchen cabinet, oven tray, bookshelf, snack, colander, measuring cup, bucket, piano bench. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a cutting board would be the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:there are some objects, such as sponge, measuring cup, bread, cake, peanut butter, dish, cloth napkin, cutlery fork, condiment shaker, snack, drinking glass. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+a cutlery fork is the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing
+raw prompt:there are some objects, such as wine glass, cutlery fork, rice, ice cream, oatmeal, measuring cup, coffee cup, dish bowl, drinking glass, dish, condiment bottle, bread. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a dish
+raw prompt:there are some objects, such as cake, cutting board, wine glass, dish, condiment shaker, ice cream, snack, sponge, wooden spoon, oatmeal, dish bowl, salt, steak, coffee cup. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing would be a steak knife
+raw prompt:there are some objects, such as oatmeal, drinking glass, cutlery fork, cloth napkin, dish bowl, cutting board, condiment bottle, condiment shaker, salt, wooden spoon, snack, wine glass, ice cream, coffee cup. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a dish bowl
+raw prompt:there are some objects, such as cleaning bottle, dish bowl, bookshelf, dish rack, coffee table, oven tray, cloth napkin, couch, coffee cup, cutlery fork, table cloth, dish, piano bench, kitchen table, mat, wooden chopstick. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a dish rack would be the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:there are some objects, such as oatmeal, dish bowl, salt, dish, condiment bottle, cutlery fork, wooden spoon, coffee cup, rice, ice cream. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing would be a wooden spoon
+raw prompt:there are some objects, such as condiment bottle, coffee filter, oatmeal, dish, drinking glass, ice cream, condiment shaker, snack, wooden chopstick, dish bowl, rice, sponge, measuring cup, cloth napkin, coffee cup, paper towel. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is dirty?
+a fork is the most suitable object to use for eating a burger on a plate
+prompt (raw):can a vacuum cleaner make a fork clean if the fork is dirty?
 yes
-raw prompt:is it suitable that a robot pulls up a coffee cup?
+raw prompt:there are some objects, such as dish rack, bookshelf, trash can, cleaning bottle, coffee filter, dish bowl, paper towel, coffee cup, wooden spoon, condiment shaker, bucket, cloth napkin, table cloth, coffee table, cutlery fork, rag, kitchen cabinet, couch, piano bench. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a dish rack would be the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:there are some objects, such as dish rack, condiment bottle, coffee cup, piano bench, wooden chair, nightstand, coffee filter, cloth napkin, dish bowl, wooden chopstick, measuring cup, trash can, kitchen table, wine glass, oven tray, mat, cleaning bottle. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is missing?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is missing would be a wooden chair
+raw prompt:there are some objects, such as rice, ice cream, dish bowl, dish, snack, cutting board, mug, condiment bottle, wine glass, drinking glass, sponge, wooden spoon. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+a dish would be the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing
+raw prompt:there are some objects, such as cloth napkin, condiment shaker, peanut butter, measuring cup, coffee filter, bread, paper towel, rice, condiment bottle, wine glass, oatmeal, wooden chopstick, coffee cup. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is dirty?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is dirty would be a wooden chopstick
+prompt (raw):can a juicer make a fork clean if the fork is dirty?
+no
+prompt (raw):can a dishwasher make a fork clean if the fork is dirty?
 yes
-raw prompt:is it suitable that a robot pulls up a wooden chopstick?
+raw prompt:there are some objects, such as dish, paper towel, wooden chopstick, bucket, drinking glass, wooden spoon, measuring cup, rag, colander, sponge, cutting board, condiment shaker, wine glass, piano bench, table cloth, trash can, cloth napkin, coffee filter. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken would be a wooden spoon
+raw prompt:there are some objects, such as sponge, colander, dish rack, cloth napkin, piano bench, drinking glass, mat, paper towel, wooden chopstick, couch, coffee cup, dish bowl, coffee table, wooden chair, wine glass, bookshelf, snack, kitchen table, dish, mug. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a wooden chair is the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:there are some objects, such as wine glass, paper towel, cutting board, condiment bottle, measuring cup, dish rack, drinking glass, kitchen table, cutlery fork, desk, coffee filter, bookshelf, coffee table, mug, table cloth, wooden chopstick, sponge, snack, nightstand. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is occupied?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is occupied is a stool
+prompt (raw):can a microwave make a chair available if the chair is occupied?
+no
+raw prompt:there are some objects, such as peanut butter, condiment bottle, cake, coffee filter, wooden chopstick, snack, cloth napkin, mug, drinking glass, measuring cup, wooden spoon, paper towel, steak, rice. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing would be a wooden chopstick
+raw prompt:there are some objects, such as cloth napkin, cake, drinking glass, dish, cutlery fork, wooden spoon, snack, dish bowl, mug, measuring cup, salt, coffee cup, paper towel, condiment bottle, bread. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+a wooden spoon would be the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing
+raw prompt:there are some objects, such as dish, coffee table, desk, trash can, bucket, snack, kitchen cabinet, wooden chopstick, colander, rag, drinking glass, mat, dish rack, sponge, cutting board, kitchen table, mug. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is missing?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is missing would be a kitchen table
+prompt (raw):can a freezer make a chair found if the chair is missing?
+no
+prompt (raw):can a water filter make a chair found if the chair is missing?
+no
+prompt (raw):can a microwave make a chair found if the chair is missing?
+no
+raw prompt:there are some objects, such as peanut butter, coffee filter, salt, wooden chopstick, wine glass, snack, cutlery fork, sponge, coffee cup, wooden spoon, bread. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a wooden spoon
+raw prompt:there are some objects, such as oatmeal, condiment bottle, coffee cup, wooden chopstick, rice, cake, drinking glass, steak, mug, paper towel, measuring cup, peanut butter. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a steak
+raw prompt:there are some objects, such as condiment shaker, peanut butter, steak, cake, bread, wine glass, wooden chopstick, cloth napkin, wooden spoon, salt, dish, snack, cutting board, dish bowl. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing would be a steak
+raw prompt:is it suitable that a robot finds a table if the table is dirty?
+no, it is not suitable for a robot to find a table if the table is dirty
+raw prompt:is it suitable that a robot walks to a cupboard?
 yes
-raw prompt:is it suitable that a robot pulls up a colander?
+raw prompt:is it suitable that a robot moves a plate near a cupboard?
 yes
-raw prompt:is it suitable that a robot pulls up a cooking pot?
-no
-raw prompt:is it suitable that a robot pulls up a bread?
+raw prompt:is it suitable that a robot places a plate on a cupboard?
 yes
-raw prompt:is it suitable that a robot pulls up a bucket?
+raw prompt:is it suitable that a robot walks to a piano bench?
 yes
-raw prompt:is it suitable that a robot pulls up a mat?
+raw prompt:is it suitable that a robot moves a plate near a piano bench?
 yes
-raw prompt:is it suitable that a robot pulls up a steak?
+raw prompt:is it suitable that a robot places a plate on a piano bench?
 no
-raw prompt:is it suitable that a robot pulls up a cutlery knife?
-no
-raw prompt:is it suitable that a robot pulls up a measuring cup?
+raw prompt:is it suitable that a robot walks to a chef knife?
 yes
-raw prompt:is it suitable that a robot pulls up a dish bowl?
+raw prompt:is it suitable that a robot moves a plate near a chef knife?
+no
+raw prompt:is it suitable that a robot walks to a pantry?
 yes
-raw prompt:is it suitable that a robot pulls up a cake?
-no
-raw prompt:is it suitable that a robot pulls up a oatmeal?
-no
-raw prompt:is it suitable that a robot pulls up a chef knife?
-no
-raw prompt:is it suitable that a robot pulls up a mug?
+raw prompt:is it suitable that a robot moves a plate near a pantry?
 yes
-raw prompt:is it suitable that a robot pulls up a cutting board?
+raw prompt:is it suitable that a robot places a plate on a pantry?
 yes
-raw prompt:is it suitable that a robot pulls up a noodles?
-no
-raw prompt:is it suitable that a robot pulls up a cloth napkin?
+raw prompt:is it suitable that a robot walks to a frying pan?
 yes
-raw prompt:is it suitable that a robot pulls up a cutlery fork?
+raw prompt:is it suitable that a robot moves a plate near a frying pan?
 yes
-raw prompt:is it suitable that a robot pulls up a oven tray?
+raw prompt:is it suitable that a robot places a plate on a frying pan?
+no
+raw prompt:is it suitable that a robot walks to a dish?
 yes
-raw prompt:is it suitable that a robot pulls up a paper towel?
+raw prompt:is it suitable that a robot moves a plate near a dish?
 yes
-raw prompt:there are some objects, such as drinking glass, coffee cup, wooden chopstick, colander, bread, bucket, mat, measuring cup, dish bowl, mug, cutting board, cloth napkin, cutlery fork, oven tray, paper towel. which is the most suitable to replace a chair in the task of eating dinner if the chair slipped?
-the most suitable object to replace a chair in the task of eating dinner if the chair slipped would be a stool
-prompt (raw):can a vacuum cleaner make a chair not slipped if the chair slipped?
-no
-prompt (raw):can a fridge make a chair not slipped if the chair slipped?
-no
-prompt (raw):can a blender make a chair not slipped if the chair slipped?
-no
-prompt (raw):can a microwave make a chair not slipped if the chair slipped?
-no
-prompt (raw):can a coffee maker make a chair not slipped if the chair slipped?
-no
-prompt (raw):can a toaster make a chair not slipped if the chair slipped?
-no
-prompt (raw):can a dehumidifier make a chair not slipped if the chair slipped?
-no
-prompt (raw):can a ice cream maker make a chair not slipped if the chair slipped?
-no
-prompt (raw):can a water filter make a chair not slipped if the chair slipped?
-no
-raw prompt:is it suitable that a robot finds a burger if the burger is missing?
-no, it is not suitable
-raw prompt:is it suitable that a robot finds a fork if the fork is missing?
-no, it is not suitable
-raw prompt:is it suitable that a robot finds a chair if the chair is broken?
-no, it is not suitable
-raw prompt:is it suitable that a robot pulls up a wine glass?
+raw prompt:is it suitable that a robot places a plate on a dish?
 yes
-raw prompt:is it suitable that a robot pulls up a desk?
+raw prompt:is it suitable that a robot walks to a mug?
 yes
-raw prompt:is it suitable that a robot pulls up a cabinet?
+raw prompt:is it suitable that a robot moves a plate near a mug?
 yes
-raw prompt:is it suitable that a robot pulls up a sauce?
+raw prompt:is it suitable that a robot places a plate on a mug?
 no
-raw prompt:is it suitable that a robot pulls up a wooden spoon?
+raw prompt:is it suitable that a robot walks to a rag?
 yes
-raw prompt:is it suitable that a robot pulls up a nightstand?
+raw prompt:is it suitable that a robot moves a plate near a rag?
 yes
-raw prompt:is it suitable that a robot pulls up a rice?
+raw prompt:is it suitable that a robot places a plate on a rag?
 no
-raw prompt:is it suitable that a robot pulls up a oil?
-no
-raw prompt:is it suitable that a robot pulls up a filing cabinet?
+raw prompt:is it suitable that a robot walks to a snack?
 yes
-raw prompt:is it suitable that a robot pulls up a cupboard?
-no
-raw prompt:is it suitable that a robot pulls up a kitchen counter?
-no
-raw prompt:is it suitable that a robot pulls up a piano bench?
+raw prompt:is it suitable that a robot moves a plate near a snack?
 yes
-raw prompt:is it suitable that a robot pulls up a frying pan?
-no
-raw prompt:is it suitable that a robot pulls up a dish rack?
+raw prompt:is it suitable that a robot places a plate on a snack?
 yes
-raw prompt:is it suitable that a robot pulls up a wooden chair?
+raw prompt:is it suitable that a robot walks to a cutlery fork?
 yes
-raw prompt:is it suitable that a robot pulls up a condiment bottle?
+raw prompt:is it suitable that a robot moves a plate near a cutlery fork?
 yes
-raw prompt:is it suitable that a robot pulls up a table cloth?
+raw prompt:is it suitable that a robot places a plate on a cutlery fork?
+no
+raw prompt:is it suitable that a robot walks to a salt?
 yes
-raw prompt:is it suitable that a robot pulls up a cpu table?
-no
-raw prompt:is it suitable that a robot pulls up a pantry?
-no
-raw prompt:is it suitable that a robot pulls up a kitchen table?
+raw prompt:is it suitable that a robot moves a plate near a salt?
 yes
-raw prompt:there are some objects, such as wine glass, desk, cabinet, oven tray, wooden spoon, nightstand, filing cabinet, piano bench, drinking glass, measuring cup, dish rack, wooden chair, bread, cutting board, condiment bottle, table cloth, bucket, kitchen table. which is the most suitable to replace a chair in the task of eating dinner if the chair is broken?
-the most suitable object to replace a chair in the task of eating dinner if the chair is broken would be a wooden chair
-prompt (raw):can a air fryer make a chair unbroken if the chair is broken?
+raw prompt:is it suitable that a robot places a plate on a salt?
 no
-prompt (raw):can a dehumidifier make a chair unbroken if the chair is broken?
+raw prompt:is it suitable that a robot walks to a dish bowl?
+yes
+raw prompt:is it suitable that a robot moves a plate near a dish bowl?
+yes
+raw prompt:is it suitable that a robot places a plate on a dish bowl?
+yes
+raw prompt:is it suitable that a robot walks to a cutting board?
+yes
+raw prompt:is it suitable that a robot moves a plate near a cutting board?
+yes
+raw prompt:is it suitable that a robot places a plate on a cutting board?
+yes
+raw prompt:is it suitable that a robot walks to a sauce?
+yes
+raw prompt:is it suitable that a robot moves a plate near a sauce?
+yes
+raw prompt:is it suitable that a robot places a plate on a sauce?
 no
-prompt (raw):can a ice cream maker make a chair unbroken if the chair is broken?
+raw prompt:is it suitable that a robot walks to a trash can?
+yes
+raw prompt:is it suitable that a robot moves a plate near a trash can?
+yes
+raw prompt:is it suitable that a robot places a plate on a trash can?
 no
-prompt (raw):can a water filter make a chair unbroken if the chair is broken?
+raw prompt:is it suitable that a robot walks to a bookshelf?
+yes
+raw prompt:is it suitable that a robot moves a plate near a bookshelf?
+yes
+raw prompt:is it suitable that a robot places a plate on a bookshelf?
 no
-prompt (raw):can a oven make a chair unbroken if the chair is broken?
+raw prompt:is it suitable that a robot walks to a noodles?
 no
-prompt (raw):can a dishwasher make a chair unbroken if the chair is broken?
+raw prompt:is it suitable that a robot walks to a wooden chair?
+yes
+raw prompt:is it suitable that a robot moves a plate near a wooden chair?
+yes
+raw prompt:is it suitable that a robot places a plate on a wooden chair?
+yes
+raw prompt:is it suitable that a robot walks to a dish rack?
+yes
+raw prompt:is it suitable that a robot moves a plate near a dish rack?
+yes
+raw prompt:is it suitable that a robot places a plate on a dish rack?
+yes
+raw prompt:is it suitable that a robot walks to a oatmeal?
 no
-prompt (raw):can a freezer make a chair unbroken if the chair is broken?
+raw prompt:is it suitable that a robot walks to a coffee table?
+yes
+raw prompt:is it suitable that a robot moves a plate near a coffee table?
+yes
+raw prompt:is it suitable that a robot places a plate on a coffee table?
+yes
+raw prompt:is it suitable that a robot walks to a kitchen counter?
+yes
+raw prompt:is it suitable that a robot moves a plate near a kitchen counter?
+yes
+raw prompt:is it suitable that a robot places a plate on a kitchen counter?
+yes
+raw prompt:is it suitable that a robot walks to a measuring cup?
+yes
+raw prompt:is it suitable that a robot moves a plate near a measuring cup?
+yes
+raw prompt:is it suitable that a robot places a plate on a measuring cup?
 no
-prompt (raw):can a microwave make a chair unbroken if the chair is broken?
+raw prompt:is it suitable that a robot walks to a kitchen cabinet?
+yes
+raw prompt:is it suitable that a robot moves a plate near a kitchen cabinet?
+yes
+raw prompt:is it suitable that a robot places a plate on a kitchen cabinet?
+yes
+raw prompt:is it suitable that a robot walks to a table cloth?
+yes
+raw prompt:is it suitable that a robot moves a plate near a table cloth?
+yes
+raw prompt:is it suitable that a robot places a plate on a table cloth?
+yes
+raw prompt:is it suitable that a robot walks to a mat?
+yes
+raw prompt:is it suitable that a robot moves a plate near a mat?
+yes
+raw prompt:is it suitable that a robot places a plate on a mat?
+yes
+raw prompt:is it suitable that a robot walks to a condiment bottle?
+yes
+raw prompt:is it suitable that a robot moves a plate near a condiment bottle?
+yes
+raw prompt:is it suitable that a robot places a plate on a condiment bottle?
 no
-prompt (raw):can a coffee maker make a chair unbroken if the chair is broken?
+raw prompt:is it suitable that a robot walks to a pasta?
+no
+raw prompt:is it suitable that a robot walks to a cooking pot?
+yes
+raw prompt:is it suitable that a robot moves a plate near a cooking pot?
+yes
+raw prompt:is it suitable that a robot places a plate on a cooking pot?
+no
+raw prompt:is it suitable that a robot walks to a bucket?
+yes
+raw prompt:is it suitable that a robot moves a plate near a bucket?
+yes
+raw prompt:is it suitable that a robot places a plate on a bucket?
+no
+raw prompt:there are some objects, such as cupboard, pantry, dish, snack, dish bowl, cutting board, wooden chair, dish rack, coffee table, kitchen counter, kitchen cabinet, table cloth, mat. which is the most suitable to replace a table in the task of eating a burger on a plate if the table is dirty?
+a cutting board would be the most suitable object to replace a table in the task of eating a burger on a plate if the table is dirty
+prompt (raw):can a ice cream maker make a table clean if the table is dirty?
+no
+prompt (raw):can a fridge make a table clean if the table is dirty?
+no
+prompt (raw):can a juicer make a table clean if the table is dirty?
+no
+prompt (raw):can a water boiler make a table clean if the table is dirty?
+no
+prompt (raw):can a kettle make a table clean if the table is dirty?
+no
+prompt (raw):can a stove make a table clean if the table is dirty?
+no
+prompt (raw):can a vacuum cleaner make a table clean if the table is dirty?
+yes
+prompt (raw):can a toaster make a table clean if the table is dirty?
+no
+prompt (raw):can a air fryer make a table clean if the table is dirty?
+no
+raw prompt:there are some objects, such as dish, colander, wooden chopstick, dish rack, couch, wooden spoon, cutlery fork, trash can, measuring cup, condiment shaker, nightstand, coffee cup, condiment bottle, drinking glass, rag, cloth napkin, piano bench, cleaning bottle. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken would be a dish
+raw prompt:there are some objects, such as snack, mat. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is missing?
+a mat would be the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is missing
+raw prompt:there are some objects, such as coffee filter, sponge, dish bowl, measuring cup, bread, coffee cup, cloth napkin, wine glass, rice, oatmeal, steak. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing would be a coffee cup
+raw prompt:there are some objects, such as cloth napkin, drinking glass, rice, wine glass, coffee cup, measuring cup, dish bowl, cake, wooden spoon, coffee filter, oatmeal, paper towel, bread, mug. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger spills?
+a paper towel would be the most suitable object to replace a burger in the task of eating a burger on a plate if the burger spills
+prompt (raw):can a dishwasher make a ground clea if the burger spills?
+no
+prompt (raw):can a blender make a ground clea if the burger spills?
+no
+prompt (raw):can a fridge make a ground clea if the burger spills?
+no
+prompt (raw):can a vacuum cleaner make a ground clea if the burger spills?
+yes
+raw prompt:there are some objects, such as trash can, table cloth, paper towel, coffee table, bookshelf, snack, kitchen cabinet, cutting board, oven tray, dish, kitchen table, colander, sponge, bucket, couch, coffee cup, wooden chair. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is occupied?
+a wooden chair is the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is occupied
+prompt (raw):can a dehumidifier make a chair available if the chair is occupied?
+no
+raw prompt:there are some objects, such as measuring cup, condiment bottle, mug, wooden chopstick, cutting board, wooden spoon, kitchen cabinet, drinking glass, dish, rag, condiment shaker, cleaning bottle, sponge, bucket, bookshelf, couch, wine glass, cutlery fork. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is dirty?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is dirty would be a cutting board
+prompt (raw):can a washing machine make a chair clean if the chair is dirty?
+no
+prompt (raw):can a vacuum cleaner make a chair clean if the chair is dirty?
+yes
+prompt (raw):can a water boiler make a chair clean if the chair is dirty?
+no
+raw prompt:there are some objects, such as wooden chopstick, condiment bottle, rag, cutting board, snack, kitchen table, mug, wine glass, couch, dish rack, table cloth, coffee cup, wooden spoon, cleaning bottle, wooden chair, condiment shaker, cutlery fork, coffee filter, cloth napkin. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken would be a wooden chair
+raw prompt:there are some objects, such as paper towel, dish bowl, ice cream, bread, measuring cup, cutting board, dish, sponge, wooden spoon, condiment shaker, oatmeal, salt, rice, wine glass. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is missing?
+the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is missing would be a spoon
+raw prompt:there are some objects, such as cutting board, cloth napkin, mug, salt, cake, snack, sponge, coffee filter, condiment shaker, wooden chopstick, condiment bottle, wine glass, oatmeal, rice. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is missing?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is missing is a cutting board
+raw prompt:there are some objects, such as cutting board, snack, dish. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is missing?
+a cutting board would be the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is missing
+raw prompt:there are some objects, such as drinking glass, condiment bottle, paper towel, table cloth, wooden chair, cutlery fork, coffee table, snack, bookshelf, mug, sponge, kitchen table, rag, kitchen cabinet, cleaning bottle, colander, condiment shaker. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is dirty?
+a wooden chair is the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is dirty
+prompt (raw):can a dishwasher make a chair clean if the chair is dirty?
+no
+raw prompt:there are some objects, such as sponge, steak, wooden spoon, rice, paper towel, cloth napkin, coffee filter, peanut butter, snack, dish bowl, wooden chopstick, dish, cutting board, cutlery fork. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is broken?
+a wooden chopstick would be the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is broken
+prompt (raw):can a oven make a fork unbroken if the fork is broken?
+no
+prompt (raw):can a microwave make a fork unbroken if the fork is broken?
+no
+prompt (raw):can a kettle make a fork unbroken if the fork is broken?
+no
+prompt (raw):can a coffee maker make a fork unbroken if the fork is broken?
+no
+prompt (raw):can a air fryer make a plate clean if the plate is dirty?
+no
+raw prompt:there are some appliances, such as vacuum cleaner, dishwasher, washing machine. which is the most possible to make a plate clean if the plate is dirty?
+the most possible way to make a plate clean if the plate is dirty is to use a dishwasher
+raw prompt:there are some objects, such as mat, paper towel, cutting board, cloth napkin. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is dirty?
+a paper towel would be the most suitable object to replace a plate in the task of eating a burger on a plate if the plate is dirty
+raw prompt:there are some objects, such as dish, dish bowl, colander, mug, wooden chair, condiment bottle, drinking glass, condiment shaker, wooden spoon, wooden chopstick, rag, cleaning bottle, couch. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is occupied?
+the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is occupied is a wooden spoon
+raw prompt:there are some objects, such as wooden chopstick, piano bench, bucket, cleaning bottle, rag, coffee table, couch, dish rack, snack, cutting board, kitchen cabinet, table cloth, drinking glass, dish bowl, wooden chair, oven tray, coffee cup, paper towel, sponge, desk. which is the most suitable to replace a chair in the task of eating a burger on a plate if the chair is broken?
+a wooden chair is the most suitable object to replace a chair in the task of eating a burger on a plate if the chair is broken
+raw prompt:there are some objects, such as snack, steak, salt, cake, drinking glass, mug, dish, oatmeal, wine glass, condiment bottle, measuring cup. which is the most suitable to replace a fork in the task of eating a burger on a plate if the fork is dirty?
+a steak knife would be the most suitable object to replace a fork in the task of eating a burger on a plate if the fork is dirty
+prompt (raw):can a ice cream maker make a fork clean if the fork is dirty?
+no
+raw prompt:there are some objects, such as dish, cutting board. which is the most suitable to replace a plate in the task of eating a burger on a plate if the plate is dirty?
+a dish or cutting board would be the most suitable replacements for a plate if the plate is dirty
+raw prompt:there are some appliances, such as washing machine, dishwasher. which is the most possible to make a plate clean if the plate is dirty?
+the most likely appliance to make a plate clean if the plate is dirty is the dishwasher
+raw prompt:there are some objects, such as drinking glass, rice, sponge, wine glass, oatmeal, cloth napkin, steak, cutlery fork, snack, ice cream, measuring cup, paper towel, dish, condiment bottle, wooden spoon. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger is overcooked?
+a paper towel would be the most suitable object to replace a burger in the task of eating a burger on a plate if the burger is overcooked
+prompt (raw):can a coffee maker make a burger well-cooked if the burger is overcooked?
+no
+prompt (raw):can a dishwasher make a burger well-cooked if the burger is overcooked?
+no
+prompt (raw):can a juicer make a burger well-cooked if the burger is overcooked?
+no
+prompt (raw):can a water filter make a burger well-cooked if the burger is overcooked?
+no
+prompt (raw):can a ice cream maker make a burger well-cooked if the burger is overcooked?
+no
+raw prompt:is it suitable that a robot walks to a rice?
+no
+raw prompt:is it suitable that a robot walks to a cake?
+yes
+raw prompt:is it suitable that a robot moves a plate near a cake?
+yes
+raw prompt:is it suitable that a robot places a plate on a cake?
+yes
+raw prompt:is it suitable that a robot walks to a coffee filter?
+yes
+raw prompt:is it suitable that a robot moves a plate near a coffee filter?
+yes
+raw prompt:is it suitable that a robot places a plate on a coffee filter?
+no
+raw prompt:is it suitable that a robot walks to a cutlery knife?
+yes
+raw prompt:is it suitable that a robot moves a plate near a cutlery knife?
+yes
+raw prompt:is it suitable that a robot places a plate on a cutlery knife?
+no
+raw prompt:is it suitable that a robot walks to a peanut butter?
+no
+raw prompt:is it suitable that a robot walks to a ice cream?
+no
+raw prompt:is it suitable that a robot walks to a couch?
+yes
+raw prompt:is it suitable that a robot moves a plate near a couch?
+yes
+raw prompt:is it suitable that a robot places a plate on a couch?
+no
+raw prompt:is it suitable that a robot walks to a colander?
+yes
+raw prompt:is it suitable that a robot moves a plate near a colander?
+yes
+raw prompt:is it suitable that a robot places a plate on a colander?
+yes
+raw prompt:is it suitable that a robot walks to a wooden chopstick?
+yes
+raw prompt:is it suitable that a robot moves a plate near a wooden chopstick?
+yes
+raw prompt:is it suitable that a robot places a plate on a wooden chopstick?
+no
+raw prompt:is it suitable that a robot walks to a sponge?
+yes
+raw prompt:is it suitable that a robot moves a plate near a sponge?
+yes
+raw prompt:is it suitable that a robot places a plate on a sponge?
+yes
+raw prompt:is it suitable that a robot walks to a nightstand?
+yes
+raw prompt:is it suitable that a robot moves a plate near a nightstand?
+yes
+raw prompt:is it suitable that a robot places a plate on a nightstand?
+yes
+raw prompt:is it suitable that a robot walks to a paper towel?
+yes
+raw prompt:is it suitable that a robot moves a plate near a paper towel?
+yes
+raw prompt:is it suitable that a robot places a plate on a paper towel?
+yes
+raw prompt:there are some objects, such as cutting board, condiment bottle, bread, drinking glass, cake, dish, paper towel, measuring cup, wine glass, cutlery fork, snack, ice cream. which is the most suitable to replace a burger in the task of eating a burger on a plate if the burger spills?
+the most suitable object to replace a burger in the task of eating a burger on a plate if the burger spills is a cutting board
+prompt (raw):can a kettle make a ground clea if the burger spills?
+no
+prompt (raw):can a stove make a ground clea if the burger spills?
+no
+prompt (raw):can a toaster make a ground clea if the burger spills?
 no

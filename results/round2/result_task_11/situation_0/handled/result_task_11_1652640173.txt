@@ -1,0 +1,126 @@
+before running, all old files have been removed.
+
+setting:1
+
+#---------- generating basic plan! -----------
+(find_table rob table dining)
+(walk_table rob table dining)
+(find_chair rob chair_0 dining)
+(pull_chair rob chair_0 dining)
+(walk rob dining kitchen)
+(find_plate rob plate_0 kitchen)
+(grasp_plate rob plate_0 kitchen)
+(move_plate rob plate_0 kitchen table dining)
+(place_plate rob plate_0 table dining)
+(walk rob dining kitchen)
+(find_burger rob burger_1 kitchen)
+(find_fork rob fork_1 kitchen)
+(grasp_burger rob burger_1 kitchen)
+(move_burger rob burger_1 kitchen plate_0 dining)
+(place_burger rob burger_1 plate_0 dining)
+(walk rob dining kitchen)
+(grasp_fork rob fork_1 kitchen)
+(move_fork rob fork_1 kitchen plate_0 dining)
+(place_fork rob fork_1 plate_0 dining)
+; cost = 19 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 0
+situation: the chair_0 is broken.
+action corresponding to situation: find_chair
+corresponding predicate: chair_is_broken
+object manipulated by robot: chair_0
+object in situation: chair_0
+
+#---------- executing plan! -----------
+action: ['find_table', 'rob', 'table', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk_table', 'rob', 'table', 'dining']
+action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+action: ['find_chair', 'rob', 'chair_0', 'dining']
+action (decoded): a robot finds a chair in dining room.
+
+#---------- checking unexecuted actions! -----------
+['find_chair', 'rob', 'chair_0', 'dining']
+['pull_chair', 'rob', 'chair_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['find_plate', 'rob', 'plate_0', 'kitchen']
+['grasp_plate', 'rob', 'plate_0', 'kitchen']
+['move_plate', 'rob', 'plate_0', 'kitchen', 'table', 'dining']
+['place_plate', 'rob', 'plate_0', 'table', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['find_burger', 'rob', 'burger_1', 'kitchen']
+['find_fork', 'rob', 'fork_1', 'kitchen']
+['grasp_burger', 'rob', 'burger_1', 'kitchen']
+['move_burger', 'rob', 'burger_1', 'kitchen', 'plate_0', 'dining']
+['place_burger', 'rob', 'burger_1', 'plate_0', 'dining']
+['walk', 'rob', 'dining', 'kitchen']
+['grasp_fork', 'rob', 'fork_1', 'kitchen']
+['move_fork', 'rob', 'fork_1', 'kitchen', 'plate_0', 'dining']
+['place_fork', 'rob', 'fork_1', 'plate_0', 'dining']
+
+unexecuted action: ['find_chair', 'rob', 'chair_0', 'dining']
+unexecuted action (decoded): a robot finds a chair in dining room.
+! prompt design
+raw prompt: is it suitable that a robot finds a chair if the chair is broken?
+! experience found
+! response from LLM
+response (raw prompt): no, it is not suitable
+#---------- action can be executed! -----------
+
+unexecuted action: ['pull_chair', 'rob', 'chair_0', 'dining']
+unexecuted action (decoded): a robot pulls up a chair in dining room.
+! prompt design
+raw prompt: is it suitable that a robot pulls up a chair if the chair is broken?
+! experience found
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to pull up a chair if the chair is broken
+#---------- action can be executed! -----------
+
+unexecuted action: ['find_plate', 'rob', 'plate_0', 'kitchen']
+unexecuted action (decoded): a robot finds a plate in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot finds a plate if the chair is broken?
+! response from LLM
+response (raw prompt): ['no, it is not suitable for a robot to find a plate if the chair is broken']
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+(find_table rob table dining)
+(walk_table rob table dining)
+(find_chair rob chair_1 dining)
+(pull_chair rob chair_1 dining)
+(walk rob dining kitchen)
+(find_plate rob plate_0 kitchen)
+(grasp_plate rob plate_0 kitchen)
+(move_plate rob plate_0 kitchen table dining)
+(place_plate rob plate_0 table dining)
+(walk rob dining kitchen)
+(find_burger rob burger_1 kitchen)
+(find_fork rob fork_1 kitchen)
+(grasp_burger rob burger_1 kitchen)
+(move_burger rob burger_1 kitchen plate_0 dining)
+(place_burger rob burger_1 plate_0 dining)
+(walk rob dining kitchen)
+(grasp_fork rob fork_1 kitchen)
+(move_fork rob fork_1 kitchen plate_0 dining)
+(place_fork rob fork_1 plate_0 dining)
+; cost = 19 (unit cost)

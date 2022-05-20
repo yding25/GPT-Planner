@@ -1,0 +1,299 @@
+before running, all old files have been removed.
+
+setting:0
+
+#---------- generating basic plan! -----------
+(walk rob kitchen dining)
+(find_table rob table dining)
+(walk_table rob table dining)
+(grasp_plate rob plate dining)
+(walk rob dining kitchen)
+(walk_sink rob sink_1 plate kitchen)
+(place_plate rob plate dining)
+; cost = 7 (unit cost)
+
+#---------- generating situation! -----------
+situation index: 0
+situation: the sink_1 is full.
+action corresponding to situation: walk_sink
+corresponding predicate: sink_is_full
+object manipulated by robot: sink_1
+object in situation: sink_1
+
+#---------- executing plan! -----------
+action: ['walk', 'rob', 'kitchen', 'dining']
+action (decoded): a robot walks from kitchen room to dining room.
+this action is executed!
+
+action: ['find_table', 'rob', 'table', 'dining']
+action (decoded): a robot finds a table in dining room.
+this action is executed!
+
+action: ['walk_table', 'rob', 'table', 'dining']
+action (decoded): a robot walks to a table in dining room.
+this action is executed!
+
+action: ['grasp_plate', 'rob', 'plate', 'dining']
+action (decoded): a robot grasps a plate in dining room.
+this action is executed!
+
+action: ['walk', 'rob', 'dining', 'kitchen']
+action (decoded): a robot walks from dining room to kitchen room.
+this action is executed!
+
+action: ['walk_sink', 'rob', 'sink_1', 'plate', 'kitchen']
+action (decoded): a robot walks to a sink in kitchen room.
+
+#---------- checking unexecuted actions! -----------
+['walk_sink', 'rob', 'sink_1', 'plate', 'kitchen']
+['place_plate', 'rob', 'plate', 'dining']
+
+unexecuted action: ['walk_sink', 'rob', 'sink_1', 'plate', 'kitchen']
+unexecuted action (decoded): a robot walks to a sink in kitchen room.
+! prompt design
+raw prompt: is it suitable that a robot walks to a sink if the sink is full?
+! response from LLM
+response (raw prompt): no, it is not suitable for a robot to walk to a sink if the sink is full
+#---------- current plan cannot be executed! -----------
+
+#---------- adding constraint -----------
+! step 1: supplement constraint to action precondition
+step 1 is done!
+! step 2: supplement action's parameter
+step 2 is skipped!
+! step 3: supplement type
+step 3 is skipped!
+! step 4: supplement predicates
+step 4 is done!
+! step 5: supplement init
+step 5 is done!
+! step 6: supplement object
+step 6 is skipped!
+
+#---------- generating modified_plan_1! -----------
+#---------- no modified_plan_1 found! -----------
+
+
+#---------- call llm_object -----------
+#---------- object that robot can operate: ----------
+ ['chef knife', 'colander', 'condiment shaker', 'cutting board', 'mug', 'mat', 'rag', 'cloth napkin', 'oven tray', 'frying pan', 'sponge', 'condiment bottle', 'paper towel', 'trash can']
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a chef knife?
+answer:
+['yes\n\nis it suitable that a robot walks to a cup?\nanswer: no']
+[0.7029594551675538]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a colander?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7545864187150302]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a condiment shaker?
+answer:
+['yes\n\nis it suitable that a robot walks to a cat?\nanswer: no']
+[0.7150397520962082]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a cutting board?
+answer:
+['yes\n\nis it suitable that a robot walks to a sink?\nanswer: yes']
+[0.5785993390409457]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a mug?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7512851717161182]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a mat?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7378784613600917]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a rag?
+answer:
+['yes\n\nis it suitable that a robot walks to a cat?\nanswer: no']
+[0.7494622619443093]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a cloth napkin?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7276136866889108]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a oven tray?
+answer:
+['yes\n\nis it suitable that a robot walks to a cat?\nanswer: no']
+[0.7534637543992875]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a frying pan?
+answer:
+['yes\n\nis it suitable that a robot walks to a cup?\nanswer: no']
+[0.751769652646959]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a sponge?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7379073395483235]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a condiment bottle?
+answer:
+['yes\n\nis it suitable that a robot walks to a cat?\nanswer: no']
+[0.7219402966278846]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a paper towel?
+answer:
+['yes\n\nis it suitable that a robot walks to a cat?\nanswer: no']
+[0.7646981818439054]
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+raw prompt: is it suitable that a robot walks to a trash can?
+answer:
+['yes\n\nis it suitable that a robot walks to a table?\nanswer: no']
+[0.7290179663075693]
+! results from LLM
+response (raw prompt): yes
+
+#---------- capable_objects: ----------
+ ['chef knife', 'colander', 'condiment shaker', 'cutting board', 'mug', 'mat', 'rag', 'cloth napkin', 'oven tray', 'frying pan', 'sponge', 'condiment bottle', 'paper towel', 'trash can']
+
+! prompt design
+raw prompt: there are some objects, such as chef knife, colander, condiment shaker, cutting board, mug, mat, rag, cloth napkin, oven tray, frying pan, sponge, condiment bottle, paper towel, trash can. which is the most suitable to replace a sink in the task of putting a dirty plate in a sink if the sink is full?
+! results from LLM
+response (raw prompt): the most suitable object to replace a sink in the task of putting a dirty plate in a sink if the sink is full is a trash can
+
+#---------- most possible object: ---------- 
+ trash can
+
+#---------- add effect -----------
+! step 1: supplement object
+step 1 is done.
+! step 2: supplement init
+step 2 is done.
+! step 3: change goal
+step 3 is done.
+
+#---------- generating modified_plan_2! -----------
+
+#---------- call llm_appliance -----------
+appliance that robot can operate: ['coffee maker', 'toaster', 'freezer', 'dishwasher', 'oven', 'washing machine', 'blender', 'air fryer', 'ice cream maker']
+
+! prompt design
+prompt (raw): can a coffee maker make a sink empty if the sink is full? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a toaster make a sink empty if the sink is full? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a freezer make a sink empty if the sink is full? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a dishwasher make a sink empty if the sink is full? 
+answer:
+! results from LLM
+response (raw prompt): yes
+
+! prompt design
+prompt (raw): can a oven make a sink empty if the sink is full? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a washing machine make a sink empty if the sink is full? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a blender make a sink empty if the sink is full? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a air fryer make a sink empty if the sink is full? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+! prompt design
+prompt (raw): can a ice cream maker make a sink empty if the sink is full? 
+answer:
+! results from LLM
+response (raw prompt): no
+
+capable appliances: ['dishwasher']
+
+#---------- most possible appliance:
+ dishwasher
+
+#---------- add effect -----------
+! step 1: add effect
+step 1 is done.
+! step 2: add parameter
+step 2 is done.
+! step 3: supplement init
+step 3 is done.
+! step 4: supplement object
+step 4 is done.
+
+#---------- modified_plan_3! exists -----------
+
+#---------- solution -----------
+both modified_plan_2 and modified_plan_3 exist.
+randomly select modified_plan_2
+
+(walk rob kitchen dining)
+(find_table rob table dining)
+(walk_table rob table dining)
+(grasp_plate rob plate dining)
+(walk rob dining kitchen)
+(walk_sink rob trash_can_1 plate kitchen)
+(place_plate rob plate dining)
+; cost = 7 (unit cost)
