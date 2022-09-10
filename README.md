@@ -34,4 +34,4 @@ task = {
 task_name = task[task_id]
 ```
 
-* `python main`
+* `python main.py`
