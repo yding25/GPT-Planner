@@ -1,7 +1,7 @@
 # GPT-Planner
 
 ## Environment
-ubuntu (version 16.04 and 20.04 have been tested) <br />
+ubuntu (version 16.04, 18.04, and 20.04 have been tested) <br />
 
 ## Install GPT-Planner
 ### step 1: download GPT-Planner
