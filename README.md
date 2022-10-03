@@ -8,6 +8,7 @@ ubuntu (version 16.04, 18.04, and 20.04 have been tested) <br />
 * open terminal
 * `cd`
 *  `git clone https://github.com/yding25/GPT-Planner.git`
+
 Note that please place the GPT-planner folder in your home folder.
 ### step 2: install dependencies
 * `pip install numpy==1.19.5`
