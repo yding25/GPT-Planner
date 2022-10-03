@@ -29,7 +29,7 @@ Here is a brief instruction to obtain a key.
 ## Run GPT-Planner
 * change the value of `task_id` (line 19 in `main.py` file) to select an task
 ```
-task_id = 1
+task_id = 4
 task = {
     1: 'cleaning floor',
     4: 'drinking water',
