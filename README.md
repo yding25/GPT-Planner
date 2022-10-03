@@ -48,3 +48,7 @@ task_name = task[task_id]
 Here are one trial result, where the left and right figures show the situation and solution, respectively. The situation is "the cup_1 is missing", and the solution is that GPT-3 suggests using a drinking glasss to replace the cup in the task.
 <img src="https://github.com/yding25/GPT-Planner/blob/master/dataset/situation.png" width="57%" height="45%">
 <img src="https://github.com/yding25/GPT-Planner/blob/master/dataset/solution.png" width="42%" height="24%">
+
+## Experiment Results
+All experiment result can be found in the folder "/GPT-Planner/results". For example, the below figure shows situation0 in task4 has been handled in some trials, and some are not.
+<img src="https://github.com/yding25/GPT-Planner/blob/master/dataset/result.png" width="42%" height="24%">
