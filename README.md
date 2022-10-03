@@ -51,6 +51,6 @@ Here are one trial result, where the left and right figures show the situation a
 <img src="https://github.com/yding25/GPT-Planner/blob/master/dataset/solution.png" width="42%" height="24%">
 
 ## Experiment Results
-All experiment results can be found in the folder "/GPT-Planner/results". For example, the below figure shows situation0 in task4 has been handled in some trials, and some are not.
+All experiment results (log files) can be found in the folder "/GPT-Planner/results". For example, the below figure shows situation0 in task4 has been handled in some trials, and some are not.
 
 <img src="https://github.com/yding25/GPT-Planner/blob/master/dataset/result.png" width="42%" height="24%">
