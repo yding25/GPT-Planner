@@ -18,6 +18,13 @@ ubuntu (version 16.04, 18.04, and 20.04 have been tested) <br />
 * `cd FastDownward`
 * `python build.py`
 * `cd ..`
+### step 4: prepare an GPT-3 API key
+Here is a brief instruction to obtain a key. 
+* `log in https://beta.openai.com/`
+* `click the icon ``Personal'' on the top right`
+* `click ``view API keys''`
+* `click ``+ Create new secret key''`
+* `copy the key and paste it in GPT-Planner/dataset/openai_api_key.txt`
 
 ## Run GPT-Planner
 * change the value of `task_id` (line 19 in `main.py` file) to select an task
