@@ -42,3 +42,7 @@ task_name = task[task_id]
 ```
 
 * `python main.py`
+
+Here are one trial result, where the left and right figures show the situation and solution, respectively.
+<img src="https://github.com/yding25/GPT-Planner/blob/master/dataset/situation.png" width="57%" height="45%">
+<img src="https://github.com/yding25/GPT-Planner/blob/master/dataset/solution.png" width="42%" height="24%">
