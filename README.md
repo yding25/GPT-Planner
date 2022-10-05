@@ -1,4 +1,4 @@
-# GPT-Planner
+# COWP
 
 ## Environment
 ubuntu (version 16.04, 18.04, and 20.04 have been tested) <br />
