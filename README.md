@@ -1,4 +1,14 @@
-# GPT-Planner
+# Common sense-based Open-World Planning (COWP)
+
+
+## Colab Version (new)
+We highly recommend using the Colab version.
+
+One of main difference is it generates PDDL code using a third-party package called pddl (https://github.com/AI-Planning/pddl).
+
+By utilizing this package, it becomes simpler to inject knowledge from LLMs into the classical planner.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NLo7W2TpfZEpZ3GG3uxbl1q9ul1bBDrA?usp=sharing)
 
 ## Environment
 ubuntu (version 16.04, 18.04, and 20.04 have been tested) <br />
