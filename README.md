@@ -64,3 +64,19 @@ Here are one trial result, where the left and right figures show the situation a
 All experiment results (log files) can be found in the folder "/GPT-Planner/results". For example, the below figure shows situation0 in task4 has been handled in some trials, and some are not.
 
 <img src="https://github.com/yding25/GPT-Planner/blob/master/dataset/result.png" width="42%" height="24%">
+
+## Citation and Reference
+···
+@article{ding2023integrating,
+  title={Integrating Action Knowledge and LLMs for Task Planning and Situation Handling in Open Worlds},
+  author={Ding, Yan and Zhang, Xiaohan and Amiri, Saeid and Cao, Nieqing and Yang, Hao and Kaminski, Andy and Esselink, Chad and Zhang, Shiqi},
+  journal={arXiv preprint arXiv:2305.17590},
+  year={2023}
+}
+@article{ding2022robot,
+  title={Robot task planning and situation handling in open worlds},
+  author={Ding, Yan and Zhang, Xiaohan and Amiri, Saeid and Cao, Nieqing and Yang, Hao and Esselink, Chad and Zhang, Shiqi},
+  journal={arXiv preprint arXiv:2210.01287},
+  year={2022}
+}
+···
