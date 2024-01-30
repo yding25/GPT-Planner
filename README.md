@@ -66,7 +66,7 @@ All experiment results (log files) can be found in the folder "/GPT-Planner/resu
 <img src="https://github.com/yding25/GPT-Planner/blob/master/dataset/result.png" width="42%" height="24%">
 
 ## Citation and Reference
-···
+```
 @article{ding2023integrating,
   title={Integrating Action Knowledge and LLMs for Task Planning and Situation Handling in Open Worlds},
   author={Ding, Yan and Zhang, Xiaohan and Amiri, Saeid and Cao, Nieqing and Yang, Hao and Kaminski, Andy and Esselink, Chad and Zhang, Shiqi},
@@ -79,4 +79,4 @@ All experiment results (log files) can be found in the folder "/GPT-Planner/resu
   journal={arXiv preprint arXiv:2210.01287},
   year={2022}
 }
-···
+```
