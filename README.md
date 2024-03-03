@@ -1,5 +1,6 @@
 # Common sense-based Open-World Planning (COWP)
 
+Please note that OpenAI regularly updates their APIs for accessing GPT responses. If the API mentioned in this repository is outdated, kindly update the corresponding APIs on your own.
 
 ## Colab Version (new)
 We highly recommend using the Colab version.
