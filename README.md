@@ -1,5 +1,7 @@
 # Common sense-based Open-World Planning (COWP)
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebookresearch/home-robot/blob/main/LICENSE)
+
 Please note that OpenAI regularly updates their APIs for accessing GPT responses. If the API mentioned in this repository is outdated, kindly update the corresponding APIs on your own.
 
 ## Colab Version (new)
